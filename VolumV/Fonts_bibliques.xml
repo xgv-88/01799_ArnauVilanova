@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Edició Crítica Digital - Arnau de Vilanova</title>
+</titleStmt>
+<publicationStmt>
+<p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+</publicationStmt>
+<sourceDesc>
+<p>Manuscrits de la BAV i transcripcions de l'edició crítica</p>
+</sourceDesc>
+</fileDesc>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+<div type="apparatus" subtype="biblical">
+<pb n="AVOThO_Volum V-171 (Fonts Bíbliques)"/>
+<note n="1">
+Ier
+<num type="roman">VI</num>
+, 17.
+</note>
+<note n="3-4">
+Ez
+<num type="roman">XXVIII</num>
+, 23
+</note>
+<note n="3-4">
+Ez
+<num type="roman">XXXIII</num>
+, 11.
+</note>
+<note n="4-5">
+Sap
+<num type="roman">I</num>
+, 13.
+</note>
+<note n="6">
+Sap
+<num type="roman">XI</num>
+, 24.
+</note>
+<note n="11-13">
+Is
+<num type="roman">XLIX</num>
+, 15.
+</note>
+<pb n="AVOThO_Volum V-172 (Fonts Bíbliques)"/>
+<note n="15-17">iPetr v, 6-7.</note>
+<note n="22-23">
+Ier
+<num type="roman">VI</num>
+, 17.
+</note>
+<pb n="AVOThO_Volum V-173 (Fonts Bíbliques)"/>
+<note n="30">
+Ier
+<hi rend="small-caps">vi</hi>
+, 17
+</note>
+<note n="35">
+Is
+<hi rend="small-caps">lviii</hi>
+, 1
+</note>
+<note n="38">
+Is
+<hi rend="small-caps">lii</hi>
+, 8.-
+</note>
+<note n="39">
+Iob
+<hi rend="small-caps">v</hi>
+, 27.-
+</note>
+<note n="40">
+Ps
+<hi rend="small-caps">cxii</hi>
+j/2, 6.
+</note>
+<note n="40">cxxxiv, 17-</note>
+<note n="42-43">
+Apoc
+<hi rend="small-caps">ij</hi>
+, 7.
+</note>
+<pb n="AVOThO_Volum V-175 (Fonts Bíbliques)"/>
+<note n="58-59">
+Ps
+<num type="roman">lix</num>
+, 6.
+</note>
+<note n="63-74">
+Ez
+<num type="roman">xxxiii</num>
+, 2-6.
+</note>
+<pb n="AVOThO_Volum V-176 (Fonts Bíbliques)"/>
+<note n="83">
+<num type="roman">II</num>
+Petr
+<num type="roman">I</num>
+, 16
+</note>
+<note n="89">
+Ez
+<num type="roman">III</num>
+, 17
+</note>
+<note n="89">
+Ez
+<num type="roman">XXXIII</num>
+, 7
+</note>
+<note n="92-93">
+Is
+<num type="roman">XXI</num>
+, 8.
+</note>
+<pb n="AVOThO_Volum V-177 (Fonts Bíbliques)"/>
+<note n="95-98">
+<num type="roman">II</num>
+Tim
+<num type="roman">III</num>
+, 16-17.
+</note>
+<note n="101">
+Jo
+<num type="roman">V</num>
+, 39.
+</note>
+<note n="102">
+Lc
+<num type="roman">XXIV</num>
+, 45.
+</note>
+<note n="106-107">Cf. lin. 392-393.</note>
+<pb n="AVOThO_Volum V-178 (Fonts Bíbliques)"/>
+<note n="112">
+Is
+<num type="roman">LVIII</num>
+, 7.
+</note>
+<note n="118-119">
+Lam
+<num type="roman">IV</num>
+, 4.
+</note>
+<note n="123-124">
+Prov
+<num type="roman">XI</num>
+, 26.
+</note>
+<note n="134-136">
+I Cor
+<num type="roman">II</num>
+, 14.
+</note>
+<pb n="AVOThO_Volum V-180 (Fonts Bíbliques)"/>
+<note n="146">
+Ps
+<num type="roman">XIII</num>
+, 1
+</note>
+<note n="149">
+Rom
+<num type="roman">XI</num>
+, 10
+</note>
+<note n="150-153">
+Job
+<num type="roman">XXI</num>
+, 14-15
+</note>
+<pb n="AVOThO_Volum V-181 (Fonts Bíbliques)"/>
+<note n="167-169">
+Ps
+<num type="roman">XIII</num>
+, 2
+</note>
+<note n="167-169">
+Ps
+<num type="roman">LII</num>
+, 3
+</note>
+<note n="176-177">
+Ps
+<num type="roman">XIII</num>
+, 3
+</note>
+<note n="176-177">
+Ps
+<num type="roman">LII</num>
+, 4
+</note>
+<note n="179">
+Ps
+<num type="roman">XIII</num>
+, 3
+</note>
+<note n="179">
+Ps
+<num type="roman">LII</num>
+, 4
+</note>
+<pb n="AVOThO_Volum V-182 (Fonts Bíbliques)"/>
+<note n="186-187">
+Job
+<num type="roman">XV</num>
+, 21
+</note>
+<note n="189-190">
+Job
+<num type="roman">XV</num>
+, 24
+</note>
+<note n="190">
+Is
+<num type="roman">XXVIII</num>
+, 19
+</note>
+<note n="195-198">
+Is
+<num type="roman">XXVIII</num>
+, 15
+</note>
+<pb n="AVOThO_Volum V-183 (Fonts Bíbliques)"/>
+<note n="204">
+Eccl
+<num type="roman">I</num>
+, 15.
+</note>
+<note n="214-215">
+Ps
+<num type="roman">XIX</num>
+, 9.
+</note>
+<note n="216-217">
+Sap
+<num type="roman">III</num>
+, 4.
+</note>
+<pb n="AVOThO_Volum V-184 (Fonts Bíbliques)"/>
+<note n="218">
+Prov.
+<num type="roman">X</num>
+, 28
+</note>
+<note n="218-221">
+Sap
+<num type="roman">V</num>
+, 15
+</note>
+<note n="227">
+Jer
+<num type="roman">VI</num>
+, 23
+</note>
+<note n="228-229">
+Prov
+<num type="roman">V</num>
+, 9
+</note>
+<note n="231-233">
+Mt
+<num type="roman">XXV</num>
+, 41.
+</note>
+<pb n="AVOThO_Volum V-185 (Fonts Bíbliques)"/>
+<note n="234">
+Jo
+<num type="roman">VI</num>
+, 61
+</note>
+<note n="237-238">
+Ps
+<num type="roman">CXI</num>
+, 7
+</note>
+<note n="240">
+Mt
+<num type="roman">VIII</num>
+, 12
+</note>
+<note n="241-242">
+Job
+<num type="roman">V</num>
+, 19
+</note>
+<note n="248-249">
+Ps
+<num type="roman">XCIV</num>
+, 8
+</note>
+<note n="251-252">
+2 Reg
+<num type="roman">XIV</num>
+, 14
+</note>
+<pb n="AVOThO_Volum V-186 (Fonts Bíbliques)"/>
+<note n="253">Vegeu la nota precedent</note>
+<note n="260-261">
+Je
+<num type="roman">III</num>
+, 3
+</note>
+<pb n="AVOThO_Volum V-187 (Fonts Bíbliques)"/>
+<note n="269-271">
+Mt
+<num type="roman">X</num>
+, 28
+</note>
+<note n="278-280">
+Eccli
+<num type="roman">XLI</num>
+, 1-2
+</note>
+<note n="281">
+Cf. Is
+<num type="roman">LVIIJ</num>
+, 1
+</note>
+<note n="282">
+Ps
+<num type="roman">LXXXI</num>
+, 7
+</note>
+<note n="283-284">
+Jo
+<num type="roman">VIIJ</num>
+, 21. 24
+</note>
+<note n="284-285">
+Eccl
+<num type="roman">III</num>
+, 19
+</note>
+<pb n="AVOThO_Volum V-188 (Fonts Bíbliques)"/>
+<note n="288">
+Eccli
+<num type="roman">X</num>
+, 9.
+</note>
+<note n="293-294">
+Act
+<num type="roman">I</num>
+, 7.
+</note>
+<pb n="AVOThO_Volum V-189 (Fonts Bíbliques)"/>
+<note n="300-301">
+Jac
+<num type="roman">IV</num>
+, 15
+</note>
+<note n="302-304">
+Ps
+<num type="roman">LXXXIX</num>
+, 9-10
+</note>
+<note n="305-306">
+Eccli
+<num type="roman">XVIII</num>
+, 8
+</note>
+<note n="311-312">
+Ps
+<num type="roman">LXXXIX</num>
+, 4
+</note>
+<note n="314-315">
+Ps
+<num type="roman">LXXV</num>
+, 6
+</note>
+<pb n="AVOThO_Volum V-190 (Fonts Bíbliques)"/>
+<note n="320">
+Deut
+<num type="roman">XXXII</num>
+, 25.
+</note>
+<note n="332-333">
+Num
+<num type="roman">XXI</num>
+, 5.
+</note>
+<pb n="AVOThO_Volum V-191 (Fonts Bíbliques)"/>
+<note n="336-337">
+Eccl
+<num type="roman">I</num>
+, 15.
+</note>
+<note n="346">
+Ez
+<num type="roman">VII</num>
+, 2.
+</note>
+<note n="349-350">
+I Cor
+<num type="roman">X</num>
+, 11.
+</note>
+<pb n="AVOThO_Volum V-192 (Fonts Bíbliques)"/>
+<note n="354">
+Lc
+<num type="roman">XIX</num>
+, 22
+</note>
+<note n="355">
+I Cor
+<num type="roman">X</num>
+, 11.
+</note>
+<note n="358-359">
+I Cor.
+<num type="roman">X</num>
+, 11
+</note>
+<note n="359-360">
+I Tim
+<num type="roman">IV</num>
+, 1
+</note>
+<note n="361-362">
+II Tim
+<num type="roman">III</num>
+, 1
+</note>
+<note n="365">
+Cf. I Cor
+<num type="roman">X</num>
+, 11
+</note>
+<note n="365-366">
+Cf. I Tim
+<num type="roman">IV</num>
+, 1
+</note>
+<note n="365-366">
+II Tim
+<num type="roman">III</num>
+, 1.
+</note>
+<pb n="AVOThO_Volum V-193 (Fonts Bíbliques)"/>
+<note n="372-373">
+Is
+<num type="roman">LVI</num>
+, 10.
+</note>
+<note n="374-375">
+I Tim
+<num type="roman">IV</num>
+, 1
+</note>
+<note n="374-375">
+II Tim
+<num type="roman">III</num>
+, 1.
+</note>
+<pb n="AVOThO_Volum V-194 (Fonts Bíbliques)"/>
+<note n="388-389">Cf. lin. 374-375.</note>
+<note n="391">Cf. lin. 384-385.-</note>
+<note n="392-393">Cf. lin. 106-107.-</note>
+<note n="394">Act i, 7.</note>
+<pb n="AVOThO_Volum V-196 (Fonts Bíbliques)"/>
+<note n="405-406">
+Eccl
+<num type="roman">VIII</num>
+, 6-7
+</note>
+<note n="407">
+Eccl
+<num type="roman">IX</num>
+, 2
+</note>
+<note n="419">
+Eccl
+<num type="roman">VIII</num>
+, 8
+</note>
+<note n="420">
+Jo
+<num type="roman">III</num>
+, 8
+</note>
+<note n="421">
+Jo
+<num type="roman">XVI</num>
+, 13
+</note>
+<pb n="AVOThO_Volum V-197 (Fonts Bíbliques)"/>
+<note n="423-424">
+Eccl
+<num type="roman">VIII</num>
+, 10.
+</note>
+<note n="425-426">
+Lam
+<num type="roman">II</num>
+, 14.
+</note>
+<note n="426-427">
+Ez
+<num type="roman">XIII</num>
+, 4.
+</note>
+<note n="427-428">
+Mich
+<num type="roman">III</num>
+, 5.
+</note>
+<note n="430-433">
+Is
+<num type="roman">XLVII</num>
+, 13-14.
+</note>
+<note n="434-438">
+Iochimi de Flore,
+<hi rend="italic">Liber de Concordia</hi>
+(ed. R. Daniel, Philadelphia 1983, 13, 14, 16): «Sola ergo que in diuinis scripta sunt uoluminibus perstringentes, et ex eis que clara sunt in auctoritate sumentes, superflua illa, que de ortu et operibus antichristi ac fine mundi ex apocrifis, ut dictum est, sumpta libellis... uelut peregrina et extranea confutamus...».
+</note>
+<pb n="AVOThO_Volum V-198 (Fonts Bíbliques)"/>
+<note n="441-442">
+Jo
+<num type="roman">XV</num>
+, 13
+</note>
+<note n="444-445">
+Is
+<num type="roman">XLV</num>
+, 11
+</note>
+<note n="446">
+Io
+<num type="roman">XVI</num>
+, 13
+</note>
+<note n="452-453">
+Mt
+<num type="roman">XXIV</num>
+, 21
+</note>
+<note n="455-456">
+Mt
+<num type="roman">XXIV</num>
+, 22
+</note>
+<pb n="AVOThO_Volum V-199 (Fonts Bíbliques)"/>
+<note n="459-461">
+Apoc
+<num type="roman">III</num>
+, 10.
+</note>
+<pb n="AVOThO_Volum V-200 (Fonts Bíbliques)"/>
+<note n="481-484">
+<num type="roman">II</num>
+Thes ii, 1-2
+</note>
+<note n="484-485">
+<num type="roman">II</num>
+Thes ii, 3
+</note>
+<note n="486-488">
+<num type="roman">II</num>
+Thes ii, 3-9
+</note>
+<pb n="AVOThO_Volum V-201 (Fonts Bíbliques)"/>
+<note n="492">II Thes ii, 1-2</note>
+<note n="493">Mt xxiv, 21</note>
+<note n="495">Mt xxiv, 21</note>
+<note n="497-498">II Thes ii, 4</note>
+<note n="503">Mt. xxiv, 14</note>
+<note n="503-504">Mt xxiv, 29</note>
+<note n="506-507">Mt xxiv, 29</note>
+<pb n="AVOThO_Volum V-202 (Fonts Bíbliques)"/>
+<note n="4-6">
+Gen
+<num type="roman">XLIX</num>
+, 1
+</note>
+<note n="9-10">
+Ps
+<num type="roman">CXLIV</num>
+, 13
+</note>
+<note n="9-10">
+Mt
+<num type="roman">XXIV</num>
+, 14-15. 21. 24. 27-31
+</note>
+<note n="13-14">
+I Jo
+<num type="roman">II</num>
+, 27
+</note>
+<note n="14-15">
+I Reg
+<num type="roman">IX</num>
+, 19
+</note>
+<note n="15-17">
+Mt
+<num type="roman">XXIV</num>
+, 3
+</note>
+<pb n="AVOThO_Volum V-203 (Fonts Bíbliques)"/>
+<note n="526-529">
+Mt
+<num type="roman">XXIV</num>
+, 2
+</note>
+<note n="530-531">
+Mt
+<num type="roman">XXIV</num>
+, 3
+</note>
+<note n="533">
+Mt
+<num type="roman">XXIV</num>
+, 2
+</note>
+<note n="537-542">
+Lc
+<num type="roman">XXI</num>
+, 20
+</note>
+<note n="539-542">
+Lc
+<num type="roman">XXI</num>
+, 23-24
+</note>
+<pb n="AVOThO_Volum V-204 (Fonts Bíbliques)"/>
+<note n="546">
+Lc
+<num type="roman">XXI</num>
+, 24.
+</note>
+<pb n="AVOThO_Volum V-205 (Fonts Bíbliques)"/>
+<note n="551-554">
+Mt
+<num type="roman">XXIV</num>
+, 4-44
+</note>
+<note n="557-559">
+Mt
+<num type="roman">XXIV</num>
+, 4-28
+</note>
+<note n="559-560">
+Mt.
+<num type="roman">XXIV</num>
+, 29
+</note>
+<note n="560-561">
+Mt.
+<num type="roman">XXIV</num>
+, 30
+</note>
+<note n="560-563">
+Lc
+<num type="roman">XXI</num>
+, 25
+</note>
+<note n="563-564">
+Mt
+<num type="roman">XXIV</num>
+, 29
+</note>
+<note n="565">
+Mt
+<num type="roman">XXIV</num>
+, 29
+</note>
+<pb n="AVOThO_Volum V-206 (Fonts Bíbliques)"/>
+<note n="566-567">
+Mt
+<num type="roman">XXIV</num>
+, 30-31
+</note>
+<note n="572-573">
+Mt
+<num type="roman">XXIV</num>
+, 3
+</note>
+<note n="572-573">
+cf. Act
+<num type="roman">I</num>
+, 6
+</note>
+<note n="574-575">
+Act.
+<num type="roman">I</num>
+, 7
+</note>
+<note n="580-581">
+Mc
+<num type="roman">XIII</num>
+, 32
+</note>
+<pb n="AVOThO_Volum V-207 (Fonts Bíbliques)"/>
+<note n="589-590">
+Jo
+<num type="roman">VIII</num>
+, 48
+</note>
+<note n="591-592">
+Mt
+<num type="roman">XXIV</num>
+, 3
+</note>
+<note n="593-595">
+Mt
+<num type="roman">XXIV</num>
+, 15
+</note>
+<note n="596">
+Dan
+<num type="roman">IX</num>
+, 26-27
+</note>
+<note n="598">
+Dan
+<num type="roman">IX</num>
+, 27
+</note>
+<note n="599-600">
+Mt
+<num type="roman">XXIV</num>
+, 15-22
+</note>
+<pb n="AVOThO_Volum V-208 (Fonts Bíbliques)"/>
+<note n="605">
+Dan
+<num type="roman">VIII</num>
+, 1
+</note>
+<note n="608-609">
+Dan
+<num type="roman">VIII</num>
+, 14
+</note>
+<note n="614-616">
+Ez
+<num type="roman">IV</num>
+, 6
+</note>
+<note n="616-619">
+Dan
+<num type="roman">VIII</num>
+, 17
+</note>
+<pb n="AVOThO_Volum V-209 (Fonts Bíbliques)"/>
+<note n="622-624">
+Dan
+<num type="roman">XII</num>
+, 7
+</note>
+<note n="631">
+Apoc
+<num type="roman">X</num>
+, 6
+</note>
+<note n="633-635">
+Dan
+<num type="roman">VIII</num>
+, 14.
+</note>
+<pb n="AVOThO_Volum V-210 (Fonts Bíbliques)"/>
+<note n="640-641">
+Mt
+<num type="roman">XXIV</num>
+, 15
+</note>
+<note n="640-641">
+Dan
+<num type="roman">IX</num>
+, 27
+</note>
+<note n="641-643">
+Prov.
+<num type="roman">III</num>
+, 32
+</note>
+<note n="641-643">
+Prov.
+<num type="roman">XVI</num>
+, 5
+</note>
+<note n="641-643">
+Prov.
+<num type="roman">XXIV</num>
+, 9
+</note>
+<note n="641-643">
+Prov.
+<num type="roman">XII</num>
+, 22
+</note>
+<note n="641-643">
+Prov.
+<num type="roman">XV</num>
+, 26
+</note>
+<note n="644-646">
+Dan
+<num type="roman">XI</num>
+, 36.
+</note>
+<note n="647-651">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="652-654">
+Dan
+<num type="roman">XII</num>
+, 7
+</note>
+<note n="649-651">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="653-654">
+Dan
+<num type="roman">XII</num>
+, 7.
+</note>
+<pb n="AVOThO_Volum V-211 (Fonts Bíbliques)"/>
+<note n="665-666">
+Lc
+<num type="roman">XXIV</num>
+, 51
+</note>
+<note n="665-666">
+Act
+<num type="roman">I</num>
+, 9
+</note>
+<pb n="AVOThO_Volum V-212 (Fonts Bíbliques)"/>
+<note n="672-677">
+Dan
+<num type="roman">IX</num>
+, 26-27.
+</note>
+<pb n="AVOThO_Volum V-213 (Fonts Bíbliques)"/>
+<note n="685">
+Deut.
+<num type="roman">XII</num>
+, 4-7
+</note>
+<note n="685">Ps cxxi, 1-9</note>
+<note n="685">Jo iv, 20-22</note>
+<note n="688-689">Dan ix, 27</note>
+<note n="691-699">Lc xxi, 24</note>
+<note n="695-700">Dan ix, 27</note>
+<pb n="AVOThO_Volum V-214 (Fonts Bíbliques)"/>
+<note n="705-707">
+Dan
+<num type="roman">XII</num>
+, 11.
+</note>
+<note n="713-715">
+Dan
+<num type="roman">IX</num>
+, 27.
+</note>
+<pb n="AVOThO_Volum V-216 (Fonts Bíbliques)"/>
+<note n="723-724">
+Mt
+<num type="roman">XXIV</num>
+, 15
+</note>
+<pb n="AVOThO_Volum V-217 (Fonts Bíbliques)"/>
+<note n="734-735">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="747">
+Dan
+<num type="roman">XII</num>
+, 11.
+</note>
+<pb n="AVOThO_Volum V-218 (Fonts Bíbliques)"/>
+<note n="761-762">
+E. g., Mt
+<num type="roman">XV</num>
+, 1-14.
+</note>
+<pb n="AVOThO_Volum V-219 (Fonts Bíbliques)"/>
+<note n="766-768">
+Gen
+<num type="roman">XXIX</num>
+, 28
+</note>
+<note n="768-769">
+Dan
+<num type="roman">IX</num>
+, 24
+</note>
+<note n="772-773">
+Ez
+<num type="roman">XXXII</num>
+, 2
+</note>
+<note n="777">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="777">
+Mt
+<num type="roman">XXIV</num>
+, 15-22
+</note>
+<note n="776-778">Cf. lín. 402-404</note>
+<note n="779-783">Cf. lín. 290-292</note>
+<pb n="AVOThO_Volum V-220 (Fonts Bíbliques)"/>
+<note n="784-786">
+Dan
+<num type="roman">XII</num>
+, 9
+</note>
+<note n="792-793">
+Dan
+<num type="roman">XI</num>
+, 40
+</note>
+<note n="796-797">
+Dan
+<num type="roman">XII</num>
+, 10
+</note>
+<pb n="AVOThO_Volum V-221 (Fonts Bíbliques)"/>
+<note n="799-801">
+Is
+<num type="roman">VI</num>
+, 10
+</note>
+<note n="803-804">Ps xxiv, 9</note>
+<note n="804-805">Sap iii, 9.</note>
+<note n="807-808">Dan xii, 8</note>
+<note n="809">Dan xii, 11-13</note>
+<pb n="AVOThO_Volum V-225 (Fonts Bíbliques)"/>
+<note n="844-847">
+Dan
+<num type="roman">VIII</num>
+, 14. 26
+</note>
+<note n="846-847">
+Dan
+<num type="roman">XII</num>
+, 11-12
+</note>
+<note n="853-855">
+Apoc
+<num type="roman">VIII</num>
+, 1
+</note>
+<pb n="AVOThO_Volum V-226 (Fonts Bíbliques)"/>
+<note n="862-865">
+Lc
+<num type="roman">XXI</num>
+, 34-35
+</note>
+<note n="868-869">
+Ps
+<num type="roman">XLIX</num>
+, 22
+</note>
+<pb n="AVOThO_Volum V-227 (Fonts Bíbliques)"/>
+<note n="887-892">
+Rom
+<num type="roman">XI</num>
+, 33-36.
+</note>
+<pb n="AVOThO_Volum V-230 (Fonts Bíbliques)"/>
+<note n="934-935">
+La profecia de la primera vinguda de Jesús i de la seva passió i mort es trobaria a
+<hi rend="italic">Daniel</hi>
+,
+<num type="roman">IX</num>
+, 23-26; la de la irrupció de l’Anticrist seria la del cap.
+<num type="roman">XII</num>
+, 11 12 del mateix llibre bíblic. Ambdues són objecte de les explicacions de mestre Arnau en el text immediat de les línies 940-981; la segona, de més a més, és exposada amb més detall en el de les línies 982-1009.
+</note>
+<pb n="AVOThO_Volum V-235 (Fonts Bíbliques)"/>
+<note n="1006-1007">
+Mt
+<num type="roman">XXIV</num>
+, 21.
+</note>
+<note n="1007-1009">
+Mt
+<num type="roman">XXIV</num>
+, 15-22.
+</note>
+<note n="1018-1019">
+Dan
+<num type="roman">IX</num>
+, 21.
+</note>
+<note n="1019-1020">
+Dan
+<num type="roman">I</num>
+, 2-6.
+</note>
+<pb n="AVOThO_Volum V-236 (Fonts Bíbliques)"/>
+<note n="1024">
+Dan
+<num type="roman">VIII</num>
+, 19
+</note>
+<note n="1034">
+Mt
+<num type="roman">XXIV</num>
+, 29-30.
+</note>
+<pb n="AVOThO_Volum V-243 (Fonts Bíbliques)"/>
+<note n="1116-1118">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<pb n="AVOThO_Volum V-244 (Fonts Bíbliques)"/>
+<note n="1132-1135">Vegeu la nota explicativa a aquestes mateixes línies dins la sèrie de comentaris al text, en concret a la lín. 1127.</note>
+<pb n="AVOThO_Volum V-246 (Fonts Bíbliques)"/>
+<note n="1159-1160">
+Mt
+<num type="roman">XXIV</num>
+, 36
+</note>
+<note n="1159-1160">
+Mc
+<num type="roman">XIII</num>
+, 32
+</note>
+<pb n="AVOThO_Volum V-247 (Fonts Bíbliques)"/>
+<note n="1167">
+Mt
+<num type="roman">XXIV</num>
+, 8-31
+</note>
+<pb n="AVOThO_Volum V-249 (Fonts Bíbliques)"/>
+<note n="1189">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="1201, 1210">
+Mt
+<num type="roman">XXIV</num>
+, 15
+</note>
+<note n="1201, 1210">
+Mt
+<num type="roman">XXIV</num>
+, 21
+</note>
+<note n="1201, 1210">
+Mc
+<num type="roman">XIII</num>
+, 14
+</note>
+<note n="1201, 1210">
+Mc
+<num type="roman">XIII</num>
+, 23
+</note>
+<note n="1206-1207">
+Mc
+<num type="roman">XIII</num>
+, 23
+</note>
+<note n="1212">
+<num type="roman">II</num>
+Tim
+<num type="roman">III</num>
+, 16
+</note>
+<pb n="AVOThO_Volum V-251 (Fonts Bíbliques)"/>
+<note n="1217-1219">
+Dan
+<num type="roman">XII</num>
+, 9. 4
+</note>
+<note n="1221">Ibid., 10</note>
+<note n="1232-1234">Cf. líns. 1218-1220</note>
+<note n="1244">
+Io
+<num type="roman">V</num>
+, 39
+</note>
+<pb n="AVOThO_Volum V-253 (Fonts Bíbliques)"/>
+<note n="1252">
+En la
+<hi rend="italic">Vulgata</hi>
+, el text bíblic diu «Videte... quomodo caute ambuletis»,
+<hi rend="italic">Eph</hi>
+<num type="roman">V</num>
+, 15.
+</note>
+<pb n="AVOThO_Volum V-254 (Fonts Bíbliques)"/>
+<note n="1268">
+Dan,
+<num type="roman">XII</num>
+, 11
+</note>
+<note n="1274">
+Io
+<num type="roman">III</num>
+, 10
+</note>
+<note n="1277-1279">
+<num type="roman">II</num>
+Pt,
+<num type="roman">III</num>
+, 8
+</note>
+<pb n="AVOThO_Volum V-256 (Fonts Bíbliques)"/>
+<note n="1297-1300">
+<hi rend="italic">Apoc</hi>
+<num type="roman">XX</num>
+, 2.
+</note>
+<pb n="AVOThO_Volum V-259 (Fonts Bíbliques)"/>
+<note n="1339">
+Dan,
+<num type="roman">XII</num>
+, 11.
+</note>
+<note n="1344-1347">
+<hi rend="italic">Apoc</hi>
+,
+<num type="roman">I</num>
+, 3. 7.
+</note>
+<note n="1349">
+Mc
+<num type="roman">VII</num>
+, 32
+</note>
+<note n="1349">
+Mc
+<num type="roman">IX</num>
+, 24.
+</note>
+<pb n="AVOThO_Volum V-263 (Fonts Bíbliques)"/>
+<note n="7-8">
+Lc
+<num type="roman">XXI</num>
+, 24.
+</note>
+<pb n="AVOThO_Volum V-265 (Fonts Bíbliques)"/>
+<note n="1411">
+Num.
+<num type="roman">XXII</num>
+, 28-30
+</note>
+<note n="1412-1413">
+Ps
+<num type="roman">VIII</num>
+, 3
+</note>
+<note n="1412-1413">
+Mt
+<num type="roman">XXI</num>
+, 16
+</note>
+<note n="1418-1419">
+Sap,
+<num type="roman">II</num>
+, 21-22
+</note>
+<note n="1419">
+I Cor
+<num type="roman">VIII</num>
+, 1
+</note>
+<note n="1421-1422">
+Ps
+<num type="roman">L</num>
+, 8
+</note>
+<pb n="AVOThO_Volum V-266 (Fonts Bíbliques)"/>
+<note n="1430">
+I Pt
+<num type="roman">II</num>
+, 15.
+</note>
+<note n="1432">
+Ps
+<num type="roman">LXII</num>
+, 12.
+</note>
+<note n="1440-1442">
+Mt
+<num type="roman">XXIII</num>
+, 6-8.
+</note>
+<pb n="AVOThO_Volum V-267 (Fonts Bíbliques)"/>
+<note n="1449-1450">
+Ps
+<num type="roman">VII</num>
+, 16.
+</note>
+<pb n="AVOThO_Volum V-268 (Fonts Bíbliques)"/>
+<note n="1478-1479">
+Ps
+<num type="roman">X</num>
+, 8
+</note>
+<pb n="AVOThO_Volum V-273 (Fonts Bíbliques)"/>
+<note n="1548">
+Cf. Mt
+<num type="roman">VI</num>
+, 23
+</note>
+<note n="1550-1551">
+Lc
+<num type="roman">XI</num>
+, 52
+</note>
+<note n="1556">
+Is
+<num type="roman">XXVII</num>
+, 9
+</note>
+<pb n="AVOThO_Volum V-274 (Fonts Bíbliques)"/>
+<note n="1574">
+El sintagma,deum deorum’ sembla ésser una referència només implícita a
+<hi rend="italic">Dan</hi>
+,
+<num type="roman">XI</num>
+, 36.
+</note>
+<pb n="AVOThO_Volum V-275 (Fonts Bíbliques)"/>
+<note n="1578-1579">
+Is
+<num type="roman">I</num>
+, 2
+</note>
+<note n="1579-1580">
+Deut
+<num type="roman">XXXII</num>
+, 32-33
+</note>
+<pb n="AVOThO_Volum V-277 (Fonts Bíbliques)"/>
+<note n="1621-1622">
+<hi rend="italic">Act</hi>
+<num type="roman">I</num>
+, 7.
+</note>
+<note n="1638-1640">
+<hi rend="italic">Dan</hi>
+<num type="roman">XII</num>
+, 11.
+</note>
+<pb n="AVOThO_Volum V-278 (Fonts Bíbliques)"/>
+<note n="1635-1636">
+Dan
+<num type="roman">XII</num>
+, 11
+</note>
+</div>
+</TEI>
