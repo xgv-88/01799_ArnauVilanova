@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Edició Crítica Digital - Arnau de Vilanova</title>
+</titleStmt>
+<publicationStmt>
+<p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+</publicationStmt>
+<sourceDesc>
+<p>Manuscrits de la BAV i transcripcions de l'edició crítica</p>
+</sourceDesc>
+</fileDesc>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+<div type="notes" subtype="contextual">
+<pb n="AVOThO_Volum V-171 (Notes Contextuals)"/>
+<note n="3">
+Si el lector llegeix tot aquest primer paràgraf (línies 3-13) s’adonarà que hi encaixaria parlar d’amor i de desfici paternals i que la primera paraula fos la de ‘Pare’ o ‘Deus Pater’; no sols evita la paraula ‘Pare’, sinó que, de més a més en la línia 8 esmenta ‘entranyes maternals’; hom pot veure en la llista de mots la paraula ‘Pater’: només es troba en citacions textuals d’
+<hi rend="italic">Act</hi>
+<num type="roman">I</num>
+, 7 o en frases que s’hi relacionen, com la de la lín. 581 que és bíblica textual i esmenta tant el Pare com el Fill; el mateix es pot dir del mot ‘Filius’ o del ‘Spiritus Sanctus’ (aquest és molt present en el sentit d’inspirador de la
+<hi rend="italic">Bíblia</hi>
+o de manifestacions profètiques): és a dir: Arnau de Vilanova ha evitat d’usar ‘motu proprio’ en tot aquest text els mots ‘Pater/Pare’, ‘Filius’ i ‘Spiritus Sanctus’ en sentit estrictament trinitari: no serà a fi d’evitar paraules que podien ésser enteses com d’específic lèxic joaquimita?
+</note>
+<note n="3-4">
+La citació d’
+<hi rend="italic">Ezequiel</hi>
+també obre el text (després de la introducció), de la
+<hi rend="italic">Visio</hi>
+<hi rend="italic">seu prophetia fratris Johannis</hi>
+, contemporània dels texts d’Arnau de Vilanova escrits durant la dècada del 1290, cf. Emil
+<hi rend="small-caps">Donckel</hi>
+, «Römische Quartalschrift», 40 (1932), 365 (cronologia), i 367, líns.38-39 (text).
+</note>
+<pb n="AVOThO_Volum V-172 (Notes Contextuals)"/>
+<note n="24">
+Aquest paràgraf és citat pel mateix autor en la (
+<hi rend="italic">Prima</hi>
+)
+<hi rend="italic">Denuntiatio Gerundensis</hi>
+, Vat. Lat 3824, f. 167a (
+<hi rend="small-caps">Carreras Artau</hi>
+, «Anales del Instituto de Estudios Gerundenses»,
+<num type="roman">V</num>
+(1950), 45).
+</note>
+<pb n="AVOThO_Volum V-173 (Notes Contextuals)"/>
+<note n="45-52">
+<hi rend="small-caps">Ioachimi de Flore</hi>
+,
+<hi rend="italic">Liber de concordia</hi>
+(ed.
+<hi rend="small-caps">R. Daniel</hi>
+, Philadelphia 1983, 10 ss.): «Recedite, inquam, recedite... Nostrum est enim bella predicere, uestrum ad arma concite properare. Nostrum est ascendere super speculam montis et, uisis hostibus, dare signum [p. 11]. Vestrum audito signo, ad loca confugere tutiora. Nos,
+</note>
+<pb n="AVOThO_Volum V-174 (Notes Contextuals)"/>
+<note n="48-50">quamuis indigni, speculatores sumus, longe ante, predicta bella aduenisse testamur... Nos, si parcimus bucine, uestri rei sanguine sumus. Vos, si arma negligitis, uestra culpa peritis...».</note>
+<note n="48-50">
+Al cap de deu anys, enmig del gran problema dels processos contra els Templers, en la lletra del 1308 al seu rei Jaume
+<num type="roman">II</num>
+, mestre Arnau tornaria al tema dels,speculatores’ i l’aplicaria al papa: «... proprium ipsius officium est stare super speculam Domini et perspicaciter intueri quid in statibus aut quibuscumque collegiis... discedit a tramite Saluatoris», dins Heinrich
+<hi rend="small-caps">Finke</hi>
+,
+<hi rend="italic">Papsttum und Untergang des Templerordens</hi>
+.
+<num type="roman">II</num>
+,
+<hi rend="italic">Quellen</hi>
+, Münster, Aschendorff, 1907, 93.
+</note>
+<note n="48-56">
+És possible que en aquest paràgraf hi ressonin les línies de Joaquim de Flore (
+<hi rend="italic">Liber de concordia</hi>
+, ed. R.
+<hi rend="small-caps">Daniel</hi>
+, Philadelphia 1983, 10-11): «Audite, ergo, et intelligite, ne forte uobis accidat sicut in diebus Noe vacantibus risibus et iocis, leuitatibus et conuiuiis, inhiantibus ad lucra temporalia et opus Domini non requirentibus, et inueniat uos repentina dies illa. Recedite, inquam, recedite... Nostrum est enim bella predicere, uestrrum ad arma concite properare. Nostrum est ascendere super speculam montis et uisis hostibus dare signum [p. 11]. Vestrum, audito signo ad loca confugere tutiora. Nos, quamuis indigni, speculatores sumus, longe ante predicta bella aduenisse testamur... Nos, si parcimus bucine, uestri rei sanguinis sumus. Vos, si arma negligitis, uestra culpa peritis...».
+</note>
+<pb n="AVOThO_Volum V-175 (Notes Contextuals)"/>
+<note n="63-70">Cf. Notam ex Ioachino de Flore ad lineas 48-56.</note>
+<pb n="AVOThO_Volum V-176 (Notes Contextuals)"/>
+<note n="81-109">
+La comparació entre els ‘especuladors’ i els jerarques podria induir algú a la idea que els primers haurien d’ésser un cos constituït i ben estructurat dins l’Església; en tal cas, em permetria de suggerir la lectura de les pàgines de David
+<hi rend="small-caps">Burr</hi>
+,
+<hi rend="italic">Bonaventure, Olivi and Franciscan Esschatology</hi>
+, dins «Collectanea Franciscana», 53 (1983), 23-40, en particular 32-38.
+</note>
+<note n="89-92">L’especulador’ ho és perquè ‘uidet in speculo’; i aquest tema, en la teologia que en aquell moment podia ésser considerada tradicional (l’anterior a la irrupció d’Aristòtil), considerava que el,uidere in speculo’</note>
+<pb n="AVOThO_Volum V-177 (Notes Contextuals)"/>
+<note n="95-98">
+era element que es donava en la profecia; en aquest sentit, hom pot veure el llibre de
+<hi rend="small-caps">Jean-Pierre Torrell</hi>
+,
+<hi rend="italic">Théorie de la prophétie...</hi>
+indicat en la bibliografia, que dedica un capítol justament al tema «Quid sit uidere in speculo», pàgines 20-31.
+</note>
+<note n="94">
+«Specula Domini est Sacra Scriptura». Aquesta frase de mestre Arnau ens permet d’enquadrar-lo en una forma d’espiritualisme no radical, que era, en canvi, el que manifestava l’autor de l’
+<hi rend="italic">Expositio super Apocalypsi</hi>
+, que li havia estat atribuïda, i diu: «...Supra montem, id est altitudinem, Sion, quod interpretatur specula, id est, vitae spiritualis, quia de illa solum potest divina veritas speculari» (
+<hi rend="small-caps">Carreras, Marinelli-Mercacci, Morató</hi>
+, 181, líns. 15-17): la captació de la veritat divina és en aquest exclusivament subjectiva, sense cap pedra de toc objectiva i constatable, que, en canvi, trobem en l’afirmació del nostre mestre.
+</note>
+<pb n="AVOThO_Volum V-179 (Notes Contextuals)"/>
+<note n="137-142">
+<hi rend="small-caps">Ioachimi de Flore</hi>
+,
+<hi rend="italic">Liber de concordia</hi>
+(ed. R.
+<hi rend="small-caps">Daniel</hi>
+, Philadelphia 1983, 16): «Non credunt istud, quorum incrassata corda indurauit ambitio... Ad quid, ergo, ante tales, margaritas spargere...».
+</note>
+<note n="142-143">Cf. Notam praecedentem.</note>
+<note n="143-144">
+En temps d’Arnau de Vilanova, el nèctar era un de vi especial: el
+<hi rend="italic">Liber de vinis</hi>
+, a ell atribuït, diu així: «Vinum, quod dicitur nectar...» o «Vinum dyamon... cum zuccaro fiat nectar...» (Lugduni 1504).
+</note>
+<note n="127-163">
+El fragment d’aquestes línies coincideix en el fons amb un text, atribuït a un ‘quidam fidedignus’, datat el 1282, clarament posterior a les Vespres Sicilianes, i integrat per mestre Arnau dins la
+<hi rend="italic">Philosophia catholica et diuina</hi>
+, que el lector trobarà
+</note>
+<pb n="AVOThO_Volum V-180 (Notes Contextuals)"/>
+<note n="150-153">
+<hi rend="small-caps">Ioachimi de Flore</hi>
+,
+<hi rend="italic">Liber de concordia</hi>
+(ed.
+<hi rend="small-caps">R. Daniel</hi>
+, Philadelphia 1983, 10-11): «Audite ergo et intelligite, ne forte uobis accidat sicut in diebus Noe, vacantibus risibus, iocis, leuitatibus et conuiuiis, inhyantibus ad lucra temporalia et opus Domini non requirentibus, et inueniat eos repentina dies...». dins «ATCA»,
+<num type="roman">X</num>
+(1991), 91-93, líns. 512-553. El,fidedignus' considerava que aquella manifestació de poble havia obert les portes a les imposicions de l'Anticrist (P. 91, lín. 516).
+</note>
+<pb n="AVOThO_Volum V-181 (Notes Contextuals)"/>
+<note n="170-171">
+Mestre Arnau de Vilanova dedicà un dels seus opuscles al tema de la dignitat de la creatura racional, l'
+<hi rend="italic">Allocutio christini de hiis que conueniunt homini secundum propriam dignitatem creature rationalis ad inclitum dominum tertium Fredericum, Trinacrie regem illustrem</hi>
+, publicada per un servidor mateix dins «ATCA»,
+<num type="roman">XI</num>
+(1992), 7-135.- L'
+<hi rend="italic">Apologia</hi>
+..., línies 1163 ss., toca el tema de la «Summa nobilitas, quam potest consequi creatura rationalis»; hi torna en el
+<hi rend="italic">De helemosina et sacrificio</hi>
+.
+</note>
+<pb n="AVOThO_Volum V-185 (Notes Contextuals)"/>
+<note n="251-252">
+<hi rend="small-caps">Aristoteles</hi>
+,
+<hi rend="italic">Ethica ac Nicomacum. Les Auctoritates Aristotelis</hi>
+reporten la frase gairebé al peu de la lletra: «Terribilissimum omnium terribilium est mors», ed.
+<hi rend="small-caps">Hamesse</hi>
+,
+<hi rend="italic">Auctoritates Aristotelis. Un florilège médiéval. Étude historique et édition critique</hi>
+(Philosophes médiévaux,
+<num type="roman">XVII</num>
+), Louvain, Publications Universitaires 1974, 236, núm. 56.
+<hi rend="small-caps">S. Tomàs d’Aquino</hi>
+en reporta una altra versió: «...mors est finis terribilium et terribilissimum»,
+<hi rend="italic">Tabula libri ethicorum</hi>
+, cura et studio Fratrum Praedicatorum (S. Thomae de Aquino,
+<hi rend="italic">Opera omnia</hi>
+,
+<num type="roman">XLVIII</num>
+), Romae, Sancta Sabina 1971, B 126, líns. 383-384.
+</note>
+<pb n="AVOThO_Volum V-186 (Notes Contextuals)"/>
+<note n="262-263">
+Catho,
+<hi rend="italic">Disticha Catonis</hi>
+recensuit et apparatu critico instruxit Marchus
+<hi rend="small-caps">Boas</hi>
+, Amstelodami,
+<num type="roman">MCMLII</num>
+, 58: «Ne timeas illam, quae vitae est ultima finis: Qui mortem metuit, quod vivit perdit id ipsum», 264. Catho,
+<hi rend="italic">loc. cit</hi>
+., a líns. 262-263.
+</note>
+<note n="253-254">
+«... licet Philosophus dixerit ultimum terribilium esse mortem...»: aquesta frase de mestre Arnau fou copiada per Pèire d’Alvèrnia en la segona de les seves qüestions de l’
+<hi rend="italic">Utrum Antichritus sit uenturus in breui</hi>
+: «...est enim mors ultimum terribilium in uita presenti, secundum Philosophum...», transcrita més avall en la segona part del nostre segon capítol.
+</note>
+<pb n="AVOThO_Volum V-187 (Notes Contextuals)"/>
+<note n="268">
+Catho,
+<hi rend="italic">loc. cit.</hi>
+, in líns. 262-263
+</note>
+<pb n="AVOThO_Volum V-188 (Notes Contextuals)"/>
+<note n="290-292">Cf. lín. 779-783.</note>
+<note n="291-292">
+B
+<hi rend="italic">in mg</hi>
+«Hic incipit uenire ad suum propositum».
+</note>
+<note n="293-294">
+Sobre la cèlebre frase de Jesús a
+<hi rend="italic">Act.</hi>
+<num type="roman">I</num>
+, 7, convé que el lector es fixi en el detall següent: en les línies 293-294, són citats tant els ‘temps’ com els ‘moments’, és a dir, els ‘χρονους’ i els ‘καιρους’; dues línies més avall els darrers ja han sortit del camp d’atenció del nostre autor i només pensa en,temps’ cosmològicament o numèricament amidables; sobre la importància d’aquest desplaçament d’atenció, vegeu la part de l’estudi introductori dedicada a
+<hi rend="italic">Act.,</hi>
+<num type="roman">I</num>
+, 7; cf. també
+<hi rend="italic">Apologia...</hi>
+líns. 871-900.
+</note>
+<note n="295-298">
+Sobre la posició doctrinal d’Arnau de Vilanova entorn d’allò que ell creu reservat per Déu i allò que considera a l’abast de la intel·ligència de tothom a partir de la base bíblica acabada d’indicar, hom pot veure també l’
+<hi rend="italic">Apologia...,</hi>
+líns. 634-635 i 649-668. Aquestes indicacions són també vàlides per als altres casos en què és esmentat
+<hi rend="italic">Act.,</hi>
+<num type="roman">I</num>
+, 7, com per exemple les líns. 394-397 i 572-581.
+</note>
+<pb n="AVOThO_Volum V-191 (Notes Contextuals)"/>
+<note n="337-338">
+<hi rend="small-caps">Augustini</hi>
+,
+<hi rend="italic">
+Sermo
+<num type="roman">CCCLI</num>
+de utilitate agendae poenitentiae
+</hi>
+(ML 39, París 1861, col. 1547): «Non enim illi, quos monemus agere poenitentiam, quaerant sibi comites ad supplicium.... Non enim propterea minus ardebunt, qui cum multis ardebunt...». Gràcies al prof. Jaume Mensa per haver posat al meu servei la seva ‘industria elekthronica!’.
+</note>
+<note n="345">(Nota marginal de mà posterior, any 1458?): «Non duraturum huius seculi cursum ducentis annis».</note>
+<pb n="AVOThO_Volum V-192 (Notes Contextuals)"/>
+<note n="357-732">Cal remarcar que entre aquestes dues línies tenim el raonament central de l’opuscle, aquell que s’han d’apropiar els ‘speculatores’ i, ben après, han de saber respondre a les objeccions, i és el raonament de la coherència entre els fets novíssims i també la indicació de l’any en el qual s’ha de preveure la presència activa de l’Anticrist, que en aquell moment inicial del 1300, segons Joan Quidort, seria el 1366, l’autèntic i no el corregit (1378) de la línia 725.</note>
+<pb n="AVOThO_Volum V-193 (Notes Contextuals)"/>
+<note n="375-380">
+Els fragments de Joaquim de Flore copiats el la present secció introductòria doctrinalment coincideixen amb els d'Arnau de Vilanova: heus ací un cas en què el segon s'aparta del primer en explicitar el significat d'un concepte, el de,fines seculorum', que justament delimita el tema que l'abat de Flore es proposa esbrinar en el seu llibre: «...inuestigare intendimus, imminere scilicet dies ire et instantis furoris, qui repositi erant mortalibus in fine seculorum, ad cuius nos peruenisse profundum, imminentes calamitates seculi, non iam annuntiant, sed ostendunt»,
+<hi rend="italic">Liber de concordia</hi>
+(ed. R.
+<hi rend="small-caps">Daniel</hi>
+, Philadelphia 1983, 16: el darrer mot fa coincidir l'abat de Flore amb l'antic bisbe de Solona, Esichius; de més a més, no existeix per a mestre Arnau una època de la història sota particular influx de l'Esperit Sant: Arnau de Vilanova no esperava una època de l'Esperit i molt menys consideerava que fos imminent; l'imminent era el temps de l'Anticrist).
+</note>
+<pb n="AVOThO_Volum V-194 (Notes Contextuals)"/>
+<note n="383">V: «Nota multa esse hunc uirum in predicendo fine seculi usum modera-tione, ut non rem pro certo afirmet, sed esse aliam que, ex quibus eum diuinis elo-quiis conici probabiliter posset». B: «Nota tempus quo iste [suum] tractatum scrip-sit»</note>
+<note n="384-386">V: «Iuxta istius auctoris sententiam probabilem, ut loquitur, super-sunt ab hoc anno 1458(?) usque ad finem mundi 40(?) anni et vix quidem. Secundum aliam huius littere expositionem potest intelligi iam esse preteritum prefixum ab eo terminum». B: «Atende (!) presumptuosam, ymmo stultissimam asercionem».</note>
+<note n="392-394">
+Els 'speculatores' veuen clarament en el mirall de l'Escriptura; i hom es pot preguntar què significa aquesta forma de veure: algun teòleg també s'ho havia preguntat durant el mateix segle
+<num type="roman">XIII</num>
+, com és ara Hug de Saint-Cher; la seva resposta ha estat estu-diada per
+<hi rend="small-caps">Jean-Pierre Torrell</hi>
+,
+<hi rend="italic">Théorie de la prophétie et philoosophie de la connaissance aux environs de 1230. La contribution de Hugues de Saint-Cher (Ms. Douai 434, Question 481)</hi>
+(Spi-cilegium Sacrum Lovaniense, 40), Louvain 1977, 31 ss., on respon a la pregunta:
+<hi rend="italic">Quid sit uidere in speculo</hi>
+.
+</note>
+<pb n="AVOThO_Volum V-195 (Notes Contextuals)"/>
+<note n="402-404">
+Cf. lín. 776-778. «...sedentes supra speculam istud [quod iam duobus centenariis integre seculum non durabit: 390-391] intuitu claro cognoscimus et uidemus»: si no m’equivoco és un plural que inclou l’autor entre els ‚sedentes supra speculam’; però l’
+<hi rend="italic">Instrumentum alterum</hi>
+... de París fa constar aquesta breu discussió: «...quidam alii [magistrorum: 61] mouentes capita, irridendo dixissent obliviose et callumpniose: ‚Vos sedetis super speculam, uos estis propheta’... callumpniose uero quia in opusculo meo non continetur quod ego sederem uel sedeam super speculam...» (pèrdua momentània de memòria?).
+</note>
+<note n="399-404">
+En aquestes línies coneixem una de les funcions de l’Anticrist, la de precedir la fi del món; i les línies 485-494 en dedueixen un altre servei, aquest epistemològic: el de poder considerar inacceptables aquelles interpretacions, segons les quals la segona vinguda de Jesús en poder i magestat a judicar vius i morts, és imminent, atès que encara no s’ha verificat la persecució de l’Anticrist (líns. 557-559); se’n dedueix la conseqüència que els tràngols de l’Anticrist són la pedra de toc que manifesta la falsedat dels pronòstics que anuncien la fi del món, sense posar-los en relació amb els tràngols de l’Anticrist (líns. 498-502 i sobretot 565-566). Un lector del s.
+<num type="roman">XV</num>
+va afegir aquesta observació: «Iuxta huius auctoris sententiam probabilem, ut loquitur, supersunt ab hoc anno 1458 usque ad finem mundi 40 anni et uix quidem. Secundum alium huius littere expositorem, potest intelligi iam esse preteritum prefixum ab eo terminum».
+</note>
+<pb n="AVOThO_Volum V-197 (Notes Contextuals)"/>
+<note n="424">
+El lector interessat pot completar el concepte de ‘curiositas’ amb allò que el mateix mestre Arnau diu sobre els coneixements basats en,coniecturis humanis’, en l’
+<hi rend="italic">Apologia...</hi>
+, líns., 224-228.
+</note>
+<pb n="AVOThO_Volum V-198 (Notes Contextuals)"/>
+<note n="446-488">El prof. de teologia de l'Estudi de París, Péire d'Alvèrnia, dedica el darrer paràgraf de la seva segona qüestió a aquest punt de la conveniència de conèi xer per endavant el temps de la vinguda de l'Anticrist i desplega un raonament que el condueix a la posició contrària a la qual arriba Arnau de Vilanova.</note>
+<pb n="AVOThO_Volum V-199 (Notes Contextuals)"/>
+<note n="472-479">
+Les observacions d'aquestes línies semblen inspirades en les pàgines darreres de l'
+<hi rend="italic">
+Epistola
+<num type="roman">CXCIX</num>
+, De fine saeculi
+</hi>
+de sant Agustí (
+<hi rend="small-caps">Goldbacher</hi>
+, CSEL,
+<num type="roman">LVII</num>
+, 289-292).
+</note>
+<note n="467-468">
+El compilador del Vat. Borgh. 205 trobà en aquestes línies un títol sense ferum d'inquisició per al nostre text, que li permetés de substituir l'original,
+<hi rend="italic">De adventu Antichristi</hi>
+.
+</note>
+<note n="474-478">
+Aquest fragment té un cert paral·lelisme amb el final del
+<hi rend="italic">De fine saeculi</hi>
+o
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+de sant Agustí (
+<hi rend="small-caps">Goldbacher</hi>
+, 289-292); mestre Arnau s'hi podria haver inspirat per descriure la posició del qui espera la segona vin guda molt aviat i la del qui l'espera molt tard.
+</note>
+<pb n="AVOThO_Volum V-200 (Notes Contextuals)"/>
+<note n="485-494">Vegeu la nota a les línies 399-494, sobre la doble funció de la persecució de l'Anticrist, la de precedir la fi el món i la de demostrar la falsedat d'aquells pronòstics que anuncien la imminència de la fi del món, atès que no s'ha presentat encara la gran persecució de l'Anticrist.</note>
+<pb n="AVOThO_Volum V-202 (Notes Contextuals)"/>
+<note n="9-13">
+i
+<hi rend="italic">522-525</hi>
+. La decisió de recórrer, davant una dificultat intel·lectual, a Qui pot resoldre els dubtes i donar certeses, no és nova del 1297, car ja el 1292 havia estat aplicada i sobretot publicada en l'
+<hi rend="italic">Allocutio super significatione nominis tetragramma ton</hi>
+, tal com el possible lector pot veure dins l'
+<hi rend="small-caps">AvothO</hi>
+<num type="roman">III</num>
+, pp. 148-149, líns. 195 216. En el nostre cas es tracta d'arribar a la certesa «sed etiam de tempore quo [Anti christus] regnabit» (líns. 519-520), mitjançant les preguntes «de quibus interrogaue runt Eum filii sui, scilicet apostoli» (lín. 523), segons Mt.
+<num type="roman">XXIV</num>
+, 3, i Lc,
+<num type="roman">XXI</num>
+, 7.
+</note>
+<pb n="AVOThO_Volum V-203 (Notes Contextuals)"/>
+<note n="526-531">
+En aquestes línies mestre Arnau no és fidel al text evangèlic, car dóna per suposat que l'aproximació dels deixebles a Jesús a fi de posar-li les dues preguntes s'esdevingué en unitat de lloc i de temps, quan la narració de Mt.
+<num type="roman">XXIV</num>
+, 1-2, sobre els materials de construcció del Temple, és ubicada dins el mateix Temple o en sortir-ne, i la de la pregunta sobre el retorn de Jesús i la fi del món, de Mt.
+<num type="roman">XXIV</num>
+, 3, és explícitament ubicada en la Muntanya de les Oliveres, en un moment en què Jesús hi era assegut. Tot seguit, líns. 536 i ss., continuarà englobant dins narració unitària els texts de Mt.
+<num type="roman">XXIV</num>
+i Lc
+<num type="roman">XXI</num>
+. No era l'únic cas en què el nostre mestre es feia venir bé frases bíbliques i encaminava l'aigua al propi molí.
+</note>
+<pb n="AVOThO_Volum V-204 (Notes Contextuals)"/>
+<note n="544-548">
+Aquestes línies ens donen les afirmacions d’Arnau de Vilanova sobre la possessió de Jerusalem: d’acord amb Lc.
+<num type="roman">XXI</num>
+, 24: els gentils es passejaran per Jerusalem fins que es compleixin els temps finals i quan es compleixin, «plenitudo gentium ingredietur Ecclesiam Dei per conuersionem ipsorum ad fidem catholicam, quod erit in sequenti centenario»; en la discussió del procés inquisitorial, aquesta tesi, que no tenia gens en compte la situació creada després de la pèrdua de Sant Joan d’Acre i les crides a una croada de reconquesta (1291: el 1297 mestre Arnau no se n’havia assabentat), fou objecte d’objeccions: el text de les línies 1351-1375 respon precisant el concepte de,croada’; i les 1376-1397, solucionen el tema tenint en compte la situació pròpia del segle
+<num type="roman">XIV</num>
+: el 1300 ja és davant la porta del «in sequenti centenario». Cf.
+<hi rend="small-caps">Ehrle</hi>
+, Archiv,
+<num type="roman">II</num>
+, 119.
+</note>
+<note n="546">
+(Cf. Nota marginal a la lín. 345) «Frustra eniti fideles capere Iherusalem ante conuersionem gentium ad fidem». Remarqueu que la nota és escrita els anys entorn la pèrdua de Constantinoble, durant els quals Calixt
+<num type="roman">III</num>
+intentà la darrera croada.
+</note>
+<pb n="AVOThO_Volum V-205 (Notes Contextuals)"/>
+<note n="560 i 570-571">
+La col·locació de ‘dia i hora’ en les expectatives de la fi del món segons mestre Arnau és explicada en l’
+<hi rend="italic">Apologia</hi>
+..., líns. 634-635 i 649-668: la qüestió de fons sembla ésser si «dia i hora» s’ha d’entendre en sentit estricte, o en sentit més general de qualsevol mena d’informació sobre la globalitat dels temps darrers.
+</note>
+<pb n="AVOThO_Volum V-206 (Notes Contextuals)"/>
+<note n="576-578">
+Aliter ac
+<hi rend="small-caps">Arnaldus</hi>
+intelligit
+<hi rend="small-caps">Augustinus</hi>
+verba Christi Act.
+<num type="roman">I</num>
+, 7, prout videre est in,
+<hi rend="italic">De civitate Dei</hi>
+,
+<num type="roman">XVIII</num>
+, liii (
+<hi rend="small-caps">Dombart-Kalb</hi>
+, CC CM,
+<num type="roman">XLVIII</num>
+, 652, lin. 4-23).
+</note>
+<pb n="AVOThO_Volum V-207 (Notes Contextuals)"/>
+<note n="588-589">
+de quo brocardico, cf.
+<hi rend="small-caps">ATCA</hi>
+,
+<num type="roman">VII</num>
+-
+<num type="roman">VIII</num>
+(1988-1989), 133/2 et in
+<hi rend="italic">Decreto</hi>
+,
+<num type="roman">IV</num>
+,i, 23, lego sub hac forma: «... quidcumque non prohibetur, per consequentiam admittatur»
+</note>
+<note n="598">cf. lín. 640-641</note>
+<pb n="AVOThO_Volum V-208 (Notes Contextuals)"/>
+<note n="608-609">En les discussions del procés inquisitorial, Péire d’Alvèrnia s’hauria manifestat contrari al ‚dies pro anno’: «...dies non pro annis, sed pro diebus ad litteram...» (cf. Capítol terç, darrer paràgraf de l’apartat I).</note>
+<note n="610">
+La definició de ‚dia’ amb la frase «latio solis super terram» es troba dues vegades en la
+<hi rend="italic">Introductio in librum de semine scripturarum</hi>
+(
+<hi rend="small-caps">perarnau</hi>
+, AVOThO,
+<num type="roman">III</num>
+, 107, líns. 457 i 460 i se n’indica alguna font en la nota corresponent).
+</note>
+<note n="611-613">
+(Cf.
+<hi rend="italic">Ibid.</hi>
+, 107, líns. 453-480).
+</note>
+<note n="614-616">
+cf. AVOThO,
+<num type="roman">III</num>
+, 106-107, líns. 453-455.
+</note>
+<note n="616-619">
+cf. AVOThO
+<num type="roman">III</num>
+, 105, lín. 421-426.
+</note>
+<pb n="AVOThO_Volum V-209 (Notes Contextuals)"/>
+<note n="636">Cf. lín. 627.</note>
+<pb n="AVOThO_Volum V-210 (Notes Contextuals)"/>
+<note n="647-660">
+<hi rend="italic">Apologia de versutiis...</hi>
+: «Assertio principalis non est nisi de tempore maximi Antichristi fundata super reuelationem Danieli factam, ad quam remittit Saluator in reponsione quam super illa materia feciot ad interrogationem discipulorum» (
+<hi rend="small-caps">Perarnau</hi>
+, «ATCA»,
+<num type="roman">XX</num>
+(2001), 86, líns. 410-413). Nota marginal del Vat. lat. 3824: [Nota bene per duo folia de aduentu Antichristi].
+</note>
+<note n="647-730">
+A partir d'aquest fragment, Péire d'Alvèrnia, elaborà el seu resum del pronòstic de mestre Arnau, al començament del seu
+<hi rend="italic">Utrum Antichristus sit uenturus in</hi>
+</note>
+<pb n="AVOThO_Volum V-211 (Notes Contextuals)"/>
+<note n="661-662">Quoad computationis initium, cfr. textum lin. 928 et 931.</note>
+<note n="662-668">Cf. Lín. 1227.</note>
+<note n="663-665">Péire d'Alvènia, cal suposar que en les discussions del procés inquisitorial es manifestà partidari d'entendre que el,iuge sacrificium' era el del Nou Testament: «... in hoc capitulo loquitur de sacrficio Nove Legis...» (Cf. Capítol terç, text del dit autor, darrer paràgraf de l'apartat I).</note>
+<note n="650">
+<hi rend="italic">breui</hi>
+, qüestió primera, on ja es pot començar de veure la diferència entre els dos autors; el darrer paràgraf de la mateixa qüestió, que ja subratlla les dites diferències, és treta en particular del text de les línies 662-665 i 678-685. També Joan Quidort es basà en el mateix fragment textual per al seu resum de la tesi del
+<hi rend="italic">De aduentu Antichristi</hi>
+i ho féu de forma quelcom més circumstanciada, on ens dóna l'any que devia figurar en l'exemplar que el nostre mestre posà a les mans del canceller de l'Estudi de París: «... infra annum ab Incarnatione millesimum, tercentesimum sexagesimum sextum...», any que en el manuscrit Vat. Lat. 3824 és canviat pel de,septuagesimum octauum' en la línia 725 de l'opuscle arnaldià. El fet que tots dos mestres parisencs es basin en idèntic fragment textual d'Arnau de Vilanova a l'hora de resumir la seva tesi deu permetre de deduir que aquest mateix fragment fou el més fortament discutit en les dues sessions inquisitorials de Saint Denis de Passy. L'
+<hi rend="italic">Apologia...</hi>
+dedica almenys dos fragments al vers de
+<hi rend="italic">Dan.</hi>
+<num type="roman">XII</num>
+, 11: el text de les línies 410-413 afirma que és central en el raonament de mestre Arnau; i el de les línies 670-713, que defensa el significat que el nostre mestre dóna a la copulativa,et', i el de,usque', tal com diu la nota següent. «... usque ad tempus quo ponetur...»: en aquesta frase hi ha un dels punts crítics del pensament d'Arnau de Vilanova en el tema de la previsió de l'Anticrist a base de
+<hi rend="italic">Daniel</hi>
+,
+<num type="roman">XII</num>
+, 11 i per aquesta raó serà tractat en la consideració final. Hi remeto.
+</note>
+<pb n="AVOThO_Volum V-212 (Notes Contextuals)"/>
+<note n="670-716">
+<hi rend="italic">L'Apologia</hi>
+... fa una referència general a la successió d'esdeveniments finals en el text de les líns. 766-792.
+</note>
+<pb n="AVOThO_Volum V-213 (Notes Contextuals)"/>
+<note n="694-713">Cf. lín. 1225</note>
+<pb n="AVOThO_Volum V-214 (Notes Contextuals)"/>
+<note n="708">La lectura,iugis' assegurada per B s'imposa perquè és la correcta i perquè, de més a més, fa justícia al genitiu,sacrificii', que també es troba en la Vulgata.</note>
+<pb n="AVOThO_Volum V-215 (Notes Contextuals)"/>
+<note n="719-720">
+Les acusacions de corrupció textual foren pa de cada dia entre jueus, cristians i musulmans i el treball de Ramon Martí tenia l’objectiu de demostrar que la transmissió textual en mans de cristians era la més fidel als originals; sobre aquest tema, hom pot veure l’article de Harvey J.
+<hi rend="small-caps">Hames</hi>
+,
+<hi rend="italic">A Jew among Christians and Muslims: introspection in Salomon ibn Adret’s response to ibn Hazam</hi>
+, dins «Mediterranean Historical Review», 25 (2010), 203-219.
+</note>
+<note n="721-724">Vegeu una variant d’aquestes línies en el text de les 1116-1119.</note>
+<note n="721-726 i 1644-1645">
+Aquesta era la previsió que mestre Arnau feia el 1297. Uns quants anys més tard, els darrers de Joan
+<num type="roman">XXII</num>
+(febrer-març 1333), en els ambients rossellonesos entorn l’infant Felip de Mallorca hom feia aquesta altra: «...Antichristus maior debeat manifeste apparere in mundo vivente isto papa, qui nunc est, et cum eo simul esse et predicare...». Joan
+<num type="roman">XXII</num>
+moria el 4 de desembre del 1334 (
+<hi rend="small-caps">Vidal</hi>
+, «Revue d’histoire de l’Église en France», I (1910), 587, núm. 29). El cercle, doncs, entorn Felip de Mallorca ja es col·locava en la línia del desdoblament o de la multiplicació dels anticrists. Per això, el nostre 1378 tant d’ací com del final de l’opuscle és, per dir-ho amb una expressió contemporània, obra d’ un infiltrat, potser joaquimita, potser deixeble de fra Petrus Iohannis, en un camp que no era de cap manera el seu. Ja he avisat que un dels punts, en els quals mestre Arnau es col·loca fora del ramat de seguidors tant de Joaquim com de Pèire Joan, és el fet que ell només parla d’un Anticrist, mentre ells parlen de més d’un; l’autor de la frase copiada en la nota 721-726 de l’aparat de fonts, que escrivia a darreries del segle
+<num type="roman">XIV</num>
+o inicis del XV, ja en posava tres, el segon dels quals s’hauria manifestat justament el 1378; aquest és l’autor de les dues correccions fetes per un infiltrat en les pàgines indicades al capdamunt d’aquesta nota. M’atreveixo a completar la informació dient que l’autor del
+<hi rend="italic">Tractatus quidam...</hi>
+, (271, líns. 2296-3010), que escrivia després del 2 de juny del 1304, coneixia tots els elements del possible recompte de l’any d’aparició de l’Anticrist dins el segle
+<num type="roman">XIV</num>
+, però s’abstingué d’assenyalar l’any en què aquest ja actuaria: una més de les diferències significatives entre aquest autor i Arnau de Vilanova. Nota en el Vat. lat. 3824: «Nota. Determinatio temporis in Antichristi exemplo».
+</note>
+<pb n="AVOThO_Volum V-216 (Notes Contextuals)"/>
+<note n="723-724">
+sant Agustí, però, no veu clara la significació de l’„abomi-natio desolationis‟: «...Ipsa desolationis abominatio, propter obscuritatem dicti, nonuno modo ab hominibus potuerit intelligi»,
+<hi rend="italic">
+Epistola
+<num type="roman">CXCIX</num>
+ad Esicium de fine mundi
+</hi>
+,(
+<hi rend="small-caps">Goldbacher</hi>
+, CSEL,
+<num type="roman">LVII</num>
+, 1911), 271, líns. 16-18.
+</note>
+<note n="725">
+Sobre les variants de mes-tre Arnau de Vilanova o dels seus copistes a l’hora d’assenyalar l’any de la vinguda de l’Anticrist, vegeu la p. 124 i l’apèndix
+<num type="roman">II</num>
+d’aquest estudi, dedicat a
+<hi rend="italic">L’any de l’Anticrist en les còpies més antigues d’obres d’Arnau de Vilanova</hi>
+; la font, però, o almenys l’indicador de la font tant d’aquest 1378 com del de les línies 1644-1645 es troba en la frase:«Secundus antichristus apparuit in ecclesia in anno M.CCC.lxxviij», del f. 107v. línia 14 del final de pàgina; la frase forma part d’un text intitulat
+<hi rend="italic">Quanto tempore scisma et tribulationes durabunt in ecclesia Dei et quo tempore finientur...</hi>
+i la frase completa, després de citar el
+<hi rend="italic">Liber concordie</hi>
+de Joaquim de Flore en les línies precedents, diu així: «Item,inveni multorum theologorum dicentium quod ille Federicus tercius natus fuit inanno.M.CCC.Lxv. a nativitate Domini in coniunctione Iovis et Saturni in signo can-cri. Secundus antichristus apparuit in ecclesia in anno.M.CCC.lxxviij. Ultimusautem magnus antichristus apparebit.M.CCCC.xxxiij. a nativitate Domini», títolacabat de citar, present a París, BN, lat. 14726, f. 107v,
+</note>
+<note n="726-727">«Fatetur se precisare annum aduentus Antichristi 151 ante».</note>
+<note n="730-731">«Complebitur aduentus Antichristi sub dubio uel in anno.1400. uel insequenti, scilicet,.1500.».</note>
+<pb n="AVOThO_Volum V-217 (Notes Contextuals)"/>
+<note n="734">Aquesta observació sobre la validesa crítica del raonament arnaldià pot ésser completat amb la de les línies 785-787.</note>
+<note n="735-741">«Non habetur ex Daniele absolute et certitudinaliter prefixus numerus centenarii annorum usque ad aduentum Antichristi».</note>
+<note n="742-743">
+Mestre Arnau de Vilanova es ratifica en la valoració de la seva demostració, com a «habentis evidentiam intellectus probabilis et sanioris» en l'
+<hi rend="italic">Apologia de versutiis</hi>
+..., líns. 143-151; fins i tot fa constar que en el curs de les discussions del procés inquisitorial, els seus contraris li haurien donada la raó, líns. 281-283.
+</note>
+<pb n="AVOThO_Volum V-219 (Notes Contextuals)"/>
+<note n="775-776">‘...consequentur...’: aquest plural sembla determinat pels,speculatores’, presents tant en la línia 770 com en la 780., que determinen els plurals de les línies del context.</note>
+<pb n="AVOThO_Volum V-220 (Notes Contextuals)"/>
+<note n="785-787">Vegeu la nota complementària a la línia 734 i, en ambdós casos, no sols l'observació derivada de les objeccions ('obiceret', lin. 784) dels professors de París, ans també la resposta de mestre Arnau.</note>
+<pb n="AVOThO_Volum V-221 (Notes Contextuals)"/>
+<note n="810">
+Entorn de la referència de la lín. 810, a la,sonorum concordiam’, m’he de preguntar si mestre Arnau no s’inspirà en el cèlebre vers: «Teste David cum Sibilla» (seqüència
+<hi rend="italic">Dies irae, dies illa</hi>
+, de les
+<hi rend="italic">Missae Defunctorum</hi>
+en la litúrgia catòlica de difunts).
+</note>
+<note n="809-812">
+Les vuit línies, que van de la 414-421 de l’
+<hi rend="italic">Apologia de versutiis...</hi>
+, fan conèi xer les raons, per les quals, seguint sant Agustí, Arnau de Vilanova acceptà els pronòs tics de l’Erithea Babylonica i els presentà com a arguments favorables a la seva tesi. El possible lector s’ha de fixar el el títol d’Erithea Babylonica, que respon a una època històrica, en què hom sabia que de Sibil·les n’hi havia més d’una i fins i tot coneixien llurs noms. Abans d’acabar el segle
+<num type="roman">XIV</num>
+, Telesphorus de Cusentia les pre sentava així: «...invenimus librum continentem vates Ambrosii, Merlini, Sybil·le Herithee Babilonice, Sybille Tyburtine, et Sybille Elespontine», de la qual sabem que parlava del sisè mil·lenari, Venetiis, Lazarus de Soardis, 1516, f. 8d i 14a; n’hi havia d’altres, com la de Cumas. Al cap d’un segle, la Babilònica seguia essent la primera de la colla.
+<hi rend="italic">811:</hi>
+«Sibilla Erithea»; vegeu nota següent.
+</note>
+<pb n="AVOThO_Volum V-222 (Notes Contextuals)"/>
+<note n="811-812">
+Erithea Babilonica, ed.
+<hi rend="small-caps">Jostmann</hi>
+, 515, lín. 60; 516, lín. 89-91.
+</note>
+<note n="816-818">
+<hi rend="italic">Ibid.</hi>
+, 501, líns. 49-51.
+</note>
+<note n="821">
+<hi rend="italic">Ibid.</hi>
+, 517, lín. 108-109; 822-823.
+<hi rend="italic">Ibid.</hi>
+, 517, lín. 123-124.
+</note>
+<note n="823-824">
+<hi rend="italic">Ibid.</hi>
+, 517, lín. 125; et 518, lín. 119-123.
+</note>
+<note n="828-832">
+<hi rend="italic">Ibid.</hi>
+524- 527, lín. 250-323; els quatre extrems que resten a fi que totes les prediccions de la Sibil·la Erithea s’hagin acomplert, s’havien reduït a tres en l’
+<hi rend="italic">Apologia de versutiis et perversitatibus pseudotheologorum</hi>
+... (Perarnau, «ATCA»,
+<num type="roman">XX</num>
+(2001), 86, lín. 420-421: «...nec iam restant nisi tria uentura de hiis que predixit», sense precisar de quins es tracta..).
+</note>
+<note n="830-831">
+«Secundum est dissipatio barbare nationis... implebuntur»: fra Pèire
+<hi rend="small-caps">Joan</hi>
+,
+<hi rend="italic">Postilla in Apocalypsim</hi>
+, BAV, Borgh. 38, f. 69a-d: (sobre el sisè segell) «Quinto, innumerabilis turbe ex omnibus gentibus mundi ad Christum conuersio et gloriosa ac triumphalis ante Christum statio, ibi: ‚Post hec uidi turbam magnam’... per Franciscum ab initio huius ordinis usque nunc facta est magna consignatio ad spiritualem militiam euangelice regule, et proper hoc multe turbe populorum sunt post illos et ad exemplum illorum adducte ad penitentiam et ad gratiam Christi...». Pel camí del llibre de l’
+<hi rend="italic">Apocalipsi</hi>
+o pel de la
+<hi rend="italic">Sibil·la</hi>
+, s’arriba al mateix resultat, ai las!, il·lusori.
+</note>
+<note n="811-813">
+Les Sibil·les eren almenys deu, però les més conegudes devien ésser les que, ja cap al final del segle
+<num type="roman">XIV</num>
+, Telesphorus de Cusentia concentrà en la seva petita llista del
+<hi rend="italic">Libellus de schismate</hi>
+(Venetiis, Lazarus de Soardis 1516, f. 8d: «...librum continentem vates Ambrosii, Merlini, Sybille Erithee de Babylonia, Sybille Tyburtine et Sybille Elespontine, de presagiis futurorum...»; s’hi deu poder afegir la Sibil·la de Cumas. Joan de París (o el seu editor venecià) col·loca l’Erithea entre els profetes, en l’edició acabada d’esmentar, f. 52a, i la intitula
+<hi rend="italic">Prophetia Sybille Erithee.</hi>
+</note>
+<note n="811-823">
+Aquest resum de la figura de la Sibil·la és pràcticament idèntic al que fa el mateix mestre Arnau dins la
+<hi rend="italic">Philosophia catholica et divina</hi>
+(«ATCA»,
+<num type="roman">X</num>
+[1991], 120-121, líns. 949-970).
+</note>
+<note n="815">«Sibillina Vaticinia»: cf. Telesphorum de Cusentia.</note>
+<pb n="AVOThO_Volum V-223 (Notes Contextuals)"/>
+<note n="825-828">Aquestes tres línies són un misteri; els dedico l’apèndix terç al final de l’estudi introductori de la present edició.</note>
+<note n="825-828">
+Jo no sé si Arnau de Vilanova manifestava en aquestes línies una opció política. Si realment es referia al «Regnum Siciliae», és a dir, a la entitat política unitària formada per l’illa de Sicília i tota la terraferma d’Itàlia al sud dels Estats Pon tificis, declarava avalada per la Sibil·la la posició de la Casa de Hohenstaufen, hereta da per la Casa de Barcelona i successivament personificada per Pere el Gran i els seus fills, els germans Jaume
+<num type="roman">II</num>
+i Frederic de Sicília, la de pretendre ésser ells els únics reis legítims del Regne de Sicília i il·legítims, en canvi, els Anjou. Si, per contra, «Reg num Siciliae» (i no «Regnum Trinacrie») només denominava l’illa de Sicília, no feia res més que constatar una situació de fet, que en aquell moment feia passos vers la legitimació i ja havia desembocat primer en el Tractat d’Anagni del 1295 i sortiria reforçat en el de Caltabellotta del 1302; parlar de l’«expulsionem Karoli regis ex regno Sicilie» era parlar de la guerra posterior a les Vespres Sicilianes des de la visió de la Casa de Barcelona. També per aquesta raó, no veig que acceptés la interpretació de les Vespres Sicilianes com a porta oberta a les imposicions de l’Anticrist, que ja coneixem per la nota complementària a les línies 127-163, a la qual remeto. Potser caldria esbrinar a quin moment històric es refereixen aquestes línies: el 1297 era cer tament posterior al Tractat d’Anagni i potser es limiten a dir que en virtut d’aquest tractat, de fet els Anjou han estat foragitats de l’illa de Sicília (encara que oficialment en mantinguessin el títol).
+</note>
+<pb n="AVOThO_Volum V-224 (Notes Contextuals)"/>
+<note n="833-835">
+Augustini,
+<hi rend="italic">De civitate Dei</hi>
+,
+<num type="roman">XVIII</num>
+, xxiii (
+<hi rend="small-caps">Dombart</hi>
+,
+<hi rend="small-caps">Kalb</hi>
+, Corpus Chris tianorum, SL,
+<num type="roman">XLVIII</num>
+, xiv, 2, Turnholt. Brepols 1955, 613-614).- Inter ceteros sacros doctores Lactantius eminet, qui quaedam de Christo vaticinia ex Sibylla Erythea suis
+<hi rend="italic">Institutionibus</hi>
+singillatim interseruit, quae Augustinus, ibid., 615, lín. 74-87, in unum collegit.
+</note>
+<note n="841-842">«Circa terminum supradictum»: la referència és a la línia 725, a la qual el lector pot afegit l'Apèndix segon, dedicat justament a la data de la compareixença de l'Anticrist.</note>
+<note n="">
+En el text publicat pel prof.
+<hi rend="small-caps">Jostmann</hi>
+, no trobo altres referències a Sicília/Trinà cria que alguna d'aquest tipus: «...Porro appetitus eius ad Britones, ut Trinacrim sapiant...» (521, líns. 179-180), o «...tres partes habitantium Trinacrim perimentur» (526, lín. 297); en dedueixo que mestre Arnau de Vilanova devia posseir un text de la Sibil·la ‚posat al dia’. També trobo una referència immediata (del mateix 1282) a la situació de Sicília amb motiu de les Vespres Sicilianes dins una ‚profecia’ d’un ‚qui dam fidedignus’, inclosa per Arnau de Vilanova dins la
+<hi rend="italic">Philosophia catholica et divina</hi>
+; segons aquell personatge la rebel·lió dels silians obria les portes a la rebel·lió del Fill de Perdició («ATCA»,
+<num type="roman">X</num>
+[1991], 91, líns. 515-516).
+</note>
+<note n="829">(Cf. Nota a lín. 345). «De unione a Sibilla preuisa Grecorum et Latinorum».</note>
+<pb n="AVOThO_Volum V-225 (Notes Contextuals)"/>
+<note n="842-843">Vegeu el text de les línies 399-401.</note>
+<note n="853">
+En les actuals edicions de la
+<hi rend="italic">Vulgata</hi>
+, aquesta frase de l’
+<hi rend="italic">Apocalipsi</hi>
+pertany a
+<num type="roman">VIII</num>
+, 1.
+</note>
+<note n="855">
+Si les hores d’un dia són dotze (cf.
+<hi rend="italic">Ioan</hi>
+,
+<num type="roman">XI</num>
+, 9), i segons el
+<hi rend="italic">Salm</hi>
+<num type="roman">LXXXXIX</num>
+, 4, un dia equival a mil anys, el,quasi dimidia hora’ equival a «quadraginta unum anni et octo menses», perquè la dotzena part d’un dia o una hora equival a «octoginta tres annos et quatuor menses», segons l’
+<hi rend="italic">Expositio super Apocalypsi</hi>
+(
+<hi rend="small-caps">Carreras, Marinelli, Morató</hi>
+, Barcelona, IEC 1971, 119, líns. 6-8 i 11-12).
+</note>
+<pb n="AVOThO_Volum V-226 (Notes Contextuals)"/>
+<note n="881-882">
+II Petr
+<num type="roman">III</num>
+, 10. 883. Abulnea: «[Sibylla] Tiburtina graece, latine Abulnea vocata», Ernst
+<hi rend="small-caps">Sackur</hi>
+,
+<hi rend="italic">Sibyllinische Texte und Forschungen, con premessa di Raoul Manselli</hi>
+, Torino, Bottega d’Erasmo 1964, 177
+</note>
+<note n="883-884">
+<hi rend="italic">Ibid..</hi>
+, 185-186: «Et minuentur anni sicut menses et menses sicut septimana, et septimana sicut dies et dies sicut hora [et] hora sicut puncti».
+</note>
+<pb n="AVOThO_Volum V-227 (Notes Contextuals)"/>
+<note n="883-884">Vegeu poc més amunt la nota complementària a les línies 809-812 del present opuscle.</note>
+<pb n="AVOThO_Volum V-228 (Notes Contextuals)"/>
+<note n="894-897">
+Aquesta primera objecció no sembla tenir pare conegut, però la referència més fàcil és la cèlebre frase de sant Agustí d'Hipona, en el llibre
+<num type="roman">XVIII</num>
+del
+<hi rend="italic">De ciuitate Dei</hi>
+desautoritzant els qui compten amb els dits els anys o dies que manquen per a algun dels novíssims o darreries: «Omnium uero de hac re calculantium digitos resoluit et quiescere iubet Ille qui dicit:,Non est uestrum...'», etc. (
+<hi rend="italic">Act</hi>
+.,
+<num type="roman">I</num>
+, 7); (
+<hi rend="small-caps">Csel</hi>
+, xxxx, Wien MCM, 356). La repetició, tant ací com en el text polèmic de Péire d'Alvèrnia, del mot,determinate' (lín. 899) permet almenys de pensar que entre els,obicientibus' (lín. 893) en plural no hi mancava aquest professor. El fons del problema és el pronòstic d'esdeveniments futurs que dependen de decisions lliures de la voluntat; la resposta és que no hi ha problema quan se suposen coneguts per revelació divina, fins i tot amb precisió del moment inicial, del final i del temps que ha de passat entre els dos extrems, pronosticats per la
+<hi rend="italic">Bíblia</hi>
+, en
+<hi rend="italic">Daniel</hi>
+,
+<num type="roman">XII</num>
+, 11 (líns. 940-962 i 982-995: «Patet igitur quod per reuelationem factam
+<hi rend="italic">Danieli</hi>
+potest certa computatione prenosci tempus Antichristi»).
+</note>
+<note n="893-907">
+Aquesta objecció és repetida de forma molt semblant dins el
+<hi rend="italic">Tractatus quidam</hi>
+..., línies 2132 ss. i dins l'
+<hi rend="italic">Apologia</hi>
+..., 766-792, fins al punt que aquest darrer text podria aclarir quelcom de la seva procedència: sembla, en efecte, que darrere l'objecció hi hauria hagut un grup humà (de,físics' o d',artistes' o d'espirituals?), car l'
+<hi rend="italic">Apologia</hi>
+..., líns. 774-776, ens diu que,,ut audiustis', de la veritat de la resposta «iam certificati sunt illi qui, deponentes omnino spiritum inflationis, in spiritu karitatis Christi et edificationis intuitu, ad habendum certitudinem accesserunt»; l',ut audiustis' ens diu que l'acceptació de les explicacions de mestre Arnau per part d'aquells (,illi') fou notícia que arribà més o menys lluny, però certament s'escampà. Sembla que hi havia un punt més controvertit, era el de tenir ben cert el començament d'un recompte; per això, el
+<hi rend="italic">De tempore aduentus Antichristi</hi>
+és taxatiu: «omne futurum tempus potest certa computatione prenosci, cuius initium et finis certis euentibus distinguuntur...» (líns. 930-931) i l'
+<hi rend="italic">Apologia</hi>
+... concentra tota la importància en el,uerum initium' (lín. 770), en l',initum' (lín. 771) i encara en la,notitia uerorum initiorum' (líns. 772-773). Subratllaté encara un darrer extrem: l'
+<hi rend="italic">Apologia</hi>
+... també té en compte la part afegida en el primitiu
+<hi rend="italic">De aduentu Antichristi</hi>
+per les discussions del procés inquisitorial. Atesos aquests detalls és explicable la llargària de la resposta a l'objecció sobre el recompte cronològic, línies 893-1037 de la nostra edició.
+</note>
+<pb n="AVOThO_Volum V-230 (Notes Contextuals)"/>
+<note n="928-932">
+Aquest fragment és transcrit al peu de la lletra, amb només una petita variant en dues paraules (,propositio’ per,regula’ i,distinguuntur’ per,disting[u]unt’) en el
+<hi rend="italic">Tractatus quidam</hi>
+..., «ATCA»,
+<num type="roman">XX</num>
+(2001), 251-252, líns. 2156-2160.
+</note>
+<note n="932-933">
+També s’ho podia mirar sant Agustí amb els propis ulls i no sols amb els de la Sibil·la, com en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+, CSEL,
+<num type="roman">LVII</num>
+,
+<hi rend="small-caps">Goldbacher</hi>
+1911, 266, líns. 7-9: «Cum itaque [Augustinus] signa dicat quae ad ista tria pertinent, id est, ad excidium illius ciuitatis, ad aduentum eius in corpore suo, quod est ecclesia, ad aduentum suum in capite ecclesiae, quod est ipse...».
+</note>
+<pb n="AVOThO_Volum V-231 (Notes Contextuals)"/>
+<note n="940-943">
+És possible que l’afirmació d’aquestes línies sigui un dels punts bàsics de tot el
+<hi rend="italic">De adventu Antichristi</hi>
+; i comportaria la que podria ésser la tesi global de l’o puscle: mestre Arnau de Vilanova, profeta dels temps finals, punt més explicitat en les darreres pàgines del present estudi introductori.
+</note>
+<pb n="AVOThO_Volum V-232 (Notes Contextuals)"/>
+<note n="3">
+«Contrariorum eadem est disciplina» és un principi filosòfic, que
+<hi rend="small-caps">Aristòtil</hi>
+almenys utilitzà dues vegades, conegudes i utilitzades pels autors medievals, tal com hom pot veure en recull de Jacqueline
+<hi rend="small-caps">Hamesse</hi>
+,
+<hi rend="italic">Les auctoritates Aristotelis. Un florilè ge médiéval. Étude historique et édition critique</hi>
+(Philosophes médiévaux,
+<num type="roman">XVII</num>
+), Louvain París, Publications Universitaires, Béatrice Nauwelaerts 1974, 134 (223) i 329 (95); la primera de les dues pàgines citades porta el principi de la
+<hi rend="italic">Metafísica</hi>
+, formulat així: «Eadem est scientia contradictorum»; l’altra pertany als
+<hi rend="italic">Tòpics</hi>
+i diu «Oppositorum eadem est disciplina».
+</note>
+<note n="6-7">
+Aquestes dues línies són com una tesi: Els escriptors cristians que han comentat el
+<hi rend="italic">Llibre de Daniel</hi>
+han vist en
+<num type="roman">XII</num>
+, 11 el pronòstic dels,novissima tempo ra’ exposat en aquestes pàgines. Seria interessant d’esbrinar-ho i encara més de veure si el resultat de la recerca encaixa tant amb el text de les línies 877-981 com amb el de les 993-995.
+</note>
+<pb n="AVOThO_Volum V-233 (Notes Contextuals)"/>
+<note n="985-992">
+Crec que cal cridar l’atenció sobre aquesta lectura arnaldiana de
+<hi rend="italic">Dan.</hi>
+,
+<num type="roman">XII</num>
+, 11, perquè, tal com intentarem d’explicar en la segona part, és important per a conèixer l’anàlisi arnaldiana dels texts bíblics i en conseqüència la metodologia per ell aplicada en les demostracions.
+</note>
+<pb n="AVOThO_Volum V-234 (Notes Contextuals)"/>
+<note n="996-997">
+Aquest
+<hi rend="italic">Prologus super Genesim</hi>
+és l'
+<hi rend="italic">Epistola Hieronimi ad Paulinum Presbyretum de omnibus divine historiis</hi>
+(!), que es convertí en el pròleg a la
+<hi rend="italic">Vulgata</hi>
+amb l'íncipit de «Frater Ambrosius», de Munic, Bayerische Staatsbibliothek, Clm, 3730, f.153v, que dedica un paràgraf considerable als quatre grans profetes: «...Esaiam, Hieremiam, Ezechiel, Daniel, quis posset intelligere uel exponere?» i dedica les línies següents a Daniel: «... Quartus uero, qui extremus inter quatuor prophetas temporum conscius et totius mundi philostoricos, lapidem precisum de monte sine manibus et regna omnia subuertentem claro sermone prenuntiat». Aquest paràgraf fou integrat en el pròleg general a la
+<hi rend="italic">Bíblia Vulgata</hi>
+pels editors de la
+<hi rend="italic">Biblia Sacra iuxta latinam Vulgatam versionem ad codicum fidem</hi>
+, [
+<num type="roman">I</num>
+].
+<hi rend="italic">Librum Genesis</hi>
+... recensuit
+<hi rend="small-caps">d. henricus quentin</hi>
+, Romae, Typis Polyglottis Vaticanis, 1926, p. 30, líns. 1 i 6-8.
+</note>
+<note n="996">
+Només puc dir que el pròleg al
+<hi rend="italic">Liber quaestionum hebraicarum in Genesim</hi>
+(ML
+<num type="roman">XXIII</num>
+, col. 935-938; CCL
+<num type="roman">LXXII</num>
+,
+<hi rend="small-caps">de lagarde</hi>
+, Tournhout, Brepols 1959, 1-58), únic títol que s'assembla al donat per mestre Arnau entre els autèntics de sant Jeroni, no té cap referència ni a la persona del profeta Daniel ni al seu llibre bíblic; tampoc no hi ha cap títol semblant entre les obres espúries de sant Jeroni. També he trobat atribuït a sant Jeroni, un
+<hi rend="italic">Prologus in Danielem</hi>
+, integrat dins la
+<hi rend="italic">Glossa ordinaria</hi>
+a la Bíblia,
+<num type="roman">III</num>
+, 1491, en edició de Venècia 1603: es tractarà d'una
+<hi rend="italic">Glossa ordinaria</hi>
+al Gènesi, anomenada
+<hi rend="italic">Prologus in Genesim</hi>
+? Vegeu l'anterior paràgraf d'aparat de fonts.
+</note>
+<pb n="AVOThO_Volum V-235 (Notes Contextuals)"/>
+<note n="1014-1016">
+«Abominatio in desolationem»: un autèntic trencaclosques. Em limitaré a reportar-ne allò que en diu sant Jeroni en el
+<hi rend="italic">Commentarius in Evangelium Mathei</hi>
+, del Vat. lat., 3819, f. 190a: «De abominatione desolationis, que dicta est a Daniele propheta, stante in loco sancto, multa Portarius,.iij..x. operis sui volumine contra nos blasphemauit, cui Eusebius Cesariensis episcopus, tribus respondit uolu minibus,.xviij.,.xix. et.xx.. Appolinaris quoque scripsit plenissime superlatiue (?), que conatus est uno capitulo velle disserere, de quo tantis uersuum milibus disputa tum est»: en la primera meitat del segle
+<num type="roman">V</num>
+, la bibliografia ja havia donat volums sen cers: ara s’hi hauria d’afegir l’apilotada durant setze segles!
+</note>
+<pb n="AVOThO_Volum V-236 (Notes Contextuals)"/>
+<note n="1025-1037">
+El tema d’aquestes línies és el de la proximitat, més ben dit, el de l’aproximació cronològica de la figura de l’Anticrist al segle
+<num type="roman">XIV</num>
+; aquest tema, a tra vés de si l’,appropinquauit’, repetit en
+<hi rend="italic">Mt</hi>
+,
+<num type="roman">III</num>
+, 2 i
+<num type="roman">IV</num>
+, 17;
+<hi rend="italic">Mc</hi>
+,
+<num type="roman">I</num>
+, 15, i
+<hi rend="italic">Lc</hi>
+,
+<num type="roman">X</num>
+, 11, s’ha de llegir,appropinquabit’, problema certament relacionat amb la tesi d’Arnau de Vilanova, compareix en l’
+<hi rend="italic">Apologia...</hi>
+, líns. 385-386. No tocant-nos directament, remeto a l’edició d’aquest títol dins «ATCA»,
+<num type="roman">XX</num>
+(2001), 84-85, nota a les línies 384-386.
+</note>
+<pb n="AVOThO_Volum V-237 (Notes Contextuals)"/>
+<note n="1038-1078">
+Sobre l’acusació i consegüent desqualificació oficial del
+<hi rend="italic">De aduentu Antichristi</hi>
+com a,temerari’, vegeu l’
+<hi rend="italic">Instrumentum alterum...</hi>
+, líns. 26-43; i la
+<hi rend="italic">Notifica tio...</hi>
+, líns. 188 i 257-264.
+</note>
+<note n="1038">
+,Temerarie’: aquesta és l’única desqualificació del seu opuscle que Arnau de Vilanova accepta que fou donada en el procés,in causa fidei’ de París; la trobem en les línies 1040 i 1265; en algun moment també la nega, com en les línies 1049-1050: «nec temeraria, nec falsa, nec erronea possunt dici»; però l’autor del
+<hi rend="italic">Tractatus qui dam</hi>
+... (201, líns. 34-35), ja en la seva primera pàgina reconeix explícitament: «...dixerunt quod erat falsa, quia contra ueritatem, et erronea, quia contra Chris tum»: aquesta raó seria suficient per a negar la parternitat arnaldiana del dit títol.
+</note>
+<note n="1038-1078">
+Vegeu les anotacions a aquestes línies en l’aparat de fonts. No resul ta clar si el
+<hi rend="italic">De adventu Antichristi</hi>
+era només qualificat de temerari o, de més a més, d’erroni, perquè no sembla que mestre Arnau tingués idees ben clares i delimitades sobre llur diferència, car donava la mateixa definició a ambdós conceptes: «...illud tantum asseritur temerarie quod absque ullo genere probationis pertinaciter affirma tur...» (líns. 1039-1041); i «... id proprie dicitur asseri falsum quod absque nullo genere probationis affirmatur pertinentis»,
+<hi rend="italic">Notificatio...</hi>
+, lín. 268-269); mestre Arnau, però, almenys en algun moment veia clar que es tractava d’«actus specie differentes» (
+<hi rend="italic">Instrumentum alterum...</hi>
+, líns. 37-40). Sigui el que sigui el concepte de,temerari’, el fet és que el procés inquisitorial de París s’acabà amb sentència del bisbe desqualificant el
+<hi rend="italic">De aduentu Antichristi</hi>
+justa ment per,temerari’, extrem confirmat a Roma per Bonifaci
+<num type="roman">VIII</num>
+després de l’apel·lació contra el procés de París: l’
+<hi rend="italic">Apologia...</hi>
+ens informa de l’intent de fer valdre en la capital de França la desqualifiació després que el procés ja s’havia desplaçat de París a Roma (lín. 284); també, en nota, de la compareixença del mot en texts d’a quells anys (nota a la línia 284 en les pàgines 77-78 d’«ATCA»,
+<num type="roman">XX</num>
+[2001]); ara hi puc afegir que l’autor del
+<hi rend="italic">Tractatus quidam</hi>
+... comença aplegant totes les desqualifica cions, formulades per certs,quidam’: «...denuntiatio falsa et erronea..., inutilis uel non necessaria et impossibilis..., repudianda tamquam dubia et temeraria» (líns. 28- 33; recordem que Arnau mai no acceptà d’altra desqualificació que la de,temerari’, segurament perquè es trobava en un document oficial i, doncs, era innegable; i que ell no féu cas de caps,quidam’ ans cregué que els únics culpables eren els professors de la Facultat de Teologia de París).
+</note>
+<pb n="AVOThO_Volum V-238 (Notes Contextuals)"/>
+<note n="1049-1050">
+In processu Parisiensi «in causa fidei» magistro Arnaldo imposita fuit lectio cedulae, secundum quam fasciculus
+<hi rend="italic">De adventu antichristi</hi>
+continebat et temeraria et erronea: «...in ordinatione per uos dictata et scripta in quadam cedula mittebatur expresse,temperare' et,reuocare', cum tamen sint actus specie differentes diuersis obiectis correspondentes, ut temerariis unus, erroneis alius» (
+<hi rend="italic">Instrumentum alterum</hi>
+..., líns. 36-40).
+</note>
+<note n="1045-1046">«...non negatur quod aliter possint exponi uel accipi...»: el lector farà bé de retenir aquesta depreciació de la tesi arnaldiana; només cal comparar-la amb el curt diàleg de les línies 390-393, on l'afirmació de trobar-nos en els dos darrers segles de la història humana és presentada com un cas en què els ‘speculatores’ «sedentes supra speculam istud intuitu claro cognoscimus et uidemus»: cap possibilitat, doncs, de veure les coses altrament. Si seguim llegint el text trobarem en les línies 1054- 1055 aquestes dues valoracions de la possibilitat que el pronòstic de mestre Arnau no s’acomplís: «...tantum exponens defecisse cognosceretur et elucesceret quod expositio non fuerat necessarie ueritatis». És la doctrirna de la funció dels ‘speculatores’ la que resulta en entredit.</note>
+<note n="1049-1050">
+«...nec temeraria, nec falsa, nec erronea possunt dici...»: ni tan sols esmenta la possibilitat que la seva tesi hagués pogut ésser oficialment qualificada d’‘herètica’ pel bisbe de París, i per tant li fou estalviat l’‘acte de fe’, que a París en aquells moments tenia característiques pròpies, com era la de no cremar l’heretge, ans el seu llibre dins una paella, tal com podem llegir dins
+<hi rend="small-caps">Finke</hi>
+,
+<hi rend="italic">Acta Aragonensia</hi>
+,
+<num type="roman">I</num>
+, 446-448, amb data del 18 de juny del 1329. En canvi, en la frase de les línies 1228- 1229, mestre Arnau els torna la pilota: la vostra afirmació, sí que és, no sols falsa, ans errònia. Però aquesta dicussió tenia per a mestre Arnau una cara positiva, que ell havia de defensar com fos: el seu raonament era ‘catòlic’, (cf. líns. 1074-1075, 1234,
+</note>
+<pb n="AVOThO_Volum V-239 (Notes Contextuals)"/>
+<note n="1053">«Si non eueniret futurum ut asseritur supra...»: no havent-hi una precisió en la referència, creuria que es compleix en el text de les línies 732-739.</note>
+<note n="1056-1057">
+La referència de la frase «ut ostensum est paulo ante» sembla confirmar-se en el text de les línies 1010-1031. etc.), perquè es basava en ‘autoritats’ indiscutibles (p, e, sant Agustí) i perquè no anava destinada a res més que obtenir que tot ‘fidel’ fós ‘autèntic fidel’ (tal com demanava l’
+<hi rend="italic">Alphabetum catholicorum...</hi>
+) i fés cas a mestre Arnau, preparant-se per al gran tràngol de l’Anticrist.
+</note>
+<note n="1053">Vegeu la indicació de l’aparat de fonts a aquesta línia. Quant a la hipòtesi de la manca d’acompliment de la profecia de Daniel, potser la raó es troba en el text de les línies 773-783, en particular les línies finals, 779-783: l’important no seria que es compleixi cronològicament la profecia, ans que se n’obtinguin els objectius: «efficacius retrahent homines ab amore istius mundi et eos inducent facilius ad amplexum religionis catholice...» (líns. 781-782).</note>
+<note n="1056">(cf. Nota a lín. 345). «In expositione Scripturarum de futuris euentibus defecisse sanctos patres».</note>
+<pb n="AVOThO_Volum V-240 (Notes Contextuals)"/>
+<note n="1072">
+«Ut ex serie libri patet»: el desplegament dinàmic del nostre text és visible a partir del seu nucli més íntim, formulat pel mestre amb la frase: «despiciendo terrenam felicitatem et appetitum ad celestia dirigendo» (líns. 1070-1071): el lector la pot integrar amb facilitat en el resum de l'opuscle presentat dins l'apartat
+<hi rend="italic">L'actual De tempore adventus antichristi</hi>
+, de l'estudi introductori.
+</note>
+<note n="1080-1081">
+L'afirmació de sant Agustí sobre
+<hi rend="italic">Act</hi>
+<num type="roman">I</num>
+, 7 diu així: «Hic quaeri solet: Quando istud erit? Inportune omnino. Si enim hoc nobis nosse prodesset, a quo
+</note>
+<note n="1079-1152">
+Tota aquesta secció propugna la coincidència doctrinal entre el capítol
+<num type="roman">LIIJ</num>
+, del llibre
+<num type="roman">XVIII</num>
+del
+<hi rend="italic">De ciuitate Dei</hi>
+de sant Agustí i el
+<hi rend="italic">De aduentu Antichristi</hi>
+</note>
+<pb n="AVOThO_Volum V-241 (Notes Contextuals)"/>
+<note>
+melius quam ab ipso Deo magistro interrogantibus discipulis diceretur?... Non utique illi de hora, vel die, vel anno, sed de tempore interrogaverunt, quando istud acce pere responsum. Frustra igitur annos, qui huic saeculo remanent, computare ac def nire conamur, cum hoc scire non esse nostrum ex ore Veritatis audiamus»,
+<hi rend="italic">De civitate Dei</hi>
+,
+<num type="roman">XVIII</num>
+, c. liii:
+<hi rend="italic">De tempore novissimae persecutionis occulto</hi>
+.
+</note>
+<note n="1082-1083">
+Cf. Sancti
+<hi rend="small-caps">Aurelii Augustini</hi>
+,
+<hi rend="italic">Retractationum libri II</hi>
+, cura et studio
+<hi rend="small-caps">Almut Mutzenbecher</hi>
+(Corpus Christianorum. Series latina,
+<num type="roman">LVII</num>
+), Turnholti, Bre pols 1984,
+<num type="roman">LXXII</num>
+i 216 pp.
+</note>
+<note n="1084-1086">Cf. líns. 1063-1070.</note>
+<note n="1086">
+La frase «preuisa solent ledere tela minus» és de sant
+<hi rend="small-caps">Gregori el Gran</hi>
+,
+<hi rend="italic">Homiliae in Evangelia</hi>
+, xxxv, 1 (ML 76, París 1857, col. 1259 C, encara que ell deia «... minus feriunt iacula quae praevidentur»).
+</note>
+<note n="1087-1089">
+<hi rend="small-caps">Hieronymi</hi>
+,
+<hi rend="italic">Prologus Apo calypsis</hi>
+abest ab elencho operum tam originalium quam spuriarum Hieronymi apud
+<hi rend="italic">Corpus Patrum latinorum</hi>
+, editio
+<num type="roman">III</num>
+, cura et studio
+<hi rend="small-caps">Dekkers/Gaar (†)</hi>
+, Steenbrugis, 1995, 203-226, num. 580-642. d’Arnau de Vilanova. Del començament a l’acabament del capítol indicat, la posició del bisbe d’Hipona és negativa en relació a la hipòtesi arnaldiana d’haver descobert una profecia de
+<hi rend="italic">Daniel</hi>
+;
+<num type="roman">XII</num>
+, 11, que permetria de comptar els anys que manquen per a l’
+<hi rend="italic">Anticrist</hi>
+; el pare de l’Església intitula aquell capítol
+<hi rend="italic">De tempore nouissimae persecu tionis occulto</hi>
+i l’ acaba afirmant que la resposta de Jesús,
+<hi rend="italic">Act.</hi>
+<num type="roman">I</num>
+, 7, equival a un mana ment de considerar inútil qualsevol intent de comptar els anys que manquen fins a la fi del món. No cal dir que mestre Arnau de Vilanova cobreix aquestes dades (i algu na altra del mateix capítol) amb el seu silenci.
+</note>
+<note n="1087-1089">
+No existint un
+<hi rend="italic">Prologus Apocalypsis</hi>
+entre les obres de s. Jeroni, la seva idea sobre el llibre de
+<hi rend="italic">Daniel</hi>
+pot ésser coneguda pel següent paràgraf, dels seus
+<hi rend="italic">Commen tariorum in Danielem libri III (IV)</hi>
+, cura et studio Francisci
+<hi rend="small-caps">Glorie</hi>
+(Corpus Scriptorum Latinorum,
+<num type="roman">LXXVIA</num>
+). Turnholti, Brepols MCMLXIV, 772, línies 15-18: «... nullum prophetarum tam aperte dixisse de Christo: non enim solum scribit eum esse uentu tum..., sed quo tempore uenturus sit docet et reges per ordinem disserit et annos enu merat ac manifestissima signa praenuntiat». No crec, però, que mestre Arnau es referís a aquest comentari Jeronimià, ans a un text que ell trobà fent de pròleg a l’
+<hi rend="italic">Apocalipsi</hi>
+en algun exemplar de la
+<hi rend="italic">Biblia Vulgata</hi>
+consultada per ell i considerà que era de sant Jeroni.
+</note>
+<pb n="AVOThO_Volum V-242 (Notes Contextuals)"/>
+<note n="1092-1097">
+A) «Illam sane novissimam persecutionem, quae ab Antichristo futura est...»,
+<hi rend="small-caps">Aurelii Augustini</hi>
+,
+<hi rend="italic">De civitate Dei</hi>
+,
+<num type="roman">XVIII</num>
+, cap. liii. B)
+<hi rend="italic">1094-1095</hi>
+. El text de la pregunta formulada per sant Agustí ha estat ací copiada poc abans, en l’aparat de fonts a les línies 1080-1081; el text segueix així: «Non enim siluerunt inde apud eum, sed a praesente quaesierunt, dicentes,Domine, si hoc tempore...’»,
+<hi rend="italic">ibid</hi>
+.. C)
+<hi rend="italic">1095-1097</hi>
+.
+<hi rend="italic">Act</hi>
+.
+<num type="roman">I</num>
+, 7: «Frustra igitur annos, qui huic saeculo remanent, computare ac definire conamur, cum hoc scire non esse nostrum ex ore Veritatis audiamus»,
+<hi rend="italic">Ibid</hi>
+.
+</note>
+<note n="1102-1105">
+<hi rend="italic">Act</hi>
+.
+<num type="roman">I</num>
+, 6-7.
+</note>
+<pb n="AVOThO_Volum V-243 (Notes Contextuals)"/>
+<note n="1112-1114">
+Textus
+<hi rend="small-caps">Augustini</hi>
+transcriptus est in praecedenti notula fontium, ad líns. 1095-1097.
+</note>
+<note n="1115-1116">«...superius dicitur...», nempe in textu linearum 694-731, ubi indicatur annus apparitionis Antichristi, et iterum in lineis 982-1037</note>
+<note n="1122-1126">
+«Quos [annos] tamen alii quadringentos, alii quingentos, alii etiam mille ab ascensione Domini usque ad eius ultimum adventum compleri posse dixerunt. Quemadmodum autem quisque eorum astruat opinionem suam longum est demonstrare, et non necessarium. Coniecturis quippe utuntur humanis, non ab eis certum aliquid de Scripturae canonicae auctoritate profertur»,
+<hi rend="small-caps">Aurelii Augustini</hi>
+,
+<hi rend="italic">De civitate Dei</hi>
+,
+<num type="roman">XVIII</num>
+, cap.
+<num type="roman">LIII</num>
+.
+</note>
+<note n="1116-1119">Vegeu en el text de les línies 721-724 la base per al resum d'aquestes.</note>
+<pb n="AVOThO_Volum V-244 (Notes Contextuals)"/>
+<note n="1124-1125">
+Ja sabem que les,coniecturis humanis’ procedeixen de sant Agustí i que mestre Arnau s’hi ha referit diverses vegades, també amb l’expressió equivalent d’,humana industria’ (p. e., en la línia 922); en l’
+<hi rend="italic">Apologia</hi>
+..., trobem una desvaloració general de les posicions d’autors precedents sobre el tema de la vinguda de l’Anticrist, en afirmar mestre Arnau que «precedentium assertiones innitebantur solummodo coniecturis humanis» (líns. 225-226).
+</note>
+<note n="1127">
+L’«assertio suprascripta» crec que fa referència al text de les línies 982-995, tot ell dedicat a exposar la força doctrinal de
+<hi rend="italic">Daniel</hi>
+,
+<num type="roman">XII</num>
+, 11. Creuria que la dita exposició és important perquè explica la interpretació que Arnau de Vilanova dóna a
+<hi rend="italic">Act</hi>
+.
+<num type="roman">I</num>
+, 7, explicació que es troba en les línies
+<hi rend="italic">1132-1136</hi>
+, i no sembla coincidir amb la de sant Agustí en els molts llocs que en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+ad Hesychium de fine mundi
+</hi>
+, ha donat a aquesta frase bíblica posada en llavis de Jesús immediatament abans de l’Ascensió, per exemple aquest, en el qual sembla negar la major del posterior raonament arnaldià: «...iam est unctus sanctus sanctorum, iam occisus est Christus, ut non esset ciuitatis eius, iam de templo illo sublatum est sacrificium, sublata unctio, merito apostolis de fine querentibus responsum est: “Non est uestum... in sua potestate”, quoniam tempora, que per Danihelis prophetiam scire poterant, non ad finem seculi, de quo quesierant, pertinebant» (
+<hi rend="small-caps">Goldbacher</hi>
+,
+<hi rend="italic">loc. cit</hi>
+., 272, lín. 20-273, lín. 5).
+</note>
+<pb n="AVOThO_Volum V-245 (Notes Contextuals)"/>
+<note n="1141-1144">«...fuit dictum», suposo que es refereix al text de les línies 1010-1037. Quant al problema de fons, evidentment ningú no nega que el temps dels novíssims pugui ésser conegut per revelació, però difícilment sant Agustí (lín. 1148) pot ésser comptat entre aquests,ningú’.</note>
+<note n="1146-1147">L’«expositio Augustini pretacta» crec que remet al text de les línies 1115-1140, i 1144-1146.</note>
+<note n="1148-1152">Segueix vàlida la nota a les línies 1132-1135.</note>
+<note n="1148-1152">
+Mestre Arnau afirma de forma explícita en la primera de les línies ara citades que el text de les quatre línies següents procedeix de l’
+<hi rend="italic">Ad Hesychium</hi>
+de sant Agustí; al peu de la lletra no l’he sabuda trobar ni en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCVII</num>
+</hi>
+(
+<hi rend="small-caps">Goldbacher</hi>
+231-235) ni en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+(
+<hi rend="small-caps">Goldbacher</hi>
+, 243-292), però crec que és un resum fet pel mateix Arnau de Vilanova de l’exemple dels tres bons cristians que esperen aviat el primer, tard el segon o amb bona preparació el tercer, la segona vine&amp;gt;
+</note>
+<pb n="AVOThO_Volum V-246 (Notes Contextuals)"/>
+<note n="1159-1160">
+La frase evangèlica citada es troba a Mt
+<num type="roman">XXIV</num>
+, 36, i a Mc.
+<num type="roman">XIII</num>
+, 32; la
+<hi rend="italic">Glossa ordinaria</hi>
+a la frase de Mateu pot ésset llegida a favor d’Arnau de Vilanova: «
+<hi rend="italic">De die</hi>
+. Ne forte auditis signis, quaererent etiam illius diei certum terminum, ait: De die novisima, post quot annos vel dies ventura sit, nolite esse solliciti, nulli diffinitum est, quod vel in die vel in nocte judicium futurum sit, sed pro manifestatione dicitur dies, vel pro occultatione nox», (ed.
+<hi rend="small-caps">Migne</hi>
+, vol. 114, col. 162).
+</note>
+<note n="1162-1165">
+Ací, la referència explícita és a la lletra augustiniana intitulada
+<hi rend="italic">De die iudicii</hi>
+(o
+<hi rend="italic">De fine saeculi</hi>
+), que és l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+, però el tema ja s’havia presentat en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCVII</num>
+</hi>
+, fins al punt que la frase no és directament de sant Agustí, ans del bisbe Hesychius, de Solona (
+<hi rend="italic">
+Epístula
+<num type="roman">CXCVIII</num>
+</hi>
+), frase reportada pel bisbe d’Hipona guda de Jesús, exemple que es troba al final de l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+(
+<hi rend="small-caps">Goldbacher</hi>
+, 289, lín. 16-292, lín. 14). Hi ha una exposició molt més reduïda d’aquestes idees en la darrera lletra citada, pp. 255, lín. 15 fins a 256, lín. 8.
+</note>
+<note n="1162-1165">Vegeu la nota de l’aparat de fonts a aquestes línies. I remarqueu els dos extrems: no hi ha cap referència a l’autor de la frase, Hesychius de Solona; i la frase no és transcrita literalment ans només de forma global.</note>
+<pb n="AVOThO_Volum V-247 (Notes Contextuals)"/>
+<note n="1165">
+en la seva resposta (
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+); (
+<hi rend="small-caps">Goldbacher, S.</hi>
+Aurelii Augustini Hipponensis Episcopi
+<hi rend="italic">Epistulae.</hi>
+Recensuit et commentario critico instruxit A.G.,
+<hi rend="italic">
+Pars
+<num type="roman">IV</num>
+, Ep.
+<num type="roman">CLXXXV</num>
+-
+<num type="roman">CCLXX</num>
+</hi>
+: CSEL, LVII), Viena i Leipzig, F. Tempsky - G. Freytag, MDCCCCXI; la frase original és a la pàgina 236, línies 3-5: «Satis admiratione plenum est, si ea deus, quae praedici uoluit, ad hominum sensus penitus non posse peruenire constituit»; aquesta doctrina general és aplicada a unitats concretes de text, en frase d’ambdós bisbes, en l’
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+</hi>
+,
+<hi rend="italic">a loc cit.</hi>
+, 256, líns. 15-21: «inquis,,pro impossibilitate intellectus mei dico neque mensem neque annum aduentus ipsius sciri posse... quo anno uenturus sit, sed possit sciri, qua hebdomade annorum uel qua decade..., intra illos uel illos septem annos..., uel illos decem annos...». Quant a les,coniecture’ (lín. 1165), vegeu el text de les línies 1124, 1147 i 1192.
+</note>
+<note n="1167">
+,Canone’: aquesta referència sembla al·ludir a Mt
+<num type="roman">XXIV</num>
+, 8-31. Ací hi ha remissió al,Cànon bíblic’, és a dir, al text de la Bíblia.
+</note>
+<note n="1171">La frase es troba en la pàgina acabada de citar (nota d’aparat de fonts 1162- 1165), líns. 14-15.</note>
+<note n="1171-1174">
+La distinció d’aquestes línies entre uns novíssims i uns altres és un dels punts bàsics del recompte dels anys de l’Anticrist, propi de mestre Arnau; el lector pot veure com l’aplica en el text de les línies 1185-1195; ell mateix en fa l’aplicació en les línies següents fins al final del paràgraf. Com que ara parlem de sant Agustí, crec poder afirmar que justament l’
+<hi rend="italic">
+Epistola
+<num type="roman">CXCIX</num>
+</hi>
+,
+<hi rend="italic">de fine saeculi</hi>
+és una anàlisi de cada un dels fragments bíblics en els quals es podria veure una revelació dels temps finals, que s’acaba sempre amb resultat negatiu.
+</note>
+<pb n="AVOThO_Volum V-248 (Notes Contextuals)"/>
+<note n="1175-1179">
+Ací caldria tenir present tot el paràgraf de l'
+<hi rend="italic">
+Epistula
+<num type="roman">CXCIX</num>
+ad Hesychium De fine mundi
+</hi>
+(
+<hi rend="small-caps">Goldbacher</hi>
+, 256, núm. 16, fins a pàg. 257, lín. 9; la frase transcrita per Arnau de Vilanova és la final del dit paràgraf, p. 257, líns. 8-9).
+</note>
+<note n="1179-1184">
+El text d'aquestes línies és una clara mostra de la 'interpretació arnaldiana' de la doctrina de sant Agustí, fins a atribuir-li la dita interpretació: per a aquest, no es tracta de 'presumir de les pròpies possibilitats', ans simplement de reconèixer que cap text de la
+<hi rend="italic">Bíblia</hi>
+no ens informa dels anys que manquen per als novíssims. En tot el paràgraf següent (líns. 1185-1215) mestre Arnau de Vilanova no fa altra cosa que repetir la pròpia interpretació, no cal dir que fent-la passar com a doctrina del bisbe d'Hipona.
+</note>
+<pb n="AVOThO_Volum V-249 (Notes Contextuals)"/>
+<note n="1195">,Ut infra patebit': cf. textum linearum 1198-1330.</note>
+<note n="1199-1200">
+El fet d'atribuir als,sacri expositores' en general la identitat entre l'Anticrist i l',abhominatio desolationis' és una altra prova de la lleugeresa amb la qual mestre Arnau de Vilanova aventurava les seves referències a les 'autoritats' doctrinals. Ens acaba de citar en aquesta mateixa secció els grans doctors Agustí i Jeroni; el primer en l'
+<hi rend="italics">
+Epistula
+<num type="roman">CXCIX</num>
+de fine saeculi
+</hi>
+diu taxativament: «Lucas ergo patefecit...non ad saeculi finem, sed ad expugnationem Hierusalem pertinere id quod dictum est de abominatione desolationis...» (
+<hi rend="italics">Ibidem</hi>
+, 269, líns. 18-20); i sant Jeroni,
+<hi rend="italics">
+Commentariorum in Danielem libri
+<num type="roman">III</num>
+(
+<num type="roman">IV</num>
+)
+</hi>
+, cura et studio Francisci
+<hi rend="small-caps">Glorie</hi>
+(S. Hieronymi praesbyteri opera. Pars
+<num type="roman">I</num>
+. [Opera exegetica, 5], Turnholti, Brepols,
+<num type="roman">MCMLXIV</num>
+, 942-943): «Hos mille ducentos nonaginta dies Porphyrius in tempore uult Antiochi, et in desolatione templi esse completos, quam et Iosephus et Machabeorum, ut diximus, liber, tribus tantum annis fuisse commemorant; ex quo perspicuum est: tres istos et semis annis, hoc est mille ducentis nonaginta diebus, sanctos persecuturus est et postea corruiturus in monte inclyto et sancto. A tempore igitur..., quod nos interpretati sumus,iuge sacrificium', quando Antichristus mundum obtinens Dei cultui interdixerit, usque ad interfectionem eius, tres semis anni, id est mille ducenti et nonaginta dies, complebuntur».
+</note>
+<note n="1193-1194">
+Veig difícil d'encaixar aquesta afirmació de mestre Arnau amb la doctrina exposada per sant Agustí tant en el
+<hi rend="italics">De civitate Dei</hi>
+com en l'
+<hi rend="italics">
+Epistula
+<num type="roman">CXCIX</num>
+De fine saeculi
+</hi>
+. La forma com el nostre autor tracta sant Agustí o els altres escriptors cristians antics mereixerà una certa atenció en la visió de conjunt del tractat. Ara, de moment, en aquestes darreres pàgines, Arnau reafirma dos punts: que la seva interpretació de
+<hi rend="italics">Daniel</hi>
+,
+<num type="roman">XII</num>
+, 11 és, teòricament almenys, una hipòtesi vàlida (líns. 1185-1215) i no pot ésser desqualificada (líns.1216-1249); segon, que essent vàlida, no pot ésser prohibida i que, per tant, s'ha de permetre que sigui coneguda pel poble fidel (líns. 1340-1350).
+</note>
+<pb n="AVOThO_Volum V-250 (Notes Contextuals)"/>
+<note n="1195">
+Aquesta línia fa referència al sisè mil·lenari, que per a tota la tradició judeocristiana era fonamental, per la setmana de la creació; encara que sigui al final del
+<hi rend="italic">De tempore adventus Antichristi</hi>
+, mestre Arnau, obligat per l’objecció d’un mestre, s’hi referirà amb una certa amplitud a partir de la línia 1262; d’entre una bibliografia que és més que abundant hom podria llegir els llibres d’
+<hi rend="small-caps">Auguste Luneau</hi>
+,
+<hi rend="italic">L’histoire du salut chez les Pères de l’Église. La doctrine des âges du monde</hi>
+(Théologie historique, 2), París, Beauchesne 1964, 448 pp.; i
+<hi rend="small-caps">J. Zahlten</hi>
+,
+<hi rend="italic">Creatio Mundi. Darstellungen der sechs Schöpfungstage und Naturwissenschaftliches Weltbild in Mittelalter</hi>
+, Stuttgart 1979.
+</note>
+<pb n="AVOThO_Volum V-251 (Notes Contextuals)"/>
+<note n="1225-1227">«Ut patuit supra», és a dir, en el text de les línies 694-713. L'‘expositionem suprapositam’ (lín. 1225, 1234) és, per exemple, la que és exposada a partir de la línia 1185-1215, que en la 1216 és qualificada de,noua expositio dictorum Danielis’- Sobre les «expositionibus antiquorum Patrum»: cf. líns. 662-668.</note>
+<note n="1228-1231">Sobre les qualificacions negatives d'aqueses línies, vegeu el final de la nota complementària a les línies 1948-1050.</note>
+<pb n="AVOThO_Volum V-253 (Notes Contextuals)"/>
+<note n="1255-1259">
+El text d'aquestes línies si no és copiat, sembla inspirat en el de l'encíclica de Bonifaci
+<num type="roman">VIII</num>
+,
+<hi rend="italic">Clericis laicos</hi>
+(24 febrer 1296), que polemitzava contra «tam horrendum secularium potestatum abusum». Cf. textum linearum 127-187.
+</note>
+<note n="1250-1252">Aquestes línies ens diuen dues coses: que, segons les línies 1340- 1343, les objeccions presentades pels professors de París anaven a prohibir la publi cació del pronòstic arnaldià sobre la vinguda de l'Anticrist; l'altra és la forma com mestre Arnau veia la situació política del seu temps, en el qual ell endevinava tres res ponsables: el poder religiós ('pastores gregis'), el civil ('custodes ciuitatis') i, segura ment, els,speculatores' ('precones exercitus Dei'): mestre Arnau acceptava que la situació sòciopolitica del seu temps era la de la cristiandat</note>
+<note n="1262-1266">L'objecció formulada en aquestes línies és atribuïda a un dels professors de teologia de París, però no coincideix ni amb allò que sabem de les objeccions pre sentades pel professor franciscà, per Péire d'Alvèrnia o per Joan Quidort. Ara, doncs, no la podem connectar amb cap d'aquests tres noms; esperem que el futur sigui generós.</note>
+<pb n="AVOThO_Volum V-254 (Notes Contextuals)"/>
+<note n="1270-1271">
+Sant Agustí dedica tot un capítol del llibre
+<num type="roman">XVIII</num>
+del
+<hi rend="italic">De ciuitate Dei</hi>
+, el xxiij, a la traducció llatina d’aquella part en vers de la Sibil·la, que permet de reconstruir en grec l’acròstic «Ihesus Christus Filius Dei Sal vator», afegint-hi un fragment de la reelaboració, feta per Lactanci
+</note>
+<note n="1275-1277 i 1300-1306">
+La referència al llibre
+<num type="roman">XX</num>
+, del
+<hi rend="italic">De civitate Dei</hi>
+, caps.
+<num type="roman">VII-VIII</num>
+i
+<num type="roman">IX</num>
+, es concreta en tres punts copiats poc després al peu de la lletra, encara que amb ordre divers: «Mille autem anni duobus modis possunt, quantum mihi occurrit inte lligi: aut quia in ultimis annis mille ista res agitur, id est, sexto annorum milliario tamquam sexto die, cuius nunc spatia posteriora volvuntur; secuturo deinde sabbato, quod non habebit vesperam, requie scilicet sanctorum, quae non habet finem...»
+</note>
+<note n="1274-1294">
+<hi rend="italic">L’Apologia de versutiis</hi>
+... («ATCA»,
+<num type="roman">XX</num>
+(2001), 86, líns. 414-421, i 87-90, líns. 435-484), precisa la posició de mestre Arnau en relació a les afirmacions cronològiques de s. Agustí.
+</note>
+<pb n="AVOThO_Volum V-255 (Notes Contextuals)"/>
+<note n="1286">Sobre el sisè mil·lenari de la narració bíblica de la creació, vist com a dura da final del món, vegeu el text de les línies 1306-1315.</note>
+<note n="1287-1288">
+«...sicut [Deus] opera primeve creationis partium uniuersi perfecit in sex diebus, ita que creare et facere disposuit propter electos suos per totam durationem seculi, in sex annorum millenariis adimpleret, et hoc est esse apud Ipsum sex millenaria tanquam sex dies»,
+<hi rend="small-caps">Arnaldi de Villanova</hi>
+,
+<hi rend="italic">Introductio in librum {Ioachim} de semine Scripturarum (Arnaldi de Villanova opera theologica omnia</hi>
+, AVOTHO,
+<num type="roman">III</num>
+), Barcelona 2004, 114, líns. 629-632.
+</note>
+<note n="1279">Cal llegir aquest nombre d’anys amb la precisió de la línia 1283, que es repetirà en la 1296: es tracta només de ‘proprietate significationis’, és a dir, de l’ope ració mental de llegir,anys’ on només diu,dies’.</note>
+<note n="1287-1288">
+El salt doctrinal entre la
+<hi rend="italic">Introductio in librum {Ioachim}...</hi>
+i el
+<hi rend="italic">De tem pore aduentus Antichristi</hi>
+es pot copsar en aquest detall: malgrat que en una seva part important la frase és idèntica en tots dos opuscles, cada un d’ells declara inspirar-se en autors diferents, el primer en el
+<hi rend="italic">De concordia duorum testamentorum</hi>
+, de Joaquim de Flore (AVOThO,
+<num type="roman">III</num>
+, 114, líns. 623-625), el segon, en canvi, en sant Agustí (cf. líns. 1283-1286 del títol present).
+</note>
+<pb n="AVOThO_Volum V-256 (Notes Contextuals)"/>
+<note n="1302-1306">
+La frase de sant Agustí, que el nostre autor resumeix en tres punts crec que és aquesta: «...in ultimis annis mille ista res agitur, id est, sexto annorum milliario tanquam sexto die, cuius nunc spatia posteriora uoluuntur: secuturo deinde sabbato, quod non habet uesperam, requie scilicet sanctorum, quae non habet finem»,
+<hi rend="italic">De ciuitate Dei</hi>
+,
+<num type="roman">XX</num>
+, cap.
+<num type="roman">VII</num>
+, núm. 2.
+</note>
+<note n="1301">La segona explicació de sant Agustí sobre el mil·lenari en el qual ell es trobava i vivia és la del text de les línies 1316-1350.</note>
+<pb n="AVOThO_Volum V-257 (Notes Contextuals)"/>
+<note n="1317-1318">Vegeu el text de les línies 1305-1306; la seva font augustiniana es troba en el present aparat, a les línies 1275-1277 i 1300-1306.</note>
+<note n="1323">
+La
+<hi rend="italic">Vita Augustini</hi>
+sembla ésser la
+<hi rend="italic">Vita sancti Augustini Episcopi, auctore Possidio</hi>
+(ML, 33, col. 35-66), reproduïda dins
+<hi rend="italic">Obras de San Agustín,</hi>
+<num type="roman">I</num>
+(BAC, 10, segona edició), Madrid 1950, 358-429, segurament cap.
+<num type="roman">XXVIII</num>
+, p. 408; n’hi ha traducció catalana de
+<hi rend="small-caps">Josep Calveras</hi>
+, dins «El Bon Pastor», núms. 44 i 45 (agost i setembre 1930), 124-139 i 209-234).
+</note>
+<note n="1316-1317">«Hic nota sententiam Augustini».</note>
+<note n="1316-1330">
+El paràgraf de l’
+<hi rend="italic">Apologia...</hi>
+, líns. 435-463, explica la característica particular d’aquesta utilització de la posició de Sant Agustí, atès que mestre Arnau de Vilanova no està d’acord amb el recompte que hi és desplegat, en particular amb l’afirmació de trobar-se ja en els «posteriora spatia sexti millenarii» (lín. 1317); en l’
+<hi rend="italic">Apologia...</hi>
+, diu clarament que el seu temps no es trobava a l’acabament del sisè mil·lenari, ans a la meitat del mil·lenari cinquè («medium quinti millenarii», líns. 462-463), ja que fins al canvi d’Era només haurien passat «nisi quattuor millenarii et quinquaginta duo anni ad plus» (lín. 446). El fragment, doncs, del
+<hi rend="italic">De tempore aduentus Antichristi</hi>
+només hauria estat en les mans de mestre Arnau un exercici de dialèctica, que tapava la boca als qui objectaven que el bisbe d’Hipona mai no havia practicat recomptes sobre la proximitat o la llunyania dels temps darrers (líns. 435-441); ell mateix explica en l’
+<hi rend="italic">Apologia...</hi>
+, lín.471, que és aquest el sentit de la fórmula condicional «si uerum est...», del
+<hi rend="italic">De tempore...</hi>
+, lín. 1323.
+</note>
+<pb n="AVOThO_Volum V-258 (Notes Contextuals)"/>
+<note n="1337-1338">
+El mateix sant
+<hi rend="small-caps">Agustí</hi>
+fa un resum dels,dies' de la creació i de la seva correspondència amb les successives èpoques històriques en el
+<hi rend="italic">Sermo</hi>
+<num type="roman">CCLIX</num>
+,
+<hi rend="italic">De die dominico octavarum Paschae</hi>
+, 2 (ML, 38, París 1841, cols. 1197-1198): el sisè correspon al temps actual: «...quomodo formatus est homo in Genesi sexto die ad imaginem Dei, sic et in isto tempore, quasi sexto die totius saeculi, renovamur in Baptismo... Sextus autem dies iste, cum transierit, veniet requies post illam ventilationem (! El Judici, com la feina de ventar el gra després del batre), et sabbatizabunt sancti et justi Dei...».
+</note>
+<note n="1323">
+La referència a la
+<hi rend="italic">Vida</hi>
+de sant Agustí d'Hipona, sense esmentar el nom de l'autor, s'ha d'entendre en el sentit de recordar una informació de la
+<hi rend="italic">Vita</hi>
+per antonomàsia, la de
+<hi rend="small-caps">Posidius</hi>
+. Es podia referir també a l',altra' vida popular, la de
+<hi rend="small-caps">Giovani Da Varazze</hi>
+, integrada en la seva
+<hi rend="italic">Legenda aurea?</hi>
+-
+</note>
+<note n="1330-1333">Els ‘prefati theologi' de la línia 1330 són els ‘predictorum theologorum' de la línia 1262, on també consta llur objecció a Arnau de Vilanova; la resposta d'aquest comença en la línia 1267 i segueix almenys fins a la 1294.</note>
+<pb n="AVOThO_Volum V-259 (Notes Contextuals)"/>
+<note n="1338">Encara que ‘ministerium’ sigui la lectura certa en V i en algun altre manuscrit, el lector hauria de llegir ‘misterium’, és a dir, ‘mysterium’.</note>
+<note n="1348">El concepte de ‘precones ecclesie’ segurament engloba tots els esmentats en les línies 1250-1251.</note>
+<note n="1349">
+‘... muto et surdo...’: referència, ni que només sigui implícita, a
+<hi rend="italic">Mc</hi>
+<num type="roman">VII</num>
+, 32, i
+<num type="roman">IX</num>
+, 24.
+</note>
+<note n="1340-1343">
+Vegeu la nota a les línies 1250-1252; les quatre actuals ens diuen que aquesta fou també una de les objeccions dels mestres de teologia presentades en les sessions de discussió, a Saint Denis de Passy; i que mestre Arnau jugava fort en aquest punt, tant que potser tota l’operació del
+<hi rend="italic">De mysterio cymbalorum</hi>
+s’ha de veure com a forma d’escampar el pronòstic, ara amb el detall que és proclamat des de la casa del papa; la
+<hi rend="italic">Confessió de Barcelona</hi>
+del 1305 segurament també s’ha de veure i de llegir en aquesta línia.
+</note>
+<pb n="AVOThO_Volum V-260 (Notes Contextuals)"/>
+<note n="1352-1354">Arnau de Vilanova ha exposat la seva visió de les croades en el text de les línies 538-550, sobretot en les línies immediatament precedents la 550.</note>
+<note n="1360-1362">
+El text d’aquestes línies podria fer referència a la forma com els darrers concilis medievals formulaven llur posició sobre les croades: «... ut timorem et amorem semper habeant diuinum ante oculos, ne quid dicant aut faciant, quod diuinam maiestatem offendat. Et si aliquando lapsi fuerint in peccatum, per ueram poenitentiam mox resurgant gerentes humilitatem cordis et corporis, et tam in uictu quam in uestitu mediocritatem seruantes... ut sic spiritualibus et materialibus armis muniti, aduersus hostes fidei securius praelientur...»,
+<hi rend="italic">
+Concilium Lateranense
+<num type="roman">IV</num>
+(1215). Expeditio pro recuperanda Terra Sancta
+</hi>
+, dins
+<hi rend="italic">Conciliorum Oecumenicorum Decreta</hi>
+, curantibus Josepho
+<hi rend="small-caps">Alberigo</hi>
+..., editio altera, Basileae..., Herder,
+<num type="roman">MCMLXII</num>
+, 243, lins. 30-37
+</note>
+<note n="1351">
+Les ‘suprascripte assertiones’ són les que constitueixen el nucli central de la tesi d’Arnau de Vilanova: que la història humana s’acabarà en els dos segles següents i que l’Anticrist farà de les seves entorn el 1366, tal com hom pot veure en les notes entorn la línia 725 i sobretot en l’apèndix segon; a base de l’afirmació de Jesús reportada per l’
+<hi rend="italic">Evangeli de Lluc</hi>
+,
+<num type="roman">XXI</num>
+, 24: un dels fets de conseqüències duradores fins a la fi del món seria per als jueus el que tant Israel com en particular Jerusalem siguin sotmesos a sobirania estrangera, de la qual només s’alliberarien en arribar el «tempus plenitudinis gentium», aleshores esperat per al segle
+<num type="roman">XIV</num>
+. Hom pot llegir les línies 538-550. L’actual resposta a una objecció de professors parisencs (líns. 1354-1360), defensa que el fet de trobar-se a les portes del segle
+<num type="roman">XIV</num>
+permet de suavitzar aquella posició primerenca més dura. Les posicions oficials dels papes (galejades per personatges com sant Bernat) són àmpliament exposades en els articles d’enciclopèdies teològiques. Afegim que en aquell moment, menys de vint anys després de la pèrdua de sant Joan d’Acre, el tema de la reconquesta de la Terra Santa era no sols viu, ans roent. Dins aquest context, deu ésser significatiu el final de l’explicació sobre la possessió de Jerusalem: «...ad secure amodo uel pacifice retinendam» (lín. 1387).
+</note>
+<pb n="AVOThO_Volum V-261 (Notes Contextuals)"/>
+<note n="1360">
+1360. (Cf. Nota a lín. 345).
+<hi rend="italic">Nota de passagio generali.</hi>
+</note>
+<note n="1370-1375">
+1370-1375. Els dos elements d’una croada medieval, el de servei a Déu i el bèl·lic, indicats en la nota a les línies 1360-1362 de l’aparat de fonts, foren ja formulats en els moments inicials de les croades per sant
+<hi rend="small-caps">Bernat</hi>
+en el seu
+<hi rend="italic">Liber ad milites Templi, de laude nouae militiae</hi>
+, ed. de
+<hi rend="small-caps">J. Leclercq, H. M. Rochais</hi>
+, dins
+<hi rend="italic">S. Bernardi opera</hi>
+,
+<num type="roman">III</num>
+:
+<hi rend="italic">Tractatus et opuscula</hi>
+, Romae, Editiones Cistercienses 1963, 223, líns. 12-18: «...laete tur mons Sion et exultent filiae Iudae, illa quidem si de manu eorum, ista magis in manu eorum liberari merito gloriatur. Illa libenter amittit crudelissimos sui uastato res, ista cum gaudio suscipit fidelissimos defensores. Et unde ista dulcissime conso latur, inde illa aeque saluberrime desolatur. Sic Christus, sic nouit ulcisci in hostes suos, ut non solum de ipsis, sed per ipsos quoque frequenter soleat tanto gloriosius, quanto et potentius triumphare».
+<hi rend="italic">1373-1374</hi>
+, Lc
+<num type="roman">XXI</num>
+, 24.
+</note>
+<pb n="AVOThO_Volum V-262 (Notes Contextuals)"/>
+<note n="1381-1382">
+Per a la frase «tempus, in quo plenitudo gentium ingredietur Ecclesiam» i per als fets relacionats amb l’Anticrist de les línies 1385-1388, mestre Arnau es podria haver inspirat en el pronòstic de la
+<hi rend="italic">Sibilla Babilonica prophetissa</hi>
+, que
+<hi rend="small-caps">Jostmann</hi>
+transcriu a partir del ms. de París, BN, lat. 14726, en les pàgines 512-527, en concret el fragment que va de la pàgina 525 (lín. 291) a la 526 (lín. 294): «Et apparebit veritas et iudicium, omnesque abhominationem (id est, Antichristum) abicient et convertentur ad agnum (id est, Christum); aquam (id est, baptismum) profitebuntur Appelle (id est, Iudei), et non erit diversa professio sed una concordia, grex unus idemque ouile. Porro in proximo erit examen, signaque precedent...» (i segueixen els senyals del Judici final). El lector, però, s’haurà adonat que en aquesta versió de la
+<hi rend="italic">Sibil·la</hi>
+manca la referència a l’Islam i en canvi és ben explícita la dedicada als jueus. Hi ha d’altres referències en la mateixa edició, com la de la pàgina 502, líns. 75-77: «...bestia confortabitur vivetque, usquedum prostrema abhominatio sedeat. Et post abhominacionem cognoscetur agnus, eruntque universi in ovili uno et sub virga una» (cf. també p. 508, líns. 96-98; i encara p. 518, líns. 120-123: «...post abominacionem revelabitur veritas, cognoscetur et agnus, cui leones et regna colla submittent, et erunt universi terrigene convenientes in unum, ut unum ovile subeant et sub virga una regantur»; i encara, p. 525-526, líns. 291-293: «Et apparebit veritas et iudicium, omnesque abhominacionem abicient et convertentur ad agnum, aquam profitebuntur Appelle, et non erit diversa professio, sed una concordia, grex unus idemque ovile».-
+</note>
+<pb n="AVOThO_Volum V-263 (Notes Contextuals)"/>
+<note n="7-8">«...testimonium Christi predictum...»: cf. líns. 1373-1374</note>
+<note n="3-4">
+(Cf. Nota a la lín.345). «Erithea» /
+<hi rend="italic">In mg. super.</hi>
+«Nota hic secundum Sibillam Machometum infra.40. annos capere finem» / Sobre la Sibil·la, vegeu l'a notació complementària a les línies 809-812 del present opuscle.
+</note>
+<note n="10-15">
+Tan convençut estava Arnau de Vilanova que, amb l'entrada en el segle
+<num type="roman">XIV</num>
+, les perspectives d'èxit en una croada s'havien capgirat en positiu de cap a peus, que havia convençut el seu rei amic Frederic
+<num type="roman">III</num>
+de Trinàcria (Sicília), no sols a emprendre una croada, la definitiva, ans encara, amb la perspectiva d'ésser el futur rei segur de Terra Santa amb el títol de rei de Jerusalem, deixant a les mans de la dinas tia Anjou, reis teòrics del regne complet de Sicília, la sobirania efectiva damunt l'illa: havia fins i tot enviat Arnau de Vilanova a Nàpols, amb la proposta de baratar el títol de rei de Jerusalem per l'illa de Sicília; vegeu el meu
+<hi rend="italic">Noves dades biogràfiques sobre Arnau de Vilanova</hi>
+, dins «ATCA»,
+<num type="roman">VII</num>
+-
+<num type="roman">VIII</num>
+(1988-1989), 276-282, en particular 279-280.
+</note>
+<pb n="AVOThO_Volum V-264 (Notes Contextuals)"/>
+<note n="1404-1580">
+No m’atreviria, però, a dir que tothom s’acostava al tema de la croada amb conviccions idèntiques; m’ho fa dir la descripció d’una solemnitat escenificada en la cort de França durant la primavera del 1313, de la qual un català informava el nostre rei Jaume II, en lletra conservada a l’Arxiu Reial de Barcelona: «Sciatis quod in Francia ordinatur quid pulcherrimum de passagio ultramarino: et crucesignabitur dominus rex Navarre, dominus Philippus frater, et dominus Karolus eius frater, et quingenti milites cum eis, prout dicit dominus Karolus frater domini regis Francie» (
+<hi rend="small-caps">Finke</hi>
+,
+<hi rend="italic">Acta Aragonensia</hi>
+, I, 459). Fou quelcom més que un espectacle ‘pulcherrimum’?
+<hi rend="italic">1404-1580.</hi>
+Aquesta darrera part de la resposta a les objeccions dels ‘Doctores Parisienses’, personalment polèmica, no té paral·lel en l’
+<hi rend="italic">Apologia...</hi>
+, car allí s’ha transformat en una lliçó ascètica (líns. 1030-1592) sobre els set perills morals, en els quals amb més facilitat poden caure, pel vici de l’ociositat, els professors esmentats, car es tracta de paranys propis dels cecs que van a les palpentes (líns. 1032-1035). En canvi, és d’alguna manera repetida en la
+<hi rend="italic">Protestatio, praesentatio ac supplicatio Benedicto XI postridie kalendas Iunii anno Domini M. CCC. IV. data</hi>
+, dins un context que presenta els processos de París i de Roma com a actuacions en les quals foren conculcades les quatre virtuts cardinals de prudència (líns. 159-221), justícia (líns. 222-261), fortalesa (líns. 262-291) i temprança (líns. 292-422), on s’allarga fins a descriure les circumstàncies que presidiren l’elaboració del
+<hi rend="italic">De mysterio cymbalorum</hi>
+, del
+<hi rend="italic">Corpus epistolarum christini</hi>
+i de la
+<hi rend="italic">Philosophia catholica et diuina</hi>
+, circumstàncies que ja no entren en el volum actual, però indiquen la continuïtat del tema en els següents. Podria, en canvi, el text de les línies 1467 i següents tenir un precedent en la filípica
+<hi rend="italic">In magistros Parisienses</hi>
+, que el 29 de novembre del 1290 els adreçà l’aleshores cardenal Benedetto Gaetani, futur Bonifaci VIII: els deixà clavats a les respectives càtedres i els digué, entre d’altres, la frase següent: «Sedetis in cathedris et putatis quod vestris rationibus regatur Christus»; la recollí Heinrich
+<hi rend="small-caps">Finke</hi>
+,
+<hi rend="italic">Aus den Tagen Boi&amp;gt;</hi>
+</note>
+<pb n="AVOThO_Volum V-265 (Notes Contextuals)"/>
+<note>
+nifaz
+<num type="roman">VIII</num>
+'. Funde und Forschungen (Vorreformationsgeschichtliche Forschungen, 1), Münster, Aschendorff 1902,
+<num type="roman">V</num>
+-
+<num type="roman">VII</num>
+: segurament fou un dels moments que assenyalaven un canvi d'època: la Cúria Romana acabava de sotmetre a les seves decisions la Facultat de Teologia de París. No m'atreviria pas a dir que Arnau no pensà en aquest precedent a l'hora d'alliberar-se de la inquisició parisenca i d'apel·lar al papa, justament Benedetto Gaetani-Bonifaci
+<num type="roman">VIII</num>
+. Si, doncs, fou conscient de repetir d'alguna manera el 1300 allò que Benedetto Gaetani havia fet deu anys abans, segurament també pensava que el gest podia atreure Bonifaci
+<num type="roman">VIII</num>
+a favor seu.
+</note>
+<pb n="AVOThO_Volum V-269 (Notes Contextuals)"/>
+<note n="1500-1517">
+Ja un lector de mitjan segle
+<num type="roman">XIV</num>
+escriví al marge que es tractava de mestre Arrnau de Caviac, fins aleshores canonge només de Sant Serni de Tolosa, que
+</note>
+<note n="1500-1517">
+Vegeu la nota d’aparat crític a la mateixa línia. El canonge de sant Serni de Tolosa no és un desconegut, car el 30 de juliol del 1303, Bonifaci
+<num type="roman">VIII</num>
+el
+</note>
+<pb n="AVOThO_Volum V-270 (Notes Contextuals)"/>
+<note>
+havia estat mestre en teologia. Després, Bonifaci VIII, qui sap si premiant-lo per la seva intervenció en el procés a càrrec d'Arnau de Vilanova, el nomenà canonge i cambrer del capítol de Tarragona. Vegeu l'anotació a les mateixes línies en l'aparat complementari. nomenava canonge i cambrer de la catedral de Tarragona; no sembla que hi pugui haver dubte de la identitat, car el document papal fa constar: «Arnaldo de Caviaco, doctori theologice facultatis, cameraria et canonicatus ecclesie
+<hi rend="italic">Tarraconensis</hi>
+, non obstante quod in monasterio sancti Saturnini Tholosano...»,
+<hi rend="italic">Registres de Boniface VIII</hi>
+, vol. III, París 1921, 789-790, núm. 5267.
+</note>
+<note n="1506-1509">Aquesta observació crítica als procediments dels professors de la Facultat de Teologia també es troba en els dos nostres documents relacionats amb el procés inquisitorial.</note>
+<pb n="AVOThO_Volum V-271 (Notes Contextuals)"/>
+<note n="1520">
+Sobre aquella sessió davant el bisbe de París, vegeu l’
+<hi rend="italic">Instrumentum alterum</hi>
+..., línies 26-48; també la
+<hi rend="italic">Notificatio</hi>
+...., líns. 257-274.
+</note>
+<note n="1521">
+Cf,
+<hi rend="italic">Instrumentum alterum</hi>
+..., líns. 72-88.
+</note>
+<note n="1522-1523">
+Segons el primer document dels acabats d’esmentar, les apel·lacions foren dues, cada una en moment divers, de la primera no se’n sap res, de la segona i definitiva que tingué lloc el 12 d’octubre del 1300, vegeu en particular
+<hi rend="italic">ibid</hi>
+., líns. 130-136.
+</note>
+<note n="1519-1525">
+El text d’aquestes línies demostra que, almenys la darrera part, la més polèmica, del
+<hi rend="italic">De tempore adventus Antichristi</hi>
+, és posterior al 12 d’octubre del 1300, en què fou definitivament efectiu el recurs de mestre Arnau de Vilanova a la Santa Seu contra el procés d’inquisició, al qual havia estat sotmès a París des de la nit de Nadal a Sant Esteve del 1299. Remarquem el sentit d’alliberació amb què el mes tre recorda aquells moments: «habita postmodum libertate et securitate» (líns. 1521), i confrontem-los amb la narració de l’
+<hi rend="italic">Instrumentum alterum appellationis</hi>
+..., líns. 72-88, i en particular amb l’observació de les línies 79-81: «...timebam incarcerari propter prediccta». La
+<hi rend="italic">Protestatio Perusii coram Camerario</hi>
+és més precisa en relació a la,libertate et securitate’: «...recuperata libertate et optenta securitate per dominum regem...» («ATCA», X (1991), 215, líns. 747-748). 1520-1522. El text d’aquestes línies estableix la següent seqüència de fets a) sentència inquisitorial del bisbe: «...per Diocesanum fecissent opusculum con dempnari, ut temeraria continens...»; b) alliberació de mestre Arnau: «...et habita postmodum libertate atque securita te...»; c) apel·lació al Papa: «...fuisset... appellatio interposita ad apostolicam Sedem»; però atès que el b) és formulat així: «...postmodum, recuperata libertate et optenta securitate per dominum regem» (
+<hi rend="italic">Protestatio coram Camerario</hi>
+, «ATCA»,
+<num type="roman">X</num>
+[1991], 215, líns. 247-248), sembla que cal deduir que la intervenció del rei de França fou immediatament posterior a la sentència inquisitorial feta pública a Saint Denis de Passy; i que l’apel·lació hauria estat la primera de les dues (
+<hi rend="italic">Instrumentum alterum</hi>
+..., «ATCA», X
+<num type="roman">X</num>
+[1991], 381, líns. 130-136).
+</note>
+<pb n="AVOThO_Volum V-273 (Notes Contextuals)"/>
+<note n="1545-1546">
+Aquells darrers anys del segle
+<num type="roman">XIII</num>
+i primers del
+<num type="roman">XIV</num>
+els teòlegs parisencs tocaren diverses vegades en llurs qüestions de ‚quolibet’ el tema del propi magisteri des de diferents punts de vista. Ha estudiat les seves reflexions Ian P.
+<hi rend="small-caps">Wei</hi>
+,
+<hi rend="italic">The Self-Image of the Masters of Theology in the University of Paris in the Late Thirteenth and Early Fourteenth Centuries</hi>
+, dins «Journal of Theological Studies», 46 (1995), 398-431, que dóna la bibliografia precedent. Les acusacions d’Arnau de Vilanova als mestres parisencs no semblen conegudes de l’autor.
+</note>
+<pb n="AVOThO_Volum V-274 (Notes Contextuals)"/>
+<note n="1565">(Cf. Nota a lín. 345). «De papa Bene[...]».</note>
+<note n="1574">
+Iohannes Quidort es fa ressò del fet que el sintagma,Deum Deorum’ fou emprat per Ethicus i aprovat per s. Jeroni a fi d’aplicar-lo a l’Anticrist, en recordar que les deu naus romanes suposadament tancades dins la mar Càspia, però allibera dores al final dels temps «obuiabunt Antichristo et vocabunt eum deum deorum» (
+<hi rend="small-caps">Gerwing</hi>
+, 592. nota 574).
+</note>
+<pb n="AVOThO_Volum V-276 (Notes Contextuals)"/>
+<note n="1597-1606">Cf. textum linearum 48-50, 89-94, 110-126.</note>
+<note n="1607-1615">Cf. textum linearum 446-465.</note>
+<pb n="AVOThO_Volum V-277 (Notes Contextuals)"/>
+<note n="1616-1626">Cf. textum paragraphi lin. 422-433.</note>
+<note n="1627-1630">Cf. textum linearum 670-668.</note>
+<note n="1631-1634">Cf. textum linearum 635-668.</note>
+<pb n="AVOThO_Volum V-278 (Notes Contextuals)"/>
+<note n="1635-1637">Cf. textum linearum 720-731.</note>
+<note n="1635-1636">Quant a la relació ‚dia-any’, líns. 652-662.</note>
+<note n="1638-1641">Cf. textum linearum 669-731.</note>
+<note n="1642-1645">Vegeu el text entorn la línia 725 del present aparat de fonts: 721-731</note>
+<note n="1647-1749">
+Sobre l’
+<hi rend="italic">Erithea Babilonica</hi>
+, línies 809-832 i 882-884. Sobre sant Agustí, líns. 1273-1337.
+</note>
+<note n="1644">«Septuagesimum».</note>
+</div>
+</TEI>
