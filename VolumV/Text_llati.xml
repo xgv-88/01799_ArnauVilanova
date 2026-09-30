@@ -11,7 +11,7 @@
 <p>Manuscrits de la BAV i transcripcions de l'edició crítica</p>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/></teiHeader>
 <text>
 <body>
 <pb n="AVOThO_Volum V-171"/>
@@ -1758,14 +1758,11 @@ ponsione nobis aperiatur ianua ueritatis, quam querimus.
 <hi rend="line-num">[526] </hi>
 Inquit, enim,
 <hi rend="italic">Matthei</hi>
-vigesimo quarto, quod accesserunt discipu
-<lb break="no" n="527"/>
+vigesimo quarto, quod accesserunt discipu-<lb break="no" n="527"/>
 <hi rend="line-num">[527] </hi>
-li ad Ihesum ut ostenderent ei edificationes templi. Ipse autem res
-<lb break="no" n="528"/>
+li ad Ihesum ut ostenderent ei edificationes templi. Ipse autem res-<lb break="no" n="528"/>
 <hi rend="line-num">[528] </hi>
-pondens, ait illis: «Videtis hec omnia? Amen, dico uobis, non relin
-<lb break="no" n="529"/>
+pondens, ait illis: «Videtis hec omnia? Amen, dico uobis, non relin-<lb break="no" n="529"/>
 <hi rend="line-num">[529] </hi>
 quetur hic lapis super lapidem, qui non destruatur». Post hec autem
 <lb n="530"/>
@@ -1782,8 +1779,7 @@ et quod signum est aduentus tui et consummationis seculi». Ecce tres
 Templi, quam dixerat esse futuram, quando dixit «non relinquetur
 <lb n="534"/>
 <hi rend="line-num">[534] </hi>
-lapis supra lapidem»; secunda fuit de signis ultimi aduentus Domi
-<lb break="no" n="535"/>
+lapis supra lapidem»; secunda fuit de signis ultimi aduentus Domi-<lb break="no" n="535"/>
 <hi rend="line-num">[535] </hi>
 ni; tertia, de signis consummationis seculi.
 <lb n="536"/>
@@ -1800,8 +1796,7 @@ Responsionem uero quam dedit ad primam questionem omisit
 «Cum uideritis circumdari ab exercitu Ierusalem, tunc scitote quia
 <lb n="539"/>
 <hi rend="line-num">[539] </hi>
-appropinquabit desolatio eius». Et paulo post ait: «Erit enim pressu
-<lb break="no" n="540"/>
+appropinquabit desolatio eius». Et paulo post ait: «Erit enim pressu-<lb break="no" n="540"/>
 <hi rend="line-num">[540] </hi>
 ra magna super terram, et ira populo huic et cadet in ore gladii: et
 </p>
@@ -1827,8 +1822,7 @@ ga Ierusalem a gentilibus possessa et calcata frequenter et etiam erit
 donec impleantur tempora. Post que plenitudo gen-[f. 59d]-tium
 <lb n="547"/>
 <hi rend="line-num">[547] </hi>
-ingredietur Ecclesiam Dei per conuersionem ipsorum ad fidem catho
-<lb break="no" n="548"/>
+ingredietur Ecclesiam Dei per conuersionem ipsorum ad fidem catho-<lb break="no" n="548"/>
 <hi rend="line-num">[548] </hi>
 licam, quod erit in sequenti centenario. Ex quo patet quod, cum
 <lb n="549"/>
