@@ -863,7 +863,7 @@ Dan
 <num type="roman">XII</num>
 , 9. 4
 </note>
-<note n="1221"><hi rend="italic">AIbidpoc</hi>Ibid., 10.</note>
+<note n="1221"><hi rend="italic">Ibid</hi>., 10.</note>
 <note n="1244">
 Io
 <num type="roman">V</num>
@@ -904,13 +904,7 @@ Dan,
 <note n="1349">
 Mc
 <num type="roman">VII</num>
-, 32
-</note>
-<note n="1349">
-Mc
-<num type="roman">IX</num>
-, 24.
-</note>
+, 32, i <num type="roman">IX</num> , 24.</note>
 <pb n="AVOThO_Volum V-263 (Fonts Bíbliques)"/>
 <note n="7-8">
 Lc
