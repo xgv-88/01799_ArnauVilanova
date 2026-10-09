@@ -836,9 +836,7 @@ Mc
 , 23
 </note>
 <note n="1212">
-<num type="roman">II</num>
-Tim
-<num type="roman">III</num>
+<num type="roman">II</num> <hi rend="italic">Tim</hi> <num type="roman">III</num>
 , 16
 </note>
 <pb n="AVOThO_Volum V-251 (Fonts Bíbliques)"/>
