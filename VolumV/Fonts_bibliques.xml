@@ -337,39 +337,21 @@ E. g., <num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XV</n
 <note n="1019-1020"><num type="roman"><hi rend="italic">Dan</hi></num> <num type="roman">I</num>, 2-6.
 </note>
 <pb n="AVOThO_Volum V-236 (Fonts Bíbliques)"/>
-<note n="1024">
-Dan
-<num type="roman">VIII</num>
-, 19
+<note n="1024"><num type="roman"><hi rend="italic">Dan</hi></num> <num type="roman">VIII</num>, 19
 </note>
-<note n="1034">
-Mt
-<num type="roman">XXIV</num>
-, 29-30.
+<note n="1034"><num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XXIV</num>, 29-30.
 </note>
 <pb n="AVOThO_Volum V-243 (Fonts Bíbliques)"/>
-<note n="1116-1118">
-Dan
-<num type="roman">XII</num>
-, 11
+<note n="1116-1118"><num type="roman"><hi rend="italic">Dan</hi></num> <num type="roman">XII</num>, 11
 </note>
 <pb n="AVOThO_Volum V-244 (Fonts Bíbliques)"/>
 <pb n="AVOThO_Volum V-246 (Fonts Bíbliques)"/>
-<note n="1159-1160">
-Mt
-<num type="roman">XXIV</num>
-, 36
+<note n="1159-1160"><num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XXIV</num>, 36
 </note>
-<note n="1159-1160">
-Mc
-<num type="roman">XIII</num>
-, 32
+<note n="1159-1160"><num type="roman"><hi rend="italic">Mc</hi></num> <num type="roman">XIII</num>, 32
 </note>
 <pb n="AVOThO_Volum V-247 (Fonts Bíbliques)"/>
-<note n="1167">
-Mt
-<num type="roman">XXIV</num>
-, 8-31
+<note n="1167"><num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XXIV</num>, 8-31
 </note>
 <pb n="AVOThO_Volum V-249 (Fonts Bíbliques)"/>
 <note n="1189">
@@ -377,9 +359,7 @@ Dan
 <num type="roman">XII</num>
 , 11
 </note>
-<note n="1201, 1210">
-Mt
-<num type="roman">XXIV</num>
+<note n="1201, 1210"><num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XXIV</num>
 , 15 i Mt <num type="roman">XXIV</num> , 21; Mc <num type="roman">XIII</num> , 14 i Mc <num type="roman">XIII</num> , 23</note>
 <note n="1206-1207"><hi rend="italic">Mc</hi> <num type="roman">XIII</num>
 , 23
