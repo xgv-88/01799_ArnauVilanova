@@ -12,8 +12,7 @@
 </sourceDesc>
 </fileDesc>
 <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
-<div type="apparatus" subtype="biblical"><note n="1"><hi rend="italic">Ier</hi> <num type="roman">VI</num>
-, 17.
+<div type="apparatus" subtype="biblical"><note n="1"><hi rend="italic">Ier</hi> <num type="roman">VI</num>, 17.
 </note>
 <note n="3-4"><hi rend="italic">Ez</hi> <num type="roman">XXVIII</num>, 23, I <hi rend="italic"/><num type="roman">XXXIII</num>, 11.</note>
 <note n="4-5"><hi rend="italic">Sap</hi> <num type="roman">I</num>, 13.
