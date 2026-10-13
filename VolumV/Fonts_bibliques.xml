@@ -367,25 +367,16 @@ E. g., <num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">XV</n
 , 16
 </note>
 <pb n="AVOThO_Volum V-251 (Fonts Bíbliques)"/>
-<note n="1217-1219">
-Dan
-<num type="roman">XII</num>
-, 9. 4
+<note n="1217-1219"><num type="roman"><hi rend="italic">Dan</hi></num> <num type="roman">XII</num>, 9. 4
 </note>
 <note n="1221"><hi rend="italic">Ibid</hi>., 10.</note>
-<note n="1244">
-Io
-<num type="roman">V</num>
-, 39.</note>
+<note n="1244"><num type="roman"><hi rend="italic">Io</hi></num> <num type="roman">V</num>, 39.</note>
 <pb n="AVOThO_Volum V-253 (Fonts Bíbliques)"/>
 <pb n="AVOThO_Volum V-254 (Fonts Bíbliques)"/>
-<note n="1268">
-Dan,
+<note n="1268"><num type="roman"><hi rend="italic">Dan</hi></num>,
 <num type="roman">XII</num>
 , 11.</note>
-<note n="1274">
-Io
-<num type="roman">III</num>
+<note n="1274"><num type="roman"><hi rend="italic">Io</hi></num> <num type="roman">III</num>
 , 10.</note>
 <note n="1277-1279">
 <num type="roman">II</num>
