@@ -3544,23 +3544,14 @@ set talis
 <note n="235">tali | sententie
 <hi rend="italic">B seq</hi>
 gl
-<hi rend="italic">canc</hi></note>
-<note n="235">
-gladium
+<hi rend="italic">canc | </hi>gladium
 <hi rend="italic">K seq</hi>
 ev
-<hi rend="italic">canc</hi>
-</note>
-<note n="235">
-euitare
+<hi rend="italic">canc | </hi>euitare
 <hi rend="italic">O</hi>
-euictare
-</note>
-<note n="235">
-contemnunt
+euictare | contemnunt
 <hi rend="italic">F</hi>
-contempnunt
-</note>
+contempnunt</note>
 <note n="236">
 terrebitur
 <hi rend="italic">C</hi>
