@@ -423,8 +423,7 @@ Cf. <num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">VI</num
 <pb n="AVOThO_Volum V-274 (Fonts Bíbliques)"/>
 <pb n="AVOThO_Volum V-275 (Fonts Bíbliques)"/>
 <note n="1578-1579"><num type="roman"><hi rend="italic">Is</hi></num> <num type="roman">I</num>, 2.</note>
-<note n="1579-1580"><num type="roman"><hi rend="italic">Deut</hi></num> <num type="roman">XXXII</num>
-, 32-33.</note>
+<note n="1579-1580"><num type="roman"><hi rend="italic">Deut</hi></num> <num type="roman">XXXII</num>, 32-33.</note>
 <pb n="AVOThO_Volum V-277 (Fonts Bíbliques)"/>
 <note n="1621-1622">
 <hi rend="italic">Act</hi>
@@ -437,10 +436,7 @@ Cf. <num type="roman"><hi rend="italic">Mt</hi></num> <num type="roman">VI</num
 , 11.
 </note>
 <pb n="AVOThO_Volum V-278 (Fonts Bíbliques)"/>
-<note n="1635-1636">
-Dan
-<num type="roman">XII</num>
-, 11
+<note n="1635-1636"><num type="roman"><hi rend="italic">Dan</hi></num> <num type="roman">XII</num>, 11
 </note>
 </div>
 </TEI>
