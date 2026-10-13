@@ -3539,19 +3539,12 @@ suis
 <note n="234">
 sed
 <hi rend="italic">F</hi>
-set
-</note>
-<note n="234">
-talis
-<hi rend="italic">K</hi>
-</note>
-<note n="235">tali</note>
-<note n="235">
-sententie
+set talis
+<hi rend="italic">K</hi></note>
+<note n="235">tali | sententie
 <hi rend="italic">B seq</hi>
 gl
-<hi rend="italic">canc</hi>
-</note>
+<hi rend="italic">canc</hi></note>
 <note n="235">
 gladium
 <hi rend="italic">K seq</hi>
