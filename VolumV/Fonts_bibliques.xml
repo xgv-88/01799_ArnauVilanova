@@ -129,23 +129,15 @@ Num
 <num type="roman">XXI</num>, 5.
 </note>
 <pb n="AVOThO_Volum V-191 (Fonts Bíbliques)"/>
-<note n="336-337"><num type="roman"><hi rend="italic">Eccl</hi></num> <num type="roman">I</num>
-, 15.
+<note n="336-337"><num type="roman"><hi rend="italic">Eccl</hi></num> <num type="roman">I</num>, 15.
 </note>
-<note n="346">
-Ez
-<num type="roman">VII</num>
-, 2.
+<note n="346"><num type="roman"><hi rend="italic">Ez</hi></num> <num type="roman">VII</num>, 2.
 </note>
 <note n="349-350">
-I Cor
-<num type="roman">X</num>
-, 11.
+I <num type="roman"><hi rend="italic">Cor</hi></num> <num type="roman">X</num>, 11.
 </note>
 <pb n="AVOThO_Volum V-192 (Fonts Bíbliques)"/>
-<note n="354">
-Lc
-<num type="roman">XIX</num>
+<note n="354"><num type="roman"><hi rend="italic">EcLoc</hi></num> <num type="roman">XIX</num>
 , 22.</note>
 <note n="355">
 I Cor
