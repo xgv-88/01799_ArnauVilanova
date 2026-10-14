@@ -780,8 +780,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2647,9 +2646,7 @@ inscipienti
 insipiens est
 </note>
 <note n="146">
-qui
-<hi rend="italic">C seq de canc</hi>
-</note>
+qui <hi rend="italic">C seq</hi> de <hi rend="italic">canc</hi></note>
 <note n="147">
 sic
 <hi rend="italic">M</hi>
@@ -2848,7 +2845,7 @@ expresse, qui dicit
 qui dicit expresse | qui dicit
 <hi rend="italic">M om</hi>
 | celo
-<hi rend="italic">C seq prox<note>no cursiva</note> exp</hi>
+<hi rend="italic">C seq prox exp</hi>
 </note>
 <note n="168">
 prospexit
