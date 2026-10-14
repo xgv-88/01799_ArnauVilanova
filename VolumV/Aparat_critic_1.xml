@@ -468,8 +468,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "dii no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2148,7 +2147,7 @@ exto
 <pb n="AVOThO_Volum V-177 (Aparat Crític)"/>
 <note n="94">
 uero
-<hi rend="italic">C seq dii<note>dii no cursiva</note> dii exp</hi>
+<hi rend="italic">C seq dii dii exp</hi>
 | Domini
 <hi rend="italic">O</hi>
 Dei | quod
