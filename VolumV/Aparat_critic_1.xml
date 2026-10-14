@@ -1170,8 +1170,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "No cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2987,7 +2986,7 @@ extercitantur
 <hi rend="italic">P in ras</hi>
 </note>
 <note n="185">
-ideo <hi rend="italic">C seq</hi> vorum <hi rend="italic"><hi rend="italic">exp</hi></hi><hi rend="italic"> |  a- </hi> <hi rend="italic"> uel <hi rend="italic">V</hi></hi> aut <hi rend="italic"> <hi rend="italic">exp</hi></hi> a- <hi rend="italic">corr </hi> -l/-t| bucine
+ideo <hi rend="italic">C seq</hi> vorum <hi rend="italic"><hi rend="italic">exp</hi></hi><hi rend="italic"> | </hi><hi rend="italic">uel <hi rend="italic">V</hi></hi> aut <hi rend="italic"> <hi rend="italic">exp</hi></hi> a- <hi rend="italic">corr </hi> -l/-t| bucine
 <hi rend="italic">O</hi>
 buccine | est
 <hi rend="italic">O</hi>
@@ -3424,8 +3423,7 @@ committerentur
 conuerterentur
 </note>
 <note n="226">
-non
-<hi rend="italic">C nom<note>No cursiva</note> canc</hi>
+non <hi rend="italic">C </hi>nom <hi rend="italic">canc</hi>
 | insatiabilis
 <hi rend="italic">K</hi>
 insanabilis | consuluit
