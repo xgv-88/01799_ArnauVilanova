@@ -3552,29 +3552,16 @@ terribilli
 <note n="239">
 eterni
 <hi rend="italic">C corr</hi>
-eternum
-</note>
-<note n="239">
-supplicii
-<hi rend="italic">P seq int lin al man</hi> enim(?)
-</note>
-<note n="239">
-condempnante iniustos
+eternum | supplicii
+<hi rend="italic">P seq int lin al man</hi> enim(?) | condempnante iniustos
 <hi rend="italic">N</hi>
-iniustos condempnante
-</note>
-<note n="239">
-condempnante
+iniustos condempnante | condempnante
 <hi rend="italic">P</hi>
-condampnante
-</note>
-<note n="239">
-iniustos
+condampnante | iniustos
 <hi rend="italic">K corr</hi>
 inustos
 <hi rend="italic">add</hi>
--ie&amp;gt;
-<note n="239">
+-ie&amp;gt;</note><note n="239"><note n="239">
 securitate
 <hi rend="italic">N</hi>
 miserie
