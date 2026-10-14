@@ -390,8 +390,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "No cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2019,7 +2018,7 @@ vnde
 vne
 <hi rend="italic">FM</hi>
 sicut
-<hi rend="italic">K seq o<note>No cursiva</note> canc</hi>
+<hi rend="italic">K seq o canc</hi>
 | et
 <hi rend="italic">P</hi>
 etiam | vnde et
