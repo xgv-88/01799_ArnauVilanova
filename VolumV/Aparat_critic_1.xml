@@ -624,8 +624,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2328,7 +2327,7 @@ caritas | magis
 <hi rend="italic">K</hi>
 maligis
 <hi rend="italic">
-canc -lii<note>no cursiva</note>- | semper
+canc -lii- | semper
 <hi rend="italic">FP om</hi>
 | refectionem
 <hi rend="italic">CO</hi>
