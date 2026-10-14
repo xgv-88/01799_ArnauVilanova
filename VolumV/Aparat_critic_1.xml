@@ -1092,8 +1092,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2989,12 +2988,10 @@ extercitantur
 </note>
 <note n="185">
 ideo <hi rend="italic">C seq</hi> vorum <hi rend="italic"><hi rend="italic">exp</hi></hi><hi rend="italic"> | uel
-<hi rend="italic">V</hi>
-aut
-<hi rend="italic">exp</hi>
-a-<note>no cursiva</note> corr
+<hi rend="italic">V</hi>  <hi rend="italic">exp</hi>
+a- corr
 </hi>
--l/-t | bucine
+-l/-t aut a- | bucine
 <hi rend="italic">O</hi>
 buccine | est
 <hi rend="italic">O</hi>
