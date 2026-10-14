@@ -546,8 +546,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2177,7 +2176,7 @@ est
 </note>
 <note n="96-97">
 corripiendum
-<hi rend="italic">F add ad<note>no cursiva</note> <hi rend="italic">M</hi></hi> coripiendum</note>
+<hi rend="italic">F add ad <hi rend="italic">M</hi></hi> coripiendum</note>
 <note n="97">
 ad
 <hi rend="italic">F</hi>
