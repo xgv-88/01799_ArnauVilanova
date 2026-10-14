@@ -1087,7 +1087,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_1.xml?note_annotation_20261009140435128#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/div/note[201]/hi/note"
+			"rdf:value": "TEI/text/back/div/note[201]/hi[3]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -2988,10 +2988,7 @@ extercitantur
 <hi rend="italic">P in ras</hi>
 </note>
 <note n="185">
-ideo
-<hi rend="italic">
-C seq vorum <hi rend="italic">exp</hi>
-| uel
+ideo <hi rend="italic">C seq</hi> vorum <hi rend="italic"><hi rend="italic">exp</hi></hi><hi rend="italic"> | uel
 <hi rend="italic">V</hi>
 aut
 <hi rend="italic">exp</hi>
