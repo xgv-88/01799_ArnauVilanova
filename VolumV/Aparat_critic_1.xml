@@ -858,8 +858,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2859,9 +2858,7 @@ ut uideat si est intelligens aut requirens Deum. Notabiliter dixit: Super filios
 <hi rend="italic">M om</hi>
 </note>
 <note n="169">
-Deum
-<hi rend="italic">V seq n<note>no cursiva</note> exp</hi>
-</note>
+Deum <hi rend="italic">V seq</hi> n <hi rend="italic">exp</hi><hi rend="italic"> </hi></note>
 <note n="170">
 sunt
 <hi rend="italic">N</hi>
