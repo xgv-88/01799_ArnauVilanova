@@ -4134,8 +4134,7 @@ reservat
 <note n="295-296">
 dies et hora
 <hi rend="italic">FM</hi>
-diem et horam
-<hi rend="italic">P</hi>
+diem et horam P<hi rend="italic"/>
 diem (uel
 <hi rend="italic">int lin</hi>
 ) horam
@@ -4143,7 +4142,7 @@ diem (uel
 <note n="296">
 consummationis
 <hi rend="italic">CFKNO</hi>
-consumationis | ut infra pate bit
+consumationis | ut infra patebit
 <hi rend="italic">FM om</hi>
 </note>
 <note n="297">
