@@ -702,8 +702,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2649,7 +2648,7 @@ insipiens est
 </note>
 <note n="146">
 qui
-<hi rend="italic">C seq de<note>no cursiva</note> canc</hi>
+<hi rend="italic">C seq de canc</hi>
 </note>
 <note n="147">
 sic
