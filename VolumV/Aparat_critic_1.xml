@@ -936,8 +936,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "no cursiva"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2928,7 +2927,7 @@ quo ad
 [non est]
 <hi rend="italic">V om</hi>
 | est
-<hi rend="italic">F seq s<note>no cursiva</note> exp</hi>
+<hi rend="italic">F seq exp</hi>
 | bonum
 <hi rend="italic">F add</hi>
 non est
