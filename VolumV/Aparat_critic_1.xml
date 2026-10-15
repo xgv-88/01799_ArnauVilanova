@@ -4497,8 +4497,7 @@ unirim | unitam
 unita | illius <hi rend="italic">K seq</hi> de <hi rend="italic">canc</hi>
 | redemptione
 <hi rend="italic">K</hi>
-redemptiones
-<hi rend="italic">canc  M add</hi>
+redemptiones <hi rend="italic">canc</hi> -s <hi rend="italic">M add</hi>
 se | morti
 <hi rend="italic">C</hi>
 mori
