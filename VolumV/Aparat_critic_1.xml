@@ -4756,23 +4756,14 @@ defficit
 defecit | V
 <hi rend="italic">corr</hi>
 de<hi rend="italic">ff</hi>ecit
-<hi rend="italic">V exp -</hi>
-f
-<hi rend="italic">-</hi></note>
+<hi rend="italic">V exp -</hi>f<hi rend="italic">-</hi></note>
 <note n="465">
 premunitionem
 <hi rend="italic">M</hi>
-munitionem
-</note>
-<note n="465">
-Ecclesiam
+munitionem | Ecclesiam
 <hi rend="italic">C</hi>
-Eclesiam
-</note>
-<note n="465">
-suam
-<hi rend="italic">M om</hi>
-</note>
+Eclesiam | suam
+<hi rend="italic">M om</hi></note>
 <note n="465-466">
 preinstruere
 <hi rend="italic">B</hi>
