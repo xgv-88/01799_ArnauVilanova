@@ -4494,12 +4494,11 @@ uniret
 <hi rend="italic">K</hi>
 unirim | unitam
 <hi rend="italic">M</hi>
-unita | illius
-<hi rend="italic">K seq de canc</hi>
+unita | illius <hi rend="italic">K seq</hi> de <hi rend="italic">canc</hi>
 | redemptione
 <hi rend="italic">K</hi>
 redemptiones
-<hi rend="italic">canc -s M add</hi>
+<hi rend="italic">canc  M add</hi>
 se | morti
 <hi rend="italic">C</hi>
 mori
