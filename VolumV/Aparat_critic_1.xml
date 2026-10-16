@@ -7632,8 +7632,7 @@ communibus
 <hi rend="italic">C</hi>
 comunibus hominum
 <hi rend="italic">O</hi>
-hominibus qui
-<hi rend="italic">bus</hi>
+hominibus quibus<hi rend="italic"/>
 | conceptibus
 <hi rend="italic">F</hi>
 conceptionibus
@@ -7643,7 +7642,7 @@ ueritati
 <hi rend="italic">P</hi>
 ueritate | communiter
 <hi rend="italic">C corr</hi>
-con ceptusbus
+conceptusbus
 <hi rend="italic">canc</hi>
 -bus
 </note>
