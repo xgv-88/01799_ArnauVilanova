@@ -8599,7 +8599,7 @@ tro domini
 tantumdem (bis)
 <hi rend="italic">B man</hi>
 <hi rend="italic">recentior in mg:</hi>
-Hic conuincitur (scilicet?) mendax speculator (sinendum?)... ...nator quia iam predicti .XXIII. anni transierunt et tamen... et conuersio eorum nondum uenit hic quod con cluditur in (fine?) operis in... conclusione
+Hic conuincitur (scilicet?) mendax speculator (sinendum?)... ...nator quia iam predicti .XXIII. anni transierunt et tamen... et conuersio eorum nondum uenit hic quod concluditur in (fine?) operis in... conclusione
 </note>
 <note n="841">
 est
@@ -8644,9 +8644,7 @@ et (mane)
 <hi rend="italic">O om</hi>
 </note>
 <note n="847">
-et
-<hi rend="italic">C corr ut</hi>
-| peruenit
+et  <hi rend="italic">C corr</hi> ut <hi rend="italic"/>| peruenit
 <hi rend="italic">BFP(V crassiori calamo)</hi>
 uidet | peruenit ad
 <num type="roman">M.CCC.XXXV</num>
