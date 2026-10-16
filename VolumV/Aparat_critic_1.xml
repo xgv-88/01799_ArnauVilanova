@@ -8700,9 +8700,7 @@ Eclesie 652 et (erit)
 | ouile
 <hi rend="italic">C</hi>
 ouille | est
-<hi rend="italic">O om</hi>
-C
-<hi rend="italic">seq</hi>
+<hi rend="italic">O om C</hi> <hi rend="italic">seq</hi>
 pastor
 </note>
 <note n="853">
@@ -8929,11 +8927,7 @@ nichilhominus
 </note>
 <pb n="AVOThO_Volum V-227 (Aparat Crític)"/>
 <note n="877">
-motum
-<hi rend="italic">
-C mortum
-<hi rend="italic">canc</hi>
--r- | orbium
+motum <hi rend="italic">C</hi> mortum-r-<hi rend="italic"> <hi rend="italic">canc</hi> | orbium
 <hi rend="italic">O</hi>
 orbi non | uelocitare
 <hi rend="italic">C</hi>
