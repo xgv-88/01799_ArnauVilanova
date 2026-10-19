@@ -43,9 +43,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?note_annotation_20261009115335950",
+	"id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_2.xml?note_annotation_20261009115335950",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-10-09T09:53:35.950Z",
+	"dcterms:modified": "2026-10-09T09:53:35.950Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/andreamejuto",
 		"@type": [
@@ -56,9 +57,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "undefined?note_annotation_20261009115335950#Target",
+		"@id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_2.xml?note_annotation_20261009115335950#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -69,7 +71,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?note_annotation_20261009115335950#Selector",
+			"@id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_2.xml?note_annotation_20261009115335950#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/div/note[70]/note"
 		}
@@ -98,9 +100,7 @@ asserere
 <hi rend="italic">KV</hi>
 assere | inconueniens
 <hi rend="italic">O</hi>
-inquiens | tempora
-<hi rend="italic">C seq ac</hi>
-| euentuum
+inquiens | tempora <hi rend="italic">C seq </hi>ac <hi rend="italic"/>| euentuum
 <hi rend="italic">C</hi>
 eventum
 </note>
