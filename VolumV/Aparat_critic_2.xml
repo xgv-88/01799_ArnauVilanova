@@ -1086,7 +1086,7 @@ litere
 <hi rend="italic">F</hi>
 lictere | textualis
 <hi rend="italic">CF</hi>
-tes tualis | constat
+testualis | constat
 <hi rend="italic">M</hi>
 cantat
 </note>
@@ -1137,8 +1137,7 @@ et
 <note n="1024">
 ostendam
 <hi rend="italic">F</hi>
-hostendam | nouissimo
-<hi rend="italic">V seq m canc</hi>
+hostendam | nouissimo <hi rend="italic">V seq</hi> m<hi rend="italic"> canc</hi>
 </note>
 <note n="1025">
 contra
