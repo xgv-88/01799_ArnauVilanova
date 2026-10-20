@@ -1338,7 +1338,7 @@ expossitionem
 <note n="1065">
 uerificari
 <hi rend="italic">O</hi>
-verifficari | sit <hi rend="italic">C seq </hi>certr <hi rend="italic"> certr canc</hi>
+verifficari | sit <hi rend="italic">C seq </hi>certr<hi rend="italic"> canc</hi>
 </note>
 <note n="1066">
 uerificanda
@@ -1356,8 +1356,7 @@ obmicteretur
 <hi rend="italic">P</hi>
 omittetur | possibilis
 <hi rend="italic">C</hi>
-possibillis | uerificationis
-<hi rend="italic">V seq ipsorum canc</hi>
+possibillis | uerificationis <hi rend="italic">V seq </hi>ipsorum <hi rend="italic"> canc</hi>
 </note>
 <note n="1068">
 incerte
