@@ -2394,8 +2394,7 @@ pie(?) mentibus
 </note>
 <pb n="AVOThO_Volum V-249 (Aparat Crític)"/>
 <note n="1188">
-finiatur
-<hi rend="italics">C</hi>
+finiatur <hi rend="italic">C</hi><hi rend="italics"/>
 fineatur | asseritur
 <hi rend="italics">O</hi>
 asserintur(?) | consummationis
@@ -2403,19 +2402,13 @@ asserintur(?) | consummationis
 consumationis
 </note>
 <note n="1189">
-reuelationem
-<hi rend="italics">C</hi>
-reuellationem
+reuelationem <hi rend="italic">C</hi> reuellationem
 </note>
 <note n="1189-1190">
-haberetur
-<hi rend="italics">M</hi>
-habeatur
+haberetur <hi rend="italic">M</hi> habeatur
 </note>
 <note n="1190">
-de initio temporis
-<hi rend="italics">C</hi>
-temporis de initio
+de initio temporis <hi rend="italic">C</hi> temporis de initio
 </note>
 <note n="1190-1191">
 habere certitudinem
@@ -2435,19 +2428,13 @@ coniectura | sed
 uel
 </note>
 <note n="1193">
-quin
-<hi rend="italics">C</hi>
-corr quim
+quin <hi rend="italic">C</hi> corr quim
 </note>
 <note n="1194">
-possit
-<hi rend="italics">P</hi>
-posset
+possit <hi rend="italic">P</hi> posset
 </note>
 <note n="1194-1195">
-asserat
-<hi rend="italics">M</hi>
-inserat
+asserat <hi rend="italic">M</hi> inserat
 </note>
 <pb n="AVOThO_Volum V-250 (Aparat Crític)"/>
 <note n="1195">
