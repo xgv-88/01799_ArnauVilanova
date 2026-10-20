@@ -3208,7 +3208,7 @@ creauerat facere
 <note n="1287">
 disposuerat
 <hi rend="italic">FM</hi>
-dispo suit
+disposuit
 </note>
 <note n="1288">
 adimpleret
@@ -3232,8 +3232,7 @@ significat
 <hi rend="italic">C corr</hi>
 Significauit
 <hi rend="italic">canc</hi>
-- uie&amp;gt;
-<note n="1290-1291">
+-ui-<note n="1290-1291">
 significat
 <hi rend="italic">O</hi>
 signat
@@ -3429,15 +3428,14 @@ acceptationem
 <note n="1315">
 centenariis
 <hi rend="italic">F</hi>
-cetennariis | decem
-<hi rend="italic">V seq sur canc</hi>
+cetennariis | decem <hi rend="italic">V seq</hi> sur <hi rend="italic">canc</hi>
 || decem consurgit
 <hi rend="italic">F om</hi>
 </note>
 <note n="1316">
 V
-<hi rend="italic">in marg manu</hi>
-<num type="roman">XIV</num>
+<hi rend="italic">in marg manu XIV</hi>
+<num type="roman"/>
 Hic nota sententiam Augustini | cum
 <hi rend="italic">M</hi>
 quando
