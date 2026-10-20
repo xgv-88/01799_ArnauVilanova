@@ -1681,7 +1681,7 @@ conuersione Iudeorum
 Iudeorum conuersione
 </note>
 <note n="1108">
-igitur <hi rend="italic">FM</hi> ergo | irrationalis <hi rend="italic"><hi rend="italic">BKPO</hi></hi> irrationabilis<hi rend="italic"> irK int lin F
+igitur <hi rend="italic">FM</hi> ergo | irrationalis <hi rend="italic"><hi rend="italic">BKPO</hi></hi> irrationabilis ir<hi rend="italic"> K int lin F
 </hi>
 inrationabilis
 </note>
@@ -1754,8 +1754,7 @@ rexpondentis
 <note n="1119">
 quoniam
 <hi rend="italic">K</hi>
-qum | illa
-<hi rend="italic">B seq u exp</hi>
+qum | illa <hi rend="italic">B seq</hi> u<hi rend="italic"> exp</hi>
 </note>
 <note n="1120">
 sit
