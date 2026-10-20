@@ -2438,8 +2438,7 @@ patet | millenario
 milleario
 </note>
 <note n="1196">
-sacri
-<hi rend="italic">C seq doctores canc</hi>
+sacri <hi rend="italic">C seq </hi>doctores<hi rend="italic"> canc</hi>
 | expositores
 <hi rend="italic">M</hi>
 doctores
@@ -2458,8 +2457,7 @@ numerum annorum consummationis seculi, multo minus negant esse reuelatum uel reu
 <hi rend="italic">M om</hi>
 </note>
 <note n="1198">
-seculi
-<hi rend="italic">B add et int lin</hi>
+seculi <hi rend="italic">B add</hi> et <hi rend="italic"> int lin</hi>
 | multo
 <hi rend="italic">B</hi>
 et multo
