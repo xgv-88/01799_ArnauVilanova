@@ -2810,7 +2810,7 @@ deffecerunt | ad
 <hi rend="italic">K int lin</hi>
 | experiendum
 <hi rend="italic">F corr exp priore</hi>
--dexpediendum
+-d- expediendum
 <hi rend="italic">MO</hi>
 expediendum
 </note>
@@ -2914,8 +2914,7 @@ prechones | catholicorum
 chatolicorum
 </note>
 <note n="1253">
-forte iam
-<hi rend="italic">F</hi>
+forte iam F<hi rend="italic"/>
 iam forte
 <hi rend="italic">K</hi>
 forte et iam | appropinquat
