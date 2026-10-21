@@ -3816,8 +3816,7 @@ V
 Nota de passagio generali
 </note>
 <note n="1360">
-pro
-<hi rend="italic">C seq cont canc</hi>
+pro <hi rend="italic">C seq</hi> cont<hi rend="italic"> canc</hi>
 </note>
 <note n="1360">
 constanti
@@ -3844,8 +3843,7 @@ acingatur
 atingatur
 </note>
 <note n="1363">
-infideles
-<hi rend="italic">B seq pos exp</hi>
+infideles <hi rend="italic">B seq</hi> pos <hi rend="italic"> pos exp</hi>
 </note>
 <note n="1363-1364">
 uindicandum
