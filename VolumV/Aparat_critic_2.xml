@@ -4761,28 +4761,15 @@ perpetrati</note>
 <note n="1458">
 et
 <hi rend="italic">M</hi>
-sed
-</note>
-<note n="1458">
-nuntium
+sed | nuntium
 <hi rend="italic">F</hi>
-nunptium
-</note>
-<note n="1458">
-sollempnem
+nunptium | sollempnem
 <hi rend="italic">CKO</hi>
-solempnem
-</note>
-<note n="1458">
-sereni principis
+solempnem | sereni principis
 <hi rend="italic">F</hi>
-principis sereni
-</note>
-<note n="1458">
-serenissimum
+principis sereni | serenissimum
 <hi rend="italic">P add in mg</hi>
-principem
-</note>
+principem</note>
 <note n="1459">
 procurarent
 <hi rend="italic">K</hi>
@@ -4790,13 +4777,9 @@ procuratorem
 <hi rend="italic">O</hi>
 procuraret
 <hi rend="italic">corr</hi>
-procurasset
-</note>
-<note n="1459">
-clamdestina
+procurasset | clamdestina
 <hi rend="italic">KO</hi>
-clan destina
-</note>
+clan destina</note>
 <note n="1459">
 falsa
 <hi rend="italic">K seq</hi>
