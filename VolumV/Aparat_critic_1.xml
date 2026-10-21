@@ -4727,32 +4727,21 @@ preinfluerere
 <note n="466">
 considerandum
 <hi rend="italic">CM</hi>
-consciderandum
-</note>
-<note n="466">
-eam
+consciderandum | eam
 <hi rend="italic">MP</hi>
-ea
-</note>
+ea</note>
 <note n="467">
 tanquam
 <hi rend="italic">CM</hi>
-tamquam
-</note>
-<note n="467">
-signum <hi rend="italic">F seq</hi> con <hi rend="italic">canc K seq</hi>
+tamquam | signum <hi rend="italic">F seq</hi> con <hi rend="italic">canc K seq</hi>
 trecf (?)
-<hi rend="italic">canc</hi>
-</note>
-<note n="467">
-infallibiliter
+<hi rend="italic">canc | </hi>infallibiliter
 <hi rend="italic">C</hi>
 infallibiliter
 <hi rend="italic">FMP</hi>
 ineffabiliter
 <hi rend="italic">O</hi>
-et fallibiliter
-</note>
+et fallibiliter</note>
 <note n="467-468">
 consummatione
 <hi rend="italic">BCFO</hi>
@@ -4770,49 +4759,28 @@ Ecclesie
 <note n="469">
 precones
 <hi rend="italic">C</hi>
-prechones
-</note>
-<note n="469">
-Ecclesia
+prechones| Ecclesia
 <hi rend="italic">C</hi>
-Eclesia
-</note>
+Eclesia</note>
 <note n="470">
 adhuc
 <hi rend="italic">M</hi>
-ad hoc
-</note>
-<note n="470">
-pullulare
+ad hoc | pullulare
 <hi rend="italic">P</hi>
-pululare
-</note>
-<note n="470">
-qui
+pululare | qui
 <hi rend="italic">K seq</hi>
 ad
-<hi rend="italic">canc</hi>
-</note>
-<note n="470">
-ostentationem
+<hi rend="italic">canc | </hi>ostentationem
 <hi rend="italic">O</hi>
 ostensionem
-<hi rend="italic">F exp</hi>
-</note>
+<hi rend="italic">F exp</hi></note>
 <note n="471">
 sui uel
-<hi rend="italic">F om</hi>
-</note>
-<note n="471">
-uel seductionem
+<hi rend="italic">F om | </hi>uel seductionem
 <hi rend="italic">BMNO</hi>
-uel ad seductionem
-</note>
-<note n="471">
-consummationem
+uel ad seductionem | consummationem
 <hi rend="italic">BCF</hi>
-consumationem
-</note>
+consumationem</note>
 <note n="471-472">
 presentis seculi
 <hi rend="italic">P</hi>
@@ -4821,15 +4789,11 @@ seculi presentis
 <note n="472">
 nunciant
 <hi rend="italic">F</hi>
-nunptiant
-</note>
-<note n="472">
-ali... ali...
+nunptiant | ali... ali...
 <hi rend="italic">V Add</hi>
 -qui... -qui
 <hi rend="italic">et in mg</hi>
-aliqui
-</note>
+aliqui</note>
 <pb n="AVOThO_Volum V-200 (Aparat Crític)"/>
 <note n="473">
 innitentes
