@@ -78,8 +78,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "\nlocutus\nCN\nloqutus\nO\nloquutus | eleganter\nK\neliganter P om | sex\nO\nvj"
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2451,17 +2450,7 @@ inustos
 <hi rend="italic">add</hi>
 -i- securitate
 <hi rend="italic">N</hi>
-miserie</note><note n="239">*241 locutus CN loqutus O loquutus |eleganter K eliganter P om | sex O vj </note><note n="239">
-<note n="241">
-locutus
-<hi rend="italic">CN</hi>
-loqutus
-<hi rend="italic">O</hi>
-loquutus | eleganter
-<hi rend="italic">K</hi>
-eliganter <hi rend="italic">P om | </hi>sex
-<hi rend="italic">O</hi>
-vj</note>
+miserie</note><note n="239">*241 locutus CN loqutus O loquutus | eleganter K eliganter P om | sex O VI</note><note n="239">
 <note n="242">
 (tanget) te
 <hi rend="italic">F</hi>
