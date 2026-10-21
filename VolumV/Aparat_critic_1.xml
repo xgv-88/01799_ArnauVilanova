@@ -46,6 +46,7 @@
 	"id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_1.xml?note_annotation_20261009115335950",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-10-09T09:53:35.950Z",
+	"dcterms:modified": "2026-10-09T09:53:35.950Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/andreamejuto",
 		"@type": [
@@ -72,7 +73,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/xgv-88/01799_ArnauVilanova/main/VolumV/Aparat_critic_1.xml?note_annotation_20261009115335950#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/div/note[264]/note"
+			"rdf:value": "TEI/text/back/div/note[265]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -2450,7 +2451,7 @@ inustos
 <hi rend="italic">add</hi>
 -i- securitate
 <hi rend="italic">N</hi>
-miserie  </note><note n="239">
+miserie</note><note n="239">*241 locutus CN loqutus O loquutus |eleganter K eliganter P om | sex O vj </note><note n="239">
 <note n="241">
 locutus
 <hi rend="italic">CN</hi>
