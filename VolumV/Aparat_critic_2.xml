@@ -4779,7 +4779,7 @@ procuraret
 <hi rend="italic">corr</hi>
 procurasset | clamdestina
 <hi rend="italic">KO</hi>
-clan destina | falsa
+clandestina | falsa
 <hi rend="italic">K seq</hi>
 non falsa | denuntiatione
 <hi rend="italic">M</hi>
@@ -4795,19 +4795,15 @@ teneri</note>
 <note n="1460-1461">
 regie maiestatis
 <hi rend="italic">O</hi>
-mages tatis regie | maiestatis
+magestatis regie | maiestatis
 <hi rend="italic">BOP</hi>
 magestatis</note>
 <note n="1461">
 sed
 <hi rend="italic">O</hi>
-sset
-</note>
-<note n="1461">
-celebrium
+sset | celebrium
 <hi rend="italic">C</hi>
-celeberum
-</note>
+celeberum</note>
 <note n="1461-1462">
 personarum
 <hi rend="italic">F corr</hi>
