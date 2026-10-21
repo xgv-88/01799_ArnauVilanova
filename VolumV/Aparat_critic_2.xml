@@ -4826,15 +4826,11 @@ species honestatis
 <note n="1463">
 quis
 <hi rend="italic">C</hi>
-quid
-</note>
-<note n="1463">
-iniuriosum
+quid | iniuriosum
 <hi rend="italic">C</hi>
 iniuriusum
 <hi rend="italic">M add</hi>
-sed
-</note>
+sed</note>
 <pb n="AVOThO_Volum V-268 (Aparat Crític)"/>
 <note n="1464">
 uerum
@@ -4886,7 +4882,7 @@ exulauerat
 exularunt
 </note>
 <note n="1469">
-sollemp niter
+sollempniter
 <hi rend="italic">CFKO</hi>
 solempniter | scriptis
 <hi rend="italic">C seq in M</hi>
