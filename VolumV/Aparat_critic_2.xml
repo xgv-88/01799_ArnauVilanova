@@ -5453,8 +5453,7 @@ autem
 <hi rend="italic">C</hi>
 ergo
 <hi rend="italic">K</hi>
-autem
-<hi rend="italic">seq h canc O om</hi>
+autem <hi rend="italic">seq </hi>h<hi rend="italic"> canc O om</hi>
 | preseruauerint
 <hi rend="italic">F</hi>
 preseruauerit | (et) a
