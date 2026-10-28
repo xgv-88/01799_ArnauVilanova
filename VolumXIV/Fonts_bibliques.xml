@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Interpretatio de visionibus in somniis</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. XIV, pàgines 67-115: edició crítica de la <title>Interpretatio de visionibus in somniis</title> (línies 1-707).</bibl>
+        <listWit>
+          <witness xml:id="B">Barcelona, Arxiu de la Corona d’Aragó, Diversos i col·leccions, Manuscrits, Casa Reial, 1.</witness>
+          <witness xml:id="C">Barcelona, Arxiu de la Corona d’Aragó, Cancelleria, Reg. 335, f. 337v i 295r.</witness>
+          <witness xml:id="f">M. Flacius Illyricus, <hi rend="italic">Catalogus testium veritatis</hi>, Estrasburg, 1562, Appendix, 1-14.</witness>
+          <witness xml:id="m">M. Menéndez i Pelayo, <hi rend="italic">Historia de los heterodoxos españoles</hi>, VII, Madrid, CSIC, 1963, 233-254, 254-257 i 257-260.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <text>
+<pb n="AVOThO_Volum XIV-71 (Fonts)"/>
+<note n="41-46">Cf. <hi rend="italic">Apologia de versutiis atque perversitatibus pseudotheologorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 138, lín. 1306-1311.</note>
+<pb n="AVOThO_Volum XIV-72 (Fonts)"/>
+<note n="49-55">Cf. <hi rend="italic">Apologia de versutiis atque perversitatibus pseudotheologorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 61-77, lín. 45-237.</note>
+<note n="54">Eph <num type="roman">IV</num>,17; cf. Ps <num type="roman">LVII</num>,4.</note>
+<note n="63">Ps <num type="roman">LXXIII</num>,23.</note>
+<pb n="AVOThO_Volum XIV-73 (Fonts)"/>
+<note n="68-69">Ps <num type="roman">LVII</num>,5.</note>
+<pb n="AVOThO_Volum XIV-79 (Fonts)"/>
+<note n="176">Mt <num type="roman">XVII</num>,5; cf. Mc <num type="roman">IX</num>,6; Lc <num type="roman">IX</num>,35; i Mt <num type="roman">III</num>,17; 2 Ptr <num type="roman">I</num>,17.</note>
+<pb n="AVOThO_Volum XIV-80 (Fonts)"/>
+<note n="193">Num <num type="roman">XII</num>,5-8: «descendit Dominus [...] vocans Aaron et Mariam [...] dixit ad eos: [...] Si quis fuerit inter vos propheta Domini, in visione apparebo ei, vel per somnium loquar ad illum. At non talis servus meus Moyses [...] ore enim ad os loquor ei», i Ex <num type="roman">XXXIII</num>,11: «Loquebatur autem Dominus ad Moysen facie ad faciem».</note>
+<note n="194-195">Iob <num type="roman">XXXIII</num>,15.</note>
+<note n="195-200">Cf., respectivament, Gen <num type="roman">XXXVII</num>,5-11; i Mt <num type="roman">II</num>,19.</note>
+<pb n="AVOThO_Volum XIV-81 (Fonts)"/>
+<note n="201-204">Apoc <num type="roman">III</num>,7: «Et angelo Philadelphiae Ecclesiae scribe: Haec dicit Sanctus et Verus, qui habet clavem David: qui aperit, et nemo claudit; claudit, et nemo aperit». Cf. també Apoc <num type="roman">V</num>,1-5: «Et vidi in dextera sedentis supra thronum, librum scriptum intus et foris, signatum sigillis septem. Et vidi angelum fortem, praedicantem voce magna: Quis est dignus aperire librum, et solvere signacula eius? Et nemo poterat neque in caelo, neque in terra, neque subtus terram aperire librum, neque respicere illum. Et ego flebam multum, quoniam nemo dignus inventus est aperire librum, nec videre eum. Et unus de senioribus dixit mihi: Ne fleveris. Ecce vicit leo de tribu Iuda, radix David, aperire librum, et solvere septem signacula eius».</note>
+<note n="207-209">1 Cor <num type="roman">II</num>,14.</note>
+<pb n="AVOThO_Volum XIV-82 (Fonts)"/>
+<note n="213-214">Act <num type="roman">XXII</num>,22b: «Tolle de terra huiusmodi: non enim fas est eum vivere».</note>
+<note n="214-215">Act <num type="roman">XXVI</num>,24b: «Insanis Paule: multae te litterae ad insaniam convertunt».</note>
+<pb n="AVOThO_Volum XIV-85 (Fonts)"/>
+<note n="266-269">Cf. Mt <num type="roman">XV</num>,8-9 (i Is <num type="roman">XXIX</num>,13; <num type="roman">LVIII</num>,2-4); Mt <num type="roman">VI</num>,33.</note>
+<pb n="AVOThO_Volum XIV-86 (Fonts)"/>
+<note n="279-280">Sap <num type="roman">I</num>,1.</note>
+<note n="280">Aquesta glossa resulta ser d’<hi rend="small-caps">Hugo de Sancto Charo</hi>, <hi rend="italic">Postilla super Librum Sapientiae</hi>, 139: «Diligite iustitiam, non solum facite». Cf. també <hi rend="small-caps">Aegidius Columna</hi>, <hi rend="italic">De Regimine principum libri III per fr. Hieronymum Samaritanum... recogniti</hi>, 492: «Septimum salvans regnum et politiam, est Regem sive principantem habere dilectionem et amorem ad bonum regni, et ad politiam, in qua principatur. Quicunque enim amat, solicitatur et timet, ne aliquod inconveniens accidat circa amatum... quare si Rex bonum regni diligat, salvabitur regnum, quia timens ne in regno adversa contingant, adhibebit multa consilia qualiter possit bona regni promovere et periculis imminentibus obviare [...]». Cf. <hi rend="italic">Allocutio christini</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 104, lín. 327-329.</note>
+<note n="289">Lc <num type="roman">II</num>,8 (i Ier <num type="roman">XXIII</num>,1-4; Ez <num type="roman">XXXIV</num>,1-16).</note>
+<note n="290">Mt <num type="roman">XIII</num>,25: «cum autem dormirent homines, venit inimicus eius, et superseminavit zizania in medio tritici, et abiit».</note>
+<note n="291">Io <num type="roman">X</num>,12b: «et lupus rapit, et dispergit oves».</note>
+<note n="294-295">Ps <num type="roman">LXXI</num>,2.</note>
+<pb n="AVOThO_Volum XIV-87 (Fonts)"/>
+<note n="296-297">Ps <num type="roman">LXXI</num>,4.</note>
+<note n="300-301">Cf., per exemple, Mt <num type="roman">V</num>,3; Lc <num type="roman">VI</num>,20; Iac <num type="roman">II</num>,5.</note>
+<note n="306-309">Cf. 1 Sam <num type="roman">XV</num>,1-35.</note>
+<pb n="AVOThO_Volum XIV-88 (Fonts)"/>
+<note n="315-316">Is <num type="roman">XXVIII</num>,14: «Propter hoc audite verbum Domini, viri illusores, qui dominamini super populum meum».</note>
+<note n="316">Mich <num type="roman">III</num>,9b: «Et omnia recta pervertitis».</note>
+<note n="323-324">Cf. Ps <num type="roman">XI</num>,6.</note>
+<note n="324-325"><hi rend="italic">Historia de gestis praecipuis in pontificatu S. Gregorii Magni</hi>, ed. <hi rend="small-caps">Wietrowsky</hi>, 156: «Duodecim Libri Registeriorum qui adhuc exstant, pleni sunt Epistolis ad Diaconos et Subdiaconos, quibus cura huius Patrimonii commissa erat, eisque sanctus Pontifex disignabat summas notabiles, viduis, orphanis, monasteriis, pauperibus mendicare erubescentibus, distribuendas»; I, 268-269, «Sanctus Gregorius se gessit erga Imperatores, Reges et Principes, eorumque Vicarios, quorum authoritate, uti oportebat, fultus, ea quae porro visuri sumus, est operatus, ad continendos in debita disciplina et officio cuiusque professionis, Ecclesiasticos et Regulares, et pro subsidio et solatio pauperum atque miserabilium personarum».</note>
+<note n="328-329">Iac <num type="roman">II</num>,1.</note>
+<pb n="AVOThO_Volum XIV-89 (Fonts)"/>
+<note n="331-334">cf. Iac <num type="roman">II</num>,19: «Tu credis quoniam unus est Deus: bene facis; et daemones credunt, et contremiscunt».</note>
+<note n="339">1 Cor <num type="roman">XIII</num>,1.</note>
+<note n="342">Ps <num type="roman">LXXXI</num>,1.</note>
+<note n="343-344">Ps <num type="roman">LXXXI</num>,5b.</note>
+<note n="345-346">Is <num type="roman">V</num>,13.</note>
+<note n="347">Is <num type="roman">V</num>,14a: «dilatavit infernus animam suam».</note>
+<pb n="AVOThO_Volum XIV-91 (Fonts)"/>
+<note n="370">Mt <num type="roman">XI</num>,18b; i Mt <num type="roman">XXVII</num>,63, respectivament.</note>
+<note n="379">1 Cor <num type="roman">IV</num>,3a.</note>
+<note n="381-382">Mt <num type="roman">V</num>,11a: «Beati estis cum maledixerint vobis».</note>
+<note n="383-384">1 Cor <num type="roman">III</num>,18.</note>
+<note n="389-396">En la <hi rend="italic">Philosophia catholica</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 58, lín. 14-15, Arnau de Vilanova qualifica l’obra com una art «demonstrativa et infallibilis». Cf. també <hi rend="italic">Ad</hi><pb n="AVOThO_Volum XIV-92 (Fonts)"/> <hi rend="italic">Benedictum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 207, lín. 408-409: «[...] cum <hi rend="italic">Philosophiam</hi> scripsisset <hi rend="italic">catholicam</hi>, in qua demonstratur catholice Ihesum Nazarenum fuisse Messiam verum [...]»; <hi rend="italic">Protestatio facta Burdegaliae,</hi> Vat. Lat. 3824, f. 255c: «Quintus tractatus intitulatur <hi rend="italic">Philosophia catholica</hi>, quoniam in eo per textum Veteris Testamenti apertissime demonstratur Ihesum Nazarenum fuisse uerum messiam patribus promissum».</note>
+<pb n="AVOThO_Volum XIV-93 (Fonts)"/>
+<note n="411-416">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 208, lín. 456-472; 209-210, lín. 529-578; i 213, lín. 688-715.</note>
+<pb n="AVOThO_Volum XIV-94 (Fonts)"/>
+<note n="417-420"><hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 208, lín. 449: «Nuntiabatur siquidem ei [és a dir, a Bonifaci VIII] ex parte Christi [...]»; 211, lín. 590-592: «Finis autem omnium predictorum est iste, quod tibi [a Benet XI] et tuis fratribus ex parte Christi denuntiatur, ut tu cum ipsis festines in omnibus prelibatis supplere defectum antecessoris tui»; 213, lín. 677: «[...] non in spiritu Arnaldi loquor [...]»; 214, lín. 716-721: «Et ut de verbis propositis iudicare possitis plena maturitate, utrum sint sermones Dei vel quasi sermones, ecce lecta sub eodem scripto vobis offero de presenti. Quod, si locutus fuero verba Dei, cum <hi rend="italic">Scriptura</hi> dicat quod quem Deus misit verba Dei loquitur (Io <num type="roman">III</num>,34), cognoscite, quis me misit. Michi enim constat quod, sicut Christus est veritas, vera est hec scriptura».</note>
+<note n="421-423"><hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 213, lín. 700-707: «Tu [Benet XI] autem, pater, cave ne seducaris a phytonistis, sed quicquid tibi super ista materia suggeretur, fac notari et cum diligentia scribi, ut attendas et iudices zelo Christi, quo spiritu sunt locuti. Et ille, pro quo zelabis, certitudinem tibi dabit ut non fallaris. Ego enim scio quod iam super hoc tibi drachones insidiantur et laqueos tibi parant, quibus te subvertant et a Christi iustitia te avertant. Propterea cave, ne multitudo vel fortitudo sive profundum atque sublimitas hominum tuum favorem optineat in preiudicium veritatis et contumeliam Ihesu Christi».</note>
+<pb n="AVOThO_Volum XIV-95 (Fonts)"/>
+<note n="424-426">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 209-211, lín. 529-589; 213, lín. 688-699.</note>
+<note n="427-431">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 210, lín. 565-568; 213, lín. 708-715.</note>
+<note n="432-440"><hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 203, lín. 258-261: «Cum igitur humilis filius zelo catholico denuntiationem quamcumque proponit matri sermonibus Dei vel quasi sermonibus, constat quod in spernendo illius verba, non hominem spernit Ecclesia Romana, sed Deum»; 207, lín. 423-431: «Et quia [Bonifaci VIII] neglexit aut sprevit, complevit in eo Dominus verbum suum. Primo, quoniam in exilium transportavit eundem, quia totius parentele solatio destitutum et ab indegenis separatum compulit eum cum advena tantummodo, scilicet cum Yspano, degere cum merore. Et ad maiorem huius exilii admirationem et evidentiam divine virtutis, taliter eum constituit exulem in nido sue originis, in t[h]rono sue gloriationis, in brachio sui roboris, in castro sue tuitionis. Secundo, etiam complevit in eo verbum, quia evacuavit sepulcrum, quod sibi exciderat, non cadaveri suo»; 213, lín. 681-686: «Et ideo notum facio vobis [a Benet XI], ex parte domini nostri Ihesu Christi, quod si predictis dederitis operam corde puro, dabit Dominus pacem vobis et inimicos vestros coram vobis humiliabit. Si vero spreveritis aut neglexeritis illa, scitote, quoniam non est aversus furor eius, sed adhuc ignis succensus est in furore ipsius et manus eius adhuc extenta». Cf., també, <hi rend="italic">Epistola nuncupatoria tractatus Philosophia catholica et divina ad Bonifacium VIII</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 198, lín. 60-69.</note>
+<pb n="AVOThO_Volum XIV-96 (Fonts)"/>
+<note n="441-454">Cf. <hi rend="italic">Philosophia catholica</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 57-162, concretament 97-100, lín. 610-643; 132-136, lín. 1118-1150; 150-151, lín. 1407-1423.</note>
+<note n="445">Prov <num type="roman">XXIX</num>,8a.</note>
+<note n="449-454">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 209, lín. 515-517.</note>
+<note n="455-467">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 209, lín. 522-524.</note>
+<pb n="AVOThO_Volum XIV-97 (Fonts)"/>
+<note n="460">‘adulterantur eloquia Dei per eos’: cf., per exemple, <hi rend="italic">Apologia de versutiis atque perversitatibus pseudotheologorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 81, lín. 315-316; i <hi rend="italic">Confessio Ilerdensis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, 74, lín. 136-147.</note>
+<note n="464-467"><hi rend="italic">Confessio Ilerdensis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, 74, lín. 148-152: «Et prelatus qui negligeret euitare uel subtrahere populo talem predicatorem, non quereret que sunt Christi et infideliter ei seruiret, cum ad ministerium eius principaliter et per se conueniat gregem taliter custodire, ne corrupta predicatione cuiusquam possit decipi uel turbari».</note>
+<note n="475">‘ambulantes’: <hi rend="italic">Insurgent gentes</hi>, ed. <hi rend="small-caps">Fabricius</hi>, <hi rend="italic">Bibliotheca</hi>, III, 243.</note>
+<pb n="AVOThO_Volum XIV-99 (Fonts)"/>
+<note n="492-493">Cf., per exemple, <hi rend="small-caps">Oliger</hi>, <hi rend="italic">De secta spiritus libertatis in Umbria saec. XIV disquisitio et documenta</hi>, 106, les preguntes de Bentivenga da Gubbio a Chiara de Montefalco: «Non credis tu Clara quod possit hoc esse, quod homo possit esse per totam noctem cum foemina, et cognoscere eam, et de mane Missam celebrare?»; i, 106, «Quod credis tu placuisse plus Deo, an peccatum Magdalenae, an virginitas S. Agnetis?». Vegeu també: <hi rend="small-caps">Menestò</hi>, <hi rend="italic">Il processo di canonizzazione di Chiara da Montefalco</hi>, 224. Segons Bentivenga (288-289), «creatura nichil agit nisi in quantum agere fecit eam Deus, ut si sit in oratione, totum est a Deo, et si sit in fornicatione vel quacumque pessima operatione, totum est a Deo, et propter hoc remorsum habere non debet».</note>
+<pb n="AVOThO_Volum XIV-100 (Fonts)"/>
+<note n="498-499"><hi rend="italic">Confessio Ilerdensis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, 71, lín. 76-80: «·<num type="roman">XXI</num>ª·, que radix est et causa omnium predictarum, est quod recedent a uestigiis patris spiritualis uel fundatoris illius status, quia nec in abstinencia nec in humilitate nec in pacientia nec in mansuetudine nec in modestia nec in caritate uel aliis uirtutibus eum imitari satagent uel curabunt».</note>
+<note n="500-501">Cf. <hi rend="italic">Philosophia catholica</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 132-135, lín. 1118-1139.</note>
+<note n="502-504"><hi rend="italic">Confessio Ilerdensis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, 73, lín. 126-129: «Item eos qui de falsa predicatione redarguent uel notabunt ipsos, calumpniabuntur ypocritas<pb n="AVOThO_Volum XIV-101 (Fonts)"/> aut maligni spiritus uel homines male uite. Et ut possint calumpniari, truncate uel peruerse referent dicta reprehendentium eos»; i 71, lín. 62-63: «Duodecima, quod mutuo detrahent sibi ipsis et calumpniabuntur ad inuicem».</note>
+<pb n="AVOThO_Volum XIV-102 (Fonts)"/>
+<note n="520-521">Cant <num type="roman">IV</num>,15.</note>
+<pb n="AVOThO_Volum XIV-104 (Fonts)"/>
+<note n="547">‘persuasionibus’: Cf. <hi rend="italic">Insurgent gentes</hi>, ed. <hi rend="small-caps">Fabricius</hi>, <hi rend="italic">Bibliotheca</hi>, III, 244.</note>
+<note n="550-554">Is <num type="roman">LVII</num>,1: «Iustus perit, et non est qui recogitet in corde suo; et viri misericordiae colliguntur, quia non est qui intelligat, a facie enim malitiae collectus est iustus».</note>
+<note n="559-587"><hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 209-210, lín. 529-540.</note>
+<pb n="AVOThO_Volum XIV-105 (Fonts)"/>
+<note n="562-565"><hi rend="italic">Philosophia catholica</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 98-99, lín. 631-634: «Nostris etiam iam temporibus ad exteriorem prorupit notitiam quod in statu quodam illi, qui arguebant et sacris rationibus condemnabant impuritates patentes in eo, non tam crudeli quam diabolica persecutione coacti sunt interite».</note>
+<note n="566-568"><hi rend="italic">Philosophia catholica</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 99-100, lín. 635-640: «Quidam quoque superstites, cupientes notificare summo pontifici subversionem palpabilem evangelice veritatis, tanquam oppressionem a ministris carnalibus patiuntur, ut ab auribus et aspectu eius multis intermediis repellantur, cum tamen illius auctoritati solum pertineat diffinire de terminis cuiuslibet observantie regularis».</note>
+<note n="569">‘strutio’: cf. Iob <num type="roman">XXXIX</num>,13. Cf. <hi rend="italic">Praesentatio facta Burdegaliae</hi>, Vat. lat. 3824, f. 260a-b.</note>
+<note n="570-575"><hi rend="small-caps">Rabanus Maurus</hi>, <hi rend="italic">De universo</hi>, ed. <hi rend="small-caps">Migne</hi>, 111, col. 245c: «Struthio Graeco nomine dicitur [...] Quod animal in similitudine avis pennas habere videtur,<pb n="AVOThO_Volum XIV-106 (Fonts)"/> tamen de terra altius non elevatur [...] Per struthionem mystice hypocritae significantur [...] Quid vero per struthionis vocabulum, nisi hi, qui se bonos simulant, designantur, qui sanctitatis vitam, quasi volatus pennam, per speciem retinent et per opera non exercent?»; col. 254a-b: «Struthio avis quidem est, sed volare non potest, totamque vitam suam circa terram occupat: quales sunt quidam Deo militantes et saeculi negotiis se implicantes».</note>
+<pb n="AVOThO_Volum XIV-107 (Fonts)"/>
+<note n="573">‘simularet’: cf. <hi rend="italic">Insurgent gentes</hi>, ed. <hi rend="small-caps">Fabricius</hi>, <hi rend="italic">Bibliotheca</hi>, III, 243.</note>
+<pb n="AVOThO_Volum XIV-108 (Fonts)"/>
+<note n="588-605">Cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 209-210, lín. 529-547: «Fuit etiam notificatum eidem et quibusdam de consiliariis suis quod in quodam statuum predictorum, qui maxime fuerat ordinatus ad renovandum evangelice veritatis perfectionem, Christus ignominiose conculcabatur, quoniam omnes illi, qui zelo Christi arguebant impuritates notabiles sui status et asserebant quod vita Christi et apostolorum per eos deberet coli et observari et quod usus pauper temporalium rerum iuxta normam apostolorum ad substantiam regule ipsorum pertineat, omnes tales a suis superioribus et collegis im[m]aniter opprimuntur, ita quod non solum interdicitur eis actus evangelice fructificationis, ymo quotquot inveniunt perseverantes in tali assertione, crudeliori sevitia barbarorum exterminant atque vorant carceribus et inediis et inauditis generibus perimendi. Et quotquot appellaverunt ad iudicium et examen atque auctoritatem Apostolice Sedis, quamvis etiam affirmarent quod super hiis stare volebant preceptis et iudicio sancte Matris, nichilominus in contumeliam Christi et contemptum Romane sublimitatis absque ulla mora dati fuerunt extin[c]tioni, Spiritu Sancto in persona utriusque, scilicet tam Christi quam Ecclesie Romane, querulose dicente: “Filios enutrivi et exaltavi, ipsi autem spreverunt me” (Is <num type="roman">I</num>,2)».</note>
+<pb n="AVOThO_Volum XIV-109 (Fonts)"/>
+<note n="594">‘detractione’: <hi rend="italic">Insurgent gentes</hi>, ed. <hi rend="small-caps">Fabricius</hi>, <hi rend="italic">Bibliotheca</hi>, III, 243.</note>
+<pb n="AVOThO_Volum XIV-111 (Fonts)"/>
+<note n="647-649">Gen <num type="roman">XII</num>,1: «Dixit autem Dominus ad Abram: Egredere de terra tua, et de cognatione tua, et de domo patris tui, et veni in terram quam monstrabo tibi».</note>
+<note n="650-651">Cf. <hi rend="italic">Praesentatio facta Burdegaliae</hi>, Vat. lat. 3824, f. 257c: «Protestor etiam et confiteor me dixisse quod, si quis predictas scripturas orreret, quia sunt edite per ministerium medici corporalis, non ambularet in spiritu Iesu Christi, quoniam ipse medicos non exclusit ab intelligentia sacrorum eloquiorum, nec unquam apostoli dixerunt beato Luce, quando scripsit <hi rend="italic">Euuangelium</hi> et <hi rend="italic">Actus Apostolorum</hi>: “Intromitte te de medicina et non de theologia”»; i f. 260a: «Propterea dixi et etiam dico quod quicumque diceret medico christiano: “Intromitte te de medicina et non de theologia”, non solum ostenderet se ignarum catholice ueritatis, sed etiam falsarium et subuersorem ipsius». En un sentit més general, vegeu: <hi rend="italic">Apologia de versutiis atque perversitatibus pseudotheologorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 107, lín. 794. En l’<hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 205, lín. 306-308, Arnau de Vilanova s’expressa amb altres paraules: «Post hec vero, pater optime, recolis quomodo pauper Ecclesiae filius, cum fuisset in ministerio spirituali repudiatus, ad ministerium corporalis obsequii fuit ex improviso ac subito introductus».</note>
+</text>
+</TEI>
