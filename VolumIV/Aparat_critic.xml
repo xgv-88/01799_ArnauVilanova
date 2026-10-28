@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Alphabetum catholicorum</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. IV, pàgines 86-152: edició crítica de l’<title>Alphabetum catholicorum ad inclitum dominum regem Aragonum pro filiis erudiendis in elementis catholice fidei</title> (línies 1-990).</bibl>
+        <listWit>
+          <witness xml:id="B">Ciutat del Vaticà, BAV, Borgh. 205, ff. 9r-20r.</witness>
+          <witness xml:id="C">Cambridge, University Library, Mm. 6.12 (2471), ff. 31v-52.</witness>
+          <witness xml:id="E">Frankfurt am Main, Universitätsbibliothek, Praed., 58, ff. 81a-86d.</witness>
+          <witness xml:id="G">Graz, Universitätsbibliothek, ms. 1226.</witness>
+          <witness xml:id="N">Bernkastel-Kues, St. Nikolaus Spital, ms.</witness>
+          <witness xml:id="O">Oxford, Bodleian Library, Can. misc. lat., ms. 370 (a l’aparat, sigla <hi rend="italic">0</hi>).</witness>
+          <witness xml:id="S">Saint-Omer, Bibliothèque de l’agglomeration de Saint-Omer: <hi rend="italic">S1</hi> = ms. 292, ff. 139v-139r; <hi rend="italic">S2</hi> = ms. 361, ff. 127r-134v.</witness>
+          <witness xml:id="V">Ciutat del Vaticà, BAV, Vat. lat. 3824, ff. 29a-43b.</witness>
+          <witness xml:id="X">Ciutat del Vaticà, BAV, Vat. lat. 5732, ff. 53b-89c.</witness>
+          <witness xml:id="Y">Sydney, University Library, Nicholson 23, f. 151-163.</witness>
+          <witness xml:id="T">Traducció grega: Sant Petersburg, Publichnaya Biblioteka, Petropolitanus graecus 113.</witness>
+          <witness xml:id="f">Traducció toscana: Florència, Biblioteca Nazionale Centrale, Conv. Soppr. G.3.368, ff. 1v-13v.</witness>
+          <witness xml:id="r">Traducció castellana: Roma, Biblioteca Casanatense, ms. 1022, ff. 115-132.</witness>
+          <witness xml:id="b">Wilhelm Burger, <hi rend="italic">Römische Beiträge zur Geschichte der Katechese im Mittelalter</hi>, dins «Römische Quartalschrift», 21 (1907/2), 173-194.</witness>
+          <witness xml:id="l">Hope Lampert Burnam, <hi rend="italic">The “Alphabetum catholicorum” of Arnaldus of Villanova: an Edition and Study</hi>, University of Toronto 1996.</witness>
+          <witness xml:id="n">Joan Nadal Cañellas, <hi rend="italic">Arnaldi de Villanova tractatus octo in graecum sermonem versi (Petropolitanus graecus 113)</hi>, Barcelona, IEC 2002, 204-259.</witness>
+          <witness xml:id="p">Josep Perarnau, <hi rend="italic">Dos tratados ‘espirituales’ de Arnau de Vilanova en traducción castellana medieval</hi>, dins «Anthologica Annua», 22-23 (1975-1976 [1978]), 477-630.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <text>
+    <back>
+      <div type="apparatus" subtype="critical">
+<pb n="AVOThO_Volum IV-87 (Aparat Crític)"/>
+<note n="1-2"><hi rend="italic">G om S1 om R om X praeit</hi> ihesus</note>
+<note n="1">alphabetum catholicorum <hi rend="italic">S2Y</hi> collocutio dydascalica (<hi rend="italic">Y</hi> didascolica) <hi rend="italic">T</hi> <foreign xml:lang="grc">διάλογος διδασκαλικός</foreign> <hi rend="italic">O</hi> dialogus siue allocutio didascolica <hi rend="italic">T Bl</hi> alfabetum | <hi rend="italic">F</hi> chatolicorum | <hi rend="italic">F</hi> aragonie</note>
+<note n="1-2">ad inclitum dominum regem Aragonum pro filiis erudiendis <hi rend="italic">S2TY om</hi> | inclitum <hi rend="italic">N</hi> inclytum</note>
+<note n="2">in <hi rend="italic">S2Y</hi> super <hi rend="italic">O</hi> de <hi rend="italic">T</hi> | catholice <hi rend="italic">N</hi> catolice | fidei <hi rend="italic">Y add</hi> magistri Arnaldi de Villanoua physici <hi rend="italic">F add</hi> etc <hi rend="italic">C add</hi> et est dyalogus</note>
+<note n="4"><hi rend="italic">X</hi> Domine, sum</note>
+<pb n="AVOThO_Volum IV-88 (Aparat Crític)"/>
+<note n="7">Que <hi rend="italic">O</hi> quid | est <hi rend="italic">N add</hi> ergo | recta fides <hi rend="italic">Y</hi> fides recta <pb n="AVOThO_Volum IV-89 (Aparat Crític)"/>8 <hi rend="italic">T add</hi> <foreign xml:lang="grc">ἐκείνη ἣν διδάσκει ἡ καθολικὴ ἐκκλησία τοῦ Θεοῦ</foreign></note>
+<note n="9">Que <hi rend="italic">O</hi> quid | catholica <hi rend="italic">B ead man add in mg F</hi> katholica</note>
+<note n="10"><hi rend="italic">T om</hi></note>
+<note n="11">Quid <hi rend="italic">S1 add</hi> est</note>
+<note n="12">Patrem <hi rend="italic">S12Y add</hi> omnipotentem | etc. <hi rend="italic">X om l</hi> et cetera</note>
+<note n="13">est <hi rend="italic">N add</hi> recte | ergo <hi rend="italic">S12O om</hi></note>
+<note n="14">alicui <hi rend="italic">S12 om</hi></note>
+<note n="16">Quot <hi rend="italic">S1</hi> Quod | ea <hi rend="italic">G</hi> illa | docet <hi rend="italic">G add</hi> sancta | docet ecclesia <hi rend="italic">C</hi> ecclesia docet</note>
+<pb n="AVOThO_Volum IV-90 (Aparat Crític)"/>
+<note n="17">quatuordecim <hi rend="italic">BGS12Y</hi> .<num type="roman">XIIIJ</num>.</note>
+<note n="17-18">quatuordecim <hi rend="italic">BGOXY</hi> .<num type="roman">XIIIJ</num>.</note>
+<note n="19"><hi rend="italic">G om</hi> | quatuordecim <hi rend="italic">BS12XY</hi> .<num type="roman">XIIIJ</num>.</note>
+<pb n="AVOThO_Volum IV-91 (Aparat Crític)"/>
+<note n="20">quatuordecim <hi rend="italic">BS12OX</hi> .<num type="roman">XIIIJ</num>.</note>
+<note n="20-21">ad sensum distincti <hi rend="italic">Y</hi> distincti ad sensum</note>
+<note n="21">distincti <hi rend="italic">S12 om</hi> | sic <hi rend="italic">S1Y</hi> sicut | catholica <hi rend="italic">F</hi> katholica | quatuordecim <hi rend="italic">BS12XY</hi> .<num type="roman">XIIIJ</num>.</note>
+<note n="22">principaliter <hi rend="italic">N om</hi> | proponuntur <hi rend="italic">B corr</hi> aproponuntur <hi rend="italic">exp</hi> a-</note>
+<note n="23">est <hi rend="italic">Y</hi> ergo | fidei <hi rend="italic">BCTY om</hi></note>
+<note n="25">diuina ueritate <hi rend="italic">BCS12Y</hi> veritate diuina | ergo <hi rend="italic">S12</hi> autem</note>
+<note n="26">quatuordecim <hi rend="italic">BGS12YOX</hi> .<num type="roman">XIIIJ</num>.</note>
+<note n="27"><hi rend="italic">T om</hi></note>
+<pb n="AVOThO_Volum IV-92 (Aparat Crític)"/>
+<note n="28">et <hi rend="italic">X om</hi> | (et) septem <hi rend="italic">BGS12Y</hi> .<num type="roman">VIJ</num>. | diuinitatem <hi rend="italic">G</hi> divinam veritatem de Christi divinitate | pertinentes <hi rend="italic">G om</hi></note>
+<note n="28-30">et septem... ad diuinitatem <hi rend="italic">F om</hi></note>
+<note n="29">Christi <hi rend="italic">GY om</hi></note>
+<note n="30"><hi rend="italic">Y om</hi> | septem <hi rend="italic">BS1</hi> .<num type="roman">VIJ</num>. | diuinitatem <hi rend="italic">S12 add</hi> xristi <hi rend="italic">S2 lect dub</hi> | <hi rend="italic">in mg ead man</hi> articuli diuinitatis</note>
+<note n="33">quatuor <hi rend="italic">BS12</hi> .<num type="roman">IIIJ</num>. <hi rend="italic">Y om</hi></note>
+<note n="34">ad <hi rend="italic">G seq</hi> eccl <hi rend="italic">exp</hi> | diuinam <hi rend="italic">G om</hi> | pertinentes <hi rend="italic">G om</hi></note>
+<note n="34-35">personas <hi rend="italic">S12</hi> potentias</note>
+<note n="35">est <hi rend="italic">G om</hi> | est enim <hi rend="italic">Y</hi> ergo | credere <hi rend="italic">G add</hi> est | in <hi rend="italic">G seq</hi> persona et <hi rend="italic">canc</hi></note>
+<note n="36-37"><hi rend="italic">S12 in mg</hi> primus</note>
+<note n="36">et sic <hi rend="italic">G</hi> ergo | credere <hi rend="italic">O add</hi> quod Deus est unus in essentia</note>
+<note n="37">Secundus <hi rend="italic">T add</hi> <foreign xml:lang="grc">κεφάλαιόν</foreign> | diuinitate <hi rend="italic">BCYl</hi> deitate</note>
+<note n="37-38"><hi rend="italic">S12 in mg</hi> secundus</note>
+<note n="38">Patris. Tercius est credere quod in divinitate est persona <hi rend="italic">B add in mg</hi> | Tertius <hi rend="italic">T add</hi> <foreign xml:lang="grc">κεφάλαιόν</foreign> | diuinitate <hi rend="italic">BCYl</hi> deitate</note>
+<note n="38-39"><hi rend="italic">S2 in mg</hi> tertius</note>
+<note n="39">geniti <hi rend="italic">F</hi> genitus | Quartus <hi rend="italic">T add</hi> <foreign xml:lang="grc">κεφάλαιόν</foreign> | diuinitate <hi rend="italic">BCY</hi> deitate <hi rend="italic">G</hi> d.</note>
+<note n="39-40"><hi rend="italic">S2 in mg</hi> quartus</note>
+<note n="40">procedentis <hi rend="italic">B corr</hi> procedentis | et <hi rend="italic">N add</hi> in <hi rend="italic">X om</hi></note>
+<pb n="AVOThO_Volum IV-93 (Aparat Crític)"/>
+<note n="42">tres <hi rend="italic">O add</hi> persone | tres pertinentes <hi rend="italic">X</hi> operantes | operationem divinam <hi rend="italic">T</hi> <foreign xml:lang="grc">ταῖς ἐνεργείαις ταῖς θείαις</foreign></note>
+<note n="43">creationis <hi rend="italic">b</hi> Creatoris | et <hi rend="italic">S12 om</hi> | alius <hi rend="italic">CYl add</hi> pertinens</note>
+<note n="44">alius <hi rend="italic">F</hi> tertius <hi rend="italic">CS12Y add</hi> pertinens <hi rend="italic">et S2 in mg</hi> quintus | istorum <hi rend="italic">N seq</hi> est <hi rend="italic">canc</hi> | trium <hi rend="italic">TGF om</hi></note>
+<note n="45">secundus <hi rend="italic">F add</hi> istorum trium | est credere <hi rend="italic">T om</hi> | solus Deus creauit omnia <hi rend="italic">S12</hi> omnia per ipsum Deum scilicet facta sunt et sine ipso factum est nichil, quia ipse dicit (<hi rend="italic">S2</hi> dixit) et facta sunt, ipse mandauit et creata sunt | secundus <hi rend="italic">S2 add in mg</hi> sextus</note>
+<note n="46"><hi rend="italic">S2</hi> tercius <hi rend="italic">in mg</hi> septimus | est <hi rend="italic">G om</hi> | credere <hi rend="italic">GX om</hi></note>
+<note n="46">iustificat <hi rend="italic">G</hi> iustificavit | impium <hi rend="italic">G</hi> inpium</note>
+<note n="47">resuscitabit <hi rend="italic">S12Y</hi> suscitabit <hi rend="italic">O</hi> ressuscitabit | impiorum <hi rend="italic">G</hi> inpiorum</note>
+<note n="49">septem <hi rend="italic">BS12GY</hi> .<num type="roman">VIJ</num>.</note>
+<note n="50"><hi rend="italic">Y add in mg ead man</hi> | Primus <hi rend="italic">S12 in mg</hi> octavus | inquantum <hi rend="italic">G add</hi> fuit <hi rend="italic">T add</hi> <foreign xml:lang="grc">ἦν</foreign> | fuit <hi rend="italic">G</hi> est</note>
+<note n="51"><hi rend="italic">S2 in mg</hi> nonus | ex <hi rend="italic">BGl</hi> de</note>
+<note n="52">credere <hi rend="italic">G om</hi> | quod <hi rend="italic">Fl om</hi> | fuit natus <hi rend="italic">G</hi> natus est | ex ea <hi rend="italic">Bl om</hi> | illesa uirginitate <hi rend="italic">G</hi> virginitate integra permanente</note>
+<note n="53">tercius <hi rend="italic">S2 in mg</hi> decimus | est <hi rend="italic">YG om</hi> | credere <hi rend="italic">G om</hi> | crucifixus <hi rend="italic">V seq</hi> m <hi rend="italic">canc S12 add</hi> et <hi rend="italic">N</hi> crusifixus</note>
+<note n="54">quartus <hi rend="italic">S2 in mg</hi> undecimus | eius <hi rend="italic">S2 iter exp F</hi> est</note>
+<note n="55">quintus <hi rend="italic">S2 in mg</hi> duodecimus | est credere <hi rend="italic">G om</hi> | credere <hi rend="italic">Y in mg ead man</hi></note>
+<note n="55-56">tercia die resurrexit a mortuis. Sextus est credere quod inquantum homo <hi rend="italic">S2 om</hi></note>
+<note n="56">credere <hi rend="italic">FG om</hi> | ascendit <hi rend="italic">G</hi> adscendit</note>
+<note n="57">et <hi rend="italic">S12</hi> sextus, quod <hi rend="italic">in mg add</hi><pb n="AVOThO_Volum IV-94 (Aparat Crític)"/> decimus tertius | dexteram <hi rend="italic">DN</hi> dextram | Dei <hi rend="italic">S12G om</hi></note>
+<note n="58">uel <hi rend="italic">CY</hi> et | septimus <hi rend="italic">S2 in mg</hi> decimus quartus | quod <hi rend="italic">NX om</hi> | iterum <hi rend="italic">Y om</hi></note>
+<note n="58-59">iterum veniet <hi rend="italic">S12</hi> veniet iterum</note>
+<note n="59">diiudicare <hi rend="italic">GXl</hi> iudicare | sua <hi rend="italic">T</hi> <foreign xml:lang="grc">αὐτῶν</foreign></note>
+<note n="60">Quid <hi rend="italic">Y</hi> Quis</note>
+<note n="61">Ihesus Christus <hi rend="italic">G</hi> Ipse | eternus <hi rend="italic">B</hi> eterni | ex <hi rend="italic">S12</hi> de</note>
+<note n="62-66"><hi rend="italic">T om</hi></note>
+<note n="63">arcto, arctas <hi rend="italic">BYS12FGOXl</hi> arto, artas</note>
+<note n="65">credentem <hi rend="italic">N</hi> credenti | arctat <hi rend="italic">BS12FOXl</hi> artat | in <hi rend="italic">F</hi> ad</note>
+<note n="67">Quot <hi rend="italic">F</hi> quod | cognoscitur <hi rend="italic">B</hi> agnoscitur <hi rend="italic">F</hi> cognoscit | <hi rend="italic">S2 in mg</hi> Nota: quot sunt signa quibus cognoscitur [fi]delis</note>
+<pb n="AVOThO_Volum IV-95 (Aparat Crític)"/>
+<note n="69">Que <hi rend="italic">BCl add</hi> sunt <hi rend="italic">F om</hi> | eiectio <hi rend="italic">Y</hi> eiectus | demoniorum <hi rend="italic">l</hi> demonorum | id est <hi rend="italic">F om</hi> | prauarum <hi rend="italic">V seq</hi> cogi <hi rend="italic">canc</hi></note>
+<note n="69-70">id est, prauarum temptationum <hi rend="italic">Y om</hi></note>
+<note n="70">mente propria <hi rend="italic">Y</hi> propria mente | secundum <hi rend="italic">O</hi> secundus | innouatio <hi rend="italic">O</hi> nouatio</note>
+<note n="71">eiusdem <hi rend="italic">B</hi> eius <hi rend="italic">Y om</hi></note>
+<note n="72">Tertium <hi rend="italic">Y</hi> Tertio | est <hi rend="italic">Y om</hi> | ablatio <hi rend="italic">B</hi> oblatio</note>
+<note n="73">uenenosi <hi rend="italic">Y</hi> uenosi | procedentis a lingua maledica. Quartum est illesio a potu mortifero, id est, non corrumpi ab auditu venenosi sermonis <hi rend="italic">X om</hi> | lingua <hi rend="italic">Y</hi> linga | maledica <hi rend="italic">FS12Ol</hi> maledicta</note>
+<note n="74">mortifero <hi rend="italic">l</hi> mortiferi | non <hi rend="italic">V ead man in mg N om</hi></note>
+<note n="75">sanatio <hi rend="italic">N</hi> servatio(?) | egrorum <hi rend="italic">Y</hi> egrotorum | impositionem <hi rend="italic">FG</hi> inpositionem</note>
+<note n="76">exempla <hi rend="italic">T</hi> <foreign xml:lang="grc">ὑποδειγμάτων</foreign></note>
+<note n="77">operum <hi rend="italic">S12</hi> hominum</note>
+<note n="78">qualiter <hi rend="italic">S12</hi> quare | scis <hi rend="italic">Y</hi> sit | tu <hi rend="italic">N om</hi> | hec <hi rend="italic">YS12l</hi> ista | signa <hi rend="italic">B</hi> singna | uerus <hi rend="italic">N add</hi> catholicus aut</note>
+<note n="78-80">cognoscatur... signa <hi rend="italic">Y om</hi> | Evangelio <hi rend="italic">F</hi> Ewangelio</note>
+<note n="80-83"><hi rend="italic">G</hi> Hec sunt .<num type="roman">V</num>. signa per que cognoscitur verus fidelis, que Dominus tangit in euangelio Marci. «Signa autem eos qui crediderint»... <hi rend="italic">om</hi></note>
+<note n="80">expresse tangit <hi rend="italic">X</hi> tangit expresse | ista <hi rend="italic">l</hi> ea | quinque signa <hi rend="italic">Bl om</hi> | signa <hi rend="italic">X</hi> singa | Evangelio <hi rend="italic">S12N</hi> Evvangelio <hi rend="italic">O</hi> Euuangelio</note>
+<note n="81">Marci <hi rend="italic">YO</hi> Marchi <hi rend="italic">C</hi> Mathei (?)</note>
+<pb n="AVOThO_Volum IV-96 (Aparat Crític)"/>
+<note n="82">vbi <hi rend="italic">S12N om</hi></note>
+<note n="83">eiusdem <hi rend="italic">Y om</hi> | euangelii <hi rend="italic">S12</hi> evvangelii <hi rend="italic">T om</hi> | eiusdem euangelii <hi rend="italic">BCOl</hi> euangelii eiusdem | quando <hi rend="italic">BYl</hi> cum <hi rend="italic">C om S12</hi> ubi sic | signa <hi rend="italic">B</hi> singa</note>
+<note n="84">crediderint <hi rend="italic">b</hi> crediderunt | sequentur <hi rend="italic">l</hi> sequuntur | eicient <hi rend="italic">X</hi> eiciet</note>
+<note n="85">ecce <hi rend="italic">Y om</hi> | ubi tangit <hi rend="italic">S om bis</hi> | loquentur <hi rend="italic">X</hi> loquentes</note>
+<note n="86">secundum <hi rend="italic">Y add in mg ead man</hi> | ubi <hi rend="italic">YS12 om</hi> | tangit <hi rend="italic">S12 om</hi></note>
+<note n="86-87">quid mortiferum <hi rend="italic">S12</hi> mortiferum quid</note>
+<note n="87">biberint <hi rend="italic">F add</hi> nomine meo | eos <hi rend="italic">BFYl</hi> eis | ubi tangit <hi rend="italic">S12 om</hi></note>
+<note n="88">imponent <hi rend="italic">F</hi> inponent</note>
+<note n="88-89">ubi tangit <hi rend="italic">S12 om</hi></note>
+<note n="90">ista quinque uero fideli <hi rend="italic">Y</hi> uero ista fideli | uero <hi rend="italic">S12</hi> homini</note>
+<note n="91">Domine, sufficiunt <hi rend="italic">G</hi> Sufficiunt, domine | fidelis <hi rend="italic">G om</hi></note>
+<note n="92">seipsum <hi rend="italic">Y om</hi> | seipsum ordinare <hi rend="italic">G</hi> ordinare seipsum</note>
+<note n="94">Quot <hi rend="italic">X</hi> Quod | ergo <hi rend="italic">Y</hi> sunt <hi rend="italic">O om</hi> | preter iamdicta <hi rend="italic">G om</hi> | sunt necessaria (<hi rend="italic">l</hi> neccessaria) <hi rend="italic">G add</hi> vero <hi rend="italic">Y</hi> necessaria sunt <hi rend="italic">X</hi> sufficiunt</note>
+<note n="94-95">prout habet seipsum | ut possit se</note>
+<note n="95">Deum <hi rend="italic">N seq</hi> tria <hi rend="italic">canc</hi></note>
+<note n="97">Que <hi rend="italic">BCl add</hi> sunt | laudare <hi rend="italic">G</hi> orare | eum <hi rend="italic">CS12</hi> Deum <hi rend="italic">G</hi> ipsum</note>
+<note n="98">orare <hi rend="italic">G</hi> laudare</note>
+<pb n="AVOThO_Volum IV-97 (Aparat Crític)"/>
+<note n="99">est <hi rend="italic">O om</hi> | laudandus <hi rend="italic">S12 add</hi> Deus?</note>
+<note n="101">meditandum est <hi rend="italic">FS12l</hi> est meditandum</note>
+<note n="102">mirabilis <hi rend="italic">Ol add</hi> est | et <hi rend="italic">S12Y add</hi> etiam | omnibus <hi rend="italic">O om</hi> | operibus suis <hi rend="italic">Bl</hi> suis operibus <hi rend="italic">F</hi> suis partibus id est operibus</note>
+<note n="103">est <hi rend="italic">G om</hi></note>
+<note n="105">tria <hi rend="italic">C om</hi></note>
+<note n="107">quoniam <hi rend="italic">G</hi> quia | bonus <hi rend="italic">CS12Y add</hi> etc. | probo <hi rend="italic">Y om</hi> | primo <hi rend="italic">CTS12 om</hi> | per <hi rend="italic">C om Y add</hi> orationem</note>
+<note n="108">sui considerationem <hi rend="italic">C</hi> considerationem sui | uel <hi rend="italic">F</hi> et <hi rend="italic">T</hi> <foreign xml:lang="grc">καὶ</foreign></note>
+<note n="109">allicit <hi rend="italic">GO</hi> alicit | animum <hi rend="italic">l</hi> animam | multiplicior <hi rend="italic">O</hi> multipliciorem | est <hi rend="italic">O om</hi></note>
+<note n="110">uel <hi rend="italic">N</hi> ut | in <hi rend="italic">V ead man int lin</hi> | uirtute <hi rend="italic">X</hi> ueritate <hi rend="italic">G add</hi> sed Deus est huiusmodi; ergo, etc. | secundo <hi rend="italic">G add</hi> hoc <hi rend="italic">O</hi> secundum <hi rend="italic">C</hi> iterum | Ysaye <hi rend="italic">S1</hi> Yzaie <hi rend="italic">FYS2</hi> Ysaie <hi rend="italic">l</hi> Ysaias</note>
+<note n="110-111">dicentis in principio <hi rend="italic">G om</hi></note>
+<note n="111">vigesimi quinti <hi rend="italic">F</hi> 22ti | capituli <hi rend="italic">G</hi> cº <hi rend="italic">O om l</hi> episcopo | mirabilia <hi rend="italic">X add</hi> id est</note>
+<note n="112">per que uerba <hi rend="italic">Bl</hi> quibus verbis | uerba renuit <hi rend="italic">X</hi> umbra renuit | quod <hi rend="italic">C</hi><pb n="AVOThO_Volum IV-98 (Aparat Crític)"/> quia</note>
+<note n="113">debent <hi rend="italic">S12</hi> debetur | cogitationes fidelium <hi rend="italic">S12 om</hi> | fidelium <hi rend="italic">CY om</hi> | etiam <hi rend="italic">O</hi> id est</note>
+<note n="115">Quod <hi rend="italic">X</hi> Quot | Deus <hi rend="italic">O om</hi></note>
+<note n="116">suis operibus <hi rend="italic">Bl</hi> in operibus suis | quia <hi rend="italic">N</hi> ut <hi rend="italic">seq</hi> h <hi rend="italic">canc</hi> | (se) et <hi rend="italic">YO add</hi> in</note>
+<note n="116-119">in se et suis operibus probo utrumque. Et primo primum, quia legitur <hi rend="italic">Hester</hi>, decimo quinto, circa finem: «Valde mirabilis es, Domine, et facies tua plena est gratiarum». Quod autem sit mirabilis <hi rend="italic">S12 om</hi></note>
+<note n="116-117">Et primo primum, quia legitur <hi rend="italic">G</hi> primum patet</note>
+<note n="117">legitur <hi rend="italic">T</hi> <foreign xml:lang="grc">ἀναγινώσκεται</foreign> <hi rend="italic">add</hi> <foreign xml:lang="grc">ἐν τῇ βίβλῳ</foreign> | Hester <hi rend="italic">O</hi> he sunt | decimo quinto <hi rend="italic">F</hi> id est | circa finem <hi rend="italic">G om</hi> | es <hi rend="italic">X</hi> est</note>
+<note n="118">et <hi rend="italic">G om</hi> | tua <hi rend="italic">C seq</hi> pulcra <hi rend="italic">canc</hi> | est gratiarum <hi rend="italic">C</hi> gratiarum est | autem <hi rend="italic">G</hi> etiam</note>
+<note n="118-119">sit mirabilis <hi rend="italic">N</hi> mirabilis sit</note>
+<note n="119">suis operibus <hi rend="italic">CYS12O</hi> operibus suis | patet <hi rend="italic">N om</hi> | auctoritatem <hi rend="italic">G om</hi> | palmiste <hi rend="italic">G</hi> psalmistam</note>
+<note n="119-120">supramemoratam <hi rend="italic">F</hi> meum debet <hi rend="italic">G add</hi> mirabilis Deus in omnibus operibus suis</note>
+<note n="120">iterum <hi rend="italic">G</hi> etiam | qui <hi rend="italic">N om</hi> | qui dicit <hi rend="italic">G om</hi> | auctoritatem <hi rend="italic">G om</hi> | quinto capitulo <hi rend="italic">F</hi> capitulo quinto | capitulo <hi rend="italic">G om</hi></note>
+<note n="121">(magna) et <hi rend="italic">X om</hi> | inscrutabilia <hi rend="italic">Y</hi> instructabilia | et mirabilia <hi rend="italic">S12 om</hi> | mirabilia <hi rend="italic">G</hi> mira</note>
+<note n="122">per <hi rend="italic">N seq</hi> st <hi rend="italic">canc</hi> | Psalmistam <hi rend="italic">G</hi> illud psalmi | qui dicit <hi rend="italic">G om</hi> | omnis <hi rend="italic">N seq</hi> in tempore <hi rend="italic">canc</hi></note>
+<note n="122-123">in tempore oportuno <hi rend="italic">G</hi> etc.</note>
+<note n="123">(est) omnis <hi rend="italic">Y add</hi> sanctus <hi rend="italic">exp</hi> | oportuno <hi rend="italic">O</hi> opportuno | uerus <hi rend="italic">Bl</hi> uere <hi rend="italic">F</hi> vero <hi rend="italic">Y om</hi></note>
+<note n="123-124">verus fidelis <hi rend="italic">O</hi> fidelis verus</note>
+<note n="124">iterum <hi rend="italic">Bl praeit</hi> et <hi rend="italic">in ras CYS12</hi> item | iterum in Mattheo <hi rend="italic">G</hi> item | Mattheo <hi rend="italic">Yl</hi> Matheo <hi rend="italic">F</hi> meoust</note>
+<note n="125">uocabitur <hi rend="italic">G om</hi> | est <hi rend="italic">V seq</hi> unitas <hi rend="italic">canc</hi> | uniuersitas <hi rend="italic">V ead man in mg</hi></note>
+<note n="126"><hi rend="italic">G om</hi> | teste <hi rend="italic">S12</hi> testante | Thimotheum <hi rend="italic">S2</hi> Tymotheum <hi rend="italic">N</hi> Thymotheum <hi rend="italic">YO</hi> Thimoteum</note>
+<note n="127">quot <hi rend="italic">S1</hi> quod <hi rend="italic">S2 corr</hi> qui (?) | est Deus <hi rend="italic">FO</hi> Deus est | est <hi rend="italic">G</hi> dicitur</note>
+<note n="128">tribus <hi rend="italic">S12 add</hi> modis</note>
+<note n="129"><hi rend="italic">Y om</hi></note>
+<pb n="AVOThO_Volum IV-99 (Aparat Crític)"/>
+<note n="130">annunciando <hi rend="italic">Bl</hi> anunciando <hi rend="italic">Y</hi> laudando <hi rend="italic">S12 add</hi> et | immitando <hi rend="italic">BCYS12</hi> imitando <hi rend="italic">FGl</hi> inmitando</note>
+<note n="131"><hi rend="italic">G om</hi></note>
+<note n="132">primum <hi rend="italic">G</hi> de primo | probo <hi rend="italic">T add</hi> <foreign xml:lang="grc">κύριε</foreign> | probo per... qui dicit <hi rend="italic">G om</hi> | per <hi rend="italic">N seq</hi> spla <hi rend="italic">canc</hi> | Psalmistam <hi rend="italic">Y</hi> Salmistam | qui dicit <hi rend="italic">S12</hi> dicentem | mea <hi rend="italic">Y om</hi></note>
+<note n="133">Domino <hi rend="italic">X</hi> Dominum | et omnia... sancto eius <hi rend="italic">G om</hi> | intra me sunt <hi rend="italic">X</hi> sunt inter me | sunt <hi rend="italic">S1 om</hi> | secundum <hi rend="italic">G</hi> secundo</note>
+<note n="134">probo per eundem, qui dicit <hi rend="italic">G om</hi> | dicit <hi rend="italic">X seq</hi> estote <hi rend="italic">canc</hi> | aperies <hi rend="italic">O</hi> apperies</note>
+<note n="134-135">et os... laudem tuam <hi rend="italic">CG om</hi> | qui dicit <hi rend="italic">G om</hi></note>
+<note n="135">annunciabit <hi rend="italic">X</hi> annunpciabit | qui dicit <hi rend="italic">O</hi> dicentem</note>
+<note n="136">imitatores <hi rend="italic">G</hi> inmiatatores <hi rend="italic">X</hi> immitatores <hi rend="italic">C</hi> imittatores | karissimi <hi rend="italic">S2O</hi> carissimi | que <hi rend="italic">C</hi> quas(?)</note>
+<note n="137">Quod <hi rend="italic">X</hi> Quot | imitari <hi rend="italic">F</hi> imitare <hi rend="italic">G</hi> inmittari <hi rend="italic">X</hi> immitari | bonis operibus <hi rend="italic">F om Y</hi> in operibus suis | Deo <hi rend="italic">G add</hi> in</note>
+<note n="138">qui dicit in <hi rend="italic">G om</hi> | Mattheo <hi rend="italic">S12l</hi> Matheo <hi rend="italic">b</hi> M.</note>
+<note n="138-140">Sic luceat... in celis <hi rend="italic">G</hi> Sic luceat lux vestra, usque ibi, et glorificent Patrem</note>
+<note n="139">vestra <hi rend="italic">N</hi> vera <hi rend="italic">X</hi> vnam | vestra bona opera <hi rend="italic">S12</hi> opera vestra bona</note>
+<note n="140">est in celis <hi rend="italic">FYX</hi> in celis est | ecce expresse <hi rend="italic">X om</hi> | testatur <hi rend="italic">X</hi> temptatus | (Dominus) in <hi rend="italic">l om</hi></note>
+<note n="140-142">uestrum, qui est in celis... publice laudatur <hi rend="italic">G om</hi></note>
+<note n="141">bona <hi rend="italic">T</hi><foreign xml:lang="grc">χρηστῶν</foreign> | glorificatur Deus <hi rend="italic">X</hi> glorificatus Dominus</note>
+<note n="142">excellenter <hi rend="italic">X</hi> exellenter | laudatur <hi rend="italic">X</hi> laudatus</note>
+<note n="143">quot <hi rend="italic">S1</hi> quod <hi rend="italic">S2 corr</hi> qui (?) | meditandum <hi rend="italic">F</hi> -d- <hi rend="italic">corr litt illeg</hi> | eo <hi rend="italic">F</hi> ipso</note>
+<pb n="AVOThO_Volum IV-100 (Aparat Crític)"/>
+<note n="145"><hi rend="italic">G om</hi></note>
+<note n="146">modo <hi rend="italic">S12 om</hi> | admirando <hi rend="italic">S12</hi> ammirando <hi rend="italic">X</hi> in mirando <hi rend="italic">V seq</hi> n <hi rend="italic">canc</hi> | quantum ad <hi rend="italic">O</hi> quo ad</note>
+<note n="147">etiam <hi rend="italic">S2</hi> et | quantum ad <hi rend="italic">O</hi> quo ad | uel <hi rend="italic">S2</hi> et</note>
+<note n="148">et infinitatem potentie <hi rend="italic">X om</hi> | claritatem <hi rend="italic">Y add</hi> potentie</note>
+<note n="148-149">et eternitatem <hi rend="italic">Y om</hi></note>
+<note n="149">existentie <hi rend="italic">S12</hi> essencie <hi rend="italic">X</hi> esistentie</note>
+<note n="150">modo <hi rend="italic">S12 om</hi> | rememorando <hi rend="italic">V corr</hi> memorando <hi rend="italic">add</hi> re- | quam <hi rend="italic">X add</hi> persone quam gratie</note>
+<note n="151">modo <hi rend="italic">S12 om (bis)</hi> | contemplando <hi rend="italic">X</hi> contemplendo</note>
+<note n="151-152">attendendo et <hi rend="italic">X om</hi></note>
+<note n="152">et <hi rend="italic">S12 om</hi> | ipsius <hi rend="italic">FY</hi> eius</note>
+<note n="153">dixisti <hi rend="italic">X</hi> dicisti | orare <hi rend="italic">S12 add</hi> Deum | <hi rend="italic">in mg</hi> [qui]d est orare</note>
+<note n="154">orare <hi rend="italic">C om</hi> | orare est <hi rend="italic">BYS12bl om V add in mg inf</hi> | Deum <hi rend="italic">S12 add</hi> scilicet | erectione <hi rend="italic">O</hi> ratione | inclinatione <hi rend="italic">N</hi> inclinationis</note>
+<note n="155">corporis <hi rend="italic">N</hi> coporis</note>
+<pb n="AVOThO_Volum IV-101 (Aparat Crític)"/>
+<note n="156"><hi rend="italic">G om</hi></note>
+<note n="157">Dominus <hi rend="italic">G</hi> Deus</note>
+<note n="157-158">instante passione... sicut scripsit <hi rend="italic">G om</hi></note>
+<note n="158">cum dicit quod Dominus <hi rend="italic">G</hi> ubi dicitur quod | progressus <hi rend="italic">S12 add</hi> est | <hi rend="italic">V seq</hi> paulu <hi rend="italic">canc</hi></note>
+<note n="159">pusillum <hi rend="italic">S12 add</hi> et | prodidit <hi rend="italic">b</hi> procedit | mi <hi rend="italic">l</hi> mei | si <hi rend="italic">F bis, altero canc S1 om S2 solutio dub</hi>: <hi rend="italic">exp</hi> si <hi rend="italic">post add int lin</hi></note>
+<note n="160">est <hi rend="italic">G add</hi> etc. | transeat <hi rend="italic">N</hi> transit | ecce <hi rend="italic">S12 om</hi></note>
+<note n="162">est certum <hi rend="italic">S12</hi> certum est</note>
+<note n="160-161">transeat a me... corpore inclinato <hi rend="italic">G om</hi></note>
+<note n="162">et est... ab eo <hi rend="italic">G</hi> et per hoc est certum quod dictum est</note>
+<note n="164">in Domino <hi rend="italic">C</hi> intus Dominum(?) | cadere <hi rend="italic">X</hi> eadem | duplicitas <hi rend="italic">C</hi> dupplicitas</note>
+<note n="164-165">falsitatis <hi rend="italic">X</hi> falsitas</note>
+<pb n="AVOThO_Volum IV-102 (Aparat Crític)"/>
+<note n="166">Qua <hi rend="italic">N seq</hi> ergo <hi rend="italic">canc</hi> | igitur <hi rend="italic">FG</hi> ergo | oratione <hi rend="italic">NO</hi> ratione</note>
+<note n="167">noster <hi rend="italic">V seq</hi> docuit <hi rend="italic">canc</hi> | Dominus <hi rend="italic">Y om</hi> | Dominus Ihesus Christus <hi rend="italic">G om</hi></note>
+<note n="168"><hi rend="italic">G om</hi></note>
+<note n="169">Hec scilicet <hi rend="italic">G om</hi> | Pater noster <hi rend="italic">G add</hi> qui es</note>
+<note n="170">Hec <hi rend="italic">O</hi> Domine, per hec | noster <hi rend="italic">BYS12l add</hi> qui es in celis et cetera <hi rend="italic">O om</hi></note>
+<note n="171-175"><hi rend="italic">G om</hi></note>
+<note n="171">docuerit <hi rend="italic">S12N</hi> docuit | sic <hi rend="italic">F</hi> ita</note>
+<note n="172">ita <hi rend="italic">Bl</hi> sic | evangelio <hi rend="italic">FS12N</hi> evvangelio <hi rend="italic">XO</hi> euuangelio | Mathei <hi rend="italic">F</hi> Marci</note>
+<note n="173">vbi? <hi rend="italic">S12 om</hi></note>
+<note n="174">cum <hi rend="italic">C om V add int lin S12</hi> vbi <hi rend="italic">FO om</hi> | orabitis <hi rend="italic">Y</hi> orare est <hi rend="italic">S12 add</hi> dicentes</note>
+<note n="174-178">Pater... Quare <hi rend="italic">Y om</hi></note>
+<note n="176">orando <hi rend="italic">S12 om G</hi> orandum | orando dicere <hi rend="italic">O</hi> dicere orando | dicere <hi rend="italic">G om</hi> | hanc <hi rend="italic">F canc seq</hi> dicere hanc | hanc orationem <hi rend="italic">G</hi> ista oratione <hi rend="italic">O</hi> orationem hanc | quam aliam <hi rend="italic">G</hi> cunctis aliid | aliam <hi rend="italic">S12</hi> alias | eliam</note>
+<note n="177">Quia <hi rend="italic">T praeit</hi> <foreign xml:lang="grc">κύριε</foreign> | est melior <hi rend="italic">S12G</hi> melior est | cunctis <hi rend="italic">G</hi> omnibus <hi rend="italic">X</hi> cunptis</note>
+<note n="178">melior <hi rend="italic">S12 add</hi> aliis</note>
+<note n="179">quia <hi rend="italic">X</hi> et</note>
+<note n="180-186"><hi rend="italic">G om</hi></note>
+<note n="180">dignior <hi rend="italic">N</hi> malior</note>
+<note n="181">Quia <hi rend="italic">B</hi> quoniam | a <hi rend="italic">X add int lin</hi> | summo <hi rend="italic">V ead man in mg</hi> | doctore <hi rend="italic">V seq</hi> summo <hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum IV-103 (Aparat Crític)"/>
+<note n="183">quicquid <hi rend="italic">S1</hi> quitquid <hi rend="italic">N</hi> quidquid</note>
+<note n="186">omittit <hi rend="italic">BY</hi> ommittit <hi rend="italic">S12</hi> dimittit <hi rend="italic">F</hi> obmittitur | hiis <hi rend="italic">C</hi> his | proponere <hi rend="italic">X</hi> preponere</note>
+<note n="187">Quot <hi rend="italic">Y</hi> Que | illa <hi rend="italic">YN om</hi> | que <hi rend="italic">G om</hi> | <hi rend="italic">S1 al man in mg inf</hi>: Quod sunt que perfecte orans debet proponere</note>
+<note n="188">Duo <hi rend="italic">X om in spat vac</hi></note>
+<note n="189"><hi rend="italic">G om</hi></note>
+<note n="190">est <hi rend="italic">Y om</hi> | beniuolentiam <hi rend="italic">G</hi> beneuolentiam | ssecundum <hi rend="italic">Y</hi> secundo | est <hi rend="italic">Y om</hi></note>
+<note n="191">recte petere <hi rend="italic">G</hi> petere recte | recte <hi rend="italic">S1</hi> rectum (?) | ab <hi rend="italic">S12</hi> sub</note>
+<note n="191-192">Et istorum... secundo secundum <hi rend="italic">G</hi> Et utrumque istorum docet dominus Ihesus in hac oratione facere</note>
+<note n="192">dominus <hi rend="italic">S1 add</hi> Jhesus <hi rend="italic">canc O</hi> Deus | in hac oratione <hi rend="italic">B om</hi> | primum <hi rend="italic">Y</hi> primo primum | secundo <hi rend="italic">B</hi> secundus</note>
+<note n="193">Quot <hi rend="italic">F</hi> quod | ea <hi rend="italic">Y</hi> illa <hi rend="italic">G om</hi> | quibus <hi rend="italic">Y</hi> que | dominus <hi rend="italic">G om O</hi> Deus | Dominus docet hic <hi rend="italic">F</hi> hic Dominus docet | hic <hi rend="italic">G om</hi> | hic captare <hi rend="italic">S12</hi> captare hic</note>
+<note n="196"><hi rend="italic">G om</hi> | sunt <hi rend="italic">S12 om</hi></note>
+<note n="197">(secundum) est <hi rend="italic">YO om</hi></note>
+<note n="198">est <hi rend="italic">S12 om</hi> | (tertium) est <hi rend="italic">O om</hi> | assessorum <hi rend="italic">Y</hi> assesorum <hi rend="italic">O</hi> accessorum <hi rend="italic">X</hi> assexxorum | est <hi rend="italic">Y om</hi></note>
+<note n="199">ad rogatum <hi rend="italic">B om</hi></note>
+<pb n="AVOThO_Volum IV-104 (Aparat Crític)"/>
+<note n="200"><hi rend="italic">G om</hi> | illa <hi rend="italic">BCYS12</hi> ista <hi rend="italic">S2 add</hi> est</note>
+<note n="201">docet hic cum dicit <hi rend="italic">G</hi> notatur ibi | hic <hi rend="italic">YCS12 om</hi> | cum dicit <hi rend="italic">G</hi> ibi | secundum <hi rend="italic">T add</hi> <foreign xml:lang="grc">διδάσκει</foreign> | cum <hi rend="italic">O</hi> autem | dicit (Pater) <hi rend="italic">S2</hi> dicto | quartum <hi rend="italic">F add</hi> docet | cum <hi rend="italic">X om</hi></note>
+<note n="202">cum dicit <hi rend="italic">G om</hi></note>
+<note n="203">Quod sic <hi rend="italic">O</hi> Quid sit | quod sic ostendo <hi rend="italic">YS12</hi> quod patet sic ostendendo</note>
+<note n="204">Deum <hi rend="italic">Y</hi> dominum | Deum uocare <hi rend="italic">G</hi> dicere | uocare <hi rend="italic">X</hi> inuocare | denotat <hi rend="italic">G</hi> docet | ipsum <hi rend="italic">S2 iteratur</hi> | ipsum habere <hi rend="italic">G</hi> habere eum</note>
+<note n="204-205">et preeminentiam... respectu nostri <hi rend="italic">G om</hi> | preeminentiam <hi rend="italic">BX</hi> preminentiam <hi rend="italic">O</hi> preheminentiam</note>
+<note n="205">causalitatis <hi rend="italic">Y</hi> qualitatis | respectu <hi rend="italic">O</hi> in (?) | dicit <hi rend="italic">C seq</hi> qui es in celis <hi rend="italic">canc</hi> | noster <hi rend="italic">X</hi> nostra</note>
+<note n="206">ad eum <hi rend="italic">G om</hi> | eum <hi rend="italic">BC</hi> ipsum <hi rend="italic">F</hi> Deum</note>
+<note n="207">comitiuam <hi rend="italic">S12</hi> continuam <hi rend="italic">G</hi> comittiuam | celestium creaturarum <hi rend="italic">S12</hi> creaturarum celestium</note>
+<note n="207-208">celestium craturarum... aliorum beatorum <hi rend="italic">G om</hi></note>
+<note n="208">beatorum <hi rend="italic">F</hi> sanctorum <hi rend="italic">S12 add</hi> dignitatem</note>
+<note n="209">innuit <hi rend="italic">N seq</hi> orationem <hi rend="italic">canc</hi> | desiderare <hi rend="italic">X om</hi></note>
+<note n="210">qui <hi rend="italic">O</hi> que</note>
+<note n="210-211">populis <hi rend="italic">B</hi> po- <hi rend="italic">int lin</hi></note>
+<note n="212">dixisti <hi rend="italic">X</hi> dicisti</note>
+<note n="213">domine <hi rend="italic">G om</hi> | qui <hi rend="italic">F</hi> cum | qui dicit <hi rend="italic">G om</hi> | iusti confitebuntur <hi rend="italic">G</hi> confitebuntur iusti</note>
+<note n="214-215">etc. Ecce... nomini Dei <hi rend="italic">G om</hi></note>
+<note n="214">etc. <hi rend="italic">S12 om</hi> | ecce <hi rend="italic">Y om</hi> | hic <hi rend="italic">S12</hi> hoc</note>
+<note n="215">nomini <hi rend="italic">F corr in</hi> nomen (?) | sed <hi rend="italic">O</hi> scilicet | fit <hi rend="italic">V ead man in mg</hi> | nisi <hi rend="italic">B add int lin</hi></note>
+<note n="215-216">rationali <hi rend="italic">X</hi> inrationali</note>
+<note n="216">Psalmista <hi rend="italic">O</hi> psalmus |<pb n="AVOThO_Volum IV-105 (Aparat Crític)"/> Dei <hi rend="italic">N seq</hi> psalmista <hi rend="italic">canc</hi> | Psalmista intelligit per <hi rend="italic">G om</hi></note>
+<note n="216-217">substantiam... uocem <hi rend="italic">G</hi> est substantia rationalis et non uox</note>
+<note n="217">qua nominatur Deus <hi rend="italic">G om</hi> | quoddam accidens <hi rend="italic">N</hi> accidens quoddam | quoddam <hi rend="italic">Y om X</hi> quodam</note>
+<note n="218">cognitionem <hi rend="italic">l</hi> cogitationem | substantia autem <hi rend="italic">BCYS12l</hi> sed substantia</note>
+<note n="219">iusti <hi rend="italic">F</hi> isti <hi rend="italic">corr in</hi> iusti <hi rend="italic">add</hi> -s- | est <hi rend="italic">O om</hi></note>
+<note n="220">Christum <hi rend="italic">S1</hi> Christi <hi rend="italic">X</hi> Deo <hi rend="italic">N om</hi></note>
+<note n="222">per hoc <hi rend="italic">G om</hi> | quia <hi rend="italic">FG</hi> quod</note>
+<note n="223">et sic <hi rend="italic">G</hi> etenim | sic <hi rend="italic">S1O</hi> si | confessione fidei confitentur Christo <hi rend="italic">G</hi> confitentur Christo confessione fidei | fidei <hi rend="italic">O</hi> Dei | confitentur <hi rend="italic">X add</hi> in</note>
+<note n="224">Christus dicitur esse nomen Dei <hi rend="italic">G</hi> dicitur Christus nomen Dei esse | esse <hi rend="italic">TYBl om C</hi> etiam</note>
+<note n="225">significatur <hi rend="italic">S12</hi> signatur | nominata <hi rend="italic">G om</hi> | sic <hi rend="italic">Y</hi> sicut <hi rend="italic">G add</hi> et</note>
+<note n="226">significatur <hi rend="italic">X</hi> nominatur | ideo <hi rend="italic">X</hi> ymmo</note>
+<note n="227">etiam <hi rend="italic">BGl om</hi> | uerus Deus <hi rend="italic">O</hi> Deus verus <hi rend="italic">F add</hi> etcetera</note>
+<note n="228">dixisti <hi rend="italic">X</hi> dicisti <hi rend="italic">T</hi> <foreign xml:lang="grc">λέγεις</foreign> | illis <hi rend="italic">C</hi> istis | etc. <hi rend="italic">S12 add</hi> nomini tuo | etc. <hi rend="italic">S12 om</hi></note>
+<note n="228-229">in illis uerbis intelligit <hi rend="italic">G</hi> intelligit in uerbis predictis</note>
+<note n="229">Psalmista <hi rend="italic">FO</hi> psalmus | et tamen immediate post, dicit <hi rend="italic">G</hi> ergo, et post sequitur | immediate <hi rend="italic">Y</hi> inmediate <hi rend="italic">S1 add int lin</hi> | post dicit (<hi rend="italic">l</hi> dixit) <hi rend="italic">Y</hi> dicit post <hi rend="italic">B</hi> dixit</note>
+<note n="230">recti <hi rend="italic">O om</hi> | vultu <hi rend="italic">S2</hi> voltu | tuo... rationem <hi rend="italic">G om</hi> | secundum <hi rend="italic">Y</hi> per | tuam rationem <hi rend="italic">l</hi> rationem tuam</note>
+<note n="230-233">ergo, secundum... tu dixisti <hi rend="italic">G</hi> per rationem tuam | tuam rationem <hi rend="italic">B</hi> rationem tuam</note>
+<note n="231">vultum <hi rend="italic">S2</hi> voltum | Dei <hi rend="italic">S12 add</hi> etiam | intelligit Christum <hi rend="italic">Bl</hi> Christum intelligit | habitant <hi rend="italic">N</hi> habitabunt</note>
+<note n="232">karitatem <hi rend="italic">BCFS12Ol</hi> caritatem <hi rend="italic">X</hi> claritatem | sicut <hi rend="italic">S12</hi> quod autem | ei <hi rend="italic">X</hi> Dei | ut <hi rend="italic">Y</hi> sicut | (ei) per fidem <hi rend="italic">l add</hi> et caritatem</note>
+<note n="233">fidem <hi rend="italic">l seq</hi> et caritatem <hi rend="italic">exp</hi> | dixisti <hi rend="italic">X</hi> dicisti</note>
+<pb n="AVOThO_Volum IV-106 (Aparat Crític)"/>
+<note n="235">esse <hi rend="italic">S12 om O</hi> esset | quod <hi rend="italic">G</hi> quia | tu <hi rend="italic">O</hi> dixistis | quia <hi rend="italic">G</hi> quod</note>
+<note n="236">vultus <hi rend="italic">S2</hi> voltus | tamen <hi rend="italic">X</hi> tantum | est <hi rend="italic">Y om</hi></note>
+<note n="237">respondeo <hi rend="italic">S12 add</hi> igitur</note>
+<note n="238">Christus denotetur <hi rend="italic">S12</hi> denotetur Christus | denotetur per diuersa <hi rend="italic">G</hi> nominetur diuersis nominibus secundum | diuersis rationibus <hi rend="italic">G</hi> diuersas rationes | diuersa <hi rend="italic">Y add</hi> nomina | ego <hi rend="italic">G om</hi></note>
+<note n="239">denotetur per diuersa <hi rend="italic">G om</hi></note>
+<note n="241">ergo <hi rend="italic">F</hi> igitur | qua <hi rend="italic">YS12</hi> quod <hi rend="italic">FX1</hi> quam | denotetur <hi rend="italic">C</hi> denotatur <hi rend="italic">G</hi> dicitur | per <hi rend="italic">G om</hi> | uultum <hi rend="italic">G add</hi> Dei</note>
+<note n="242">vultum <hi rend="italic">S2</hi> voltum</note>
+<note n="242-243">et uultum. Ostendo, domine, per hoc quia Christus, ut dixi, dicitur nomen <hi rend="italic">B add in mg</hi></note>
+<note n="243">domine, per hoc <hi rend="italic">G om</hi> | quia <hi rend="italic">F</hi> quod | quia Christus, ut dixi <hi rend="italic">X</hi> quod dici quod Christus | ut dixi <hi rend="italic">G om</hi></note>
+<note n="244">Deus significatur per ipsum <hi rend="italic">G</hi> significat Deum | ipsum <hi rend="italic">Y</hi> Christum</note>
+<note n="244-245">conuenienter <hi rend="italic">Y</hi> uenienter <hi rend="italic">G om</hi></note>
+<note n="245">prout... ipsum <hi rend="italic">G</hi> per hoc quod Deus expresse per ipsum cognoscitur <hi rend="italic">add</hi> Quomodo est hoc? | ipsum <hi rend="italic">S12</hi> Christum</note>
+<note n="245-247">sicut enim... per Christum <hi rend="italic">S12G om</hi></note>
+<note n="246">expresse cognoscitur <hi rend="italic">C</hi> cognoscitur expresse | cognoscitur <hi rend="italic">F</hi> congnoscitur | ita <hi rend="italic">B</hi> sic <hi rend="italic">C</hi> sic et</note>
+<note n="246-247">uultum ita... cognoscitur per <hi rend="italic">O om</hi></note>
+<note n="247">cognoscitur <hi rend="italic">F</hi> congnoscitur | quoniam <hi rend="italic">G</hi> quia | Christo <hi rend="italic">Cl</hi> ipso | sensibiliter <hi rend="italic">Y</hi> sencibiliter</note>
+<note n="248">diuine <hi rend="italic">X canc add</hi> diurne | perfectiones <hi rend="italic">F add</hi> etc.</note>
+<note n="249">dixisti <hi rend="italic">X</hi> dicisti | dominus <hi rend="italic">F add</hi> noster | Dominus Ihesus Christus <hi rend="italic">G om</hi> | Ihesus Christus <hi rend="italic">C om</hi> | in <hi rend="italic">T om</hi></note>
+<note n="250">etc. <hi rend="italic">BYS121 om</hi> | beniuolentiam <hi rend="italic">G</hi> beneuolentiam</note>
+<note n="251">recto <hi rend="italic">Y corr</hi> rectore <hi rend="italic">exp</hi> -re | petenda <hi rend="italic">X</hi> petanda | ab eodem <hi rend="italic">G om</hi> |<pb n="AVOThO_Volum IV-107 (Aparat Crític)"/> iterum <hi rend="italic">G</hi> item</note>
+<note n="252">ea <hi rend="italic">G</hi> illa | quibus <hi rend="italic">G</hi> per que | docet <hi rend="italic">G</hi> donet <hi rend="italic">add</hi> nos | captare beniuolentiam Dei <hi rend="italic">S12</hi> benivolentiam Dei captare | Dei et <hi rend="italic">O</hi> in</note>
+<note n="252-253">Dei, et quibus uerbis <hi rend="italic">G om</hi></note>
+<note n="253"><hi rend="italic">Y in mg ead man</hi> Petitiones que continentur in orratione dominicali | igitur <hi rend="italic">G</hi> ergo | ostendas <hi rend="italic">F corr</hi> ostensidas <hi rend="italic">canc</hi> -si- | quot <hi rend="italic">F</hi> quod | sunt <hi rend="italic">F om</hi></note>
+<note n="253-254">in hac oratione Dominus petere <hi rend="italic">G</hi> Dominus in hac oratione petere | quot sunt <hi rend="italic">X om</hi></note>
+<note n="254">Dominus petere et quo ordine <hi rend="italic">F iteratur</hi> | dominus <hi rend="italic">O</hi> Deus | quo <hi rend="italic">BCl add</hi> etiam</note>
+<note n="255">domine, et dico <hi rend="italic">G om</hi> | duo sunt <hi rend="italic">C</hi> sunt duo</note>
+<note n="256">hic <hi rend="italic">Y</hi> hac oratione</note>
+<note n="257">Que sunt <hi rend="italic">G om</hi></note>
+<note n="259">petenti <hi rend="italic">O</hi> petendi <hi rend="italic">G om</hi> | uiuendum <hi rend="italic">l</hi> vivencum | necessaria sunt ei <hi rend="italic">S12G</hi> sunt ei necessaria <hi rend="italic">Y</hi> sunt necessaria</note>
+<note n="261">ea <hi rend="italic">G</hi> illa | docet <hi rend="italic">Xb</hi> decet | propter <hi rend="italic">S12</hi> ad</note>
+<note n="263">sunt <hi rend="italic">YS12G om</hi></note>
+<note n="264">sanctificatio <hi rend="italic">S12</hi> satisfactio</note>
+<note n="264-265">glorificatio <hi rend="italic">X</hi> sanctificatio</note>
+<note n="265">est <hi rend="italic">S12 om</hi> | conformatio <hi rend="italic">X</hi> confirmatio | nostre uoluntatis <hi rend="italic">O</hi> voluntatis nostre | voluntatis <hi rend="italic">X</hi> volumptatis</note>
+<note n="265-266">voluntatem diuinam <hi rend="italic">O</hi> divinam voluntatem</note>
+<note n="266">est <hi rend="italic">Y add al man in mg</hi> | comune <hi rend="italic">S12Xbl</hi> commune <hi rend="italic">O</hi> tenere | sanctificationi <hi rend="italic">S12</hi> satisfactioni | sanctificationi et glorificationi <hi rend="italic">O</hi> sanctificationem et glorificationem</note>
+<note n="267">aut <hi rend="italic">CYG</hi> uel | aut glorificari <hi rend="italic">BS12l om</hi> | conformauerit <hi rend="italic">X</hi> confirmauerit <hi rend="italic">l</hi> conformavit</note>
+<note n="267-268">in omnibus <hi rend="italic">G om</hi> | uoluntatem suam <hi rend="italic">G</hi> in uoluntate sua</note>
+<note n="269">illa <hi rend="italic">BCYl</hi> ista | illa tria <hi rend="italic">S12</hi> ista verba</note>
+<pb n="AVOThO_Volum IV-108 (Aparat Crític)"/>
+<note n="270">petere <hi rend="italic">G om</hi></note>
+<note n="271">secundum <hi rend="italic">C add</hi> docet petere <hi rend="italic">T add</hi> <foreign xml:lang="grc">διδάσκει ζητῆσαι</foreign></note>
+<note n="272">sicut in celo et in terra <hi rend="italic">G om</hi></note>
+<note n="273">enim <hi rend="italic">B om</hi></note>
+<note n="274">petit huiusmodi verbis <hi rend="italic">S12</hi> in hiis verbis deposcit | huiusmodi <hi rend="italic">C</hi> his <hi rend="italic">G</hi> hiis</note>
+<note n="275">quia <hi rend="italic">BYS12l</hi> quoniam | ipse <hi rend="italic">S12</hi> in se | rationalis <hi rend="italic">C</hi> rationabilis</note>
+<note n="276">mentis <hi rend="italic">G add</hi> qui est | manifestatur <hi rend="italic">X</hi> magnifestatur</note>
+<note n="277">seu <hi rend="italic">S12G</hi> sive | uocem significatiuam <hi rend="italic">G</hi> nomen significatiuum</note>
+<note n="278">et <hi rend="italic">Y</hi> enim | manifestatur <hi rend="italic">X</hi> magnifestatur</note>
+<note n="279-280">est ad ymaginem Dei factus <hi rend="italic">G</hi> ad ymaginem Dei factus est</note>
+<note n="280">factus <hi rend="italic">S12</hi> formatus <hi rend="italic">X</hi> factum | ab homine <hi rend="italic">N</hi> ad homines <hi rend="italic">canc</hi> -s | ab homine proferuntur <hi rend="italic">G</hi> proferuntur abhomine | in <hi rend="italic">N</hi> et | conceptus <hi rend="italic">G om</hi></note>
+<note n="281-282">humane mentis sic et creature producuntur a Deo in signum conceptus <hi rend="italic">S12 om</hi></note>
+<note n="282">Dei <hi rend="italic">S12</hi> sic</note>
+<note n="283">quod <hi rend="italic">BCYS12l</hi> hoc <hi rend="italic">G add</hi> dixit | Baptista <hi rend="italic">l</hi> Babtista | legitur <hi rend="italic">T</hi> <foreign xml:lang="grc">γέγραπται</foreign> | primo Iohannis <hi rend="italic">S12</hi> evvangelio</note>
+<note n="283-284">sicut legitur... se ipso <hi rend="italic">G om</hi></note>
+<note n="284">dixit <hi rend="italic">XO</hi><pb n="AVOThO_Volum IV-109 (Aparat Crític)"/> dicit | clamantis <hi rend="italic">N</hi> clamentis | in deserto <hi rend="italic">G om</hi></note>
+<note n="284-285">dicit orans <hi rend="italic">BCYS12l</hi> orans dicit | orans <hi rend="italic">X</hi> omnis</note>
+<note n="285">inquantum <hi rend="italic">Y</hi> inquam</note>
+<note n="285-286">intendit aliquid a Deo petere <hi rend="italic">G</hi> credit a Deo petere | a Deo <hi rend="italic">T om</hi> | est <hi rend="italic">C om</hi> | illorum uerborum <hi rend="italic">G om</hi> | uerborum <hi rend="italic">Y</hi> ueercorum <hi rend="italic">C add</hi> est</note>
+<note n="287">mihi <hi rend="italic">CYXbl</hi> michi <hi rend="italic">S12 om</hi> | tribue sanctitatem <hi rend="italic">O</hi> tribua sanctitate | uero <hi rend="italic">X corr</hi> non</note>
+<note n="288">glorificari <hi rend="italic">S12</hi> gloriari | glorificari eternaliter <hi rend="italic">C</hi> eternaliter glorificari | vel <hi rend="italic">S12 om N</hi> velis | uelin celis <hi rend="italic">G om</hi></note>
+<note n="288-289">adueniat regnum... uero dicit <hi rend="italic">Y om</hi></note>
+<note n="289">est gloria <hi rend="italic">C</hi> gloria est | sive <hi rend="italic">S12</hi> vel</note>
+<note n="290-291">gratiam <hi rend="italic">B</hi> gloriam</note>
+<note n="291">Deo <hi rend="italic">S12</hi> voluntati divine | sicut beati <hi rend="italic">X seq</hi> in celo et in terra <hi rend="italic">canc</hi> | qui <hi rend="italic">Y add</hi> habent | celis <hi rend="italic">CF</hi> celo</note>
+<note n="291-293">sicut beati qui sunt in celis habent conformem voluntatem cum eo, quasi diceret: Sic facias me conformare voluntatem meam tue <hi rend="italic">S12 om</hi></note>
+<note n="292">conformem volvntatem cum eo <hi rend="italic">G om</hi> | facias <hi rend="italic">G add</hi> etc.</note>
+<note n="292-294">me conformare... conformem tue <hi rend="italic">G om</hi></note>
+<note n="293">quamdiu uixero hic in terra <hi rend="italic">Bl om</hi> | uixero <hi rend="italic">S12</hi> vixerit</note>
+<note n="294">celo <hi rend="italic">F add</hi> etc. | tecum <hi rend="italic">S12</hi> secum | suam <hi rend="italic">BCYS12</hi> eam | conformem <hi rend="italic">X</hi> conformam | tue <hi rend="italic">S12</hi> sue <hi rend="italic">X add</hi> etc.</note>
+<pb n="AVOThO_Volum IV-110 (Aparat Crític)"/>
+<note n="295">dixisti <hi rend="italic">BCYS12l</hi> dicis <hi rend="italic">X</hi> dicisti <hi rend="italic">T</hi> <foreign xml:lang="grc">λέγεις</foreign> | quod <hi rend="italic">S12</hi> quia</note>
+<note n="296">Dominus <hi rend="italic">O</hi> Deus | orantem <hi rend="italic">S12G om N</hi> orationem | dixisti <hi rend="italic">N</hi> dixit</note>
+<note n="297">eadem <hi rend="italic">G om</hi> | beniuolentiam <hi rend="italic">G</hi> beneuolentiam</note>
+<note n="297-298">adoptando <hi rend="italic">G</hi> ad optandum <hi rend="italic">C</hi> optando <hi rend="italic">canc duabus litt ante</hi> -o</note>
+<note n="298">sanctitatis <hi rend="italic">G</hi> santitatis | illa <hi rend="italic">BCYS12l</hi> ista</note>
+<note n="299">et <hi rend="italic">G om</hi></note>
+<note n="300">exposuisse <hi rend="italic">N seq</hi> ea <hi rend="italic">canc</hi></note>
+<note n="301">diuersis <hi rend="italic">N seq</hi> rationibus <hi rend="italic">canc</hi> | intentionibus <hi rend="italic">G</hi> ex expositionibus | adaptaueris <hi rend="italic">O</hi> adaptare <hi rend="italic">X</hi> adaptare <hi rend="italic">seq</hi> secundum diuersos respectus uel rationes</note>
+<note n="303">uerba <hi rend="italic">F add</hi> in | adaptare <hi rend="italic">G</hi> ad adaptare</note>
+<note n="304">quia <hi rend="italic">Y</hi> et <hi rend="italic">X add</hi> ego | quod <hi rend="italic">FO</hi> per <hi rend="italic">X</hi> quot</note>
+<note n="305">diuersis <hi rend="italic">Y</hi> sub diuersis</note>
+<note n="306">seruire uel adaptari <hi rend="italic">S12</hi> adaptari vel servire | adaptari <hi rend="italic">G</hi> adaptare</note>
+<note n="307">que <hi rend="italic">O</hi> qui</note>
+<note n="308">Ex <hi rend="italic">G</hi> Et <hi rend="italic">F add</hi> hiis | fuit <hi rend="italic">BCYGOl</hi> fuerit <hi rend="italic">S12</hi> fuerint</note>
+<note n="309">uerba <hi rend="italic">G add</hi> tua | duabus <hi rend="italic">G</hi> diuersis</note>
+<note n="310">est eternus doctor <hi rend="italic">BCYl</hi> doctor est eternus | eternus doctor <hi rend="italic">S12</hi> doctor eternus | facit <hi rend="italic">B</hi> fracit</note>
+<pb n="AVOThO_Volum IV-111 (Aparat Crític)"/>
+<note n="312">igitur <hi rend="italic">CFYOl</hi> ergo | ut <hi rend="italic">CY</hi> quod <hi rend="italic">G om</hi> | ut illa <hi rend="italic">S12</hi> quod ista</note>
+<note n="313">seruirent <hi rend="italic">G</hi> seruire</note>
+<note n="314">domine <hi rend="italic">S12l om</hi> | ideo <hi rend="italic">Bl om</hi> | sic <hi rend="italic">X om</hi> | fieri <hi rend="italic">G om</hi></note>
+<note n="315">innueret <hi rend="italic">b</hi> innuiret | innueret nobis <hi rend="italic">BCl</hi> nobis innueret</note>
+<note n="316">sanctificatur <hi rend="italic">S12</hi> sanctificetur</note>
+<note n="316-317">orans uel <hi rend="italic">G om</hi></note>
+<note n="317">quilibet <hi rend="italic">O</hi> quisque</note>
+<note n="318">Quod <hi rend="italic">V corr</hi> quid <hi rend="italic">exp</hi> -i-, <hi rend="italic">add</hi> -o- <hi rend="italic">int lin C</hi> quid | Quod est illud <hi rend="italic">G</hi> Quid est istud</note>
+<note n="319">uirtutum <hi rend="italic">X</hi> uirtutis | quibus <hi rend="italic">F</hi> quilibus | splenduit <hi rend="italic">O om X seq</hi> d <hi rend="italic">canc</hi></note>
+<note n="320">sequacibus <hi rend="italic">O</hi> sequentibus</note>
+<note n="321">easdem <hi rend="italic">S12</hi> eas | sanctificantur <hi rend="italic">N</hi> sanctificatur | eius sequaces <hi rend="italic">Y</hi> sequentes eum <hi rend="italic">Bl</hi> sequaces eius</note>
+<note n="322"><hi rend="italic">Y Ead man in mg</hi> De uirtutibus</note>
+<note n="322-324">Quot... sunt <hi rend="italic">F om</hi></note>
+<note n="323">Domine <hi rend="italic">X</hi> Vnde</note>
+<note n="324"><hi rend="italic">G om</hi> | que <hi rend="italic">S12</hi> quarum</note>
+<note n="325-326">et quatuor que dicuntur morales. Que sunt theologice? <hi rend="italic">X om</hi> | theologice <hi rend="italic">G</hi> teologice <hi rend="italic">F add</hi> scit firmiter et simpliciter</note>
+<note n="326">Que sunt <hi rend="italic">G om</hi></note>
+<pb n="AVOThO_Volum IV-112 (Aparat Crític)"/>
+<note n="327">Fides, spes <hi rend="italic">C</hi> Spes, fides et | spes <hi rend="italic">F add</hi> et | karitas <hi rend="italic">S12O</hi> caritas</note>
+<note n="328"><hi rend="italic">F om</hi></note>
+<note n="329">fidelis animus <hi rend="italic">YBCS12l</hi> animus fidelis | fidelis <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῦ πιστοῦ</foreign> | adquiescit <hi rend="italic">YBS12O</hi> acquiescit <hi rend="italic">C</hi> acquiescat <hi rend="italic">G</hi> quiescit</note>
+<note n="330">reuelate <hi rend="italic">Y</hi> reuelante</note>
+<note n="331">spes <hi rend="italic">Y</hi> species</note>
+<note n="332">spes <hi rend="italic">Y</hi> species | animus <hi rend="italic">O</hi> cunctus (?) | fidelis <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῦ πιστοῦ</foreign> | sperandum <hi rend="italic">N</hi> spernandum <hi rend="italic">exp primo</hi> -n-</note>
+<note n="333">supernaturaliter a Deo promissa <hi rend="italic">G</hi> a Deo supernaturalitar promissa | supernaturaliter <hi rend="italic">N iter, primo canc O</hi> supernaturali</note>
+<note n="334">karitas <hi rend="italic">CFS12OX</hi> caritas</note>
+<note n="335">karitas <hi rend="italic">CFS12GOX</hi> caritas | karitas est <hi rend="italic">Y om</hi> | per quam Deum diligimus <hi rend="italic">G</hi> diligendi Deum | Deum <hi rend="italic">O corr</hi> Deus</note>
+<note n="338-341">Quia specialiter... doctrinam Dei <hi rend="italic">G</hi> quia specialiter eorum (!) consideratio pertinet ad theologum</note>
+<note n="338">pertinet <hi rend="italic">F corr</hi> pertinent <hi rend="italic">Y</hi> pertiet | pertinet earum conside<pb n="AVOThO_Volum IV-113 (Aparat Crític)"/>ratio <hi rend="italic">S12</hi> earum consideratio pertinet</note>
+<note n="339">dicitur <hi rend="italic">C add</hi> et dicitur theologia <hi rend="italic">T add</hi> <foreign xml:lang="grc">καὶ λέγεται θεολογία</foreign> | a <hi rend="italic">N om</hi> | quod est Deus <hi rend="italic">T om</hi></note>
+<note n="340">logos <hi rend="italic">N</hi> golos | sermo, quasi <hi rend="italic">T om</hi> | quasi divinus sermo <hi rend="italic">F om</hi> | id est <hi rend="italic">S12O</hi> et</note>
+<note n="341">de ueritate communicata <hi rend="italic">Y</hi> communicata de ueritate | comunicata <hi rend="italic">S12l</hi> communicata <hi rend="italic">N</hi> comunicatio</note>
+<note n="342-343">Quot sunt... sunt principales <hi rend="italic">G</hi> virtutes autem morales sunt quatuor</note>
+<note n="343">sunt <hi rend="italic">Y add in mg</hi></note>
+<note n="344"><hi rend="italic">G om</hi> | que <hi rend="italic">O</hi> quot</note>
+<note n="345">fortitudo et temperantia <hi rend="italic">G</hi> temperantia et fortitudo <hi rend="italic">add</hi> que uocantur etiam cardinales | et <hi rend="italic">YB om</hi></note>
+<note n="346-348"><hi rend="italic">G om</hi></note>
+<note n="346">-ne <hi rend="italic">F</hi> enim <hi rend="italic">O</hi> ve</note>
+<pb n="AVOThO_Volum IV-114 (Aparat Crític)"/>
+<note n="347">sic <hi rend="italic">BC add</hi> scilicet <hi rend="italic">S12 add</hi> quomodo?</note>
+<note n="348">Domine, sic <hi rend="italic">F add in mg</hi></note>
+<note n="349">supra <hi rend="italic">G</hi> super | cardinem <hi rend="italic">O</hi> cardinalem | sic <hi rend="italic">X</hi> et sic</note>
+<note n="350">deducitur <hi rend="italic">YS12</hi> ducitur | istas <hi rend="italic">G</hi> has | quatuor <hi rend="italic">F om</hi></note>
+<note n="352">Prudentia <hi rend="italic">X om</hi></note>
+<note n="353">bona a malis et <hi rend="italic">N om</hi> | et mala ad inuicem <hi rend="italic">O om</hi></note>
+<note n="357-358">spernendum <hi rend="italic">X</hi> spuendum</note>
+<note n="359">est <hi rend="italic">B seq</hi> diffi- <hi rend="italic">exp</hi> | temperantia <hi rend="italic">OX</hi> temperentia <hi rend="italic">N</hi> temporantia <hi rend="italic">l</hi> diffinitio temperancie</note>
+<note n="360">temperantia <hi rend="italic">OX</hi> temperentia <hi rend="italic">N</hi> temporantia | compescuntur <hi rend="italic">Xl</hi> conpescuntur | illiciti <hi rend="italic">X</hi> illi</note>
+<pb n="AVOThO_Volum IV-115 (Aparat Crític)"/>
+<note n="362">postquam <hi rend="italic">S12 om</hi> | tu <hi rend="italic">N om</hi> | illarum septem <hi rend="italic">S12</hi> septem illarum | septem <hi rend="italic">YO add</hi> virtutum</note>
+<note n="362-363">Postquam tu... a te <hi rend="italic">G om</hi></note>
+<note n="363">in communi <hi rend="italic">G om</hi> | comuni <hi rend="italic">BS12l</hi> communi</note>
+<note n="364">dico, domine <hi rend="italic">YS12</hi> domine, dico <hi rend="italic">T</hi> <foreign xml:lang="grc">Κύριε</foreign>, <foreign xml:lang="grc">λέγω</foreign> | dico <hi rend="italic">G om</hi> | quod <hi rend="italic">G om</hi> | laudabilis <hi rend="italic">G om</hi> | uel <hi rend="italic">N seq</hi> animus (?) <hi rend="italic">canc</hi></note>
+<note n="365">habentem <hi rend="italic">G</hi> hominem <hi rend="italic">O</hi> habenti | operari bonum <hi rend="italic">O</hi> bonum operari | bonum <hi rend="italic">Y om</hi> | et <hi rend="italic">S12</hi> vel <hi rend="italic">G om</hi> | faciliter <hi rend="italic">V corr</hi> facile <hi rend="italic">exp</hi> -e, <hi rend="italic">add</hi> -iter <hi rend="italic">int lin G add</hi> expedite et prompte</note>
+<note n="366">voluerit <hi rend="italic">S12</hi> valuerit <hi rend="italic">O</hi> voluerint <hi rend="italic">FX add</hi> etc.</note>
+<note n="367">dixisti <hi rend="italic">X</hi> dicisti | septem <hi rend="italic">YBS2</hi> .<num type="roman">VIJ</num>. | a te <hi rend="italic">S12 om</hi> enumeratis <hi rend="italic">N add</hi> et scriptis</note>
+<note n="368">splendent <hi rend="italic">S12</hi> resplenduit <hi rend="italic">S2</hi> resplendent <hi rend="italic">X</hi> -l- <hi rend="italic">int lin F</hi> splendunt</note>
+<note n="369">in splendore <hi rend="italic">Y</hi> resplendore | sint <hi rend="italic">G</hi> sunt | quicumque <hi rend="italic">X</hi> quicunque <hi rend="italic">O</hi> quique | secuntur <hi rend="italic">O</hi> sequuntur</note>
+<note n="369-370">secuntur <hi rend="italic">Y</hi> sequuntur</note>
+<note n="370">servi <hi rend="italic">T add</hi> <foreign xml:lang="grc">τοῦ Κυρίου</foreign></note>
+<note n="370-371">sunt equales <hi rend="italic">BCXl</hi> equales sunt</note>
+<note n="373">sit comune <hi rend="italic">S12</hi> commune sit <hi rend="italic">BNl</hi> commune | sequacibus eius <hi rend="italic">Y</hi> sequentibus eum</note>
+<note n="374">est intelligendum <hi rend="italic">Bl</hi> debet intelligi <hi rend="italic">O</hi> includit | conueniat <hi rend="italic">CS12</hi> conveniant</note>
+<note n="375-376">Vnde, non dixi quod equaliter <hi rend="italic">X om</hi></note>
+<note n="376">quod <hi rend="italic">O om</hi> | splenderent <hi rend="italic">Bl</hi> splendeant <hi rend="italic">G</hi> splendent | in <hi rend="italic">S12 om</hi></note>
+<note n="376-377">predictarum virtutum <hi rend="italic">S12</hi> virtutum predictarum</note>
+<note n="377">in <hi rend="italic">G add</hi> predictis</note>
+<note n="377-378">in uirtutibus splenduit <hi rend="italic">Bl</hi> splenduit in virtutibus</note>
+<note n="378">splenduit <hi rend="italic">S12</hi> splenduerit | ipsius <hi rend="italic">C</hi> illius <hi rend="italic">S12G</hi> eius <hi rend="italic">X om</hi> | splendent in eis <hi rend="italic">G om X</hi> in eis splenderet | ut <hi rend="italic">BFl</hi> sicut</note>
+<note n="379">quia <hi rend="italic">O</hi> quod</note>
+<note n="379-380">communicatam <hi rend="italic">F</hi> communicata</note>
+<note n="380-381">per uirtutes a Christo communicatas <hi rend="italic">G</hi> quia com<pb n="AVOThO_Volum IV-116 (Aparat Crític)"/>municant ab eo illas uirtutes</note>
+<note n="381">iterum <hi rend="italic">YS12G</hi> item | sicut <hi rend="italic">F om</hi> | sol splendet luce <hi rend="italic">C</hi> luce sol splendet | splendet <hi rend="italic">S2</hi> splendent <hi rend="italic">S12 add</hi> excellentius | quam <hi rend="italic">O</hi> qua</note>
+<note n="382">communicat <hi rend="italic">O</hi> communicatur | lune <hi rend="italic">Y</hi> luna <hi rend="italic">O add</hi> ergo | excellentius <hi rend="italic">S12 om</hi></note>
+<note n="383">splenduit <hi rend="italic">B corr</hi> splenduerit <hi rend="italic">exp</hi> -er- <hi rend="italic">Y add</hi> uirtutibus | in eum credentibus <hi rend="italic">YBCS12Gl</hi> credentibus in eum</note>
+<note n="383-384">comunicat <hi rend="italic">S12Xl</hi> communicat</note>
+<note n="384">dixi <hi rend="italic">X</hi> dici | quam <hi rend="italic">YCl add</hi> etiam in <hi rend="italic">BS12 add</hi> et in <hi rend="italic">FO add</hi> in</note>
+<note n="384-385">Vnde tam... eo concessam <hi rend="italic">G</hi> unde, tam in predictis enumeratis quam in omnibus aliis plus splenduit quam omnes alii</note>
+<note n="385">concessam <hi rend="italic">S12</hi> concessa</note>
+<note n="386">alie... enumerate <hi rend="italic">G</hi> sint alie a predictis | septem <hi rend="italic">YBS12</hi> .<num type="roman">VIJ</num>.</note>
+<note n="388">ego enim <hi rend="italic">G</hi> quia ego | enim <hi rend="italic">S12G om</hi> | enumeraui <hi rend="italic">FS12</hi> numeravi</note>
+<note n="389">sed <hi rend="italic">B</hi> set | salutem <hi rend="italic">S12</hi> vitam | quibus fidelis efficitur gratus Deo <hi rend="italic">T om</hi></note>
+<note n="390">sunt uirtutes <hi rend="italic">O</hi> virtutes sunt | (sapientia) et <hi rend="italic">T om</hi> | prophetia <hi rend="italic">Bl</hi> profetia | uirtus <hi rend="italic">Bl</hi><pb n="AVOThO_Volum IV-117 (Aparat Crític)"/> uirtutes</note>
+<note n="390-391">miracula <hi rend="italic">C</hi> mirabilia in</note>
+<note n="391">quibus <hi rend="italic">YBS12l</hi> in quibus | splenduit <hi rend="italic">S12</hi> splendet | excellentius cunctis aliis <hi rend="italic">G</hi> plus quam omnes alii | cunctis <hi rend="italic">Y</hi> omnibus <hi rend="italic">Bl</hi> ceteris <hi rend="italic">X om</hi> | tum <hi rend="italic">F</hi> cum <hi rend="italic">YO</hi> tamen</note>
+<note n="392">preterita et futura <hi rend="italic">C</hi> futura et preterita</note>
+<note n="393">noscit <hi rend="italic">S12G</hi> novit | tum <hi rend="italic">YO</hi> tamen | uel opera <hi rend="italic">G om</hi> | supra <hi rend="italic">S12</hi> super <hi rend="italic">G</hi> secundum | auctoritate <hi rend="italic">B</hi> actoritate</note>
+<note n="394">proprie <hi rend="italic">X om</hi> | potestatis <hi rend="italic">C</hi> voluntatis</note>
+<note n="395">habuerunt <hi rend="italic">S12</hi> habent | noticiam <hi rend="italic">T add</hi> <foreign xml:lang="grc">πάντων</foreign> <hi rend="italic">YBCS12l add</hi> omnium</note>
+<note n="396">nec <hi rend="italic">C</hi> neque | operari <hi rend="italic">O add</hi> que | nomine <hi rend="italic">N seq</hi> Dei <hi rend="italic">canc</hi></note>
+<note n="397">ipsius <hi rend="italic">F add</hi> etc. <hi rend="italic">X add</hi> ideo, etc.</note>
+<note n="398">quot sunt <hi rend="italic">G om</hi> | ea <hi rend="italic">G</hi> illa <hi rend="italic">add</hi> autem | ea que docet <hi rend="italic">X om</hi> | docet <hi rend="italic">O</hi> decet | petere propter vitam <hi rend="italic">S12</hi> propter vitam petere | uitam <hi rend="italic">Y seq</hi> eternam <hi rend="italic">canc</hi></note>
+<note n="399">duo <hi rend="italic">G</hi> sunt duo</note>
+<note n="400"><hi rend="italic">TG om</hi></note>
+<note n="401">necessarii <hi rend="italic">X</hi> neccessarii</note>
+<note n="401-402">sustantationem <hi rend="italic">O</hi> substentationem <hi rend="italic">l</hi> sustenationem</note>
+<note n="402">accidere <hi rend="italic">X</hi> accedere</note>
+<note n="403">in presenti vita <hi rend="italic">C om</hi></note>
+<note n="404">cotidianum <hi rend="italic">FX</hi> cottidianum | da nobis hodie <hi rend="italic">G om</hi> | hodie <hi rend="italic">F add</hi> etc <hi rend="italic">S12 om</hi> | enim <hi rend="italic">CS12 om</hi></note>
+<note n="404-405">principalis materia mutrimenti <hi rend="italic">Y</hi> principale nutrimentum</note>
+<note n="405">materia nutrimenti <hi rend="italic">S12</hi> cibus nostri nutrimenti | denotat <hi rend="italic">F</hi> denotatur <hi rend="italic">lect dub</hi> | quicquid <hi rend="italic">Bl</hi> quidquid <hi rend="italic">O</hi> quicquam <hi rend="italic">X</hi> quicquit <hi rend="italic">add</hi> est | necessarium <hi rend="italic">O</hi> neccessarium | necessarium est <hi rend="italic">G</hi> est necessarium</note>
+<note n="406">nostrum <hi rend="italic">F</hi> nostrorum | et <hi rend="italic">Y om</hi> | nobis <hi rend="italic">C add</hi> etc.</note>
+<note n="407">debita nostra... debitoribus nostris <hi rend="italic">YC om S12 add</hi> etc. <hi rend="italic">O</hi> d. n. s. e. n. d. de. | nostra <hi rend="italic">G add</hi> etc. | sicut et nos dimittimus debitoribus nostris <hi rend="italic">TBGl om</hi></note>
+<note n="408">mala <hi rend="italic">X om</hi> | remotionem docet ibi Dominus <hi rend="italic">S12</hi> docet remotionem Dominus ibi | ibi Dominus <hi rend="italic">C</hi> Dominus ibi | ibi <hi rend="italic">G om</hi></note>
+<pb n="AVOThO_Volum IV-118 (Aparat Crític)"/>
+<note n="409">Duo <hi rend="italic">X</hi> due</note>
+<note n="410"><hi rend="italic">G om</hi> | Que <hi rend="italic">O</hi> quot</note>
+<note n="412">comune <hi rend="italic">BFS12NXl</hi> commune | uel spiritui <hi rend="italic">G om</hi></note>
+<note n="413">petere <hi rend="italic">G om</hi> | debita nostra <hi rend="italic">T om</hi> | nostra <hi rend="italic">O om</hi> | et cetera <hi rend="italic">S12G om</hi></note>
+<note n="414">docet <hi rend="italic">Y add</hi> nos | docet petere <hi rend="italic">G om</hi> | cum <hi rend="italic">Y seq</hi> libe <hi rend="italic">canc</hi> | sed <hi rend="italic">N seq</hi> ib <hi rend="italic">canc</hi></note>
+<note n="415">remotionem docet ibi Dominus <hi rend="italic">F</hi> Dominus docet remotionem ibi | ibi <hi rend="italic">G om</hi></note>
+<note n="415-416">ibi Dominus <hi rend="italic">CN</hi> dominus ibi</note>
+<note n="417">duo <hi rend="italic">C</hi> Domine duo <hi rend="italic">S12 add</hi> in genere</note>
+<note n="418"><hi rend="italic">G om</hi> | que <hi rend="italic">O</hi> quot</note>
+<note n="419">commisse <hi rend="italic">BGl</hi> comisse</note>
+<note n="420">impellens <hi rend="italic">Gl</hi> inpellens <hi rend="italic">F</hi> pellens | committendum <hi rend="italic">BCl</hi> comittendum | petere <hi rend="italic">G om</hi> | dicit <hi rend="italic">S2</hi> dic <hi rend="italic">F om</hi></note>
+<note n="421">Et <hi rend="italic">C om</hi> | dimitte <hi rend="italic">N</hi> dimite | et cetera <hi rend="italic">TBCS12XGl om</hi> | culpas <hi rend="italic">O</hi> culpa</note>
+<note n="421-422">et dimitte... cum dicit <hi rend="italic">Y om</hi></note>
+<note n="422">petere <hi rend="italic">G om</hi></note>
+<note n="423">temptationem <hi rend="italic">F add</hi> etc. | aliquis <hi rend="italic">O</hi> animus</note>
+<note n="424">peccatum <hi rend="italic">FX add</hi> etc</note>
+<pb n="AVOThO_Volum IV-119 (Aparat Crític)"/>
+<note n="425">dixisti <hi rend="italic">X</hi> dicisti | dominus <hi rend="italic">S12</hi> deus | hac <hi rend="italic">G</hi> predicta | Pater noster <hi rend="italic">TYBCS12l om G add</hi> etc. | primo <hi rend="italic">S12 om</hi></note>
+<note n="426">uel anime <hi rend="italic">G om</hi></note>
+<note n="426-427">mali comunis <hi rend="italic">S12</hi> communis mali tam</note>
+<note n="427">comunis <hi rend="italic">Xl</hi> communis | corpori et anime <hi rend="italic">G</hi> tam corpori quam anime | corpori <hi rend="italic">CS2X</hi> corporis | et <hi rend="italic">S12</hi> quam</note>
+<note n="428">comunia <hi rend="italic">S12Xl</hi> communia</note>
+<note n="429">hac <hi rend="italic">C om</hi></note>
+<note n="430">in doctrina petitionis istorum <hi rend="italic">G om</hi> | petitionis <hi rend="italic">V seq</hi> ipsorum <hi rend="italic">canc</hi> | istorum <hi rend="italic">X om</hi> | petitionis istorum <hi rend="italic">Y</hi> petitionum istarum</note>
+<note n="431">domine <hi rend="italic">G om</hi></note>
+<note n="432">saluti <hi rend="italic">S12</hi> salutis</note>
+<note n="433">enim <hi rend="italic">S12 om</hi> | considerationem <hi rend="italic">T add</hi> <foreign xml:lang="grc">τοῦ κακοῦ</foreign> | comunis <hi rend="italic">T om l</hi> communis | et <hi rend="italic">C</hi> uel</note>
+<note n="433-434">comunis et proprii, uel generalis et particularis <hi rend="italic">S12</hi> communis vel generalis, proprii et particularis</note>
+<note n="434">et <hi rend="italic">C</hi> uel | debuissent <hi rend="italic">S12</hi> debuisset | ordinari sicut uos dicitis <hi rend="italic">Bl</hi> sicut uos dicitis ordinari | tamen <hi rend="italic">N</hi> tantum</note>
+<note n="435">dignioris <hi rend="italic">X</hi> dingnioris | digni <hi rend="italic">X</hi> dingi | possunt <hi rend="italic">S12</hi> posset etiam</note>
+<note n="436">enim <hi rend="italic">X</hi> eius | est <hi rend="italic">G om</hi></note>
+<note n="437">primo peteremus <hi rend="italic">Y</hi> peteremus primo | mali <hi rend="italic">BCS12l</hi> malorum <hi rend="italic">G om</hi> | mali anime <hi rend="italic">Y</hi> anime malorum</note>
+<note n="438">mali comunis <hi rend="italic">C</hi> malorum communium | comunis <hi rend="italic">l</hi> communis | comunis utrique <hi rend="italic">YS12</hi> cor<pb n="AVOThO_Volum IV-120 (Aparat Crític)"/>poris. Itemque <hi rend="italic">O</hi> corporis. Utrumque | utrique <hi rend="italic">G</hi> anime et corpori | denotandum <hi rend="italic">X</hi> notandum</note>
+<note n="440">nichil <hi rend="italic">O</hi> nil | procedit <hi rend="italic">S</hi> procedet</note>
+<note n="441">contra <hi rend="italic">O</hi> enim | proposita <hi rend="italic">G</hi> predicta <hi rend="italic">X om</hi></note>
+<note n="442">aliqua <hi rend="italic">G</hi> ula | cum dicit <hi rend="italic">Y ead man in mg inf</hi></note>
+<note n="443">adueniat regnum tuum <hi rend="italic">B add in mg</hi> | fiat voluntas tua <hi rend="italic">TS12 om O</hi> adue. Re. t. f. v. t. | tua <hi rend="italic">F add</hi> sicut in celo | etc. <hi rend="italic">G om</hi></note>
+<note n="444">ultimas <hi rend="italic">S12 om</hi> | coniungendo <hi rend="italic">G om l</hi> coniugendo | per dictionem copulatiuam <hi rend="italic">G</hi> cum dictione copulatiua | per <hi rend="italic">O</hi> pro | dictionem <hi rend="italic">X</hi> ditionem</note>
+<note n="445">cotidianum <hi rend="italic">C</hi> quotidianum <hi rend="italic">X</hi> cottidianum | nobis <hi rend="italic">G add</hi> etc</note>
+<note n="445-446">hodie et... de aliis <hi rend="italic">G om</hi> | et dimitte nobis <hi rend="italic">S12 om</hi> | debita nostra <hi rend="italic">BCS12 om</hi></note>
+<note n="446">debita nostra, et cetera <hi rend="italic">Tl om</hi> | et (sic) <hi rend="italic">F om</hi> | et sic <hi rend="italic">OX om</hi> | de aliis <hi rend="italic">X om</hi></note>
+<note n="447">domine <hi rend="italic">G om</hi> | inordinatum <hi rend="italic">O</hi> innordinatum | uel <hi rend="italic">G</hi> aut</note>
+<note n="447-448">uel ineptum <hi rend="italic">S12 om</hi></note>
+<note n="448">quod <hi rend="italic">F</hi> cum | fit <hi rend="italic">l</hi> sit | fecit <hi rend="italic">S12</hi> facit</note>
+<note n="449">in primis enim tribus petitionibus <hi rend="italic">B in mg add</hi> nominatis | tribus petitionibus <hi rend="italic">Y</hi> petitionibus tribus <hi rend="italic">l add</hi> nominatis | nominatis <hi rend="italic">G corr</hi> ordinatis <hi rend="italic">exp</hi> ord- <hi rend="italic">add</hi> nom- <hi rend="italic">int lin</hi> | enim <hi rend="italic">G</hi> namque | enim tribus <hi rend="italic">S2</hi> tribus enim | tribus <hi rend="italic">S1 add int lin G om</hi></note>
+<note n="450">copulatiuam coniunctionem <hi rend="italic">FG</hi> coniunctionem copulatiuam | copulativam <hi rend="italic">S12 om</hi></note>
+<note n="451">vel osten<pb n="AVOThO_Volum IV-121 (Aparat Crític)"/>dendum <hi rend="italic">BS12Gl om</hi></note>
+<note n="451-452">et non sucessive <hi rend="italic">T om</hi></note>
+<note n="452">non <hi rend="italic">S2 add int lin</hi> | petitionibus <hi rend="italic">S12</hi> successionibus | que pertinent <hi rend="italic">G om</hi></note>
+<note n="453">coniunctionem <hi rend="italic">Bl</hi> coniunctiones | copulativam <hi rend="italic">BS12l om</hi> | ad <hi rend="italic">S1 add int lin</hi></note>
+<note n="454">possidentur <hi rend="italic">O</hi> possidere | diuisim possidentur aut <hi rend="italic">G</hi> possidentur diuisim et | successiue <hi rend="italic">FX add</hi> etc. <hi rend="italic">Int lin 454-455, X seq paragraph canc per</hi> Va-cat</note>
+<note n="455">dixisti <hi rend="italic">X</hi> dicisti | quod <hi rend="italic">X</hi> quot | Deus <hi rend="italic">N om</hi> | orandus <hi rend="italic">T</hi> <foreign xml:lang="grc">προσευχῆσ ἄξιος</foreign></note>
+<note n="456">consequendum <hi rend="italic">F</hi> sequendum</note>
+<note n="457"><hi rend="italic">G</hi> que sunt ille | Quot <hi rend="italic">S12</hi> quarum</note>
+<note n="458">sunt <hi rend="italic">YTS12GO om</hi></note>
+<note n="460-461">salutis eterne... est meritoria <hi rend="italic">O om</hi></note>
+<note n="461">karitatis <hi rend="italic">CS12G</hi> caritatis | salutis eterne <hi rend="italic">G</hi> eterne salutis | impetrare <hi rend="italic">FG</hi> inpetrare</note>
+<note n="462">nam oratio <hi rend="italic">G</hi> oratio enim | inquantum est actus <hi rend="italic">O</hi> est actus inquantum | preordinatus <hi rend="italic">X</hi> preordinarius</note>
+<note n="463">siue <hi rend="italic">C</hi> si est | impetratoria <hi rend="italic">FGN</hi> inpetratoria | optati <hi rend="italic">F</hi> adoptati</note>
+<note n="464">inspirat <hi rend="italic">O</hi> sperat | de <hi rend="italic">N</hi> de de | comissis <hi rend="italic">FS12</hi> commissis | oratio <hi rend="italic">X om</hi></note>
+<note n="465">satisfactoria <hi rend="italic">S12</hi> satisfactio</note>
+<note n="466">offendit <hi rend="italic">X</hi> ostendit | Deum <hi rend="italic">C om</hi> | satisfacit <hi rend="italic">O</hi> satisfaciat | ei <hi rend="italic">C om</hi> | aliqualiter <hi rend="italic">G om</hi> | quando <hi rend="italic">X om</hi></note>
+<note n="466-467">orationem <hi rend="italic">X</hi> orationes</note>
+<note n="467">eo <hi rend="italic">C</hi> Deo</note>
+<note n="477-478">nam oratio <hi rend="italic">C</hi> oratio enim</note>
+<note n="468">inquantum <hi rend="italic">S12 om</hi> | sermo <hi rend="italic">G om</hi> | eloquium <hi rend="italic">CYBl</hi> coloquium <hi rend="italic">S1 add</hi> et sic</note>
+<note n="469">animum <hi rend="italic">FS12</hi> animam (<hi rend="italic">F</hi> ?) | attente <hi rend="italic">G corr</hi> attende <hi rend="italic">exp</hi> -d- <hi rend="italic">add</hi> -t- <hi rend="italic">int lin</hi> | refectoria <hi rend="italic">S12</hi> refectio</note>
+<note n="470">quarto modo <hi rend="italic">S12 om X add</hi> ideo, et. | modo <hi rend="italic">F add</hi> etc.</note>
+<note n="471">dixisti <hi rend="italic">X</hi> dicisti | karitatis <hi rend="italic">CS12GO</hi> caritatis | quod <hi rend="italic">X corr</hi> quam <hi rend="italic">F in mg man antiquiori</hi> [De necess?]itate et diffinitione caritatis</note>
+<pb n="AVOThO_Volum IV-122 (Aparat Crític)"/>
+<note n="473">est Deus <hi rend="italic">G</hi> Deus est | Deus amandus <hi rend="italic">Y</hi> amandus Deus</note>
+<note n="474">est <hi rend="italic">Y om</hi> | ostendo <hi rend="italic">S12</hi> ostenditur |</note>
+<note n="475">ymo <hi rend="italic">BS12</hi> immo <hi rend="italic">YX</hi> ymmo <hi rend="italic">l</hi> imo | proprie est <hi rend="italic">G</hi> est proprie | ipsa <hi rend="italic">Y om</hi> | ipsa bonitas <hi rend="italic">S12</hi> bonitatis | si <hi rend="italic">F</hi> sed | enim <hi rend="italic">Y add</hi> Deus non <hi rend="italic">C om</hi> | esset <hi rend="italic">Y add</hi> proprie</note>
+<note n="475-476">bonus proprie <hi rend="italic">S12</hi> proprie bonus</note>
+<note n="476">proprie <hi rend="italic">Y om</hi> | bonus esset <hi rend="italic">YBCl</hi> esset bonus | bonus esset per bonitatem <hi rend="italic">S12</hi> per bonitatem bonus esset | eo <hi rend="italic">Y om</hi></note>
+<note n="477">autem <hi rend="italic">N om</hi> | sit melius <hi rend="italic">S12</hi> melius sit | melius <hi rend="italic">OX</hi> melior | necesse <hi rend="italic">X</hi> neccesse | quod <hi rend="italic">O</hi> ut</note>
+<note n="478">quod <hi rend="italic">G</hi> quia <hi rend="italic">O</hi> quid</note>
+<note n="479">quia <hi rend="italic">G</hi> quod | rationabile <hi rend="italic">S12</hi> rationale</note>
+<note n="480">bonus <hi rend="italic">YBCS12X</hi> bonum</note>
+<note n="481">est diligendus <hi rend="italic">S12</hi> diligendus est</note>
+<note n="483"><hi rend="italic">G om</hi> | que <hi rend="italic">O</hi> quot</note>
+<note n="484">Deus precepit eum <hi rend="italic">S12</hi> precepit eum Deus | precepit eum <hi rend="italic">BX</hi> eum precepit <hi rend="italic">l</hi> eum precipit</note>
+<note n="485">Deum diligere <hi rend="italic">BCS12Xl</hi> diligere Deum | est <hi rend="italic">CX om</hi> | adimpleat <hi rend="italic">G</hi> ad inpleat</note>
+<note n="486">Iohanne <hi rend="italic">l</hi> Iohane</note>
+<note n="487">Deus <hi rend="italic">S12</hi> dominus | precepit <hi rend="italic">S1X</hi> precipit</note>
+<note n="488">precepto <hi rend="italic">S2 seq</hi> Dei diligitur <hi rend="italic">canc</hi> | diligitur <hi rend="italic">F</hi> diligatur</note>
+<note n="488-489">necesse est... propter Deum <hi rend="italic">G</hi> proximus diligitur propter Dei preceptum</note>
+<note n="489">propter <hi rend="italic">S12 add</hi> ipsum | secundo <hi rend="italic">l</hi> secundum | etiam est <hi rend="italic">S12</hi> est etiam</note>
+<note n="490">id <hi rend="italic">F</hi> illud <hi rend="italic">S1 add int lin</hi> | est diligibilis <hi rend="italic">C</hi> diligibilis est | diligibilis <hi rend="italic">S12G</hi> diligen<pb n="AVOThO_Volum IV-123 (Aparat Crític)"/>dus</note>
+<note n="491">quod <hi rend="italic">O</hi> quid | diligibilis <hi rend="italic">G</hi> diligendus | propter <hi rend="italic">N seq</hi> Deum <hi rend="italic">canc</hi></note>
+<note n="492">in se habet <hi rend="italic">G</hi> habet in se | totum <hi rend="italic">Bl</hi> omne</note>
+<note n="492-493">quilibet <hi rend="italic">O</hi> quibus</note>
+<note n="493">proximus <hi rend="italic">G</hi> xristianus | (quilibet) est <hi rend="italic">S1 add in mg F add</hi> intelligibilis <hi rend="italic">canc</hi> | est diligibilis <hi rend="italic">S2</hi> diligibilis est | diligibilis <hi rend="italic">G</hi> diligendus | propter <hi rend="italic">F add</hi> Deum, id est propter</note>
+<note n="494-496">Ergo, quilibet ... propter Deum <hi rend="italic">G om</hi></note>
+<note n="494">et <hi rend="italic">S12</hi> quod et | quod <hi rend="italic">S12</hi> quia <hi rend="italic">X</hi> quot | nichil <hi rend="italic">O</hi> nil</note>
+<note n="495">Deo <hi rend="italic">N seq</hi> solum <hi rend="italic">canc</hi></note>
+<note n="496">diligendus est <hi rend="italic">O</hi> est diligendus | Deum <hi rend="italic">X add</hi> ideo, etc.</note>
+<note n="497">quod <hi rend="italic">X</hi> quot</note>
+<note n="498">Deo <hi rend="italic">V seq</hi> proba <hi rend="italic">canc</hi></note>
+<note n="499">ista <hi rend="italic">YS12 om</hi></note>
+<note n="500">domine <hi rend="italic">C om</hi> | domine, sic <hi rend="italic">N</hi> sic, domine | sic <hi rend="italic">G</hi> ita | quia <hi rend="italic">F</hi> quod | in <hi rend="italic">Y om</hi></note>
+<note n="501">utrumque <hi rend="italic">S2</hi> verumque | bonum <hi rend="italic">G om</hi> | nature <hi rend="italic">G</hi> naturale</note>
+<note n="504">probo <hi rend="italic">T add</hi> <foreign xml:lang="grc">κύριε</foreign> <hi rend="italic">S12 add</hi> Domine | quia <hi rend="italic">S12</hi> quod | conditor <hi rend="italic">Y add</hi> totius <hi rend="italic">G</hi> contitor | nature humane <hi rend="italic">C</hi> humane nature</note>
+<note n="505">tam <hi rend="italic">O</hi> tan | De <hi rend="italic">V seq</hi> l<pb n="AVOThO_Volum IV-124 (Aparat Crític)"/> <hi rend="italic">canc</hi> | enim <hi rend="italic">V ead man in mg YS12</hi> quidem</note>
+<note n="506">per <hi rend="italic">S2 om</hi> | theologiam <hi rend="italic">O</hi> theologia <hi rend="italic">X</hi> etheologiam | phosophiam <hi rend="italic">BCS12GOXl</hi> philosophiam <hi rend="italic">F</hi> phylosofiam <hi rend="italic">N</hi> phosoficam | quod <hi rend="italic">CS12O</hi> quia | per <hi rend="italic">B add in mg</hi> | solam <hi rend="italic">S2</hi> solem</note>
+<note n="506-507">per solam creationem <hi rend="italic">G</hi> solum per creationem</note>
+<note n="507">in <hi rend="italic">N om</hi> | esse <hi rend="italic">O</hi> omne | corpori. De <hi rend="italic">O</hi> cordi (?) Dei</note>
+<note n="508">expresse <hi rend="italic">F om</hi> | dicit Psalmista <hi rend="italic">Y</hi> dicitur per Salmistam | psalmista <hi rend="italic">G</hi> psalmus <hi rend="italic">F add</hi> cum dicit | finxit <hi rend="italic">G</hi> fixit <hi rend="italic">O</hi> fingit | sigillatim <hi rend="italic">G</hi> sigilatim <hi rend="italic">BS12l</hi> singillatim | corda eorum <hi rend="italic">G om</hi></note>
+<note n="508-509">et cetera <hi rend="italic">S12 om</hi></note>
+<note n="509">iterum <hi rend="italic">YG</hi> item | alibi <hi rend="italic">X seq</hi> Tu formasti me <hi rend="italic">canc</hi> | utero <hi rend="italic">N</hi> utro | et cetera <hi rend="italic">FS12 om</hi></note>
+<note n="509-512">et cetera... in uulua <hi rend="italic">G om</hi></note>
+<note n="509-510">Et iterum alibi: Tu formasti me <hi rend="italic">T om</hi></note>
+<note n="510">iterum <hi rend="italic">Y</hi> item | tu formasti me. Et iterum <hi rend="italic">Y om</hi> | (formasti) me <hi rend="italic">V al man in mg S12 add</hi> et cetera <hi rend="italic">l add</hi> cetera, et <hi rend="italic">O add</hi> vtero | utero <hi rend="italic">N</hi> utro <hi rend="italic">C</hi> uentre <hi rend="italic">O</hi> inde(?) | me <hi rend="italic">O om</hi></note>
+<note n="511">et <hi rend="italic">O om</hi> | me <hi rend="italic">CT om</hi> | in <hi rend="italic">B</hi> de <hi rend="italic">S2 seq</hi> vula <hi rend="italic">canc</hi> | uulua <hi rend="italic">F</hi> sulua <hi rend="italic">N</hi> uuluam(?) | etiam <hi rend="italic">Y</hi> enim <hi rend="italic">O</hi> id est | tam <hi rend="italic">X</hi> quam</note>
+<note n="511-512">tam nature quam gratie <hi rend="italic">S12</hi> tam gratie quam nature</note>
+<note n="512">accepisti <hi rend="italic">Y add</hi> a Deo</note>
+<note n="512-514">per quod... Deo collatum <hi rend="italic">G om</hi></note>
+<note n="513">testatur <hi rend="italic">S12</hi> tangitur</note>
+<note n="514">Deo <hi rend="italic">S2 add</hi> se | de <hi rend="italic">N</hi> e | iterum <hi rend="italic">G</hi> item <hi rend="italic">corr</hi> intem <hi rend="italic">exp</hi> -n- | etiam <hi rend="italic">G om</hi></note>
+<note n="514-515">expresse Iacobus... qui dicit <hi rend="italic">G</hi> dicit Iacobus | testatur <hi rend="italic">S12</hi> tangit</note>
+<note n="515">dicit <hi rend="italic">O add</hi> s. s. | Omne... perfectum <hi rend="italic">G</hi> omne... donum, etc. | optimum <hi rend="italic">S12 add</hi> et cetera</note>
+<note n="515-516">et omne ... Patre luminum» <hi rend="italic">S12 om</hi></note>
+<note n="516-517">est bonum nature et donum perfectum <hi rend="italic">B add in mg</hi> | sed datum... bonum gratie <hi rend="italic">G om</hi></note>
+<note n="517">bonum <hi rend="italic">CF</hi> donum <hi rend="italic">T</hi> <foreign xml:lang="grc">δῶρον</foreign> | bonum nature <hi rend="italic">S12</hi> nature bonum | est <hi rend="italic">G om</hi> | (est) bonum <hi rend="italic">O</hi> donum</note>
+<note n="518">est <hi rend="italic">X om</hi></note>
+<note n="519">datum <hi rend="italic">S12</hi> bonum</note>
+<pb n="AVOThO_Volum IV-125 (Aparat Crític)"/>
+<note n="520">id <hi rend="italic">FS12</hi> illud</note>
+<note n="520-521">productis <hi rend="italic">G add</hi> quod</note>
+<note n="521-523">quantum ad... fecerat et <hi rend="italic">G om</hi></note>
+<note n="521">naturam <hi rend="italic">V corr</hi> naturalia <hi rend="italic">exp</hi> -lia | scilicet <hi rend="italic">V ead man in mg S12 om</hi> | vidit <hi rend="italic">S12 praeit</hi> et</note>
+<note n="522">et <hi rend="italic">G</hi> est | idem sunt <hi rend="italic">G om</hi></note>
+<note n="523">ergo patet <hi rend="italic">O</hi> patet ergo</note>
+<note n="524">sit <hi rend="italic">N</hi> est | bonum <hi rend="italic">S12O</hi> donum</note>
+<note n="525">hoc <hi rend="italic">F</hi> hec | quia <hi rend="italic">S12X</hi> quod</note>
+<note n="526">autem <hi rend="italic">C om</hi> | perfectus est <hi rend="italic">YBCS12l</hi> est perfectus</note>
+<note n="527">uero <hi rend="italic">C om</hi> | completa <hi rend="italic">C</hi> perfecta | efficitur homo <hi rend="italic">C</hi> homo efficitur | homo <hi rend="italic">S12 om</hi></note>
+<note n="528">gratie, scilicet <hi rend="italic">S12 om</hi></note>
+<note n="528-529">facientis gratum <hi rend="italic">G</hi> g[ratum] facientis</note>
+<note n="529">sic <hi rend="italic">O add</hi> perfectum | bonum <hi rend="italic">FS12</hi> donum (<hi rend="italic">S1 corr in</hi> bonum) | facientis <hi rend="italic">C</hi> faciens</note>
+<note n="530">gratum <hi rend="italic">X add</hi> ideo, etc.</note>
+<note n="531"><hi rend="italic">Y in mg ead man</hi> De .x. preceptis | dixisti <hi rend="italic">X</hi> dicisti | necesse <hi rend="italic">X</hi> neccesse | ut <hi rend="italic">CY</hi> quod <hi rend="italic">G om</hi> | adimpleat <hi rend="italic">G</hi> ad inpleat</note>
+<note n="532">ergo <hi rend="italic">F seq</hi> si <hi rend="italic">canc</hi> | quot <hi rend="italic">FS2</hi> quod | precepta Dei <hi rend="italic">G</hi> Dei precepta</note>
+<note n="533">domine, et dico <hi rend="italic">S12 om</hi> | plura <hi rend="italic">X</hi> multa</note>
+<note n="534">secundum <hi rend="italic">O</hi> per | conuenit <hi rend="italic">G</hi> conueniunt | nos <hi rend="italic">G</hi> nobis | agere <hi rend="italic">G om</hi></note>
+<note n="535">hec <hi rend="italic">N seq</hi> Dei <hi rend="italic">canc</hi> | possem <hi rend="italic">Cl</hi> possum | numerare <hi rend="italic">YBl</hi> enumerare | sed <hi rend="italic">Y add</hi> ergo | precepta <hi rend="italic">S1</hi> preter <hi rend="italic">S2</hi> propter</note>
+<note n="536">uniuersalia <hi rend="italic">O</hi> alia | que <hi rend="italic">S12 om N seq</hi> alia <hi rend="italic">canc</hi> | cetera N cetra<pb n="AVOThO_Volum IV-126 (Aparat Crític)"/> | cetera reducuntur <hi rend="italic">X</hi> ceterarum diuinitus | pauca <hi rend="italic">O</hi> pauco | et ideo <hi rend="italic">O</hi> non | mihi <hi rend="italic">YS12X</hi> michi</note>
+<note n="537">ergo <hi rend="italic">V ead man in mg G om</hi> | Quot sunt ... uniuersalia Dei? <hi rend="italic">S12 om</hi></note>
+<note n="538">Domine <hi rend="italic">S12 om</hi> | duo <hi rend="italic">S12 add</hi> enim | sunt <hi rend="italic">X om</hi> | et <hi rend="italic">G om</hi></note>
+<note n="539">Que <hi rend="italic">O</hi> he <hi rend="italic">X</hi> quot | Que sunt <hi rend="italic">S12 om</hi> | duo <hi rend="italic">Y add in mg</hi> | genere <hi rend="italic">S12 add</hi> sunt</note>
+<note n="540-541">discedere a malo ... per Psalmistam <hi rend="italic">O om</hi> | Psalmistam <hi rend="italic">F</hi> Psalmum</note>
+<note n="540">discedere <hi rend="italic">S12</hi> declinare | dicitur per psalmistam <hi rend="italic">S12</hi> per prophetam dicitur | per Psalmistam <hi rend="italic">G</hi> in Psalmo | sic enim <hi rend="italic">S12</hi> unde</note>
+<note n="541">discede <hi rend="italic">S12</hi> declina</note>
+<note n="542">que <hi rend="italic">S12 om O</hi> qui | sunt <hi rend="italic">S2 om</hi> | sunt decem secundum speciem? <hi rend="italic">S12</hi> decem in specie sunt | decem <hi rend="italic">B</hi> .<num type="roman">X</num>. | speciem <hi rend="italic">Y</hi> specie</note>
+<note n="543">Domine <hi rend="italic">S12 om</hi> | tria pertinentia <hi rend="italic">S12</hi> quorum tria pertinent | ad <hi rend="italic">O</hi> ad ad | septem <hi rend="italic">BS12</hi> .<num type="roman">VIJ</num>. <hi rend="italic">G</hi> semptem | pertinentia ad <hi rend="italic">G om</hi> | pertinentia <hi rend="italic">S12 om</hi></note>
+<note n="543-545">et septem... dilectionem Dei <hi rend="italic">Y om</hi></note>
+<note n="545-552">Que sunt... dilectionem Dei <hi rend="italic">S12 om</hi></note>
+<note n="547">negativum ab affirmativo <hi rend="italic">T</hi> <foreign xml:lang="grc">ἡ ἀποφατικὴ τῆς καταφατικῆς</foreign></note>
+<note n="548">negatiuum <hi rend="italic">X</hi> negoti unum</note>
+<note n="549">uero <hi rend="italic">G om X</hi> non</note>
+<pb n="AVOThO_Volum IV-127 (Aparat Crític)"/>
+<note n="551">ergo <hi rend="italic">YG om</hi></note>
+<note n="553">Domine <hi rend="italic">CTY om</hi> | Domine, primum... cum dicitur <hi rend="italic">S12</hi> primum preceptum pertinens ad dilectionem Dei est istud | ydolatriam <hi rend="italic">T</hi> <foreign xml:lang="grc">τὰς εἰδωλολατρείας</foreign></note>
+<note n="554">sculptile <hi rend="italic">O</hi> stutile | et cetera <hi rend="italic">TYS12G om</hi></note>
+<note n="555-564">Quid est ydolatria... cum dicitur <hi rend="italic">S12 om</hi></note>
+<note n="555">ydolatria <hi rend="italic">O add</hi> vel ydolatrare | ydolatrare <hi rend="italic">G</hi> idolatrare</note>
+<note n="556">aliud est <hi rend="italic">X</hi> est aliud | attribuere <hi rend="italic">Y add</hi> creature</note>
+<note n="556-557">exhibere <hi rend="italic">GX</hi> exibere</note>
+<note n="557">creature <hi rend="italic">Y om</hi> | soli <hi rend="italic">G</hi> solum</note>
+<note n="558">solum <hi rend="italic">C om</hi></note>
+<note n="559">Domini <hi rend="italic">V ead man in mg BFGNOX</hi> Dei <hi rend="italic">C</hi> diuinum</note>
+<note n="560">quod <hi rend="italic">O</hi> quid | secundum preceptum <hi rend="italic">C</hi> preceptum secundum | quod pertinet <hi rend="italic">YBCl</hi> pertinens</note>
+<note n="561">ut tu dixisti <hi rend="italic">G om</hi> | dixisti <hi rend="italic">X</hi> dicisti</note>
+<note n="562">illud <hi rend="italic">C</hi> id | prohibetur <hi rend="italic">Y</hi> exhibetur</note>
+<note n="563">nominis <hi rend="italic">N</hi> nomine | seu <hi rend="italic">G</hi> siue | seu <hi rend="italic">G</hi> siue | aliter <hi rend="italic">O</hi> alias</note>
+<note n="563-564">uanitatibus <hi rend="italic">G</hi> vannitatibus</note>
+<note n="564">dicitur <hi rend="italic">Y om</hi> | Non <hi rend="italic">S12</hi> Secundum: Non | tui <hi rend="italic">YX om</hi></note>
+<note n="565-568">Quod est... cum dicitur <hi rend="italic">S12 om</hi></note>
+<note n="565">Quod <hi rend="italic">X</hi> quot | quod dicis esse <hi rend="italic">G om</hi></note>
+<pb n="AVOThO_Volum IV-128 (Aparat Crític)"/>
+<note n="566">pertinens <hi rend="italic">Y</hi> faciens | per <hi rend="italic">Y om</hi></note>
+<note n="567">hoc <hi rend="italic">X</hi> hec | dies <hi rend="italic">YC om</hi> | deputata solum <hi rend="italic">G</hi> solum deputata | solum <hi rend="italic">T om</hi> | deputata <hi rend="italic">O</hi> depputata <hi rend="italic">C</hi> deputatum</note>
+<note n="568">uel <hi rend="italic">Y om FO add</hi> ad | Memento <hi rend="italic">S12</hi> Tertium: Memento | diem <hi rend="italic">G</hi> die</note>
+<note n="569">sabbati <hi rend="italic">X</hi> sabati | uel <hi rend="italic">O add</hi> ad</note>
+<note n="571">que sunt <hi rend="italic">S12 om</hi> | pertinentia <hi rend="italic">S12</hi> pertinentium | dilectionem <hi rend="italic">N seq</hi> Dei <hi rend="italic">canc</hi> | proximi <hi rend="italic">S12 add</hi> primum est</note>
+<note n="572">que <hi rend="italic">O</hi> quot | sex <hi rend="italic">YC</hi> .<num type="roman">VJ</num>.</note>
+<note n="574">sis <hi rend="italic">N</hi> scis</note>
+<note n="574-575">tuam <hi rend="italic">S12 add</hi> etc. | tuam... terram <hi rend="italic">G om</hi> | ut sis longevus super terram <hi rend="italic">S12 om</hi></note>
+<note n="576"><hi rend="italic">S12 om totam lin</hi> | que <hi rend="italic">O</hi> quot | sex <hi rend="italic">YC</hi> .<num type="roman">VJ</num>. <hi rend="italic">T</hi> <foreign xml:lang="grc">ἑπτὰ</foreign></note>
+<note n="577">Non <hi rend="italic">X</hi> nos | Non occides <hi rend="italic">S12 praeit</hi> secundum | ecce primum <hi rend="italic">S12 om</hi> | non <hi rend="italic">S12 praeit</hi> tertium <hi rend="italic">X om</hi> | mechaberis <hi rend="italic">YCGl</hi> mecaberis | id est <hi rend="italic">F om</hi></note>
+<note n="577-578">fornicaberis <hi rend="italic">O</hi> fornicaueris <hi rend="italic">F</hi> formidaberis | non mechaberis... ecce secundum <hi rend="italic">N add in mg</hi></note>
+<note n="578">ecce secundum <hi rend="italic">S12 om</hi> | non furtum facies, ecce tertium <hi rend="italic">O om</hi> | Non furtum <hi rend="italic">S12 praeit</hi> quartum | ecce <hi rend="italic">X om</hi> | ecce tertium <hi rend="italic">S12 om</hi> | Non <hi rend="italic">S praeit</hi> quintum</note>
+<note n="579-580">ecce quartum <hi rend="italic">S12 om</hi></note>
+<note n="580">Non <hi rend="italic">S12 praeit</hi> sextum | concupisces <hi rend="italic">F</hi> concupiscere <hi rend="italic">N</hi> cupies | domum <hi rend="italic">S12</hi> bonum | est <hi rend="italic">G om</hi></note>
+<note n="580-581">cognitione carentem <hi rend="italic">O</hi> cognitionem vel immobilem | cognitione <hi rend="italic">S1 spat vacuum</hi>, <hi rend="italic">in mg</hi> generatione <hi rend="italic">S2</hi> congregatione(?)</note>
+<note n="581">carentem <hi rend="italic">BS12l add</hi> vel mobilem (<hi rend="italic">l</hi> imobilem) <hi rend="italic">CG</hi> vel inmobilem <hi rend="italic">T add</hi> <foreign xml:lang="grc">ἢ ἀκίνητον</foreign> | ecce quintum <hi rend="italic">S12 om</hi> | Non <hi rend="italic">S12 praeit</hi> septimum</note>
+<note n="581-582">aut...<pb n="AVOThO_Volum IV-129 (Aparat Crític)"/> ancillam <hi rend="italic">G om</hi></note>
+<note n="582">ancillam <hi rend="italic">S12</hi> auxillam | bovem <hi rend="italic">S12 add</hi> etc. | aut asinum <hi rend="italic">S12G om</hi> | asinum <hi rend="italic">N</hi> azinum | et cetera <hi rend="italic">F om</hi></note>
+<note n="582-583">ecce sextum <hi rend="italic">YS12 om</hi></note>
+<note n="584">Vnde scis ... Dei specialia? <hi rend="italic">S12 om</hi> | tu <hi rend="italic">O om</hi> | ista <hi rend="italic">O</hi> infra <hi rend="italic">X</hi> ita | sint <hi rend="italic">GOl</hi> sunt <hi rend="italic">C om</hi> | .<num type="roman">X</num>. <hi rend="italic">N</hi> sex | Dei <hi rend="italic">N</hi> De <hi rend="italic">C add</hi> sint | specialia <hi rend="italic">YX</hi> spiritualia</note>
+<note n="585">Domine, quia sicut enumeraui et explicui, sic <hi rend="italic">S12</hi> Precepta decem, sicut hic supra ponuntur, | enumeraui <hi rend="italic">O</hi> narraui | explicui <hi rend="italic">G</hi> explicaui</note>
+<note n="586">predicta .<num type="roman">X</num>. fuisse <hi rend="italic">S12</hi> .<num type="roman">X</num>. predicta precepta a Deo facta | .<num type="roman">X</num>. <hi rend="italic">Y om add</hi> precepta <hi rend="italic">OX</hi> decem <hi rend="italic">N add</hi> et <hi rend="italic">F add</hi> etiam | a <hi rend="italic">O add</hi> dicto</note>
+<note n="586-587">vbi Moyses... scilicet, Moysen <hi rend="italic">G om</hi></note>
+<note n="587">Israelis <hi rend="italic">CF</hi> Israel <hi rend="italic">O</hi> Israeli <hi rend="italic">l</hi> Isrelis | Moysen <hi rend="italic">NOX</hi> Moysem</note>
+<note n="588">Contra, Dominus dicit <hi rend="italic">N om</hi> | dicit <hi rend="italic">T add</hi> <foreign xml:lang="grc">ἐν τῷ</foreign> | Contra <hi rend="italic">O</hi> quoniam | capitulo <hi rend="italic">O om</hi></note>
+<note n="588-589">Contra, Dominus ... istud, scilicet <hi rend="italic">S12</hi> Et ista .<num type="roman">X</num>. precepta plenarie perficit quicumque perfecte peregerit illa duo mandata, que Dominus ponit in <hi rend="italic">Mathei</hi> .<num type="roman">XXIJ</num>. capitulo. Dicit enim ibi sic: Primum et maximum mandatum est</note>
+<note n="589">scilicet <hi rend="italic">T om</hi> | Matthei <hi rend="italic">O</hi> Mathei | maximum <hi rend="italic">O</hi> proximum | istud <hi rend="italic">G om</hi></note>
+<note n="590">tuum <hi rend="italic">G add</hi> etc. | corde tuo <hi rend="italic">S12 add</hi> etc.</note>
+<note n="590-591">et ex ... mente tua <hi rend="italic">YS12G om</hi></note>
+<note n="591">uero est <hi rend="italic">Y</hi> est uero | est istud <hi rend="italic">G</hi> simile huic | istud <hi rend="italic">S12</hi> illud <hi rend="italic">Bl add</hi> scilicet <hi rend="italic">T add</hi> <foreign xml:lang="grc">δηλαδή</foreign></note>
+<note n="592">tuum <hi rend="italic">G add</hi> etc. | sicut teipsum <hi rend="italic">G om</hi></note>
+<pb n="AVOThO_Volum IV-130 (Aparat Crític)"/>
+<note n="593-610">Sed tu ... supradicto <hi rend="italic">S12 om</hi></note>
+<note n="593">sed <hi rend="italic">Bl</hi> set <hi rend="italic">C</hi> et <hi rend="italic">X</hi> sicut | tu <hi rend="italic">O</hi> tamen | dixisti <hi rend="italic">X</hi> dicisti | est <hi rend="italic">F add</hi> illud</note>
+<note n="594">est <hi rend="italic">Tl om</hi> | assumere <hi rend="italic">G</hi> assumes | Dei <hi rend="italic">FG add</hi> tui | in uanum <hi rend="italic">G om</hi> | ergo <hi rend="italic">F</hi> igitur | uel <hi rend="italic">GX</hi> aut</note>
+<note n="596">euangelio <hi rend="italic">FN</hi> ewangelio | Matthei <hi rend="italic">l</hi> Mathei | euangelio Matthei <hi rend="italic">O</hi> euuangelio Mathei | Matthei <hi rend="italic">Y om</hi> | est <hi rend="italic">Y om</hi> | est nefas <hi rend="italic">C</hi> nephas est | nefas <hi rend="italic">BFGOYl</hi> nephas | de <hi rend="italic">X</hi> quia</note>
+<note n="597">dictum est <hi rend="italic">Y</hi> est dictum est | inconueniens <hi rend="italic">Y</hi> inconuenienter</note>
+<note n="598">ymo <hi rend="italic">Bl</hi> immo <hi rend="italic">X</hi> ymmo | ambo <hi rend="italic">Y om</hi> | concordant <hi rend="italic">X</hi> concordantur | rem <hi rend="italic">l</hi> rationem</note>
+<note n="598-600">loquendo de... dixi; sed <hi rend="italic">C om</hi></note>
+<note n="599">Dei <hi rend="italic">N</hi> De(?) <hi rend="italic">X om</hi> | que <hi rend="italic">X om</hi> | specialiter <hi rend="italic">X</hi> spiritualiter | prohibentur <hi rend="italic">F</hi> phohibuntur</note>
+<note n="601">ad <hi rend="italic">O seq</hi> ea que specialiter prohibentur <hi rend="italic">canc</hi> | finalem <hi rend="italic">V seq</hi> rat <hi rend="italic">canc exp</hi> | illorum <hi rend="italic">Y</hi> ipsum <hi rend="italic">BCl</hi> ipsorum <hi rend="italic">G</hi> eorum</note>
+<note n="602">Mattheo <hi rend="italic">Ol</hi> Matheo | quia <hi rend="italic">F om</hi></note>
+<note n="603">preceptorum <hi rend="italic">G</hi> mandatorum | Dei <hi rend="italic">G om</hi> | et <hi rend="italic">F</hi> ex</note>
+<note n="604">qui dicit <hi rend="italic">C om</hi> | qui dicit prima <hi rend="italic">G om</hi> | epistola <hi rend="italic">G</hi> in epistola <hi rend="italic">CT om</hi></note>
+<note n="605">Thymotheum <hi rend="italic">F</hi> Thimo <hi rend="italic">Y</hi> Timotheum <hi rend="italic">B</hi> Thimotheum <hi rend="italic">CO</hi> Thimoteum <hi rend="italic">G</hi> Tymoteum | primo <hi rend="italic">G</hi> prima <hi rend="italic">Y</hi> scilicet | karitas <hi rend="italic">CFO</hi> caritas <hi rend="italic">X</hi> raritas <hi rend="italic">lect dub</hi> | iterum <hi rend="italic">YG</hi> item <hi rend="italic">Y add</hi> dicit</note>
+<note n="606">decimo tertio <hi rend="italic">G om O</hi> .<num type="roman">XIIIJ</num>. <hi rend="italic">Y</hi> .<num type="roman">XIIJ</num>. capitulo</note>
+<note n="607">dixi <hi rend="italic">O</hi> dixit | ante <hi rend="italic">X om</hi> | dixi ante <hi rend="italic">C</hi> ante dictum est | .<num type="roman">X</num>. <hi rend="italic">O</hi> decem | preceptorum <hi rend="italic">G</hi> precepta | pertinebant <hi rend="italic">G</hi> pertinent</note>
+<note n="608">septem <hi rend="italic">BX</hi> .<num type="roman">VIJ</num>.</note>
+<note n="609">uirtutem <hi rend="italic">F</hi> virtutum | seu <hi rend="italic">G</hi> siue | exprimit <hi rend="italic">G</hi> ostendit | euangelio <hi rend="italic">FNOX</hi> ewangelio</note>
+<note n="610">Deum <hi rend="italic">V al man (in ras?) |</hi> quo dicit Dominus <hi rend="italic">S12</hi> quo Dominus in Matheo dicit</note>
+<note n="611">adim<pb n="AVOThO_Volum IV-131 (Aparat Crític)"/> plet <hi rend="italic">G</hi> adinplet | tria mandata <hi rend="italic">Y</hi> mandata tria | que <hi rend="italic">S12 add</hi> superius ponuntur | pertinent <hi rend="italic">S12</hi> pertinentia</note>
+<note n="612">et que primo fuerunt expressa in Exodo <hi rend="italic">G om</hi> | et <hi rend="italic">O om</hi> | primo <hi rend="italic">S12</hi> prius | fuerunt expressa <hi rend="italic">S12</hi> expressa fuerant | expressa <hi rend="italic">X</hi> expresse</note>
+<note n="613">Dominus <hi rend="italic">T</hi> <foreign xml:lang="grc">ὁ Θεὸς</foreign> | Dominus docet <hi rend="italic">G</hi> docet Dominus | docet <hi rend="italic">Y add</hi> in euangelio | perfecte <hi rend="italic">S12 add</hi> etiam | adimplet <hi rend="italic">G</hi> adinplet <hi rend="italic">X</hi> implet | septem <hi rend="italic">YBS12</hi> .<num type="roman">VIJ</num>. | <hi rend="italic">BS12 add</hi> precepta</note>
+<note n="614">et que fuerunt secundo expressa <hi rend="italic">G om</hi> | que <hi rend="italic">Yl om</hi> | et <hi rend="italic">S12 om</hi> | que <hi rend="italic">V ead man in mg B om S12 add</hi> etiam | fuerunt secundo expressa <hi rend="italic">S12</hi> fuerunt expressa in exodo | fuerunt secundo <hi rend="italic">C</hi> secundo fuerunt | secundo <hi rend="italic">X</hi> seculo <hi rend="italic">lect dub</hi></note>
+<note n="614-620">Et sic ... per hoc <hi rend="italic">S12 om</hi></note>
+<note n="615">sint <hi rend="italic">O</hi> sine | decem <hi rend="italic">YOX</hi> .<num type="roman">X</num>. | dixi <hi rend="italic">F</hi> dixit <hi rend="italic">X</hi> dici | et <hi rend="italic">O om</hi></note>
+<note n="616">et <hi rend="italic">O</hi> id est | Matheo <hi rend="italic">O</hi> Mathei | decem <hi rend="italic">Y</hi> .<num type="roman">X</num>. <hi rend="italic">C om</hi></note>
+<note n="617">dixi <hi rend="italic">X</hi> dici</note>
+<note n="617-620">que Dominus... per hoc <hi rend="italic">Y om</hi></note>
+<note n="618">reducere <hi rend="italic">O add</hi> ad ista duo</note>
+<note n="619">Ostende... reducuntur <hi rend="italic">OX om</hi> | qualiter <hi rend="italic">G</hi> quod | illa <hi rend="italic">G om</hi> | decem <hi rend="italic">B</hi> .<num type="roman">X</num>. <hi rend="italic">G</hi> decem <hi rend="italic">add</hi> predicta | reducuntur <hi rend="italic">G</hi> reducantur | ista <hi rend="italic">CG</hi> illa</note>
+<note n="620">diligit <hi rend="italic">N</hi> dillgit | Deum <hi rend="italic">S12 om</hi></note>
+<note n="621">suo <hi rend="italic">S12 add</hi> etc. | et ex tota anima sua (<hi rend="italic">C om</hi>) et ex tota mente sua <hi rend="italic">S12 om</hi> | et ex tota mente sua <hi rend="italic">F om</hi> | perficit <hi rend="italic">F</hi> proficit</note>
+<note n="621-622">tria prima <hi rend="italic">Bl</hi> prima tria</note>
+<note n="622">prima mandata <hi rend="italic">G</hi> mandata prima | neque <hi rend="italic">C</hi> nec | ydolatrat <hi rend="italic">F</hi> idolatrat | neque (abutitur) <hi rend="italic">CG</hi> nec | nomine <hi rend="italic">F</hi> nomen</note>
+<note n="623">neque <hi rend="italic">C</hi> nec | uiolat <hi rend="italic">F</hi> inoldit/uioldit (?) | mandata <hi rend="italic">G seq</hi> qui <hi rend="italic">exp</hi></note>
+<note n="623-624">dirigit <hi rend="italic">b</hi> diriget</note>
+<note n="623-633">Cuius ratio ... dilectionem Dei <hi rend="italic">S12 om</hi></note>
+<note n="624">scilicet <hi rend="italic">O add</hi> per | dediderium <hi rend="italic">Y add</hi> suum | quod per <hi rend="italic">C</hi> per quod | per <hi rend="italic">O seq</hi> qui <hi rend="italic">canc</hi> | designatur <hi rend="italic">N</hi> significatur <hi rend="italic">canc</hi></note>
+<note n="625">corporalis <hi rend="italic">C</hi> caloris</note>
+<note n="626">enim <hi rend="italic">BCl</hi> etiam <hi rend="italic">O</hi> eum</note>
+<note n="626-628">Dirigit enim... per animam <hi rend="italic">Y om</hi></note>
+<note n="627">designantur <hi rend="italic">BO</hi> designatur</note>
+<note n="628">etiam <hi rend="italic">O om</hi> | cognitionem <hi rend="italic">F</hi> congnitionem</note>
+<note n="629">interiorem <hi rend="italic">Y add</hi> suam <hi rend="italic">seq</hi> ad mentem desig<pb n="AVOThO_Volum IV-132 (Aparat Crític)"/>natur</note>
+<note n="630">et (etiam) <hi rend="italic">F om</hi> | etiam <hi rend="italic">C bis int lin</hi> | largo modo <hi rend="italic">Y om</hi> | ymaginari <hi rend="italic">O</hi> ymaginare <hi rend="italic">C</hi> ymagiari | estimare <hi rend="italic">Y</hi> exterminare <hi rend="italic">GX</hi> extimare</note>
+<note n="631">Deum <hi rend="italic">C add</hi> ex | toto <hi rend="italic">N seq</hi> corde <hi rend="italic">canc</hi> | et <hi rend="italic">FX om</hi></note>
+<note n="632">cognitione congnitione <hi rend="italic">CX</hi> cogitatione | tota <hi rend="italic">b</hi> toto | non <hi rend="italic">F</hi> nam | transgreditur <hi rend="italic">O</hi> transgredit</note>
+<note n="633">trium <hi rend="italic">G om</hi> | preceptorum <hi rend="italic">Y</hi> predictorum | primo <hi rend="italic">C om</hi> | ad <hi rend="italic">N</hi> ad ad</note>
+<note n="634">dico quod <hi rend="italic">S12 om</hi> | quod <hi rend="italic">FN om</hi> | suum <hi rend="italic">T om</hi> | se <hi rend="italic">N seq</hi> met <hi rend="italic">canc</hi> | seipsum <hi rend="italic">S12</hi> semetipsum</note>
+<note n="635">perficit <hi rend="italic">C</hi> perfecte adimplet | illa <hi rend="italic">BS12l</hi> alia | septem <hi rend="italic">YB</hi> .<num type="roman">VIJ</num>. | dixi <hi rend="italic">X</hi> dici | dixi pertinere <hi rend="italic">S12</hi> pertinere dixi | ad <hi rend="italic">C al man int lin</hi></note>
+<note n="636">quia <hi rend="italic">X</hi> qui <hi rend="italic">Y add</hi> qui | sicut <hi rend="italic">X</hi> sic | uellet <hi rend="italic">G</hi> uelle | filiis suis <hi rend="italic">G</hi> filio suo | uellet honorari a filiis suis <hi rend="italic">S12</hi> a filiis suis honorari desiderat | honorari a filiis <hi rend="italic">X</hi> a filiis honorari | a <hi rend="italic">F</hi> de | suis <hi rend="italic">CX om</hi></note>
+<note n="637">occidere <hi rend="italic">YS12</hi> occidit <hi rend="italic">CN</hi> occidet <hi rend="italic">X</hi> occidi <hi rend="italic">b</hi> occidere | sicut <hi rend="italic">S12G add</hi> ipse</note>
+<note n="638">igitur <hi rend="italic">CFl</hi> ergo | his <hi rend="italic">BCFS12NYl</hi> hiis | quod <hi rend="italic">S12</hi> quia <hi rend="italic">OX</hi> qui | .<num type="roman">X</num>. preceptorum <hi rend="italic">Y</hi> preceptorum .<num type="roman">X</num>.</note>
+<note n="639">in <hi rend="italic">V seq</hi> hiis <hi rend="italic">canc</hi> | istis <hi rend="italic">C</hi> his <hi rend="italic">X seq</hi> ex hiis <hi rend="italic">canc</hi> | per Matheum <hi rend="italic">S12</hi> in Matheo | et quod <hi rend="italic">C</hi> quare finaliter</note>
+<note n="640">decem <hi rend="italic">YS12X</hi> .<num type="roman">X</num>. <hi rend="italic">S12 add</hi> precepta | reducuntur <hi rend="italic">O</hi> indicuntur | generaliter <hi rend="italic">YBS12</hi> finaliter <hi rend="italic">C om T</hi> <foreign xml:lang="grc">ἐσχάτως</foreign> | hec <hi rend="italic">O om</hi> | duo <hi rend="italic">B</hi> .<num type="roman">IJ</num>. <hi rend="italic">S12 add</hi> mandata | <hi rend="italic">S2 add</hi> Iste liber (<hi rend="italic">add int lin</hi> fuit) scriptus Anno Domini .<num type="roman">M</num>º. <num type="roman">CCC</num>º. <num type="roman">LIX</num>º. <hi rend="italic">S1 add</hi> Iste liber fuit scriptus anno Domini Millesimo. tercentesimo. <num type="roman">LXX</num>º<num type="roman">IIJ</num>º, <num type="roman">XIIJ</num>ª. die mensis Januarii. Deo gratias. Et scripsit Johannes Breustin, alias Walekin</note>
+<note n="641">ad <hi rend="italic">F om</hi> | decem <hi rend="italic">B</hi> .<num type="roman">X</num>. <hi rend="italic">C</hi> -m <hi rend="italic">ex corr alt man</hi></note>
+<note n="641-642">precepta <hi rend="italic">G om</hi></note>
+<note n="642">et <hi rend="italic">X om</hi></note>
+<note n="643">anima et ex tota mente <hi rend="italic">X</hi> mente, ex tota anima | anima <hi rend="italic">Y om</hi></note>
+<note n="644">respondeo, domine <hi rend="italic">Y</hi> domine, respondeo | domine <hi rend="italic">Bl om</hi> | sic <hi rend="italic">V seq</hi> -n<hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum IV-133 (Aparat Crític)"/>
+<note n="645">contra <hi rend="italic">O</hi> dicitur | duodecimo <hi rend="italic">Y</hi> .<num type="roman">XIJ</num>. | Marci <hi rend="italic">Y</hi> Marchi <hi rend="italic">b</hi> M.</note>
+<note n="646">et ex tota anima tua <hi rend="italic">Y om</hi> | anima <hi rend="italic">X</hi> mente | tua <hi rend="italic">X om</hi></note>
+<note n="647">mente <hi rend="italic">X</hi> anima | tota uirtute tua <hi rend="italic">G</hi> totis viribus tuis | expresse <hi rend="italic">V ead man in mg BGl om</hi> | Marchus <hi rend="italic">F</hi> Marcus</note>
+<note n="647-648">expresse beatus Marchus <hi rend="italic">X</hi> beatus Marchus expresse</note>
+<note n="648">et <hi rend="italic">X om</hi> | menti <hi rend="italic">F</hi> mente <hi rend="italic">X add</hi> et | Marchus <hi rend="italic">Bl</hi> Marcus | addit <hi rend="italic">YBCl</hi> addidit | scilicet cordi et anime et menti, uirtutem <hi rend="italic">G om</hi></note>
+<note n="648-653"><hi rend="italic">G pro textu</hi> Et sic beatus Lucas addit ad predicta tria, vires</note>
+<note n="649">iterum <hi rend="italic">Y</hi> item | decimo <hi rend="italic">Y</hi> .<num type="roman">V</num>. <hi rend="italic">B</hi> .<num type="roman">X</num>. | Luce <hi rend="italic">Y</hi> Luche <hi rend="italic">b</hi> Luc.</note>
+<note n="650">Deum tuum <hi rend="italic">X om</hi></note>
+<note n="651">(tua) et <hi rend="italic">Cl add</hi> ex</note>
+<note n="652">hic <hi rend="italic">O</hi> hoc | Lucas <hi rend="italic">YO</hi> Luchas | predictis tribus <hi rend="italic">C</hi> tribus predictis | predictis <hi rend="italic">B seq</hi> i <hi rend="italic">exp</hi></note>
+<note n="653">Matheus <hi rend="italic">F</hi> Marcus <hi rend="italic">O</hi> Marchus</note>
+<note n="653-654">insufficiens <hi rend="italic">G</hi> insuficiens</note>
+<note n="654">aut <hi rend="italic">G</hi> vel | iterum <hi rend="italic">G</hi> item | in <hi rend="italic">G om</hi> | sufficiunt <hi rend="italic">X</hi> sufficient</note>
+<note n="655">Deum <hi rend="italic">YC add</hi> perfecte <hi rend="italic">T add</hi> <foreign xml:lang="grc">τελείως</foreign> | mihi <hi rend="italic">YNOl</hi> michi | debeat <hi rend="italic">G</hi> debet</note>
+<note n="655-656">potius debeat esse <hi rend="italic">YC</hi> debeat esse potius</note>
+<note n="656">uirtus <hi rend="italic">G corr</hi> uirtutis <hi rend="italic">exp</hi> -ti- | mens <hi rend="italic">N seq</hi> q <hi rend="italic">canc</hi> | tum <hi rend="italic">YOX</hi> tamen | fit <hi rend="italic">l</hi> sit</note>
+<note n="657">tum <hi rend="italic">G iter F</hi> tum/cum(?) | in <hi rend="italic">CFG om</hi> | sexto <hi rend="italic">BX</hi> .<num type="roman">VJ</num>. | Deuteronomii <hi rend="italic">X seq</hi> rantur ad dilectionem Dei quoniam ibi expresse <hi rend="italic">exp b</hi> venturo | uirtus <hi rend="italic">N</hi> virtutis <hi rend="italic">X</hi> uirides <hi rend="italic">lect dub</hi></note>
+<note n="658">tercio illorum <hi rend="italic">G</hi> illo tercio | tercio <hi rend="italic">O</hi> certo | dilectionem <hi rend="italic">N</hi> delectationem</note>
+<note n="659"><hi rend="italic">Y add in mg</hi> De dilectione Dei | diliges <hi rend="italic">C</hi> dilige</note>
+<note n="660">(tuo) et <hi rend="italic">N int lin</hi> | uirtute <hi rend="italic">B</hi> -tu- <hi rend="italic">add in mg</hi> | nulla fit ibi mentio <hi rend="italic">F</hi> ibi nulla fit | nulla fit ibi mentio <hi rend="italic">G</hi> nullam facit ibi mentionem | fit <hi rend="italic">l</hi> sit</note>
+<note n="660-661">fit ibi mentio expresse <hi rend="italic">C</hi> ibi fit expressa mentio</note>
+<note n="661">expresse <hi rend="italic">N seq</hi> dicitur <hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum IV-134 (Aparat Crític)"/>
+<note n="662">respondeo <hi rend="italic">N seq</hi> Deum <hi rend="italic">canc</hi> | domine <hi rend="italic">X om</hi> | primum <hi rend="italic">X</hi> primo | dicendo <hi rend="italic">O</hi> et dico</note>
+<note n="663">alii <hi rend="italic">Y add</hi> duo | euangeliste <hi rend="italic">FOX</hi> euuangeliste | euangeliste superflui <hi rend="italic">Y</hi> superflui euangeliste</note>
+<note n="664">per <hi rend="italic">G om</hi> | continent <hi rend="italic">X</hi> continet</note>
+<note n="665">rem <hi rend="italic">l</hi> rationem | (quartum) quod <hi rend="italic">N seq</hi> dicitur <hi rend="italic">canc</hi> | additur <hi rend="italic">N</hi> addicitur | quod sic <hi rend="italic">O</hi> quid sit | quia <hi rend="italic">b om</hi></note>
+<note n="666">qui <hi rend="italic">X</hi> cum | tota <hi rend="italic">F seq</hi> mente <hi rend="italic">canc</hi></note>
+<note n="667">uiribus <hi rend="italic">O</hi> membris</note>
+<note n="668">uirium <hi rend="italic">O</hi> vitiorum</note>
+<note n="669">humanarum <hi rend="italic">C</hi> humanalium <hi rend="italic">Y om</hi> | rem <hi rend="italic">l</hi> rationem | illud <hi rend="italic">Y</hi> id</note>
+<note n="670">Matheus <hi rend="italic">O</hi> Mathei | tamen <hi rend="italic">N</hi> tantum | tamen ad maio<pb n="AVOThO_Volum IV-135 (Aparat Crític)"/>rem <hi rend="italic">C</hi> ad maiorem autem | Luchas <hi rend="italic">BXbl</hi> Lucas</note>
+<note n="670-671">addiderunt <hi rend="italic">N</hi> addierunt</note>
+<note n="671">alia <hi rend="italic">N</hi> illa <hi rend="italic">O</hi> aliam | uirtutem <hi rend="italic">X</hi> uirtutes | que <hi rend="italic">C</hi> quod <hi rend="italic">N om</hi> | designatur <hi rend="italic">Y</hi> significatur <hi rend="italic">N</hi> designetur</note>
+<note n="672">nisi efficacia <hi rend="italic">Y</hi> inefficacia | efficacia <hi rend="italic">O</hi> efficaciam | uellent <hi rend="italic">FYG</hi> vellet</note>
+<note n="673">et (<hi rend="italic">l om</hi>) ex tota anima tua <hi rend="italic">Y om</hi> | et ex tota mente tua <hi rend="italic">C om</hi> | et <hi rend="italic">B om</hi> | tota <hi rend="italic">Bl</hi> tote</note>
+<note n="674">tua <hi rend="italic">G om</hi> | Marchus et Luchas <hi rend="italic">F</hi> Marcus et Lucas | Luchas <hi rend="italic">Nl</hi> Lucas | efficaciam <hi rend="italic">Y om</hi></note>
+<note n="675">alia <hi rend="italic">N</hi> illa</note>
+<note n="675-676">instrumenta dilectionis <hi rend="italic">F</hi> ininstuccio dilexionis</note>
+<note n="676">diuine <hi rend="italic">Y</hi> Dei | quantum <hi rend="italic">N iter</hi></note>
+<note n="676-677">quoniam <hi rend="italic">O</hi> quid</note>
+<note n="677">comprehenduntur <hi rend="italic">FX</hi> conprehenduntur</note>
+<note n="678">tribus <hi rend="italic">l om</hi> | Sed <hi rend="italic">Bl</hi> Set <hi rend="italic">C</hi> et</note>
+<note n="679">ut <hi rend="italic">FN</hi> et</note>
+<note n="680">et conditiones quibus est diligendus <hi rend="italic">F om</hi></note>
+<note n="681">quatuor <hi rend="italic">BX</hi> .<num type="roman">IIIJ</num>.</note>
+<note n="682">sunt <hi rend="italic">YG om</hi> | quatuor <hi rend="italic">BX</hi> .<num type="roman">IIIJ</num>.</note>
+<note n="683">que <hi rend="italic">O</hi> quot | quas <hi rend="italic">X</hi> quos</note>
+<note n="684">(quia) est <hi rend="italic">G seq</hi> creder <hi rend="italic">exp</hi> | secunda <hi rend="italic">CO add</hi> est | est (Conseruator) <hi rend="italic">YN om</hi></note>
+<note n="685">tercia <hi rend="italic">CO add</hi> est | est quia <hi rend="italic">BFOXl</hi> quia est <hi rend="italic">Y om</hi></note>
+<note n="686">sit <hi rend="italic">F</hi> sic est</note>
+<note n="687">Psalmistam <hi rend="italic">Y</hi> Salmistam <hi rend="italic">F</hi> psalmum</note>
+<note n="688">mea <hi rend="italic">G om</hi></note>
+<pb n="AVOThO_Volum IV-136 (Aparat Crític)"/>
+<note n="689">nichilo <hi rend="italic">N seq</hi> ideo(?) <hi rend="italic">canc O</hi> nichillo</note>
+<note n="689-690">aliquid... producere <hi rend="italic">G</hi> de nichilo aliquid producere</note>
+<note n="690">et per hoc differt a generare <hi rend="italic">N om</hi> | quia <hi rend="italic">B al man in mg</hi></note>
+<note n="691">est proprie <hi rend="italic">G</hi> proprie est | de aliquo <hi rend="italic">N add in mg</hi> | uero <hi rend="italic">X</hi> non</note>
+<note n="692">utrumque <hi rend="italic">G seq</hi> producere <hi rend="italic">exp</hi> | comune <hi rend="italic">l</hi> commune | Dominus <hi rend="italic">C</hi> Domine <hi rend="italic">N add</hi> et</note>
+<note n="693">beneficium <hi rend="italic">X seq</hi> creationis quia nulla <hi rend="italic">canc</hi> | quod <hi rend="italic">F</hi> hoc | firmamur <hi rend="italic">C</hi> firmatur <hi rend="italic">Nb</hi> firmamentum</note>
+<note n="694">vbi <hi rend="italic">G om</hi> | tangit <hi rend="italic">G</hi> tandit | beneficium <hi rend="italic">N seq</hi> conservationis <hi rend="italic">canc</hi></note>
+<note n="695">solus <hi rend="italic">CY</hi> solum</note>
+<note n="696">refugium <hi rend="italic">Y seq</hi> laborum (?) <hi rend="italic">canc</hi> | dyaboli <hi rend="italic">BCO</hi> diaboli | et <hi rend="italic">N seq</hi> ll <hi rend="italic">canc</hi></note>
+<note n="697">eam <hi rend="italic">OX</hi> ea <hi rend="italic">CF</hi> ipsam</note>
+<note n="698">ab <hi rend="italic">N add</hi> omni’p <hi rend="italic">canc</hi> | siue <hi rend="italic">G</hi> et</note>
+<note n="699">que <hi rend="italic">O</hi> quot | quatuor <hi rend="italic">Y</hi> .<num type="roman">IIIJ</num>. <hi rend="italic">X om</hi> | quibus <hi rend="italic">B seq</hi> est <hi rend="italic">exp</hi></note>
+<note n="700">Domine <hi rend="italic">N add in mg</hi> | denotatur <hi rend="italic">G</hi> notatur <hi rend="italic">O</hi> denotat | cum <hi rend="italic">X</hi> cum cum</note>
+<note n="701">quia <hi rend="italic">O corr</hi> quiat <hi rend="italic">canc</hi> -t | ait <hi rend="italic">C</hi> dicit | sensus <hi rend="italic">O</hi> sessus</note>
+<note n="701-703">cum <hi rend="italic">N om</hi> | dicitur: «Ex... hoc denotatur <hi rend="italic">NX om</hi></note>
+<note n="702">intellectu <hi rend="italic">G om</hi> | sine errore <hi rend="italic">O om</hi></note>
+<pb n="AVOThO_Volum IV-137 (Aparat Crític)"/>
+<note n="703">et <hi rend="italic">G om</hi></note>
+<note n="704">ex <hi rend="italic">X</hi> cum | ait <hi rend="italic">N</hi> ayt | est <hi rend="italic">G add</hi> ut</note>
+<note n="705">sine <hi rend="italic">F om</hi> | quod <hi rend="italic">B iteratur int lin</hi> | tepidi <hi rend="italic">F</hi> cupidi | est <hi rend="italic">Bl om</hi></note>
+<note n="706">seu <hi rend="italic">G</hi> siue | efficaciter <hi rend="italic">B</hi> eficaciter | (aut) per <hi rend="italic">G om</hi></note>
+<note n="707">est <hi rend="italic">O om</hi> | aggredi <hi rend="italic">BCX</hi> agredi | pati <hi rend="italic">O</hi> parati</note>
+<note n="708">conditio <hi rend="italic">O</hi> ergo | est <hi rend="italic">BO om</hi></note>
+<note n="709">perseueranter <hi rend="italic">X</hi> perseuerenter</note>
+<note n="710">ait <hi rend="italic">N</hi> ayt | tota <hi rend="italic">N</hi> toto</note>
+<note n="711">memoria <hi rend="italic">F</hi> materia</note>
+<note n="713">domine <hi rend="italic">YBCX om</hi> | rem <hi rend="italic">l</hi> rationem</note>
+<note n="714">diligatur <hi rend="italic">GN add</hi> ex | intelligendo <hi rend="italic">N</hi> diligendo</note>
+<note n="715">interiorem <hi rend="italic">C</hi> anteriorem | diceretur <hi rend="italic">O</hi> diceret</note>
+<note n="716">sed <hi rend="italic">Y om</hi></note>
+<note n="717">consideranti <hi rend="italic">V seq</hi> soli <hi rend="italic">canc</hi></note>
+<note n="716">comprehenditur <hi rend="italic">X</hi> conprehenditur</note>
+<note n="718">tantummodo <hi rend="italic">F add</hi> pro | sensibilia <hi rend="italic">Y</hi> sentibilia | dixit <hi rend="italic">X</hi> dicit | diliges <hi rend="italic">G add</hi> ex</note>
+<note n="721">esse <hi rend="italic">YCT om</hi> | impossibile <hi rend="italic">F</hi> inpossibile</note>
+<note n="722">(mente) uel <hi rend="italic">Y add</hi> in</note>
+<note n="723">necessaria <hi rend="italic">F om</hi> | distrahitur <hi rend="italic">BX</hi> distraitur <hi rend="italic">O</hi> trahitur | defectus <hi rend="italic">B</hi> deffectus <hi rend="italic">N seq</hi> humi(?) <hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum IV-138 (Aparat Crític)"/>
+<note n="724">domine <hi rend="italic">X om</hi></note>
+<note n="725">uie <hi rend="italic">B</hi> uite <hi rend="italic">exp</hi> -t- | possibile <hi rend="italic">Y</hi> impossibile | sed <hi rend="italic">X</hi> secundum</note>
+<note n="726">patrie <hi rend="italic">F</hi> persone(?) | non est possibile <hi rend="italic">C</hi> possibile non est | possibile <hi rend="italic">Y</hi> impossibile</note>
+<note n="727">totalitas uie <hi rend="italic">Y</hi> totalis uia</note>
+<note n="728">uie est totalitas <hi rend="italic">T om</hi> | totalitas <hi rend="italic">B corr</hi> tolitas <hi rend="italic">add</hi> -ta- <hi rend="italic">int lin GX om</hi> | totalitas uie <hi rend="italic">Y</hi> totalis uia | totalitas <hi rend="italic">Y</hi> totale iter | presentem <hi rend="italic">B</hi> presentam</note>
+<note n="729">uiatores <hi rend="italic">F</hi> vitores | Deus <hi rend="italic">O</hi> omnes | quando <hi rend="italic">X</hi> quoniam | fit <hi rend="italic">l</hi> sit</note>
+<note n="730">scilicet, quando <hi rend="italic">Y</hi> sed | sibi <hi rend="italic">O</hi> se | a <hi rend="italic">F</hi> id est</note>
+<note n="731">enim diligit <hi rend="italic">G</hi> est diligere | peccato <hi rend="italic">O</hi> scilicet</note>
+<note n="731-732">committeret <hi rend="italic">Bl</hi> comitteret</note>
+<note n="732">est <hi rend="italic">C al man int lin</hi> | contrarium Deo <hi rend="italic">G</hi> contra preceptum Dei | directe <hi rend="italic">O</hi> directi</note>
+<note n="733">caritati <hi rend="italic">G</hi> karitati <hi rend="italic">X</hi> raritati</note>
+<note n="735">statum <hi rend="italic">F</hi> stantum</note>
+<note n="736">facit <hi rend="italic">G seq</hi> contrarium <hi rend="italic">exp</hi> | dissonum ei <hi rend="italic">G</hi> ei dissonum | peccatum ueniale <hi rend="italic">Y</hi> ueniale peccatum | quod <hi rend="italic">N seq</hi> est <hi rend="italic">canc</hi></note>
+<note n="737">vita <hi rend="italic">N om</hi> | uitari <hi rend="italic">F</hi> vitare</note>
+<note n="738">retardatur <hi rend="italic">Y</hi> retardetur | karitatis <hi rend="italic">BGOl</hi> caritatis <hi rend="italic">X</hi> raritatis | sed <hi rend="italic">X</hi> sic</note>
+<note n="739">absorbta <hi rend="italic">YBGO</hi> absorta | karitas <hi rend="italic">BCGOl</hi> caritas <hi rend="italic">X</hi> raritas</note>
+<note n="740">neque... neque <hi rend="italic">BCO</hi> nec... nec</note>
+<note n="741">feruor <hi rend="italic">O om</hi> | impediri <hi rend="italic">BG</hi> inpediri</note>
+<note n="742"><hi rend="italic">Y in mg</hi> De dilectione proximi</note>
+<note n="743">et <hi rend="italic">V int lin GO om</hi></note>
+<note n="744">se <hi rend="italic">Y</hi> te | enim <hi rend="italic">B add int lin CX om</hi> | mihi <hi rend="italic">YGNObl</hi> michi | quod <hi rend="italic">F om</hi></note>
+<note n="744-745">dilexero <hi rend="italic">N corr</hi><pb n="AVOThO_Volum IV-139 (Aparat Crític)"/> dilectioxero <hi rend="italic">canc</hi> -ctio-</note>
+<note n="745">quantum <hi rend="italic">O</hi> quam | quam <hi rend="italic">Y corr</hi> quantum <hi rend="italic">canc</hi> -tum</note>
+<note n="746">quantum <hi rend="italic">O</hi> quam</note>
+<note n="747">utrvmque <hi rend="italic">X</hi> vtroque | uidetur esse <hi rend="italic">Y</hi> est</note>
+<note n="748">domine <hi rend="italic">X om</hi> | dico <hi rend="italic">N</hi> dicom <hi rend="italic">canc</hi> -m | precipit <hi rend="italic">BCFNbl</hi> precepit | quod <hi rend="italic">X</hi> ut | aliquis <hi rend="italic">G</hi> quisque</note>
+<note n="749">diligat <hi rend="italic">V iteratur altero canc</hi> | preceptum <hi rend="italic">T om</hi> | esset <hi rend="italic">N</hi> est</note>
+<note n="749-750">irrationabile <hi rend="italic">F</hi> inrationabile</note>
+<note n="750">bonum <hi rend="italic">N om</hi> | diligi <hi rend="italic">Y</hi> didiligi</note>
+<note n="751">precepit <hi rend="italic">GO</hi> precipit | quisque <hi rend="italic">G</hi> quis <hi rend="italic">X</hi> quique | sicut <hi rend="italic">G</hi> quantum | se <hi rend="italic">Y</hi> seipsum <hi rend="italic">G add</hi> sicut</note>
+<note n="752">Nam <hi rend="italic">C om</hi> | importatur <hi rend="italic">G</hi> denotatur</note>
+<note n="753">dilectionis <hi rend="italic">O</hi> dilationis | quisque <hi rend="italic">X</hi> quisquis <hi rend="italic">F</hi> quilibet | ac <hi rend="italic">YBCl</hi> aut <hi rend="italic">lect dub</hi></note>
+<note n="754">dilectione <hi rend="italic">O</hi> dilectionis <hi rend="italic">l</hi> dilectionem | iusta <hi rend="italic">G om O</hi> iustam <hi rend="italic">X</hi> iuxta | iusta, recta, sancta <hi rend="italic">BC</hi> iusta et recta et sancta et | recta, sancta <hi rend="italic">G</hi> sancta, recta</note>
+<note n="754-755">iusta, recta, sancta, operosa <hi rend="italic">Y</hi> recta et iusta et sancta et operosa <hi rend="italic">l</hi> iustam et rectam et sanctam et operosam <hi rend="italic">T</hi> <foreign xml:lang="grc">καὶ εὐθείᾳ</foreign>, <foreign xml:lang="grc">καὶ ἁγίᾳ</foreign>, <foreign xml:lang="grc">καὶ ἐνεργεῖ</foreign></note>
+<note n="755">etiam <hi rend="italic">l om</hi> | sic etiam debet diligere proximum <hi rend="italic">X om</hi></note>
+<note n="756">iusta <hi rend="italic">X</hi> iuxta</note>
+<note n="757">uult <hi rend="italic">G</hi> uul <hi rend="italic">N om O</hi> ultra | bonum <hi rend="italic">Y</hi> bene | dilecto <hi rend="italic">O</hi> dilectorem <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῦ ἀγαπωμένου</foreign></note>
+<note n="757-758">sicut quisque <hi rend="italic">O</hi> si quis</note>
+<note n="758">quisque <hi rend="italic">G</hi> quilibet <hi rend="italic">X</hi> quisquis | uult <hi rend="italic">O</hi> et ubilibet</note>
+<note n="759">eius <hi rend="italic">Y add</hi> et | non <hi rend="italic">F</hi> nam | uel <hi rend="italic">G</hi> siue | (uel) propter <hi rend="italic">O om</hi></note>
+<note n="760">que <hi rend="italic">O</hi> quid | est <hi rend="italic">C om</hi></note>
+<note n="761">uult uel <hi rend="italic">O</hi> uel ulla (?)</note>
+<pb n="AVOThO_Volum IV-140 (Aparat Crític)"/>
+<note n="762">quisque <hi rend="italic">X</hi> quisquis | se <hi rend="italic">G seq</hi> uults bonum per quod placet Deo <hi rend="italic">exp</hi> | uellet <hi rend="italic">G</hi> uelet | potius esse <hi rend="italic">Y</hi> esse potius</note>
+<note n="763">aut <hi rend="italic">Y</hi> et | ita <hi rend="italic">G om</hi></note>
+<note n="763-764">similiter debet uelle <hi rend="italic">Y</hi> uelle debet similiter</note>
+<note n="765">que <hi rend="italic">F</hi> quem <hi rend="italic">O</hi> quid</note>
+<note n="767">sicut <hi rend="italic">X om</hi> | quisque <hi rend="italic">X</hi> quisquis | uult <hi rend="italic">F</hi> vellet <hi rend="italic">O</hi> ultra | per quod <hi rend="italic">T</hi> <foreign xml:lang="grc">ὅ</foreign> | placeat <hi rend="italic">G</hi> placet</note>
+<note n="768">Deo <hi rend="italic">Y al man in mg</hi> | uelle <hi rend="italic">G</hi> uele</note>
+<note n="770">uult <hi rend="italic">O</hi> ultra | procurat <hi rend="italic">O</hi> procreat | quisque <hi rend="italic">O om</hi></note>
+<note n="771">appetit <hi rend="italic">N seq</hi> sibi bonum <hi rend="italic">canc</hi></note>
+<note n="771-772">Vnde, sicut... etiam procurat <hi rend="italic">X om</hi></note>
+<note n="772">sibi <hi rend="italic">F om</hi> | etiam <hi rend="italic">C om</hi> | cum potest <hi rend="italic">T om</hi> | ita <hi rend="italic">Y om</hi></note>
+<note n="773">facere <hi rend="italic">X add</hi> etc</note>
+<note n="774">dixisti <hi rend="italic">Y al man in mg</hi> dicis <hi rend="italic">X</hi> dicisti | separatum <hi rend="italic">X</hi> seperatum | quantum <hi rend="italic">O</hi> quam</note>
+<note n="774-777"><hi rend="italic">Y text illeg</hi></note>
+<note n="775">nec <hi rend="italic">CFGNXl</hi> neque | ergo <hi rend="italic">N om</hi></note>
+<note n="776">ipsum <hi rend="italic">G om</hi></note>
+<note n="778">domine <hi rend="italic">YX om</hi> | quantum ad <hi rend="italic">O</hi> quoad</note>
+<note n="779">essentie <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῦ εἰναι</foreign> | separatus <hi rend="italic">X</hi> seperatus</note>
+<note n="780">et <hi rend="italic">FX om</hi> | (alia) est <hi rend="italic">G om X add</hi> ab | sicut <hi rend="italic">O</hi> sic <hi rend="italic">X add</hi><pb n="AVOThO_Volum IV-141 (Aparat Crític)"/> bonus <hi rend="italic">canc</hi> | proximus <hi rend="italic">X</hi> proximus proximus</note>
+<note n="781">tamen <hi rend="italic">C</hi> tantum</note>
+<note n="782">quantum ad <hi rend="italic">O</hi> quo ad | a <hi rend="italic">Y om</hi></note>
+<note n="783">ymo <hi rend="italic">Y</hi> ymmo <hi rend="italic">l</hi> imo | intimus <hi rend="italic">G</hi> unitus ei et intimus | et <hi rend="italic">O</hi> etiam | ipsa <hi rend="italic">C om</hi> | intimius <hi rend="italic">N</hi> intimus <hi rend="italic">b</hi> intimum</note>
+<note n="784">quam <hi rend="italic">O</hi> quantum <hi rend="italic">X</hi> usum | quantum ad <hi rend="italic">O</hi> quo ad | totum <hi rend="italic">F</hi> tutum</note>
+<note n="785">esse <hi rend="italic">O</hi> est</note>
+<note n="786">creatoris <hi rend="italic">O</hi> creationis | subtraheretur <hi rend="italic">O</hi> haberetur | subtraheretur creature <hi rend="italic">Y</hi> creatura <hi rend="italic">al man in mg add</hi> careret</note>
+<note n="787">nihilum <hi rend="italic">N</hi> nichil <hi rend="italic">O</hi> nihillum | uerteretur <hi rend="italic">N</hi> conuerteretur <hi rend="italic">O</hi> remiteteretur</note>
+<note n="787-788">quisque <hi rend="italic">X</hi> quisquis</note>
+<note n="788">Deum <hi rend="italic">N</hi> dist(?) <hi rend="italic">canc</hi> | super <hi rend="italic">N</hi> o <hi rend="italic">canc</hi> | et plus quam omnia <hi rend="italic">C om</hi></note>
+<note n="789">nichil <hi rend="italic">O</hi> nil | boni <hi rend="italic">T om</hi> | quin <hi rend="italic">O</hi> quyn <hi rend="italic">N canc sign abbr</hi></note>
+<note n="791">propter hoc <hi rend="italic">Y om</hi> | cum Deus <hi rend="italic">O</hi> Deus cum</note>
+<note n="792">mihi <hi rend="italic">YO</hi> michi | simul <hi rend="italic">Y om</hi> | perficere <hi rend="italic">F</hi> proficere</note>
+<note n="793">dilectionem Dei et proximi <hi rend="italic">G</hi> Dei dilectionem et proximi</note>
+<pb n="AVOThO_Volum IV-142 (Aparat Crític)"/>
+<note n="794">domine <hi rend="italic">GX om</hi> | simultate <hi rend="italic">F</hi> simul caritate <hi rend="italic">O</hi> scilicet multiplicitate</note>
+<note n="795">karitatis <hi rend="italic">BCFOXl</hi> caritatis | supra <hi rend="italic">T om</hi> | dixi <hi rend="italic">X</hi> dici | diligitur <hi rend="italic">Y</hi> diligetur</note>
+<note n="796">et <hi rend="italic">F om</hi> | ipsum <hi rend="italic">YG</hi> Deum <hi rend="italic">T</hi> <foreign xml:lang="grc">τὸν Θεόν</foreign> | de <hi rend="italic">F seq</hi> se <hi rend="italic">canc</hi></note>
+<note n="797">mensurantis <hi rend="italic">X</hi> mansurantis</note>
+<note n="798">adimplentur <hi rend="italic">G</hi> adinplentur</note>
+<note n="800">uero <hi rend="italic">CX om</hi> | propter <hi rend="italic">T add</hi> <foreign xml:lang="grc">αὐτὸν</foreign> | dico loquendo <hi rend="italic">C om</hi> | alio <hi rend="italic">BC</hi> aliis</note>
+<note n="800-801">alio proximo <hi rend="italic">Yl</hi> aliis proximis | proximo <hi rend="italic">BC</hi> proximis</note>
+<note n="801">quia in Christo <hi rend="italic">Y om</hi></note>
+<note n="801">in Christo <hi rend="italic">O</hi> in ipso Christo <hi rend="italic">X</hi> proximo <hi rend="italic">canc(?)</hi> | perficiuntur <hi rend="italic">F</hi> proficiuntur</note>
+<note n="802">quia <hi rend="italic">O</hi> quod</note>
+<note n="804">Christus <hi rend="italic">X</hi> Deus</note>
+<pb n="AVOThO_Volum IV-143 (Aparat Crític)"/>
+<note n="805">quod <hi rend="italic">O om</hi> | est <hi rend="italic">T om</hi> | secundum <hi rend="italic">X</hi> super</note>
+<note n="806">acceptionem <hi rend="italic">Y</hi> exceptionem</note>
+<note n="807">identitate <hi rend="italic">CFYl</hi> idemptitate <hi rend="italic">X</hi> ydemptitate <hi rend="italic">O</hi> et dentitate | nature <hi rend="italic">X</hi> natura</note>
+<note n="808">unusquisque <hi rend="italic">Y add</hi> homo | cuilibet <hi rend="italic">F</hi> quilibet | alii <hi rend="italic">G</hi> alteri <hi rend="italic">T</hi> <foreign xml:lang="grc">ἀνθρώπῳ</foreign></note>
+<note n="809">super <hi rend="italic">O</hi> supto | illo verbo <hi rend="italic">C</hi> illa verba | uerbo <hi rend="italic">G</hi> iussu</note>
+<note n="810">ipsum <hi rend="italic">G om</hi> | quoniam <hi rend="italic">YBCl</hi> quod | per <hi rend="italic">FO om</hi></note>
+<note n="811">iterum <hi rend="italic">YG</hi> item | etiam <hi rend="italic">TGNO om</hi> | nobis <hi rend="italic">Y om</hi> | religione <hi rend="italic">X</hi> religionis | enim <hi rend="italic">N</hi> etiam</note>
+<note n="812">secte <hi rend="italic">O</hi> septe | proximi uocantur <hi rend="italic">C</hi> vocantur proximi</note>
+<note n="813">acceptionem <hi rend="italic">G</hi> religionem | dicitur <hi rend="italic">G iter</hi> | per Psalmistam <hi rend="italic">G</hi> in Psalmo <hi rend="italic">F</hi> psalmos | Christi <hi rend="italic">Y</hi> et</note>
+<note n="814">aduersum <hi rend="italic">Bl</hi> aduersus | me <hi rend="italic">YN om</hi> | proximos suos <hi rend="italic">F</hi> proximus suus | uocabat <hi rend="italic">G</hi> uocat | iudeos <hi rend="italic">F</hi> iudeus</note>
+<note n="815">qui <hi rend="italic">F</hi> quia | et <hi rend="italic">FY om</hi></note>
+<note n="816">unius et <hi rend="italic">TY om</hi> | quia <hi rend="italic">G</hi> qui</note>
+<note n="816-817">caput est <hi rend="italic">N</hi> est caput</note>
+<note n="817">christiane <hi rend="italic">X</hi> uniuerse | item <hi rend="italic">BCFXl</hi> iterum | etiam <hi rend="italic">FGN om</hi> | proximus <hi rend="italic">N add</hi> cum</note>
+<note n="818">compassione <hi rend="italic">X</hi> compaxione | sic <hi rend="italic">O</hi> sicut | proximus <hi rend="italic">N</hi> proxi <hi rend="italic">O</hi> proximum</note>
+<note n="819">Lucha <hi rend="italic">BCFGOXl</hi> Luca | vbi <hi rend="italic">O</hi> quinto | dicitur <hi rend="italic">OX</hi> dicit</note>
+<note n="820">non <hi rend="italic">O add</hi> cum eo</note>
+<note n="821">cum eo <hi rend="italic">O om</hi> | in <hi rend="italic">GO om</hi></note>
+<note n="821-822">summam <hi rend="italic">T</hi> <foreign xml:lang="grc">αὐτοῦ</foreign></note>
+<note n="822">quia <hi rend="italic">G</hi> cum | compatiendo <hi rend="italic">X</hi> conpatiendo | compatiendo nobis <hi rend="italic">G om</hi> | morti <hi rend="italic">G add</hi> pro nobis</note>
+<note n="823">perpetua <hi rend="italic">T om</hi> | nos <hi rend="italic">X om</hi> | iterum <hi rend="italic">YGO</hi> item | etiam <hi rend="italic">G om</hi></note>
+<note n="824">cognatione <hi rend="italic">X</hi> cognitione | quia <hi rend="italic">Y add</hi> ut | ipse <hi rend="italic">l</hi> Christus</note>
+<note n="825">dicit <hi rend="italic">O</hi> dixit | in Lucha <hi rend="italic">T om</hi> | Lucha <hi rend="italic">BCNOX</hi> Luca | facit <hi rend="italic">X</hi> fecit | Patris <hi rend="italic">G add</hi> etc.<pb n="AVOThO_Volum IV-144 (Aparat Crític)"/> <hi rend="italic">N seq</hi> e <hi rend="italic">canc</hi> | hic <hi rend="italic">C add</hi> est</note>
+<note n="825-826">mei... mea est <hi rend="italic">G om</hi></note>
+<note n="826">quod <hi rend="italic">C om</hi></note>
+<note n="827">et (actu) <hi rend="italic">F om</hi> | quod <hi rend="italic">C</hi> nam</note>
+<note n="828">mihi <hi rend="italic">YNOXl</hi> michi | quisque <hi rend="italic">G</hi> quilibet</note>
+<note n="829">studiose <hi rend="italic">G</hi> studiosse | animum suum ad Christum conuertere <hi rend="italic">Bl</hi> conuertere animum suum ad Christum | ad Christum conuertere <hi rend="italic">YC</hi> conuertere ad Christum</note>
+<note n="830">in eo <hi rend="italic">F om</hi> | eo <hi rend="italic">O</hi> ea | adimpleatur <hi rend="italic">G</hi> adinpleatur | laus <hi rend="italic">X</hi> laux | et gloria <hi rend="italic">C om</hi></note>
+<note n="832"><hi rend="italic">in mg man antiquiori</hi> Animum conuertere ad Deum | ergo <hi rend="italic">G om</hi> | tu <hi rend="italic">Y</hi> tuum | tuum <hi rend="italic">Y om</hi> | Christum <hi rend="italic">Y</hi> Deum <hi rend="italic">G</hi> ipsum <hi rend="italic">add</hi> et</note>
+<note n="833">quantum <hi rend="italic">C om</hi> | quantum ad <hi rend="italic">O</hi> quo ad | cotidianam <hi rend="italic">F</hi> cottidianam <hi rend="italic">G</hi> cotidiannam <hi rend="italic">O</hi> cothidianam <hi rend="italic">C</hi> quotidianam</note>
+<note n="834">inuocando <hi rend="italic">Y om</hi></note>
+<note n="835">Ihesu Nazareni <hi rend="italic">Y</hi> domini Ihesu</note>
+<note n="836">ambula <hi rend="italic">Y add</hi> et | prospere <hi rend="italic">BFGObl add</hi> et <hi rend="italic">N seq</hi> et regn <hi rend="italic">canc</hi></note>
+<note n="837">sacramento altaris <hi rend="italic">O</hi> sacro altari | benigne <hi rend="italic">O</hi> bone</note>
+<note n="838">amor <hi rend="italic">Y</hi> mor | inmensurabilis <hi rend="italic">C</hi> inmensabilis | manna <hi rend="italic">G</hi> mana <hi rend="italic">X</hi> macula | absconditum <hi rend="italic">O</hi> reconditum</note>
+<note n="839">eterna <hi rend="italic">F</hi> eterne <hi rend="italic">Y</hi> extrema</note>
+<note n="841">Dei <hi rend="italic">F om</hi> | atque <hi rend="italic">Y</hi> ac</note>
+<note n="842">quem <hi rend="italic">OX</hi> quam</note>
+<pb n="AVOThO_Volum IV-145 (Aparat Crític)"/>
+<note n="843">infernorum <hi rend="italic">Y corr</hi> inferorum <hi rend="italic">l</hi> inferorum</note>
+<note n="843-844">tercio <hi rend="italic">Y om</hi></note>
+<note n="844">ipsum <hi rend="italic">G iter</hi> | gratias <hi rend="italic">N seq</hi> agendo <hi rend="italic">canc</hi> | et <hi rend="italic">N int lin O om</hi> | sic dicendo <hi rend="italic">Y</hi> dicendo sic | adoro <hi rend="italic">F seq</hi> d <hi rend="italic">canc</hi></note>
+<note n="845">glorifico te <hi rend="italic">Y om</hi> | te <hi rend="italic">F om</hi> | <hi rend="italic">B add in mg</hi></note>
+<note n="845-847">gratias ago... hominibus <hi rend="italic">Y om</hi></note>
+<note n="845-846">magnam gloriam <hi rend="italic">Bl</hi> gloriam magnam</note>
+<note n="846">quam <hi rend="italic">O</hi> quoniam | es manifestare <hi rend="italic">X</hi> post magnifestare</note>
+<note n="847">que <hi rend="italic">O</hi> quoniam | mihi <hi rend="italic">NXbl</hi> michi <hi rend="italic">F</hi> meo <hi rend="italic">O om</hi> | confers <hi rend="italic">G</hi> dedisti</note>
+<note n="848">ut (Dominus) <hi rend="italic">Y om</hi> | et ut rex meus, et ut Pater meus <hi rend="italic">Y om</hi> | et ut Pater meus <hi rend="italic">T om</hi></note>
+<note n="849">Magister <hi rend="italic">C</hi> frater <hi rend="italic">lect dub</hi> | et finire <hi rend="italic">O</hi> confinire</note>
+<note n="850">ad <hi rend="italic">O add</hi> laudem et | gloriam <hi rend="italic">T add</hi> <foreign xml:lang="grc">καὶ τιμήν</foreign> <hi rend="italic">l add</hi> tuam | et <hi rend="italic">F om</hi> | regnas <hi rend="italic">G add C add</hi> vera <hi rend="italic">lect dub</hi> | Patre <hi rend="italic">N add</hi> et | in <hi rend="italic">F om</hi></note>
+<note n="850-851">cum Deo... seculorum. Amen <hi rend="italic">G om</hi></note>
+<note n="851">Amen <hi rend="italic">X om Y add</hi> Explicit collocutio dydascalica super elementis catholice fidei Magistri arnaldi de Villanoua physici. Deo gratias</note>
+<note n="851-852"><hi rend="italic">T add</hi> <foreign xml:lang="grc">ΑΡΧΟΝΤΑΙ ΑΝΤΙΛΟΓΙΑΙ ΚΑΤΑ ΤΩΝ ΕΙΡΗΜΕΝΩΝ</foreign>. <foreign xml:lang="grc">Πρώτη ἀντιλογία</foreign> <hi rend="italic">B add in rub</hi> Incipit obiectio <hi rend="italic">l add</hi> Incipit obiectio</note>
+<note n="852">mihi <hi rend="italic">NOXb</hi> michi | quod sit <hi rend="italic">T om</hi> | et stultitia <hi rend="italic">G om</hi> | quia <hi rend="italic">CG</hi> quod</note>
+<note n="853">pueri <hi rend="italic">X</hi> puer | Apostolus dicit <hi rend="italic">F</hi> dicit Apostolus</note>
+<note n="854">ut paruulus... ut paruulus <hi rend="italic">X</hi> et paruulus... et paruulus | sapiebam ut paruulus <hi rend="italic">B add in mg</hi></note>
+<note n="854-856">sapiebam ut... paruuli erant <hi rend="italic">G om</hi></note>
+<note n="854-855">sapiebam ut... ut paruulus <hi rend="italic">O om</hi> | loquebar ut paruulus <hi rend="italic">B</hi><pb n="AVOThO_Volum IV-146 (Aparat Crític)"/> <hi rend="italic">add in mg</hi></note>
+<note n="855">euacuaui <hi rend="italic">O</hi> euacui</note>
+<note n="855-856">paruuli erant <hi rend="italic">O</hi> erant paruuli</note>
+<note n="856">expresse denotat uel testatur <hi rend="italic">G</hi> satis datur intelligi | in <hi rend="italic">C</hi> de</note>
+<note n="857">pueri siue paruuli <hi rend="italic">G</hi> paruuli siue pueri | uiros <hi rend="italic">O lect dub</hi> vecos</note>
+<note n="858">uel <hi rend="italic">G</hi> et | ad <hi rend="italic">C add</hi> pueros uel</note>
+<note n="859">siue <hi rend="italic">T</hi> <foreign xml:lang="grc">καὶ</foreign> | pueris <hi rend="italic">N</hi> puris</note>
+<note n="860">sed <hi rend="italic">C add</hi> studendo <hi rend="italic">G add</hi> etiam</note>
+<note n="861">tum <hi rend="italic">O</hi> tamen | eswt a Deo sic <hi rend="italic">C</hi> a Deo sic est | est <hi rend="italic">V int lin</hi> | utile <hi rend="italic">V seq</hi> est <hi rend="italic">canc</hi> | tum quia <hi rend="italic">O om</hi> | est (a) <hi rend="italic">G om</hi> | est a Deo <hi rend="italic">F</hi> a Deo est | sic <hi rend="italic">TO om</hi></note>
+<note n="862">sacre <hi rend="italic">X</hi> sancte</note>
+<note n="863">de <hi rend="italic">N</hi> a | hoc <hi rend="italic">C om</hi> | homini <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῖς ὰνθρώποις</foreign></note>
+<note n="865">Dei scientia <hi rend="italic">VG inver ord</hi> scientia Dei</note>
+<note n="866">carentes <hi rend="italic">N</hi> carenti</note>
+<note n="866-867">per oppositum <hi rend="italic">O</hi> propositum</note>
+<note n="867">scientiam uel notitiam <hi rend="italic">F</hi> notitiam vel scientiam</note>
+<note n="868">uel <hi rend="italic">T</hi> <foreign xml:lang="grc">καὶ</foreign> | iterum <hi rend="italic">G</hi> item <hi rend="italic">N</hi> iterun | id <hi rend="italic">F</hi> illud | Ecclesiaste <hi rend="italic">BGOXl</hi> ecclesiastico <hi rend="italic">N</hi> Ecclesiasticis <hi rend="italic">b</hi> Ecclesiast: <hi rend="italic">T</hi> <foreign xml:lang="grc">τῷ ἑαυτῷ βιβλίῳ</foreign></note>
+<note n="869">nosse <hi rend="italic">BCl</hi> noscere <hi rend="italic">N seq</hi> ad <hi rend="italic">canc GX</hi> nosce | consummata <hi rend="italic">BOl</hi> consumata <hi rend="italic">C</hi> conservata</note>
+<note n="870">ad <hi rend="italic">X om</hi> | notitiam <hi rend="italic">N</hi> iustitiam | notitia <hi rend="italic">G om</hi> | utillima <hi rend="italic">B</hi> -ma <hi rend="italic">int lin N</hi> ullima <hi rend="italic">Ol</hi> utilissima <hi rend="italic">GX</hi> vtilima</note>
+<note n="871">et <hi rend="italic">N add</hi> ti(?) | sit <hi rend="italic">C</hi> est</note>
+<note n="871-872">in ea studere <hi rend="italic">GN</hi> studere in ea</note>
+<note n="872">Ecclesiastes <hi rend="italic">G</hi><pb n="AVOThO_Volum IV-147 (Aparat Crític)"/> Ecclesiastici <hi rend="italic">CN</hi> Ecclesiastis | scilicet <hi rend="italic">TG om</hi></note>
+<note n="873">igitur <hi rend="italic">l</hi> ergo | enim <hi rend="italic">CG om</hi> | hoc enim est omnis homo <hi rend="italic">F om</hi> | est <hi rend="italic">V seq</hi> s <hi rend="italic">exp</hi> | cum igitur omnis homo <hi rend="italic">X om</hi></note>
+<note n="874">homo <hi rend="italic">F om</hi> | sit <hi rend="italic">O om</hi> | ordinatus <hi rend="italic">X add</hi> igitur</note>
+<note n="875">Item <hi rend="italic">Xb</hi> iterum | patet etiam <hi rend="italic">N</hi> etiam patet <hi rend="italic">O</hi> quia etiam patet | etiam <hi rend="italic">G om</hi></note>
+<note n="876">Item <hi rend="italic">CFl</hi> iterum | quia <hi rend="italic">C</hi> quod</note>
+<note n="877">beatificat <hi rend="italic">O</hi> letificat</note>
+<note n="877">tu <hi rend="italic">X om</hi> | erudieris <hi rend="italic">X add</hi> tu</note>
+<note n="878">tu <hi rend="italic">C om</hi> | edocueris <hi rend="italic">BCFl</hi> docueris | edocueris eum <hi rend="italic">G</hi> docueris ei</note>
+<note n="879">ita <hi rend="italic">BCl om</hi> | paruuli <hi rend="italic">O</hi> pueruli</note>
+<note n="880">declaratur <hi rend="italic">F</hi> declaro | id <hi rend="italic">F</hi> illud</note>
+<note n="881">Salomonis <hi rend="italic">X</hi> Salamonis</note>
+<note n="882">astutia <hi rend="italic">O add</hi> et | iterum <hi rend="italic">GN</hi> item | declaratur per id quod dicitur <hi rend="italic">G om</hi> | id <hi rend="italic">F</hi> illud | dicitur <hi rend="italic">X</hi> dicit | in <hi rend="italic">F om</hi> | scilicet <hi rend="italic">TX om</hi></note>
+<note n="883">tuorum <hi rend="italic">X</hi> tuarum | et <hi rend="italic">N add int lin</hi></note>
+<note n="884">etiam <hi rend="italic">O</hi> autem <hi rend="italic">C</hi> enim <hi rend="italic">l om</hi> | quia <hi rend="italic">G</hi> quod | admittit <hi rend="italic">G</hi> amittit | et <hi rend="italic">BC add</hi> etiam</note>
+<note n="884-885">eligit <hi rend="italic">NX</hi> elegit <hi rend="italic">l</hi> eligat <hi rend="italic">G</hi> coligit</note>
+<note n="885">Psalmista <hi rend="italic">CF</hi> psalmus <hi rend="italic">O</hi> per Psalmistam | qui dicit <hi rend="italic">G om</hi></note>
+<note n="886">Dominum <hi rend="italic">Bl add</hi> etc. | item <hi rend="italic">CFOXbl</hi> iterum | infantium <hi rend="italic">G add</hi> et | lactentium <hi rend="italic">T om X seq</hi> Sed <hi rend="italic">canc</hi></note>
+<note n="886-887">et lactentium... laudem, etc. <hi rend="italic">G om</hi> | perfecisti <hi rend="italic">O</hi> perficisti</note>
+<note n="887">et cetera <hi rend="italic">OX om</hi> | presumptionis <hi rend="italic">G om</hi></note>
+<note n="888-891">ymo potius... Sacra Pagina <hi rend="italic">G om</hi></note>
+<note n="888">pagina <hi rend="italic">C</hi> scriptura vel pagina | ymo <hi rend="italic">B</hi> immo <hi rend="italic">X</hi> ymmo</note>
+<note n="889">eo <hi rend="italic">C</hi> hoc <hi rend="italic">X om</hi></note>
+<note n="890">uel <hi rend="italic">X add</hi> non | uiris <hi rend="italic">V al man corr in</hi> pueris <hi rend="italic">praemissa</hi> p- <hi rend="italic">b</hi> pueris</note>
+<note n="891">non <hi rend="italic">F om</hi> | comune <hi rend="italic">Xbl</hi> commune <hi rend="italic">F</hi> communis | pagina <hi rend="italic">C</hi> scriptura | quod <hi rend="italic">O om</hi> |</note>
+<note n="891-892">conuenit <hi rend="italic">G</hi> conueniat <hi rend="italic">X seq</hi> in <hi rend="italic">canc</hi></note>
+<note n="892">eis <hi rend="italic">O</hi> eos | eis in ea <hi rend="italic">b</hi> eis ea | quoniam <hi rend="italic">F</hi> quomodo | uiris <hi rend="italic">X</hi> uires | altius<pb n="AVOThO_Volum IV-148 (Aparat Crític)"/> <hi rend="italic">F om</hi></note>
+<note n="892-893">et perfectius <hi rend="italic">C om</hi></note>
+<note n="893">conueniat <hi rend="italic">V lect dub</hi> conueniant <hi rend="italic">X</hi> conueniant</note>
+<note n="894">Quod <hi rend="italic">X</hi> Quot | intentionis eius <hi rend="italic">O</hi> intentio eiusdem</note>
+<note n="895">quod <hi rend="italic">B</hi> quia</note>
+<note n="895-896">comendat <hi rend="italic">FCX</hi> commendat</note>
+<note n="896">Thimotheum <hi rend="italic">G</hi> Tymotheum <hi rend="italic">CO</hi> Thimoteum <hi rend="italic">X</hi> Timotheum | literis <hi rend="italic">O</hi> scripturis</note>
+<note n="896-897">in literis sacris uel didicerit eas <hi rend="italic">G</hi> in sacra pagina</note>
+<note n="897">didicerit <hi rend="italic">BCOXl</hi> didiscerit | eas <hi rend="italic">F add</hi> etc.</note>
+<note n="898">uestris <hi rend="italic">X om</hi> | dixistis <hi rend="italic">X</hi> dicistis | seu <hi rend="italic">G</hi> siue</note>
+<note n="898-899">seu fructuosum est <hi rend="italic">O</hi> est vel fructuosum</note>
+<note n="900">intelligentibus <hi rend="italic">B</hi> studentibus <hi rend="italic">Cl</hi> in ea studentibus <hi rend="italic">O</hi> colentibus(?) | sacre <hi rend="italic">C</hi> sacrosancte</note>
+<note n="900-902">quod autem... documenta eius <hi rend="italic">G om</hi></note>
+<note n="901">consecuntur <hi rend="italic">G</hi> secuntur <hi rend="italic">O</hi> consequuntur | adimplent <hi rend="italic">G</hi> adinplent <hi rend="italic">l</hi> adimplerint</note>
+<note n="903-904">fructum ex intellectu Sacre Scripture sit necessarium operibus exequi <hi rend="italic">B om</hi></note>
+<note n="904">exequi <hi rend="italic">F corr</hi> conxeque | patet <hi rend="italic">G praeit</hi> minor</note>
+<note n="905">eum <hi rend="italic">F add</hi> etc. <hi rend="italic">X om</hi> | item <hi rend="italic">CFXbl</hi> iterum | id <hi rend="italic">C</hi> hoc <hi rend="italic">FG</hi> illud</note>
+<note n="905-906">quod dicit beatus <hi rend="italic">G om</hi></note>
+<note n="906">Iacobus <hi rend="italic">G</hi> Iacobi | in exortatione sua cum dicit <hi rend="italic">G om</hi> | estote <hi rend="italic">V seq</hi> in <hi rend="italic">exp</hi> | factores <hi rend="italic">B corr</hi> m[...]ctores <hi rend="italic">add</hi> -fa- <hi rend="italic">G</hi> immitatores</note>
+<note n="907">auditores <hi rend="italic">F int lin corr</hi> factores | quod <hi rend="italic">B add int lin G</hi> hoc | innuit <hi rend="italic">X</hi> innuit | necesse est ut <hi rend="italic">G om</hi> | ut <hi rend="italic">C al man int lin X</hi> quod</note>
+<note n="908">scripture <hi rend="italic">G add</hi> necesse est ut | prosequatur <hi rend="italic">G</hi> exequatur | operibus documenta illius <hi rend="italic">G</hi> in opere intellectum eius</note>
+<note n="909">uero seu <hi rend="italic">G</hi> autem siue | licet <hi rend="italic">O</hi> hec | possent <hi rend="italic">C</hi> possint | uerba <hi rend="italic">F om</hi></note>
+<note n="909-910">licet audire... adimplent quia <hi rend="italic">G</hi> hoc non possunt et hoc | Sacre Scripture <hi rend="italic">F</hi> Sacram Scripturam</note>
+<note n="910">opere <hi rend="italic">F</hi> opera illius <hi rend="italic">T</hi> <foreign xml:lang="grc">ἔργοις</foreign> | quia <hi rend="italic">X</hi> quod | propter <hi rend="italic">O om</hi></note>
+<note n="910-911">indiscretionem <hi rend="italic">O</hi> discretionem</note>
+<note n="911">seu imperfectio<pb n="AVOThO_Volum IV-149 (Aparat Crític)"/>nem <hi rend="italic">G om</hi> | etatis <hi rend="italic">T add</hi> <foreign xml:lang="grc">αὐτῶν</foreign> | potius applicant <hi rend="italic">C</hi> applicant potius</note>
+<note n="912">sicut <hi rend="italic">F</hi> sic | que dicit <hi rend="italic">G om</hi></note>
+<note n="913">alligata est <hi rend="italic">X</hi> est alligata | alligata <hi rend="italic">G</hi> aligata | est <hi rend="italic">CG add</hi> in | id est <hi rend="italic">C om</hi></note>
+<note n="914">propter <hi rend="italic">O</hi> per | imperfectionem <hi rend="italic">Bl</hi> inperfectionem | etatis <hi rend="italic">T</hi> <foreign xml:lang="grc">τῆς φύσεως</foreign></note>
+<note n="915">hec <hi rend="italic">BXl</hi> hoc | respondemus <hi rend="italic">BCl add</hi> et | id <hi rend="italic">F</hi> illud | dicitis <hi rend="italic">N</hi> dicistis</note>
+<note n="916">alumnus <hi rend="italic">BCl</hi> alumpnus <hi rend="italic">O</hi> allumpnus <hi rend="italic">F</hi> aluminis</note>
+<note n="921">termini comunis <hi rend="italic">C</hi> terminationis | comunis <hi rend="italic">Fl</hi> communis <hi rend="italic">T om</hi></note>
+<note n="922">sed etiam factor <hi rend="italic">N om</hi></note>
+<note n="923">utilitate <hi rend="italic">X</hi> auctoritate | locuntur <hi rend="italic">CO</hi> loquuntur</note>
+<note n="925">cognoscenda <hi rend="italic">F</hi> congnoscenda</note>
+<note n="926">auditor <hi rend="italic">C om</hi> | Vnde <hi rend="italic">O</hi> bene</note>
+<note n="928">primam <hi rend="italic">O</hi> prima</note>
+<note n="929">propter <hi rend="italic">X</hi> per | imperfec<pb n="AVOThO_Volum IV-150 (Aparat Crític)"/>tionem <hi rend="italic">F</hi> inperfectionem</note>
+<note n="931">applicare <hi rend="italic">X</hi> amplicare | possibile <hi rend="italic">NX</hi> impossibile | imperfectioni <hi rend="italic">BFl</hi> inperfectioni <hi rend="italic">X</hi> imperfectionem</note>
+<note n="932">eripi <hi rend="italic">F</hi> arripi</note>
+<note n="932-933">stulticias <hi rend="italic">C</hi> sstulticiam | eis <hi rend="italic">C</hi> ea | elongari <hi rend="italic">X</hi> elogari</note>
+<note n="933">cui <hi rend="italic">O</hi> aut | quoniam <hi rend="italic">O</hi> quando</note>
+<note n="935">alligata <hi rend="italic">N</hi> alliga | alligata est <hi rend="italic">FX</hi> est alligata | puerorum <hi rend="italic">F add</hi> etc <hi rend="italic">T</hi> <foreign xml:lang="grc">τοῦ παιδός</foreign></note>
+<note n="935-936">cordibus puerorum <hi rend="italic">BCl</hi> cordi pueri</note>
+<note n="936">immediate <hi rend="italic">G</hi> inmediate | post <hi rend="italic">G om</hi> | eam <hi rend="italic">F add</hi> etc.</note>
+<note n="938">quod <hi rend="italic">G add</hi> non | non <hi rend="italic">G om N seq</hi> co <hi rend="italic">canc</hi> | oportet <hi rend="italic">O</hi> opportet</note>
+<note n="939">applicetur <hi rend="italic">X</hi> aplicetur</note>
+<note n="940">mihi <hi rend="italic">G add</hi> fili mi <hi rend="italic">Xl</hi> michi | item <hi rend="italic">CXbl</hi> iterum</note>
+<note n="940-941">simplicitate <hi rend="italic">G om</hi></note>
+<note n="941">de <hi rend="italic">V add in mg super</hi></note>
+<note n="942">quisque <hi rend="italic">O</hi> quibus <hi rend="italic">X</hi> quisquis | exibere <hi rend="italic">CN</hi> exhibere | Deo <hi rend="italic">l om</hi></note>
+<note n="942-943"><hi rend="italic">C</hi> et querere ipsum in simplicitate cordis <hi rend="italic">om</hi></note>
+<note n="943">cordis <hi rend="italic">l</hi> corde <hi rend="italic">X seq</hi> querite illum <hi rend="italic">canc</hi></note>
+<note n="944">laici <hi rend="italic">FNX</hi> layci | ergo <hi rend="italic">G add</hi> non | non <hi rend="italic">G om</hi> | eis <hi rend="italic">TO om</hi> | eis in ea <hi rend="italic">F</hi> in ea eis | non <hi rend="italic">N add int lin</hi></note>
+<note n="945">hoc <hi rend="italic">b</hi> hec | domine <hi rend="italic">F om</hi> | consequendam <hi rend="italic">G</hi> consequendum</note>
+<note n="947-948">traditionem factam <hi rend="italic">G</hi> doctrinam traditam</note>
+<note n="948">oportet <hi rend="italic">O</hi> opportet | ea <hi rend="italic">F</hi> eos</note>
+<note n="949">per<pb n="AVOThO_Volum IV-151 (Aparat Crític)"/>tinent <hi rend="italic">F</hi> pertinet</note>
+<note n="950">implicite <hi rend="italic">Gl</hi> inplicite | laicis <hi rend="italic">FGNX</hi> laycis | et <hi rend="italic">X om</hi></note>
+<note n="951">ea <hi rend="italic">CG</hi> ipsa <hi rend="italic">T</hi> ‘<foreign xml:lang="grc">Ιερῷ Χαρτίῳ καθ</foreign>’<foreign xml:lang="grc">αὑτό</foreign> | est <hi rend="italic">T add</hi> <foreign xml:lang="grc">αὐτοῖς</foreign></note>
+<note n="952">fidei <hi rend="italic">N</hi> de | recipiant <hi rend="italic">F</hi> recipiunt</note>
+<note n="953">humani generis <hi rend="italic">F</hi> habendam generis | necessarium est <hi rend="italic">G</hi> est necessarium | diligenter <hi rend="italic">add in mg</hi></note>
+<note n="954">etiam <hi rend="italic">O om</hi> | etiam patet <hi rend="italic">G om</hi> | dictis <hi rend="italic">O</hi> predictis</note>
+<note n="956">traditione <hi rend="italic">l</hi> traditionem | alterius <hi rend="italic">C</hi> illius | quia <hi rend="italic">O</hi> quid</note>
+<note n="957">aliis <hi rend="italic">X</hi> alii | item <hi rend="italic">COXbl</hi> iterum | etiam <hi rend="italic">O</hi> id est | dato <hi rend="italic">C</hi> dico | quod <hi rend="italic">C add</hi> si</note>
+<note n="958">ea <hi rend="italic">C</hi> ipsa | propter <hi rend="italic">al man in mg</hi> | adquisitionem <hi rend="italic">FGNOX</hi> acquisitionem</note>
+<note n="959">utillimum <hi rend="italic">V corr</hi> utilissimum <hi rend="italic">CGOX</hi> utilimum <hi rend="italic">F</hi> utilissimus</note>
+<note n="960">de Deo habetur notitia <hi rend="italic">CG</hi> habetur notitia de Deo | habetur <hi rend="italic">Bl</hi> haberetur | quanto <hi rend="italic">X</hi> quanta</note>
+<note n="961-962">et ideo... siue deuotius <hi rend="italic">X om</hi></note>
+<note n="962">deuotius <hi rend="italic">CTl om n</hi> devotionis</note>
+<note n="963">amatum <hi rend="italic">X</hi> eamentum <hi rend="italic">canc</hi> -e</note>
+<note n="964">laicis <hi rend="italic">FGN</hi> laycis <hi rend="italic">X</hi> lucis</note>
+<note n="965">Ad auctoritates <hi rend="italic">F</hi> ad ductores | non <hi rend="italic">C om</hi></note>
+<note n="966">animus <hi rend="italic">l</hi> cor | sed <hi rend="italic">C</hi> et | nichil <hi rend="italic">Bl add</hi> aliud</note>
+<note n="966-968">exiberi - exibenti - exibeatur - exibere <hi rend="italic">V al man corr in</hi> exhiberi - exhibenti - exhibeatur - exhibere <hi rend="italic">NOb</hi> exhiberi <hi rend="italic">etc</hi>.</note>
+<note n="966-967">exiberi <hi rend="italic">Bl</hi> exibitum <hi rend="italic">F</hi> exiberi <hi rend="italic">C</hi> aliquid exhibitum</note>
+<note n="967-968">exibenti (<hi rend="italic">l</hi> exibenci) - exibere - exibeatur <hi rend="italic">BCFl</hi> exhibenti - exhibere <hi rend="italic">F</hi> exhibeatur</note>
+<note n="967">nisi <hi rend="italic">O</hi> vero</note>
+<note n="968">oportet <hi rend="italic">O</hi> opportet | etiam <hi rend="italic">G om O</hi> id est | preter <hi rend="italic">l</hi> praeter | Deo alia preter cor exibere <hi rend="italic">G</hi> exiberi alia Deo<pb n="AVOThO_Volum IV-152 (Aparat Crític)"/> preter cor | Deo <hi rend="italic">X seq</hi> cor <hi rend="italic">canc</hi> | preter cor <hi rend="italic">X om</hi> | exibere <hi rend="italic">N</hi> exhibere</note>
+<note n="969">dicit <hi rend="italic">X seq</hi> Quod fides sine operibus est inociosa, id est, inutilis, ex quo patet quod ad consequendum <hi rend="italic">va-cat</hi></note>
+<note n="970">ore fit confessio <hi rend="italic">G</hi> oris confessio fit | fit confessio <hi rend="italic">C</hi> confessio fit | idem <hi rend="italic">O</hi> id <hi rend="italic">G add</hi> apostolus <hi rend="italic">T</hi> <foreign xml:lang="grc">Καὶ ὁ</foreign> | testatur <hi rend="italic">G om</hi> | quod <hi rend="italic">G om</hi></note>
+<note n="971">est <hi rend="italic">O om</hi> | ociosa <hi rend="italic">F</hi> occiosa <hi rend="italic">X</hi> inociosa | est ociosa <hi rend="italic">G</hi> ociosa est | id est <hi rend="italic">F</hi> et <hi rend="italic">O</hi> sive | inutilis <hi rend="italic">F add</hi> etc.</note>
+<note n="972">quod ad <hi rend="italic">O</hi> quo ad | consequendam <hi rend="italic">X</hi> consequendum | eternam salutem <hi rend="italic">BCl</hi> salutem eternam | exibere <hi rend="italic">V al man corr in</hi> exhibere <hi rend="italic">FCNOb</hi> exhibere</note>
+<note n="973">confirmetur <hi rend="italic">GO</hi> conformetur</note>
+<note n="974">Dicimus etiam <hi rend="italic">O</hi> vidimus et | etiam <hi rend="italic">F</hi> et</note>
+<note n="975">documentorum <hi rend="italic">O</hi> documenthorum | predictas <hi rend="italic">CG</hi> dictas <hi rend="italic">N om</hi></note>
+<note n="976">fidei <hi rend="italic">N seq</hi> confessionem <hi rend="italic">canc</hi> | beatum <hi rend="italic">G om</hi></note>
+<note n="978">parati <hi rend="italic">F</hi> parate | semper <hi rend="italic">V add in mg BCl om</hi> | omni <hi rend="italic">C om</hi> | poscenti <hi rend="italic">F</hi> possenti | rationem <hi rend="italic">G om</hi> | omni <hi rend="italic">X</hi> omnia</note>
+<note n="979">fide <hi rend="italic">G add</hi> et | uobis <hi rend="italic">N</hi> nobis | expresse <hi rend="italic">G</hi> satis</note>
+<note n="980">etiam <hi rend="italic">X om</hi></note>
+<note n="981">ei <hi rend="italic">F add</hi> et sic patet etc. <hi rend="italic">X add</hi> Deo gratias</note>
+<note n="982-988"><hi rend="italic">VFX om</hi></note>
+<note n="982">beati Petri <hi rend="italic">C om</hi> | exortatio <hi rend="italic">B in mg al man l om</hi></note>
+<note n="983">mi <hi rend="italic">l</hi> mei</note>
+<note n="985">scilicet <hi rend="italic">C om</hi></note>
+<note n="989">Explicit <hi rend="italic">C</hi> Explicit. Benedictus Deus | alphabetum catholicorum <hi rend="italic">G</hi> ista allocutio <hi rend="italic">C om</hi></note>
+<note n="990"><hi rend="italic">CG om F add</hi> Amen</note>
+     </div>
+    </back>
+  </text>
+</TEI>
