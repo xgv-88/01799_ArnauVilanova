@@ -11,7 +11,7 @@
 <p>Manuscrits de la BAV i transcripcions de l'edició crítica</p>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <div type="notes" subtype="contextual">
 <pb n="AVOThO_Volum V-171 (Notes Contextuals)"/>
 <note n="3">
@@ -748,17 +748,14 @@ ens informa de l’intent de fer valdre en la capital de França la desqualifiac
 <note n="1049-1050">
 In processu Parisiensi «in causa fidei» magistro Arnaldo imposita fuit lectio cedulae, secundum quam fasciculus
 <hi rend="italic">De adventu antichristi</hi>
-continebat et temeraria et erronea: «...in ordinatione per uos dictata et scripta in quadam cedula mittebatur expresse,temperare' et,reuocare', cum tamen sint actus specie differentes diuersis obiectis correspondentes, ut temerariis unus, erroneis alius» (
-<hi rend="italic">Instrumentum alterum</hi>
-..., líns. 36-40).
+continebat et temeraria et erronea: «...in ordinatione per uos dictata et scripta in quadam cedula mittebatur expresse,temperare' et, reuocare', cum tamen sint actus specie differentes diuersis obiectis correspondentes, ut temerariis unus, erroneis alius» (<hi rend="italic">Instrumentum alterum</hi>..., líns. 36-40).
 </note>
 <note n="1045-1046">«...non negatur quod aliter possint exponi uel accipi...»: el lector farà bé de retenir aquesta depreciació de la tesi arnaldiana; només cal comparar-la amb el curt diàleg de les línies 390-393, on l'afirmació de trobar-nos en els dos darrers segles de la història humana és presentada com un cas en què els ‘speculatores’ «sedentes supra speculam istud intuitu claro cognoscimus et uidemus»: cap possibilitat, doncs, de veure les coses altrament. Si seguim llegint el text trobarem en les línies 1054- 1055 aquestes dues valoracions de la possibilitat que el pronòstic de mestre Arnau no s’acomplís: «...tantum exponens defecisse cognosceretur et elucesceret quod expositio non fuerat necessarie ueritatis». És la doctrirna de la funció dels ‘speculatores’ la que resulta en entredit.</note>
 <note n="1049-1050">
 «...nec temeraria, nec falsa, nec erronea possunt dici...»: ni tan sols esmenta la possibilitat que la seva tesi hagués pogut ésser oficialment qualificada d’‘herètica’ pel bisbe de París, i per tant li fou estalviat l’‘acte de fe’, que a París en aquells moments tenia característiques pròpies, com era la de no cremar l’heretge, ans el seu llibre dins una paella, tal com podem llegir dins
 <hi rend="small-caps">Finke</hi>
 ,
-<hi rend="italic">Acta Aragonensia</hi>
-,
+<hi rend="italic">Acta Aragonensia</hi>,
 <num type="roman">I</num>
 , 446-448, amb data del 18 de juny del 1329. En canvi, en la frase de les línies 1228- 1229, mestre Arnau els torna la pilota: la vostra afirmació, sí que és, no sols falsa, ans errònia. Però aquesta dicussió tenia per a mestre Arnau una cara positiva, que ell havia de defensar com fos: el seu raonament era ‘catòlic’, (cf. líns. 1074-1075, 1234,
 </note>
