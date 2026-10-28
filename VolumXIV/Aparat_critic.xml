@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Interpretatio de visionibus in somniis</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. XIV, pàgines 67-115: edició crítica de la <title>Interpretatio de visionibus in somniis</title> (línies 1-707).</bibl>
+        <listWit>
+          <witness xml:id="B">Barcelona, Arxiu de la Corona d’Aragó, Diversos i col·leccions, Manuscrits, Casa Reial, 1.</witness>
+          <witness xml:id="C">Barcelona, Arxiu de la Corona d’Aragó, Cancelleria, Reg. 335, f. 337v i 295r.</witness>
+          <witness xml:id="f">M. Flacius Illyricus, <hi rend="italic">Catalogus testium veritatis</hi>, Estrasburg, 1562, Appendix, 1-14.</witness>
+          <witness xml:id="m">M. Menéndez i Pelayo, <hi rend="italic">Historia de los heterodoxos españoles</hi>, VII, Madrid, CSIC, 1963, 233-254, 254-257 i 257-260.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <text>
+<back>
+      <div type="apparatus" subtype="critical">
+<pb n="AVOThO_Volum XIV-67 (Aparat Crític)"/>
+<note n="Titulus"><hi rend="italic">B al. man add in fol praec (1r) f</hi> Incipit Collocvtio Friderici regis Siciliae, et nostra, Arnoldi de Villanova, lecta et communicata Sedi Apostolicae <hi rend="italic">et seq</hi> Exordivm. Qvia tota series meae narrationis essentialiter pertinet ad Euangelicam ueritatem, idcirco ad perpetuam rei memoriam, et ut in posterum obtundi possint aculei quorumcunque praeuaricantium, et dissipantium ea quae audiuntur, uolo, prout decet et expedit in tali nostro scripto, de omnibus clarificare Sedis Apostolicae maiestatem. Et dico: quia cum peruenissem Cathauiam, Rex praedictus exorsus est mihi pandere causam, propter quam me uocauerat sub talibus uerbis.</note>
+<note n="1">Fridericus, rex Siciliae <hi rend="italic">B deest f</hi> Fridericus rex <hi rend="italic">m</hi> Fridericus</note>
+<note n="2">adolescencia <hi rend="italic">f</hi> adolescentia | nostra <hi rend="italic">f om</hi> | quidam <hi rend="italic">m</hi> quidem | frequenter <hi rend="italic">m</hi> frecuenter</note>
+<note n="3">a ·<num type="roman">VII</num>· annis citra quasi <hi rend="italic">f</hi> ab annis circiter quinque</note>
+<pb n="AVOThO_Volum XIV-68 (Aparat Crític)"/>
+<note n="4">·<num type="roman">VII</num>· <hi rend="italic">f om</hi> | sompnis <hi rend="italic">f</hi> somniis</note>
+<pb n="AVOThO_Volum XIV-69 (Aparat Crític)"/>
+<note n="8">laycus <hi rend="italic">f</hi> laicus</note>
+<note n="9">significaret <hi rend="italic">m</hi> figuraret</note>
+<pb n="AVOThO_Volum XIV-70 (Aparat Crític)"/>
+<note n="12">notabiliter <hi rend="italic">f</hi> nobiliter | conspectu <hi rend="italic">f</hi> conspicuum | omnium hominum <hi rend="italic">f</hi> hominum omnium</note>
+<note n="13">huic cogitatui <hi rend="italic">f</hi> hinc cogitanti | ·<num type="roman">VII</num>· <hi rend="italic">f om</hi></note>
+<note n="14">et unus timor <hi rend="italic">f</hi> unus timor</note>
+<note n="15">Aragonum <hi rend="italic">f</hi> Arragonum</note>
+<note n="16">esset <hi rend="italic">f seq</hi> uel | principalis <hi rend="italic">f</hi> principali (<hi rend="italic">corr</hi> praesenti <hi rend="italic">in mg</hi>) | predicti <hi rend="italic">f</hi> praedictus</note>
+<note n="17">esset maior <hi rend="italic">f</hi> maior esset | graciis <hi rend="italic">f</hi> gratiis</note>
+<note n="18">illud <hi rend="italic">m</hi> idem</note>
+<note n="20">quodammodo <hi rend="italic">m</hi> quodamodo</note>
+<note n="21">prosequtione <hi rend="italic">f</hi> persecutione <hi rend="italic">m</hi> prosecutione</note>
+<note n="22">layci <hi rend="italic">f</hi> laici</note>
+<note n="23">quod <hi rend="italic">f</hi> quia</note>
+<note n="24">precise <hi rend="italic">f</hi> praecise</note>
+<note n="24-25">secundum <hi rend="italic">B seq</hi> e(ua)ngelium<pb n="AVOThO_Volum XIV-71 (Aparat Crític)"/> <hi rend="italic">exp et canc</hi></note>
+<note n="25">contempnendo <hi rend="italic">f</hi> contemnendo</note>
+<note n="27-28">communiter christiani faciebant oppositum <hi rend="italic">f</hi> christiani faciebant communiter oppositum</note>
+<note n="32">et exsequtione predicti <hi rend="italic">B add int lin</hi> | exsequtione <hi rend="italic">f</hi> executione <hi rend="italic">m</hi> exequtione</note>
+<note n="33">difformitatem <hi rend="italic">f</hi> deformitatem | ad uniuersalem multitudinem <hi rend="italic">f</hi> ab uniuersali multitudine</note>
+<note n="38">episcoporum <hi rend="italic">m</hi> epischoporum</note>
+<note n="38-39">et abbatum <hi rend="italic">f</hi> abbatum</note>
+<note n="39">uel <hi rend="italic">f</hi> et</note>
+<note n="40">et <hi rend="italic">f</hi> ac | effectibus <hi rend="italic">f</hi> affectibus</note>
+<note n="42">cerimoniarum <hi rend="italic">f</hi> caeremoniarum <hi rend="italic">m</hi> ceremoniarum | circa officium <hi rend="italic">f</hi> officia</note>
+<pb n="AVOThO_Volum XIV-72 (Aparat Crític)"/>
+<note n="47">uiciorum <hi rend="italic">f</hi> uitiorum</note>
+<note n="48">conspectu <hi rend="italic">f</hi> conspicuum</note>
+<note n="51-52">et quos <hi rend="italic">usque</hi> paupertatis <hi rend="italic">B add in mg</hi></note>
+<note n="53">nos <hi rend="italic">f</hi> eos | uidemus <hi rend="italic">f</hi> uidebamus</note>
+<note n="55">layci <hi rend="italic">f</hi> laici</note>
+<note n="57">ymo <hi rend="italic">f</hi> imo <hi rend="italic">m</hi> immo</note>
+<note n="58">insurgat <hi rend="italic">f</hi> insurget</note>
+<note n="59-60">humilitatem, mansuetudinem, penitentiam et <hi rend="italic">f</hi> humiliter mansuetudinem poenitentium</note>
+<note n="62">neque <hi rend="italic">m</hi> nec</note>
+<note n="63">et (sunt) <hi rend="italic">f</hi> ut</note>
+<note n="63-64">et irreuerentes <hi rend="italic">f</hi> irreuerentes</note>
+<note n="64">se <hi rend="italic">f</hi> sese</note>
+<note n="66">immisceant <hi rend="italic">m</hi> inmisceant | procurant <hi rend="italic">f</hi> procurent</note>
+<note n="67">erubescentie <hi rend="italic">f</hi> erubescentis | comissiones <hi rend="italic">f</hi> commissiones | negotiorum <hi rend="italic">f</hi> negociorum</note>
+<pb n="AVOThO_Volum XIV-73 (Aparat Crític)"/>
+<note n="69">reprehendantur <hi rend="italic">m</hi> reprehendatur</note>
+<pb n="AVOThO_Volum XIV-74 (Aparat Crític)"/>
+<note n="71">splendidis <hi rend="italic">f</hi> splendidissimis <hi rend="italic">m</hi> splendis</note>
+<note n="72">curiosis indumentis et mollibus stramentis <hi rend="italic">f om</hi></note>
+<note n="75">negotiorum <hi rend="italic">f</hi> negociorum</note>
+<note n="77">aliquando <hi rend="italic">m</hi> aliter | aliquando quod <hi rend="italic">f</hi> quod aliquando | elemosine <hi rend="italic">f</hi> eleemosynae | petebant <hi rend="italic">f</hi> expetebant</note>
+<note n="78">condempnationes <hi rend="italic">f</hi> condemnationes | et <hi rend="italic">m</hi> el</note>
+<note n="79">obstinatius <hi rend="italic">f</hi> obstinacius <hi rend="italic">m</hi> obstrictius</note>
+<note n="79-80">actoritatem <hi rend="italic">f</hi> authoritatem <hi rend="italic">m</hi> auctoritatem</note>
+<note n="80">curie <hi rend="italic">f</hi> curia | quam <hi rend="italic">m</hi> quoniam | aut <hi rend="italic">m</hi> ac</note>
+<note n="81">layci <hi rend="italic">f</hi> laici | deponitis <hi rend="italic">fm</hi> depositis | acomodatis <hi rend="italic">f</hi> accommodatis</note>
+<note n="82">persuasionibus <hi rend="italic">m</hi> persuacionibus</note>
+<note n="82-83">studiosi <hi rend="italic">f</hi> studiose</note>
+<note n="83">presidentia <hi rend="italic">f</hi> praesidentium</note>
+<note n="84">mendacii <hi rend="italic">B seq</hi> in quanto presidencia <hi rend="italic">canc</hi></note>
+<note n="88">eclesiasticis <hi rend="italic">fm</hi> ecclesiasticis | cotidie <hi rend="italic">f</hi> quotidie</note>
+<pb n="AVOThO_Volum XIV-75 (Aparat Crític)"/>
+<note n="89">ut plurimum <hi rend="italic">f</hi> utplurimum</note>
+<note n="89-90">adulari <hi rend="italic">m</hi> adulare</note>
+<note n="90">uel detrahere et diffamare <hi rend="italic">f</hi> aut detrahere uel diffamare | aut <hi rend="italic">m</hi> ac</note>
+<note n="93">excommunicatus <hi rend="italic">m</hi> excomunicatus | fidelis <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-76 (Aparat Crític)"/>
+<note n="95">ordinarie <hi rend="italic">B add int lin</hi></note>
+<note n="97">cotidie <hi rend="italic">f</hi> quotidie</note>
+<note n="98">cessamus <hi rend="italic">B seq verb illeg canc</hi> | et etiam <hi rend="italic">f</hi> atque</note>
+<note n="99">eclesie <hi rend="italic">fm</hi> ecclesie</note>
+<note n="101">ymo <hi rend="italic">f</hi> imo</note>
+<note n="102">nihilo <hi rend="italic">m</hi> nullo | Eclesiam <hi rend="italic">f</hi> ecclesiam <hi rend="italic">m</hi> Ecclesiam</note>
+<note n="103">appellationi <hi rend="italic">f</hi> applicationi <hi rend="italic">corr in mg</hi> appellationi | defferunt <hi rend="italic">f</hi> deferunt | ymo <hi rend="italic">f</hi> imo</note>
+<note n="104">fauorem <hi rend="italic">f</hi> fauore</note>
+<note n="107">Inmundicia <hi rend="italic">f</hi> immundicia</note>
+<note n="110">frequentant <hi rend="italic">f add</hi> manifestum est <hi rend="italic">m</hi> frecuentant</note>
+<note n="111">predicto modo <hi rend="italic">f om</hi> | doctrina <hi rend="italic">f add</hi> hac</note>
+<note n="112">necligencia <hi rend="italic">f</hi> negligentia <hi rend="italic">m</hi> negligencia | aliquando <hi rend="italic">m</hi> alium</note>
+<note n="113">mictere <hi rend="italic">fm</hi> mittere</note>
+<note n="116">alicubi <hi rend="italic">f</hi> aliquando | mundanis <hi rend="italic">B deest prim</hi> -n-</note>
+<pb n="AVOThO_Volum XIV-77 (Aparat Crític)"/>
+<note n="119">ut plurimum <hi rend="italic">f</hi> utplurimum | non <hi rend="italic">B add int lin</hi> | lapsum <hi rend="italic">f</hi> malum</note>
+<note n="120">puritate <hi rend="italic">f</hi> ueritate</note>
+<note n="121">scismaticis <hi rend="italic">f</hi> schismatis</note>
+<note n="122">Pro <hi rend="italic">f praem</hi> Et</note>
+<note n="123">autem <hi rend="italic">f om</hi> | conuertendis <hi rend="italic">f</hi> conuincendis | curat <hi rend="italic">m</hi> curant</note>
+<note n="124">frequenter <hi rend="italic">m</hi> frecuenter</note>
+<note n="127">communicare <hi rend="italic">m</hi> comunicare | illuminare <hi rend="italic">m</hi> illustrare</note>
+<note n="128-133">Nec inueniebamus <hi rend="italic">usque</hi> illusionem <hi rend="italic">f om</hi> | maxime quia <hi rend="italic">f om</hi></note>
+<note n="131">communicaremus <hi rend="italic">B</hi> -emus <hi rend="italic">illeg m</hi> comunicaremus</note>
+<note n="134">a <hi rend="italic">f</hi> et a | statuum regularium <hi rend="italic">f</hi> statum Regularem</note>
+<note n="135">communis <hi rend="italic">m</hi> comunis</note>
+<note n="136">ocultorum <hi rend="italic">f</hi> occultorum</note>
+<note n="136-137">quam diximus uobis <hi rend="italic">f om</hi></note>
+<note n="137">finaliter <hi rend="italic">m</hi> specialiter</note>
+<note n="140">suffragium <hi rend="italic">f</hi> suffragrium | eius <hi rend="italic">B iteratur, altero exp et canc</hi></note>
+<pb n="AVOThO_Volum XIV-78 (Aparat Crític)"/>
+<note n="142">qua <hi rend="italic">m</hi> quam | misimus <hi rend="italic">m</hi> missimus</note>
+<note n="142-160">Contingit autem <hi rend="italic">usque</hi> in capite <hi rend="italic">f</hi> Contingit autem, cum nos ista aetate cogitaremus circa illam uisionem, quod apparuit nobis more solite Domina mater nostra in somnio, uelata facie, et uidimus splendorem ultus eius mirabilem. Et tenebat diadema gemmatum ineffabilis pulchritudinis et splendorem uultus eius mirabilem. Et tenebat diadema gemmatum ineffabilis pulchritudinis et splendoris in manu dextra, et dicebat mihi: Hoc diadema portabis in capite.</note>
+<note n="144">decesseratis <hi rend="italic">B seq</hi> et contristauit nos rumor de Messana quod uos decesseratis <hi rend="italic">canc</hi> | rumor <hi rend="italic">m om</hi></note>
+<note n="145">quicquid <hi rend="italic">m</hi> quidquid</note>
+<note n="150">expressimus <hi rend="italic">m</hi> expressius</note>
+<note n="152">literam <hi rend="italic">m</hi> litteram</note>
+<note n="159">nobis <hi rend="italic">B add int lin et seq</hi> mihi <hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum XIV-79 (Aparat Crític)"/>
+<note n="161">Arnaldus de Villanova <hi rend="italic">B deest f</hi> Arnoldus <hi rend="italic">m</hi> Arnaldus</note>
+<note n="163">erat <hi rend="italic">m</hi> era</note>
+<note n="166">angelum <hi rend="italic">m</hi> angelicam | hoc <hi rend="italic">f</hi> haec</note>
+<note n="167">scilicet <hi rend="italic">fm</hi> sed | in (gloria) <hi rend="italic">f om</hi></note>
+<note n="170">indicii <hi rend="italic">f</hi> iudicii</note>
+<note n="171">exortabamini <hi rend="italic">f</hi> exhortabamini</note>
+<note n="172">sompnio <hi rend="italic">f</hi> somniis | tam <hi rend="italic">m</hi> tan</note>
+<note n="174">electis <hi rend="italic">f</hi> Ecclesiasticis</note>
+<note n="175">excellencie <hi rend="italic">f</hi> excellentiae | magestatis <hi rend="italic">f</hi> maiestatis</note>
+<note n="176">meus dilectus <hi rend="italic">B</hi> m. d. <hi rend="italic">m</hi> M. d. | in <hi rend="italic">B</hi> i. | in quo <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-80 (Aparat Crític)"/>
+<note n="178">communem <hi rend="italic">m</hi> comunem | cognitionis <hi rend="italic">f</hi> conditionis <hi rend="italic">m</hi> cogitationis</note>
+<note n="180">continet <hi rend="italic">f</hi> contineat</note>
+<note n="181">modo <hi rend="italic">f</hi> minimo | discordat <hi rend="italic">f</hi> discordet | testimoniis <hi rend="italic">f</hi> a testimoniis | divine <hi rend="italic">B add in mg</hi> | divine Scripture <hi rend="italic">f</hi> uerae Scripturae diuinae</note>
+<note n="183">indicium <hi rend="italic">f</hi> iudicium</note>
+<note n="184">aut <hi rend="italic">f</hi> uel | sic <hi rend="italic">f</hi> sit</note>
+<note n="185">esse cuique <hi rend="italic">f</hi> cuique esse</note>
+<note n="186">ueritati <hi rend="italic">f praem</hi> pietati et</note>
+<note n="188">(veritas) est <hi rend="italic">B add in mg</hi> | ortatur <hi rend="italic">f</hi> hortatur</note>
+<note n="190">istud in sompnio fuerit uobis ostensum <hi rend="italic">f</hi> in somnio istud uobis fuerit ostensum | sompnio <hi rend="italic">B seq</hi> uisum <hi rend="italic">canc</hi> | fuerit <hi rend="italic">m</hi> fuit | uobis <hi rend="italic">B add int lin</hi></note>
+<note n="191">ymo <hi rend="italic">f</hi> imo | Eloquiis <hi rend="italic">B iteratur, primo canc</hi></note>
+<note n="192">et Prophetis. In Lege <hi rend="italic">B add int lin</hi></note>
+<note n="194">sompniis <hi rend="italic">f</hi> somniis | in Prophetis <hi rend="italic">f</hi> in Propheticis | dixit <hi rend="italic">f</hi> dicit | sompnium <hi rend="italic">f</hi> somnium</note>
+<note n="195">uisione <hi rend="italic">f add</hi> nocturna | sopor super homines <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-81 (Aparat Crític)"/>
+<note n="196">specialiter <hi rend="italic">B add int lin</hi></note>
+<note n="197">Josep <hi rend="italic">fm</hi> Joseph</note>
+<note n="199">concomitancia <hi rend="italic">f</hi> concomitarione</note>
+<note n="200">sompnium <hi rend="italic">f</hi> somnium | indicabantur <hi rend="italic">m</hi> indicabatur | ei <hi rend="italic">f om</hi></note>
+<note n="202">quantumcumque <hi rend="italic">f</hi> quantumcunque <hi rend="italic">m</hi> quemcumque | litteratus <hi rend="italic">f</hi> literatus</note>
+<note n="203">ipse <hi rend="italic">f</hi> tempore | misteria <hi rend="italic">f</hi> mysteria</note>
+<note n="204"><hi rend="italic">Apocalypsis m</hi> Apostolus</note>
+<note n="206">letanter <hi rend="italic">f</hi> laetatur</note>
+<note n="207">quecumque <hi rend="italic">f</hi> quaecunque | Dei <hi rend="italic">B praem</hi> ex <hi rend="italic">canc</hi></note>
+<note n="208">Apostolus <hi rend="italic">f add in mg</hi> Paulus</note>
+<note n="209">stulticia <hi rend="italic">f</hi> stulta</note>
+<note n="211">quotienscumque <hi rend="italic">f</hi> quotiescunque <hi rend="italic">m</hi> quotiescumque | celestem <hi rend="italic">B add int lin</hi></note>
+<pb n="AVOThO_Volum XIV-82 (Aparat Crític)"/>
+<note n="213">maleficum <hi rend="italic">m</hi> maleficium</note>
+<note n="214">ut Festus dicebant <hi rend="italic">f</hi> dicebant ut Festus</note>
+<note n="214-215">Insanis Paule <hi rend="italic">m</hi> insanus es Paule</note>
+<note n="215">litere <hi rend="italic">m</hi> littere</note>
+<note n="217">Mihi <hi rend="italic">m</hi> Mi</note>
+<note n="218">ut <hi rend="italic">m</hi> et</note>
+<note n="220">propter <hi rend="italic">m</hi> prope</note>
+<pb n="AVOThO_Volum XIV-83 (Aparat Crític)"/>
+<note n="222">ystoriam <hi rend="italic">f</hi> historiam</note>
+<note n="223">presenciam <hi rend="italic">f</hi> praesentiam <hi rend="italic">m</hi> presentiam</note>
+<note n="225">sompnio <hi rend="italic">f</hi> somnio</note>
+<pb n="AVOThO_Volum XIV-84 (Aparat Crític)"/>
+<note n="226">·<num type="roman">IIII</num>·<hi rend="sup">or</hi> <hi rend="italic">f</hi> quatuor | inmensi <hi rend="italic">f</hi> immensi | dum <hi rend="italic">f</hi> dum</note>
+<note n="227">trade <hi rend="italic">m</hi> tradi</note>
+<note n="228">inde <hi rend="italic">B add int lin</hi></note>
+<note n="229">eram <hi rend="italic">f</hi> essem</note>
+<note n="230">narratione <hi rend="italic">f praem</hi> in</note>
+<note n="232">beneficia <hi rend="italic">m</hi> beneficio</note>
+<note n="233">se ipsum <hi rend="italic">f</hi> seipsum</note>
+<note n="234">ordini uel <hi rend="italic">B add int lin</hi> | circunstanciis <hi rend="italic">f</hi> circumstantiis</note>
+<note n="235">sapientia <hi rend="italic">m</hi> sapiencia</note>
+<note n="235-236">Nam eterna sapientia non confundit, nec deserit rerum proprietates, sed perficit <hi rend="italic">f om</hi></note>
+<note n="237">inter filios regis ·P· estis maior <hi rend="italic">f</hi> estis de filiis regis Petri maior</note>
+<note n="238">sed <hi rend="italic">m</hi> set | se <hi rend="italic">B add int lin</hi></note>
+<note n="239">cura <hi rend="italic">B canc verb illeg et add</hi> cura <hi rend="italic">int lin</hi> | maioris fratris <hi rend="italic">f</hi> maiorum fratrum</note>
+<note n="240">minoris filii <hi rend="italic">f</hi> maiorum filiorum</note>
+<note n="242">pecie <hi rend="italic">f</hi> petiae | immensi <hi rend="italic">m</hi> inmensi | divinam <hi rend="italic">f</hi> diuinam</note>
+<note n="243">que <hi rend="italic">m</hi> qui | ·<num type="roman">IIII</num>·<hi rend="sup">or</hi> <hi rend="italic">f</hi> quatuor | Euangeliis <hi rend="italic">f</hi> Euangelistis | cuius <hi rend="italic">B seq</hi> sapientia <hi rend="italic">canc</hi> | sapientie <hi rend="italic">m</hi> sapiencie</note>
+<note n="244">ortatur <hi rend="italic">f</hi> hortatur | expositiones <hi rend="italic">B praem</hi> expositionibus <hi rend="italic">canc</hi></note>
+<note n="246">stilum <hi rend="italic">f</hi> stylum | laycis <hi rend="italic">f</hi> laicis | intelligibilem <hi rend="italic">m</hi> intellegibilem</note>
+<note n="247">fieri <hi rend="italic">f</hi> scribi <hi rend="italic">m</hi> feri | ·<num type="roman">V</num>· <hi rend="italic">f</hi> quinque | et etiam <hi rend="italic">f</hi> etiam et</note>
+<pb n="AVOThO_Volum XIV-85 (Aparat Crític)"/>
+<note n="249">ex hiis <hi rend="italic">f om</hi> | hiis <hi rend="italic">m</hi> his</note>
+<note n="250">sed <hi rend="italic">m</hi> set | gracia <hi rend="italic">fm</hi> gratia</note>
+<note n="252">noticiam <hi rend="italic">m</hi> notitiam</note>
+<note n="253">id est <hi rend="italic">m</hi> et</note>
+<note n="254">temporalibus blandimentis <hi rend="italic">f</hi> blandimentis temporalibus</note>
+<note n="257">notitiam <hi rend="italic">f</hi> noticiam | impressiones <hi rend="italic">m</hi> impresiones</note>
+<note n="257-258">ante, quasi <hi rend="italic">f</hi> antequam</note>
+<note n="259-260">euangelicarum uirtutum <hi rend="italic">f</hi> uirtutum euangelicarum</note>
+<note n="260">quod amodo <hi rend="italic">m</hi> quodamodo</note>
+<note n="261">dignitate <hi rend="italic">f</hi> uoluntate | mente <hi rend="italic">f</hi> in mente | uobis excellenter <hi rend="italic">f</hi> excellenter uobis</note>
+<note n="262">exortationis <hi rend="italic">f</hi> exhortationis</note>
+<note n="263">ambuletis <hi rend="italic">B praem</hi> ambil <hi rend="italic">canc</hi></note>
+<note n="265">perducente <hi rend="italic">f</hi> producente</note>
+<note n="266">prima <hi rend="italic">f</hi> Christi | Mattheo <hi rend="italic">m</hi> M.</note>
+<note n="269">sed <hi rend="italic">m</hi> set</note>
+<note n="271">comissum <hi rend="italic">f</hi> commissum</note>
+<note n="273">iustitiam <hi rend="italic">fm</hi> iusticiam</note>
+<note n="274">complementum <hi rend="italic">B prim</hi> -m- <hi rend="italic">deest</hi></note>
+<note n="275">iustitie <hi rend="italic">fm</hi> iusticie | duo <hi rend="italic">f</hi> quod</note>
+<note n="276">presidibus iniungit <hi rend="italic">f</hi> iniungitur praesidibus</note>
+<note n="277">Aliud <hi rend="italic">m</hi> Alliud | rectum <hi rend="italic">f</hi> omnem</note>
+<note n="277-278">iudicatis terram <hi rend="italic">B</hi> iu. ter.</note>
+<pb n="AVOThO_Volum XIV-86 (Aparat Crític)"/>
+<note n="279">dixit <hi rend="italic">f</hi> dicit | Glossa <hi rend="italic">m</hi> glosa</note>
+<note n="280">quia <hi rend="italic">f</hi> quoniam</note>
+<note n="281">duo <hi rend="italic">m om</hi></note>
+<note n="282">exsequtione <hi rend="italic">f</hi> executione <hi rend="italic">m</hi> exequtione</note>
+<note n="283">uigilia <hi rend="italic">f</hi> uigilantia</note>
+<note n="284">cuiusquam <hi rend="italic">f</hi> cuiuslibet | priusquam <hi rend="italic">m</hi> prius quam</note>
+<note n="285">ei fiat <hi rend="italic">fm</hi> fiat ei | iustitie <hi rend="italic">f</hi> iusticiae <hi rend="italic">m</hi> iusticie | Sed <hi rend="italic">m</hi> Set</note>
+<note n="286">insinuationem <hi rend="italic">f duplic et seq</hi> etc</note>
+<note n="287">dampno <hi rend="italic">f</hi> damno</note>
+<note n="290">tritico <hi rend="italic">B seq</hi> salua <hi rend="italic">canc</hi></note>
+<note n="291-292">ignorantie <hi rend="italic">m</hi> ignorancie</note>
+<note n="293-297">De rectitudine <hi rend="italic">usque</hi> pauperes populi <hi rend="italic">m om</hi></note>
+<note n="293">rectitudine <hi rend="italic">f</hi> uicissitudine | Deus <hi rend="italic">f</hi> Dominus</note>
+<note n="294">regum <hi rend="italic">f</hi> regni</note>
+<note n="295">iudicium tuum regi da <hi rend="italic">B</hi> iu. t. r. d. | et (quid) <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-87 (Aparat Crític)"/>
+<note n="296">exprimit <hi rend="italic">f</hi> exponit</note>
+<note n="297">pauperes populi <hi rend="italic">B</hi> pau. p. | quicumque <hi rend="italic">f</hi> quicunque</note>
+<note n="298">iustitiam <hi rend="italic">f</hi> iusticiam | preest <hi rend="italic">f</hi> potest</note>
+<note n="299">primo et principaliter <hi rend="italic">f</hi> principaliter et primo | querelis et negociis pauperum <hi rend="italic">f</hi> negociis pauperum et querelis</note>
+<note n="300">e conuerso <hi rend="italic">f</hi> econtra</note>
+<note n="302">sed <hi rend="italic">m</hi> set</note>
+<note n="303">interrogaui <hi rend="italic">B corr</hi> intgaui <hi rend="italic">add</hi> -erro- <hi rend="italic">int lin</hi> | audiencia <hi rend="italic">f</hi> audientia</note>
+<note n="304">exibebat <hi rend="italic">f</hi> exhibebat | Qui <hi rend="italic">B add int lin</hi> | ebdomada <hi rend="italic">B lect dub f</hi> hebdomada</note>
+<note n="305">audienciam <hi rend="italic">f</hi> audientiam | extraordinarie <hi rend="italic">f</hi> exordinarie</note>
+<note n="310">e contrario <hi rend="italic">f</hi> econtra</note>
+<note n="310">contrario <hi rend="italic">m</hi> converso | enim <hi rend="italic">f om</hi> | uespere <hi rend="italic">f</hi> uesperi</note>
+<note n="311">cotidie <hi rend="italic">f</hi> quotidie</note>
+<note n="313">illud <hi rend="italic">m</hi> id | illud tantum <hi rend="italic">f</hi> tantum illud | quomodo <hi rend="italic">f</hi> quo <hi rend="italic">m</hi> quod</note>
+<note n="314">uescerentur <hi rend="italic">f</hi> uterentur</note>
+<pb n="AVOThO_Volum XIV-88 (Aparat Crític)"/>
+<note n="315">Ysaiam <hi rend="italic">f</hi> Esaiam | qui <hi rend="italic">B seq verb illeg exp et canc</hi></note>
+<note n="315-316">dominauit super populum meum <hi rend="italic">B</hi> d. s. p. m. <hi rend="italic">f</hi> super p. m. etc 315-316 qui dominamini super populum meum et peruertent omne rectum <hi rend="italic">m om</hi> | et peruertent omne rectum <hi rend="italic">f om</hi></note>
+<note n="317">gratus <hi rend="italic">f</hi> grati | et <hi rend="italic">f seq</hi> non | meritum <hi rend="italic">f</hi> interitum</note>
+<note n="318">negotia <hi rend="italic">fm</hi> negocia</note>
+<note n="319">aduocatus <hi rend="italic">f</hi> aduocati | fraudari <hi rend="italic">f</hi> defraudari</note>
+<note n="319-320">possint, saltem <hi rend="italic">f</hi> saltem possint</note>
+<note n="320">timentem <hi rend="italic">m</hi> timentum | cotidie <hi rend="italic">f</hi> quotidie | promtus <hi rend="italic">f</hi> promptus</note>
+<note n="321">ad (consilium) <hi rend="italic">f om</hi></note>
+<note n="322">illas <hi rend="italic">f</hi> illos</note>
+<note n="322-325">propter quam <hi rend="italic">usque</hi> suorum imitatorum <hi rend="italic">f om</hi></note>
+<note n="323">refferendarios <hi rend="italic">m</hi> reffrendarios</note>
+<note n="326">seruandum <hi rend="italic">f</hi> conseruandum <hi rend="italic">et add</hi> insequeris sanctos patres, qui propter hoc in Apostolica sede referendarios constituerint</note>
+<note n="328">divini <hi rend="italic">f</hi> Domini</note>
+<note n="329">acceptione <hi rend="italic">f</hi> acceptatione | habere <hi rend="italic">f om</hi></note>
+<note n="329-333">ubi express <hi rend="italic">usque</hi> transgrediuntur <hi rend="italic">ea f om</hi></note>
+<note n="329-330">dicitur <hi rend="italic">m</hi> discitur</note>
+<pb n="AVOThO_Volum XIV-89 (Aparat Crític)"/>
+<note n="334">testimonium <hi rend="italic">f om</hi> | conscientie <hi rend="italic">m</hi> consciencie | conscientia <hi rend="italic">m</hi> consciencia</note>
+<note n="335">dictat cuique <hi rend="italic">f</hi> cuique dictat</note>
+<note n="336">et <hi rend="italic">f add</hi> sic | contrario <hi rend="italic">fm</hi> converso</note>
+<note n="336-337">facit quod minus est gratum Deo, et ideo <hi rend="italic">f om</hi></note>
+<note n="337">Deo <hi rend="italic">B ras?</hi> | caritate <hi rend="italic">f</hi> charitate</note>
+<note n="337-338">sine qua nec psalmi nec misse nec ieiunia nec etiam elemosine possunt aliquem salvare <hi rend="italic">f</hi> sine qua nullus quantumcunque bonus potest saluari</note>
+<note n="338">ieiunia <hi rend="italic">m</hi> ieiunis | nec (etiam) <hi rend="italic">B add int lin</hi></note>
+<note n="338-339">dicente Deo per Apostolum <hi rend="italic">f</hi> dicente Apostolo</note>
+<note n="340">urgere ad hoc <hi rend="italic">f</hi> ad hoc urgere | terror <hi rend="italic">f</hi> temor</note>
+<note n="342">deorum <hi rend="italic">m om</hi></note>
+<note n="343">eclesie <hi rend="italic">f</hi> Ecclesiae</note>
+<note n="344">non intellexerunt <hi rend="italic">f</hi> nesciuerant neque intellexerunt | Domini <hi rend="italic">f</hi> Dei</note>
+<note n="345">Ysaiam <hi rend="italic">f</hi> Esaiam <hi rend="italic">m</hi> Isaiam | ductus <hi rend="italic">f</hi> datus</note>
+<note n="346">habuit scientiam <hi rend="italic">B</hi> h. s. <hi rend="italic">m om</hi></note>
+<note n="347">se ipsum <hi rend="italic">f</hi> seipsum</note>
+<note n="348">Tercium <hi rend="italic">f</hi> Tertium</note>
+<note n="348-349">urgere uel efficaciter inducere ad seruandum predictum ordinem <hi rend="italic">f</hi> urgere ad praedicta</note>
+<note n="349">gloriosum <hi rend="italic">f om m</hi> gloriossum</note>
+<pb n="AVOThO_Volum XIV-90 (Aparat Crític)"/>
+<note n="352">obseruauerunt <hi rend="italic">f</hi> seruauerunt | dupliciter <hi rend="italic">f</hi> temporaliter et spiritualiter</note>
+<note n="352-360">quia dedit eis <hi rend="italic">usque</hi> ad finem mundi <hi rend="italic">f om</hi></note>
+<note n="353">triumfum <hi rend="italic">m</hi> triunfum</note>
+<note n="358-359">indubitanter <hi rend="italic">m</hi> indubiter</note>
+<note n="362">ex <hi rend="italic">f</hi> de</note>
+<note n="363">dyaboli <hi rend="italic">fm</hi> diaboli</note>
+<note n="364">Sed <hi rend="italic">m</hi> Set</note>
+<note n="365">effugare <hi rend="italic">f</hi> fugare</note>
+<pb n="AVOThO_Volum XIV-91 (Aparat Crític)"/>
+<note n="367">Ihesus <hi rend="italic">f</hi> Iesus | dedit nobis <hi rend="italic">f</hi> nobis dedit | nobis <hi rend="italic">B iteratur, altero canc</hi> | quoniam <hi rend="italic">f</hi> nam <hi rend="italic">m</hi> quum</note>
+<note n="368">sue humanitatis <hi rend="italic">f</hi> humanitatis suae | adimpleret <hi rend="italic">B seq</hi> illud <hi rend="italic">exp et canc f</hi> adimpleretur</note>
+<note n="370">tamen numquam <hi rend="italic">f</hi> nunquam tamen</note>
+<note n="371">deseruit <hi rend="italic">m</hi> deserit</note>
+<note n="372">iudicium <hi rend="italic">m</hi> iuditium</note>
+<note n="374">se ipsum <hi rend="italic">f</hi> seipsum</note>
+<note n="375">in angulis <hi rend="italic">f</hi> in angulo</note>
+<note n="376">se ipsum <hi rend="italic">f</hi> seipsum</note>
+<note n="377">ymo <hi rend="italic">f</hi> imo | iudicia <hi rend="italic">f</hi> indicia</note>
+<note n="377-378">se ipso <hi rend="italic">f</hi> seipso</note>
+<note n="379">iudicer <hi rend="italic">B</hi> iu. <hi rend="italic">m om</hi></note>
+<note n="380">effugare <hi rend="italic">f</hi> effugere | predictum <hi rend="italic">f</hi> dictum</note>
+<note n="381">iugis <hi rend="italic">f</hi> ingens <hi rend="italic">m om</hi> | exortationis <hi rend="italic">f</hi> exhortationis</note>
+<note n="382">maledixerint <hi rend="italic">f</hi> male dixerint | cum dicit <hi rend="italic">f om</hi> | Paulum <hi rend="italic">f</hi> Apostolum</note>
+<note n="383">esse <hi rend="italic">f om</hi> | sapiens <hi rend="italic">B</hi> sa.</note>
+<note n="383-384">in hoc seculo, stultus fiat, ut sit sapiens <hi rend="italic">m om</hi> | seculo, stultus fiat <hi rend="italic">B</hi> s. s. f.</note>
+<note n="385">iudicat esse <hi rend="italic">f</hi> esse iudicat</note>
+<note n="386">e contrario <hi rend="italic">f</hi> econuerso <hi rend="italic">m</hi> e converso | Quapropter <hi rend="italic">m</hi> qua propter | concludit <hi rend="italic">f</hi> concluditur | sapientia <hi rend="italic">m</hi> sapiencia</note>
+<note n="387">plus aliquis a mundo <hi rend="italic">f</hi> quis plus in mundo | spernetur <hi rend="italic">f</hi> spernatur</note>
+<note n="389">indubitanter <hi rend="italic">m</hi> indubiter</note>
+<note n="390">immobiliter <hi rend="italic">m</hi> inmobiliter</note>
+<pb n="AVOThO_Volum XIV-92 (Aparat Crític)"/>
+<note n="391">et quod <hi rend="italic">B add int lin</hi> | Ihesus <hi rend="italic">f</hi> Iesus</note>
+<note n="392">patribus <hi rend="italic">f</hi> presbyteribus</note>
+<note n="394-395">demostratione <hi rend="italic">f</hi> demonstratione</note>
+<note n="397">Ad motiua <hi rend="italic">f</hi> Ad motu iam | respondeo <hi rend="italic">f</hi> redeo | debent <hi rend="italic">f</hi> debet</note>
+<note n="398-399">primis duobus <hi rend="italic">f</hi> duobus primis</note>
+<pb n="AVOThO_Volum XIV-93 (Aparat Crític)"/>
+<note n="400">ipse Saluator <hi rend="italic">f</hi> Saluator ipse</note>
+<note n="401">eclesie <hi rend="italic">f</hi> Ecclesiae <hi rend="italic">m</hi> Ecclesie</note>
+<note n="402">literam <hi rend="italic">m</hi> litteram | cotidiana <hi rend="italic">f</hi> quotidiana | experiencia <hi rend="italic">f</hi> experientia</note>
+<note n="403">promtus <hi rend="italic">fm</hi> promptus | statim uos <hi rend="italic">f</hi> uos statim</note>
+<note n="405">eclesie <hi rend="italic">f</hi> Ecclesiae <hi rend="italic">m</hi> ecclesie | sacri <hi rend="italic">m</hi> Sancti</note>
+<note n="406">diligencia <hi rend="italic">f</hi> diligentia</note>
+<note n="406-407">in thesauro <hi rend="italic">f</hi> in thesauris</note>
+<note n="408">Vnde <hi rend="italic">f bis</hi></note>
+<note n="409">uoluntate <hi rend="italic">f add</hi> Dei</note>
+<note n="410">Ihesus <hi rend="italic">f</hi> Iesus</note>
+<note n="411">tercium <hi rend="italic">fm</hi> tertium</note>
+<note n="412">dominus <hi rend="italic">f seq</hi> noster | Ihesus <hi rend="italic">f</hi> Iesus</note>
+<note n="414">regularium <hi rend="italic">f</hi> regula omnium</note>
+<note n="415">uice <hi rend="italic">B add int lin</hi> | qualibet <hi rend="italic">f</hi> quadam 416 denunciationem <hi rend="italic">m</hi> denuntiationem</note>
+<pb n="AVOThO_Volum XIV-94 (Aparat Crític)"/>
+<note n="418">ad <hi rend="italic">B seq</hi> dicendum <hi rend="italic">exp et canc</hi> | sed <hi rend="italic">m</hi> set</note>
+<note n="419">Domino <hi rend="italic">m</hi> divino</note>
+<note n="420">nuncianda <hi rend="italic">m</hi> nuntianda</note>
+<note n="421">prenunciabat <hi rend="italic">B iteratur, primo canc fm</hi> pronunciabat | in scriptis <hi rend="italic">f om</hi> | laqueos <hi rend="italic">f</hi> laqueum</note>
+<note n="421-422">Sathane <hi rend="italic">f</hi> satanae</note>
+<note n="422-423">ad eorum directionem <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-95 (Aparat Crític)"/>
+<note n="426">abducere <hi rend="italic">m</hi> aducere</note>
+<note n="427">circa hoc erat <hi rend="italic">f om</hi></note>
+<note n="428">circa hoc <hi rend="italic">f</hi> contra hoc | susurrium <hi rend="italic">B praem</hi> surs <hi rend="italic">canc f</hi> susurrum</note>
+<note n="429">uel <hi rend="italic">f</hi> et</note>
+<note n="431">circunspecte per senatum totum in consistorio <hi rend="italic">f</hi> in consistorio circumspecte personatum totum</note>
+<note n="432">necligerent <hi rend="italic">f</hi> negligerent | exsequi <hi rend="italic">f</hi> exequi</note>
+<note n="432-433">denunciacionem <hi rend="italic">f</hi> denunciationem <hi rend="italic">m</hi> denuntiationem</note>
+<note n="433">hic <hi rend="italic">m</hi> his</note>
+<note n="434">discrimen <hi rend="italic">f</hi> discrimine</note>
+<note n="435">talis et talis <hi rend="italic">f</hi> tali et talis | deduceretur <hi rend="italic">f</hi> deducerentur | credidit <hi rend="italic">f</hi> indidit</note>
+<pb n="AVOThO_Volum XIV-96 (Aparat Crític)"/>
+<note n="436">Benedicto <hi rend="italic">f</hi> Bonifacio | si <hi rend="italic">B add int lin</hi> | necgligeret <hi rend="italic">f</hi> negligerent</note>
+<note n="437">de Sede <hi rend="italic">f</hi> a Sede | ipse <hi rend="italic">f om</hi></note>
+<note n="438">triginta quinque <hi rend="italic">f</hi> trigintaquinque</note>
+<note n="439">mouerunt <hi rend="italic">f</hi> moueret</note>
+<note n="440">spreuit <hi rend="italic">m</hi> spernuit</note>
+<note n="441">denunciabantur <hi rend="italic">m</hi> denuntiabantur</note>
+<note n="442">eis particulariter <hi rend="italic">f om</hi> | multorum <hi rend="italic">B man coev grossiori calam add</hi> multorum <hi rend="italic">in mg</hi></note>
+<note n="443">Sic, scilicet <hi rend="italic">f</hi> sit licet | uos <hi rend="italic">f om</hi></note>
+<note n="445">serie uerborum <hi rend="italic">f</hi> forma</note>
+<note n="447">diruunt <hi rend="italic">f</hi> dirimunt</note>
+<note n="448">sed <hi rend="italic">m</hi> set</note>
+<note n="449">preconiis <hi rend="italic">f praem</hi> praedicationibus et</note>
+<note n="450">odiant <hi rend="italic">f</hi> oderint</note>
+<note n="452">quibus <hi rend="italic">B add int lin</hi></note>
+<note n="453">blasfemiis <hi rend="italic">f</hi> blasphemiis | calumpniis <hi rend="italic">f</hi> calumniis | illis <hi rend="italic">f</hi> eis</note>
+<note n="455">tercium <hi rend="italic">f</hi> tertium</note>
+<note n="456">astucia <hi rend="italic">f</hi> astutia</note>
+<note n="457">quandoque <hi rend="italic">bis m</hi> quantum | aplicant <hi rend="italic">f</hi> applicant</note>
+<note n="458">quandoque <hi rend="italic">f praem</hi> et <hi rend="italic">m</hi> quantum | sofistice <hi rend="italic">f</hi> sophistice | distingunt <hi rend="italic">f</hi> distinguunt</note>
+<note n="459">proponitur <hi rend="italic">f</hi> exponitur</note>
+<pb n="AVOThO_Volum XIV-97 (Aparat Crític)"/>
+<note n="460">eloquia Dei per eos <hi rend="italic">f</hi> per eos eloquia Dei</note>
+<note n="462">proficere <hi rend="italic">m</hi> profitere | Christo et <hi rend="italic">B add int lin</hi> | sed <hi rend="italic">m</hi> set | nequiciam <hi rend="italic">f</hi> nequitiam</note>
+<note n="463">inclinare <hi rend="italic">f</hi> instigare | dupliciter <hi rend="italic">m</hi> duppliciter</note>
+<note n="463-464">omictendo <hi rend="italic">f</hi> omittendo <hi rend="italic">m</hi> omitendo</note>
+<note n="465">prelatis <hi rend="italic">f</hi> praeclaris | subtrahere <hi rend="italic">m</hi> subtraere</note>
+<note n="466">propriis <hi rend="italic">m</hi> propris</note>
+<note n="468">denunciabatur <hi rend="italic">f</hi> deiiciebatur</note>
+<note n="470">optinere <hi rend="italic">f</hi> obtinere</note>
+<note n="471">effici demones <hi rend="italic">f</hi> furentes ut daemones</note>
+<note n="472">cum <hi rend="italic">B add int lin</hi> | caritate <hi rend="italic">f</hi> charitate | iustitia <hi rend="italic">f</hi> iusticia | canonica <hi rend="italic">f</hi> curantes</note>
+<note n="473">sed <hi rend="italic">m</hi> set | uersucia <hi rend="italic">f</hi> uersutia | aut <hi rend="italic">f</hi> uel</note>
+<note n="475">deuium <hi rend="italic">f</hi> daemonium | calumpniis <hi rend="italic">f</hi> calumniis</note>
+<note n="476">uiolenciis <hi rend="italic">f</hi> uiolentiis | profanis <hi rend="italic">f</hi> prophanis</note>
+<note n="477">sentenciis <hi rend="italic">f</hi> sententiis</note>
+<note n="478">furiam premat uel arguat <hi rend="italic">f</hi> furorem arguat uel reprimat</note>
+<pb n="AVOThO_Volum XIV-98 (Aparat Crític)"/>
+<note n="479">denunciatione <hi rend="italic">m</hi> denunciacione | spurcicie <hi rend="italic">f</hi> spurcitias</note>
+<note n="480">ocultare <hi rend="italic">f</hi> occultare | iam <hi rend="italic">f</hi> cum</note>
+<note n="481">uniuersali <hi rend="italic">f</hi> uniuersae | eclesie <hi rend="italic">f</hi> Ecclesiae <hi rend="italic">m</hi> ecclesie</note>
+<note n="482">dyabolus <hi rend="italic">f</hi> Diabolus</note>
+<note n="483">ocultationem <hi rend="italic">f</hi> occultationem | alicubi <hi rend="italic">m</hi> aliqui</note>
+<note n="484">intra <hi rend="italic">f</hi> inter | se ipsos <hi rend="italic">f</hi> seipsos | communi <hi rend="italic">m</hi> comuni</note>
+<note n="485">Sacrorum <hi rend="italic">m</hi> Sanctorum</note>
+<note n="487">glosis <hi rend="italic">f</hi> glossis | sed <hi rend="italic">m</hi> set | casu <hi rend="italic">f</hi> causa</note>
+<note n="488">potius <hi rend="italic">m</hi> pocius | philosophice <hi rend="italic">f</hi> Prophetae</note>
+<note n="489">proruperat <hi rend="italic">f</hi> perrumpat</note>
+<pb n="AVOThO_Volum XIV-99 (Aparat Crític)"/>
+<note n="490">insaniam <hi rend="italic">f</hi> uesaniam</note>
+<note n="490-491">docmatizabant <hi rend="italic">f</hi> dogmatizabant</note>
+<note n="491">spiritum <hi rend="italic">f</hi> spiritu | in colegiis <hi rend="italic">f om</hi></note>
+<note n="492">naturali <hi rend="italic">f</hi> uirili | comercio <hi rend="italic">f</hi> commercio | numquam <hi rend="italic">fm</hi> nunquam</note>
+<note n="493">tactibus impudicis <hi rend="italic">f</hi> tractibus</note>
+<note n="494">fuisse <hi rend="italic">B add in mg</hi></note>
+<note n="495">multi de <hi rend="italic">B add int lin</hi></note>
+<note n="496">Sedis Apostolice <hi rend="italic">f</hi> Apostolicae sedis</note>
+<pb n="AVOThO_Volum XIV-100 (Aparat Crític)"/>
+<note n="498">Primo <hi rend="italic">f</hi> primum | a fundatore <hi rend="italic">f</hi> ad fundatorem | fundatore <hi rend="italic">B seq</hi> illius <hi rend="italic">exp et canc m seq</hi> illius</note>
+<note n="500">periurium <hi rend="italic">f</hi> patrimonium</note>
+<note n="502">Tercio <hi rend="italic">fm</hi> Tertio | quoscumque <hi rend="italic">f</hi> quoscunque | eorum <hi rend="italic">f</hi> ipsorum</note>
+<note n="503">condempnando <hi rend="italic">f</hi> condemnando</note>
+<note n="503-504">tamquam <hi rend="italic">fm</hi> tanquam</note>
+<pb n="AVOThO_Volum XIV-101 (Aparat Crític)"/>
+<note n="505">apellantes <hi rend="italic">f</hi> appellantes</note>
+<note n="506">sed <hi rend="italic">m</hi> set</note>
+<note n="508">Quinto <hi rend="italic">f om</hi> | auctoritatem <hi rend="italic">f</hi> authoritatem</note>
+<note n="509">contempnendo <hi rend="italic">f</hi> contemnendo</note>
+<note n="510">communia <hi rend="italic">m</hi> comunia</note>
+<note n="513">misteria <hi rend="italic">f</hi> mysteria</note>
+<pb n="AVOThO_Volum XIV-102 (Aparat Crític)"/>
+<note n="514">uel <hi rend="italic">f</hi> aut | sed <hi rend="italic">m</hi> set</note>
+<note n="515">tamquam <hi rend="italic">f</hi> tanquam | condempnando <hi rend="italic">f</hi> condemnando</note>
+<note n="516-519">sine scientia usque <hi rend="italic">uel</hi> approbare <hi rend="italic">f om</hi></note>
+<note n="518">iudicio <hi rend="italic">m</hi> iuditio</note>
+<note n="520">·<num type="roman">VII</num>·º <hi rend="italic">f</hi> Septimo</note>
+<note n="521-522">aquarum uiuentium <hi rend="italic">f</hi> uiuentium aquarum</note>
+<note n="522">intellectum <hi rend="italic">f</hi> intellectus</note>
+<note n="524">·<num type="roman">VIII</num>·º <hi rend="italic">f</hi> Octauo | defunctorum <hi rend="italic">B seq</hi> testium <hi rend="italic">exp et canc</hi></note>
+<note n="525">calumpniis <hi rend="italic">f</hi> calumniis</note>
+<pb n="AVOThO_Volum XIV-103 (Aparat Crític)"/>
+<note n="526">extinguendo <hi rend="italic">B corr</hi> extigendo <hi rend="italic">add</hi> -u- <hi rend="italic">int lin</hi></note>
+<note n="527">uersuciis <hi rend="italic">f</hi> uersutiis | dyabolicis <hi rend="italic">f</hi> diabolicis</note>
+<note n="528">·<num type="roman">IX</num>·º <hi rend="italic">f</hi> Nono</note>
+<note n="529">furiosis <hi rend="italic">f</hi> furiosissimis | calumpniis <hi rend="italic">f</hi> calumniis</note>
+<note n="531">ne <hi rend="italic">f om</hi></note>
+<note n="534">·<num type="roman">X</num>·º <hi rend="italic">f</hi> Decimo</note>
+<note n="535">colloquium <hi rend="italic">f</hi> commercium</note>
+<note n="536">·<num type="roman">XI</num>·º <hi rend="italic">f</hi> Vndecimo | eclesiarum <hi rend="italic">fm</hi> ecclesiarum</note>
+<note n="537">uel <hi rend="italic">f</hi> aut | corporis <hi rend="italic">m</hi> cordis</note>
+<note n="538">impudicissima <hi rend="italic">m</hi> impudissima</note>
+<note n="539">eclesie <hi rend="italic">fm</hi> ecclesie | auctoritate <hi rend="italic">f</hi> authoritate</note>
+<note n="540">dispensare sacramenta <hi rend="italic">f</hi> administrandi sacramenta, seu dispensandi | sacramenta <hi rend="italic">m</hi> sacra</note>
+<note n="541">sinagoga <hi rend="italic">f</hi> synagoga</note>
+<note n="542">penitentie <hi rend="italic">B seq</hi> ut sunt <hi rend="italic">exp et canc m</hi> penitencie | euangelium <hi rend="italic">B praem</hi> eu (?) <hi rend="italic">exp et canc</hi> | quos <hi rend="italic">f</hi> quas</note>
+<note n="543">excommunicatis <hi rend="italic">m</hi> excomunicatis | scismaticis <hi rend="italic">f</hi> schismaticis</note>
+<note n="544">ipsi <hi rend="italic">f</hi> isti</note>
+<pb n="AVOThO_Volum XIV-104 (Aparat Crític)"/>
+<note n="545">·<num type="roman">XII</num>·º <hi rend="italic">f</hi> Duodecimo</note>
+<note n="548">uero <hi rend="italic">f</hi> autem | cominationibus <hi rend="italic">f</hi> comminationibus <hi rend="italic">m</hi> comunicationibus</note>
+<note n="550">·<num type="roman">XIII</num>·º <hi rend="italic">f</hi> Tertiodecimo | Ysaiae <hi rend="italic">f</hi> Isaiae <hi rend="italic">m</hi> Isaias</note>
+<note n="551">recogitet <hi rend="italic">f</hi> recogitat</note>
+<note n="552">colligerentur <hi rend="italic">m</hi> colligeretur</note>
+<note n="553">id est <hi rend="italic">m</hi> et</note>
+<note n="554">dyaboli <hi rend="italic">f</hi> diaboli</note>
+<note n="555">nudetur <hi rend="italic">f</hi> uendantur <hi rend="italic">et in mg</hi> mandentur</note>
+<note n="556">mistico <hi rend="italic">f</hi> mystico | Christi corpore <hi rend="italic">f</hi> corpore Christi | quoscumque <hi rend="italic">f</hi> quoscunque</note>
+<note n="559">intra statum illud <hi rend="italic">f</hi> illud intra statum | possent <hi rend="italic">f</hi> possint</note>
+<note n="560">predicte <hi rend="italic">f</hi> praecedere | tamquam <hi rend="italic">fm</hi> tanquam</note>
+<note n="561">subuertere <hi rend="italic">f</hi> subertere</note>
+<pb n="AVOThO_Volum XIV-105 (Aparat Crític)"/>
+<note n="564">deicerentur <hi rend="italic">m</hi> eicerentur | presidencie <hi rend="italic">f</hi> praeside <hi rend="italic">et sign</hi> <hi rend="sup">*</hi></note>
+<note n="566">aliqui <hi rend="italic">f</hi> aliquandiu | sublimarentur <hi rend="italic">f</hi> sublimarantur</note>
+<note n="569">strucionem <hi rend="italic">f</hi> sthrutionem</note>
+<pb n="AVOThO_Volum XIV-106 (Aparat Crític)"/>
+<note n="571">strutione <hi rend="italic">f</hi> struthione | pennis est similis <hi rend="italic">f</hi> similis est pennis</note>
+<note n="572">girfaldo <hi rend="italic">f</hi> grifaldo | numquam <hi rend="italic">m</hi> nunquam</note>
+<pb n="AVOThO_Volum XIV-107 (Aparat Crític)"/>
+<note n="574">appetitu <hi rend="italic">f</hi> appetitum</note>
+<note n="576">nequiciam <hi rend="italic">f</hi> nequitiam</note>
+<note n="580">exterminium <hi rend="italic">f</hi> extremum</note>
+<pb n="AVOThO_Volum XIV-108 (Aparat Crític)"/>
+<note n="582">estimatio deuotionem <hi rend="italic">f</hi> deuotio existimationem</note>
+<note n="583">uel (in ea) <hi rend="italic">f</hi> aut | ea <hi rend="italic">m</hi> eo</note>
+<note n="584">diebus pluribus <hi rend="italic">f</hi> pluribus diebus | sed <hi rend="italic">m</hi> set</note>
+<note n="585">insuper <hi rend="italic">B</hi> i- <hi rend="italic">illeg</hi></note>
+<note n="585-586">machinatis <hi rend="italic">f</hi> machinamentis</note>
+<note n="586">texturis <hi rend="italic">f</hi> textibus | fictionum <hi rend="italic">B</hi> -tio- <hi rend="italic">ras</hi></note>
+<note n="587">notitiam <hi rend="italic">f</hi> noticiam et iudicium</note>
+<note n="589">numquam <hi rend="italic">fm</hi> nunquam</note>
+<note n="590">impacientia <hi rend="italic">f</hi> impatientia <hi rend="italic">m</hi> impaciencia | tristitia <hi rend="italic">f</hi> tristicia</note>
+<pb n="AVOThO_Volum XIV-109 (Aparat Crític)"/>
+<note n="592">suspitione <hi rend="italic">f</hi> suspicione | ymaginatione <hi rend="italic">f</hi> imaginatione</note>
+<note n="593">exilium <hi rend="italic">f</hi> exitium</note>
+<note n="594">non ... non <hi rend="italic">f</hi> nec ... nec</note>
+<note n="595">blasfemiam <hi rend="italic">f</hi> blasphemiam</note>
+<note n="596">nec <hi rend="italic">f</hi> non</note>
+<note n="597">quenquam <hi rend="italic">m</hi> quemquam</note>
+<note n="599">promtum <hi rend="italic">f</hi> promptum <hi rend="italic">m</hi> in promptu</note>
+<note n="600">diligencia <hi rend="italic">f</hi> diligentia</note>
+<note n="603">scrutari <hi rend="italic">m</hi> scrudari</note>
+<note n="604">Tuscie <hi rend="italic">m</hi> Tucie | supradictis <hi rend="italic">f</hi> supra dictis</note>
+<note n="605">sinceritatis <hi rend="italic">f praem</hi> ueritatis et</note>
+<note n="606">quantumcumque <hi rend="italic">f</hi> quantumcunque <hi rend="italic">m</hi> quantum cumque | nunciarentur <hi rend="italic">m</hi> nuntiarentur</note>
+<note n="609">sed <hi rend="italic">m</hi> set | fascinnati <hi rend="italic">f</hi> fascinati | acceperunt <hi rend="italic">B praem</hi> acce (<hi rend="italic">corr</hi> ace <hi rend="italic">add</hi> -c- <hi rend="italic">int lin</hi>) <hi rend="italic">exp et canc</hi> | misterio <hi rend="italic">f</hi> mysterio</note>
+<note n="613">purificatione <hi rend="italic">f</hi> purificationem</note>
+<note n="614">spurcificos <hi rend="italic">f</hi> suppositicios</note>
+<pb n="AVOThO_Volum XIV-110 (Aparat Crític)"/>
+<note n="616">quoque <hi rend="italic">fm</hi> quod | eclesia <hi rend="italic">fm</hi> ecclesia</note>
+<note n="617">et <hi rend="italic">m</hi> ex</note>
+<note n="618">arbitratur <hi rend="italic">f</hi> putent</note>
+<note n="619">Christi <hi rend="italic">f</hi> uidelicet | ueritas <hi rend="italic">m</hi> veritatis | tam ... quam <hi rend="italic">f</hi> tum ... tum ad</note>
+<note n="620">ruynam <hi rend="italic">f</hi> ruinam | si canonica <hi rend="italic">f</hi> simoniaca | prouidencia <hi rend="italic">f</hi> prouidentia</note>
+<note n="621">atque sanctissimus <hi rend="italic">f om</hi></note>
+<note n="621-622">status perfectissimus <hi rend="italic">usque</hi> sordibus <hi rend="italic">B add in mg</hi></note>
+<note n="624">promouere <hi rend="italic">m</hi> promoveret</note>
+<note n="625">eclesiam <hi rend="italic">fm</hi> ecclesiam</note>
+<note n="626">supradictis <hi rend="italic">f</hi> ante dictis | nihilominus <hi rend="italic">m</hi> nichilominus</note>
+<note n="627">auerterunt <hi rend="italic">B</hi> a- <hi rend="italic">illeg</hi> | denunciationem <hi rend="italic">m</hi> denuntiationem</note>
+<note n="628">insaniuerunt <hi rend="italic">f</hi> insanierunt | denunciantem <hi rend="italic">m</hi> denuntiantem | surrexit <hi rend="italic">f</hi> surrexerit</note>
+<note n="630">milicie <hi rend="italic">f</hi> militiae</note>
+<note n="633">uel <hi rend="italic">f</hi> siue</note>
+<note n="634">ordinantur <hi rend="italic">f</hi> ordinentur | sunt <hi rend="italic">f</hi> sint | pro <hi rend="italic">B sign abbrev pro</hi> -ro <hi rend="italic">abscon propter lig</hi> | pro ueritate <hi rend="italic">m</hi> pravitate</note>
+<note n="638">Sed <hi rend="italic">m</hi> Set | ob <hi rend="italic">m</hi> ab | langores <hi rend="italic">f</hi> languores</note>
+<note n="639">adibende <hi rend="italic">f</hi> adhibendae</note>
+<note n="641">hiis <hi rend="italic">f</hi> hi | exterius <hi rend="italic">f</hi> externus</note>
+<note n="642">acerbiori <hi rend="italic">m</hi> acrebiori | caritatis <hi rend="italic">f</hi> charitatis</note>
+<note n="643">deponito <hi rend="italic">fm</hi> deposito</note>
+<pb n="AVOThO_Volum XIV-111 (Aparat Crític)"/>
+<note n="644">innocentiam <hi rend="italic">m</hi> inocentiam | innocentem <hi rend="italic">m</hi> inocentem</note>
+<note n="645">prophetate <hi rend="italic">f</hi> prophanae <hi rend="italic">m</hi> prohetisate</note>
+<note n="646">blasfemiam <hi rend="italic">f</hi> blasphemiam</note>
+<note n="648-649">quam monstrabo <hi rend="italic">Bm</hi> q. m.</note>
+<note n="649">sciencias <hi rend="italic">f</hi> scientias</note>
+<note n="650">intromitte <hi rend="italic">f</hi> intromittite</note>
+<note n="652">peruertebat <hi rend="italic">f</hi> pronunciabat | sed <hi rend="italic">m</hi> set</note>
+<note n="653">paruulos <hi rend="italic">B add in mg</hi> | ipsum <hi rend="italic">f</hi> istum</note>
+<note n="654">Palam <hi rend="italic">f add</hi> enim</note>
+<note n="655">salutis <hi rend="italic">f add</hi> aeterna | sed <hi rend="italic">m</hi> set</note>
+<note n="656">comodum corporum <hi rend="italic">f</hi> corporum commodum | ministerio <hi rend="italic">f</hi> ministro | comuni <hi rend="italic">f</hi> communi</note>
+<note n="658">scola <hi rend="italic">f</hi> sella collocans | Parisiensi <hi rend="italic">f</hi> Parisienses | comendauit <hi rend="italic">f</hi> commendauit | Lucham <hi rend="italic">f</hi> Lucam</note>
+<note n="658-659">Lucham de studio euangelico <hi rend="italic">m</hi> omnes studium evangelicum</note>
+<pb n="AVOThO_Volum XIV-112 (Aparat Crític)"/>
+<note n="662">esse uobis <hi rend="italic">f</hi> uobis esse | uobis <hi rend="italic">B add int lin</hi></note>
+<note n="663">potius <hi rend="italic">m</hi> pocius</note>
+<note n="664">negligentes <hi rend="italic">f</hi> negligentiam</note>
+<note n="665">incarceratus <hi rend="italic">f</hi> carceratus</note>
+<note n="666">maneat <hi rend="italic">m</hi> manet</note>
+<note n="668">aliquis <hi rend="italic">f om</hi> | umquam <hi rend="italic">fm</hi> unquam</note>
+<note n="670">phitonistam <hi rend="italic">f</hi> pythonistam</note>
+<note n="671">ypocritam <hi rend="italic">f</hi> hypocritam | quidam uero heresiarcam <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XIV-113 (Aparat Crític)"/>
+<note n="673">denunciationem <hi rend="italic">m</hi> denuntiationem | sed <hi rend="italic">m</hi> set</note>
+<note n="674">facturus <hi rend="italic">m</hi> securus</note>
+<note n="674-677">facturus est <hi rend="italic">usque</hi> illa eueniant <hi rend="italic">f om</hi></note>
+<note n="677">tercio <hi rend="italic">f</hi> tertio</note>
+<note n="677-678">denunciari <hi rend="italic">m</hi> denunciare</note>
+<note n="678">sed <hi rend="italic">m</hi> set</note>
+<note n="679">mihi <hi rend="italic">m</hi> mii | sed hec notate, que dicam <hi rend="italic">f om</hi> | sed <hi rend="italic">m</hi> set | que <hi rend="italic">m</hi> quod | dicam <hi rend="italic">B praem</hi> nota (?) <hi rend="italic">exp et canc</hi></note>
+<note n="680">denunciationem <hi rend="italic">m</hi> denuntiacionem | Finees <hi rend="italic">f</hi> Phineos</note>
+<note n="681">eam <hi rend="italic">m</hi> ea</note>
+<note n="682">neclexerit <hi rend="italic">f</hi> neglexerit</note>
+<note n="683">predictum <hi rend="italic">f</hi> dictum</note>
+<note n="685">speciali <hi rend="italic">f</hi> spirituali</note>
+<note n="686">uestro proposito <hi rend="italic">f</hi> proposito uestro</note>
+<note n="686-687">quia ego non possem tolerare quod hic uel alibi essem uagus ullo modo <hi rend="italic">f</hi> pro expetitione mea</note>
+<pb n="AVOThO_Volum XIV-114 (Aparat Crític)"/>
+<note n="689">Fridericus, rex Siciliae <hi rend="italic">B deest f</hi> Tunc respondit Rex Fridericus <hi rend="italic">m deest</hi></note>
+<note n="690">tam <hi rend="italic">m</hi> tan | illuminauit <hi rend="italic">m</hi> illustravit</note>
+<note n="692-693">obseruancia <hi rend="italic">f</hi> obseruantia</note>
+<note n="694">necnon <hi rend="italic">fm</hi> nec non</note>
+<note n="695">Arnaldus de Villanova <hi rend="italic">Bfm deest</hi></note>
+<note n="696">igitur <hi rend="italic">f</hi> tantum</note>
+<note n="697">cogitastis <hi rend="italic">f</hi> cogitatis</note>
+<note n="698">Aragonum <hi rend="italic">f</hi> Arragonum</note>
+<note n="702">specialem <hi rend="italic">f</hi> spiritualem | cum literis suis <hi rend="italic">f</hi> his cum suis | literis <hi rend="italic">m</hi> litteris</note>
+<note n="703">quod <hi rend="italic">f</hi> quoque</note>
+<pb n="AVOThO_Volum XIV-115 (Aparat Crític)"/>
+<note n="705">hiis auditis <hi rend="italic">f</hi> praedictis auditis</note>
+</div>
+</back>
+</text>
+</TEI>
