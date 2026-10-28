@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Alphabetum catholicorum</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. IV, pàgines 86-152: edició crítica de l’<title>Alphabetum catholicorum ad inclitum dominum regem Aragonum pro filiis erudiendis in elementis catholice fidei</title> (línies 1-990).</bibl>
+        <listWit>
+          <witness xml:id="B">Ciutat del Vaticà, BAV, Borgh. 205, ff. 9r-20r.</witness>
+          <witness xml:id="C">Cambridge, University Library, Mm. 6.12 (2471), ff. 31v-52.</witness>
+          <witness xml:id="E">Frankfurt am Main, Universitätsbibliothek, Praed., 58, ff. 81a-86d.</witness>
+          <witness xml:id="G">Graz, Universitätsbibliothek, ms. 1226.</witness>
+          <witness xml:id="N">Bernkastel-Kues, St. Nikolaus Spital, ms.</witness>
+          <witness xml:id="O">Oxford, Bodleian Library, Can. misc. lat., ms. 370 (a l’aparat, sigla <hi rend="italic">0</hi>).</witness>
+          <witness xml:id="S">Saint-Omer, Bibliothèque de l’agglomeration de Saint-Omer: <hi rend="italic">S1</hi> = ms. 292, ff. 139v-139r; <hi rend="italic">S2</hi> = ms. 361, ff. 127r-134v.</witness>
+          <witness xml:id="V">Ciutat del Vaticà, BAV, Vat. lat. 3824, ff. 29a-43b.</witness>
+          <witness xml:id="X">Ciutat del Vaticà, BAV, Vat. lat. 5732, ff. 53b-89c.</witness>
+          <witness xml:id="Y">Sydney, University Library, Nicholson 23, f. 151-163.</witness>
+          <witness xml:id="T">Traducció grega: Sant Petersburg, Publichnaya Biblioteka, Petropolitanus graecus 113.</witness>
+          <witness xml:id="f">Traducció toscana: Florència, Biblioteca Nazionale Centrale, Conv. Soppr. G.3.368, ff. 1v-13v.</witness>
+          <witness xml:id="r">Traducció castellana: Roma, Biblioteca Casanatense, ms. 1022, ff. 115-132.</witness>
+          <witness xml:id="b">Wilhelm Burger, <hi rend="italic">Römische Beiträge zur Geschichte der Katechese im Mittelalter</hi>, dins «Römische Quartalschrift», 21 (1907/2), 173-194.</witness>
+          <witness xml:id="l">Hope Lampert Burnam, <hi rend="italic">The “Alphabetum catholicorum” of Arnaldus of Villanova: an Edition and Study</hi>, University of Toronto 1996.</witness>
+          <witness xml:id="n">Joan Nadal Cañellas, <hi rend="italic">Arnaldi de Villanova tractatus octo in graecum sermonem versi (Petropolitanus graecus 113)</hi>, Barcelona, IEC 2002, 204-259.</witness>
+          <witness xml:id="p">Josep Perarnau, <hi rend="italic">Dos tratados ‘espirituales’ de Arnau de Vilanova en traducción castellana medieval</hi>, dins «Anthologica Annua», 22-23 (1975-1976 [1978]), 477-630.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/></teiHeader>
+  <text>
+    <body>
+<pb n="AVOThO_Volum IV-87"/>
+<head type="author">Arnaldi de <hi rend="small-caps">Villanova</hi></head>
+<div type="section">
+<head type="incipit"><lb n="1"/><hi rend="line-num">[1] </hi><hi rend="italic">Incipit alphabetum catholicorum ad inclitum dominum regem Aragonum</hi>
+<lb n="2"/><hi rend="line-num">[2] </hi><hi rend="italic">pro filiis erudiendis in elementis catholice fidei</hi></head>
+<milestone unit="section"/>
+<p><lb n="3"/><hi rend="line-num">[3] </hi>Es tu fidelis?</p>
+<p><lb n="4"/><hi rend="line-num">[4] </hi>Sum, domine.</p>
+<p><lb n="5"/><hi rend="line-num">[5] </hi>Quare dicis te esse fidelem?</p>
+<pb n="AVOThO_Volum IV-88"/>
+<p><lb n="6"/><hi rend="line-num">[6] </hi>Quia habeo rectam fidem.</p>
+<p><lb n="7"/><hi rend="line-num">[7] </hi>Que est recta fides?</p>
+<pb n="AVOThO_Volum IV-89"/>
+<p><lb n="8"/><hi rend="line-num">[8] </hi>Fides catholica.</p>
+<p><lb n="9"/><hi rend="line-num">[9] </hi>Que est fides catholica?</p>
+<p><lb n="10"/><hi rend="line-num">[10] </hi>Illa quam docet uniuersalis ecclesia Dei.</p>
+<p><lb n="11"/><hi rend="line-num">[11] </hi>Quid docet uniuersalis ecclesia Dei?</p>
+<p><lb n="12"/><hi rend="line-num">[12] </hi>Credere in Deum, Patrem, etc.</p>
+<p><lb n="13"/><hi rend="line-num">[13] </hi>Quid est ergo credere?</p>
+<p><lb n="14"/><hi rend="line-num">[14] </hi>Credere est assentire per intellectum alicui assertioni, cuius ueri<lb break="no" n="15"/><hi rend="line-num">[15] </hi>tas non est cognita credenti experimento uel ratione.</p>
+<p><lb n="16"/><hi rend="line-num">[16] </hi>Quot sunt ea que docet ecclesia credere?</p>
+<pb n="AVOThO_Volum IV-90"/>
+<p><lb n="17"/><hi rend="line-num">[17] </hi>Domine, quatuordecim sunt principalia, que uocantur quatuorde<lb break="no" n="18"/><hi rend="line-num">[18] </hi>cim articuli fidei.</p>
+<p><lb n="19"/><hi rend="line-num">[19] </hi>Quare uocantur quatuordecim articuli fidei?</p>
+<pb n="AVOThO_Volum IV-91"/>
+<p><lb n="20"/><hi rend="line-num">[20] </hi>Quia sicut in una manu sunt quatuordecim articuli ad sensum
+<lb n="21"/><hi rend="line-num">[21] </hi>distincti, sic in una fide ca-[f. 29b]-tholica quatuordecim credenda
+<lb n="22"/><hi rend="line-num">[22] </hi>principaliter proponuntur.</p>
+<p><lb n="23"/><hi rend="line-num">[23] </hi>Quid est articulus fidei?</p>
+<p><lb n="24"/><hi rend="line-num">[24] </hi>Articulus fidei est id, quod distincte et principaliter proponitur ad
+<lb n="25"/><hi rend="line-num">[25] </hi>credendum per ecclesiam de diuina ueritate. In summa ergo sunt
+<lb n="26"/><hi rend="line-num">[26] </hi>quatuordecim.</p>
+<p><lb n="27"/><hi rend="line-num">[27] </hi>Qui sunt?</p>
+<pb n="AVOThO_Volum IV-92"/>
+<p><lb n="28"/><hi rend="line-num">[28] </hi>Septem pertinentes ad diuinitatem, et septem pertinentes ad
+<lb n="29"/><hi rend="line-num">[29] </hi>humanitatem Christi.</p>
+<p><lb n="30"/><hi rend="line-num">[30] </hi>Qui sunt septem pertinentes ad diuinitatem?</p>
+<p><lb n="31"/><hi rend="line-num">[31] </hi>Quatuor pertinentes ad naturam diuinam, et tres pertinentes ad
+<lb n="32"/><hi rend="line-num">[32] </hi>operationem diuinam.</p>
+<p><lb n="33"/><hi rend="line-num">[33] </hi>Qui sunt quatuor pertinentes ad naturam diuinam?</p>
+<p><lb n="34"/><hi rend="line-num">[34] </hi>Vnus pertinens ad essentiam diuinam, et tres pertinentes ad per<lb break="no" n="35"/><hi rend="line-num">[35] </hi>sonas diuinas. Necesse est enim credere quod Deus est unus in essen<lb break="no" n="36"/><hi rend="line-num">[36] </hi>tia, et trinus in personis. Et sic primus articulus est credere quod
+<lb n="37"/><hi rend="line-num">[37] </hi>Deus est unus in essentia. Secundus est credere quod in diuinitate est
+<lb n="38"/><hi rend="line-num">[38] </hi>persona Patris. Tercius est credere quod in diuinitate est persona Filii
+<lb n="39"/><hi rend="line-num">[39] </hi>eternaliter geniti a Patre. Quartus est credere quod in diuinitate est
+<lb n="40"/><hi rend="line-num">[40] </hi>per-[f. 29c]-sona Spiritus Sancti eternaliter procedentis a Patre et
+<lb n="41"/><hi rend="line-num">[41] </hi>Filio.</p>
+<pb n="AVOThO_Volum IV-93"/>
+<p><lb n="42"/><hi rend="line-num">[42] </hi>Qui sunt tres pertinentes ad operationem diuinam?</p>
+<p><lb n="43"/><hi rend="line-num">[43] </hi>Unus pertinens ad opus Creationis, et alius ad opus iustificationis,
+<lb n="44"/><hi rend="line-num">[44] </hi>et alius ad opus glorificationis. Et sic primus istorum trium est cre<lb break="no" n="45"/><hi rend="line-num">[45] </hi>dere quod solus Deus creauit omnia. Secundus est credere quod solus
+<lb n="46"/><hi rend="line-num">[46] </hi>Deus iustificat impium remittendo ei peccata. Tercius est credere
+<lb n="47"/><hi rend="line-num">[47] </hi>quod solus Deus resuscitabit mortuos ad dampnationem impiorum et
+<lb n="48"/><hi rend="line-num">[48] </hi>glorificationem iustorum.</p>
+<p><lb n="49"/><hi rend="line-num">[49] </hi>Qui sunt septem pertinentes ad humanitatem Christi?</p>
+<p><lb n="50"/><hi rend="line-num">[50] </hi>Primus est credere quod Christus inquantum homo fuit concep<lb break="no" n="51"/><hi rend="line-num">[51] </hi>tus ex uirgine per solam operationem Spiritus Sancti. Secundus est
+<lb n="52"/><hi rend="line-num">[52] </hi>credere quod inquantum homo fuit natus ex ea, illesa uirginitate.
+<lb n="53"/><hi rend="line-num">[53] </hi>Tercius est credere quod inquantum homo fuit crucifixus, mortuus et
+<lb n="54"/><hi rend="line-num">[54] </hi>sepultus. Quartus est credere quod anima eius descendit [f. 29d] ad
+<lb n="55"/><hi rend="line-num">[55] </hi>inferos. Quintus est credere quod inquantum homo tercia die resurre<lb break="no" n="56"/><hi rend="line-num">[56] </hi>xit a mortuis. Sextus est credere quod inquantum homo ascendit ad
+<lb n="57"/><hi rend="line-num">[57] </hi>celos et sedet ad dexteram Dei Patris, id est, quiescit in beatitudine <pb n="AVOThO_Volum IV-94"/>
+<lb n="58"/><hi rend="line-num">[58] </hi>uel gloria eius. Septimus est credere quod inquantum homo iterum
+<lb n="59"/><hi rend="line-num">[59] </hi>ueniet diiudicare uiuos et mortuos in sua humanitate.</p>
+<p><lb n="60"/><hi rend="line-num">[60] </hi>Quid est Ihesus Christus?</p>
+<p><lb n="61"/><hi rend="line-num">[61] </hi>Ihesus Christus est eternus Dei filius in tempore natus ex uirgine.</p>
+<p><lb n="62"/><hi rend="line-num">[62] </hi>Vnde dicitur articulus?</p>
+<p><lb n="63"/><hi rend="line-num">[63] </hi>Ab ,arcto, arctas’.</p>
+<p><lb n="64"/><hi rend="line-num">[64] </hi>Quare?</p>
+<p><lb n="65"/><hi rend="line-num">[65] </hi>Quia credentem arctat uel obligat ad dirigendum mentem in
+<lb n="66"/><hi rend="line-num">[66] </hi>ueritatem diuinam.</p>
+<p><lb n="67"/><hi rend="line-num">[67] </hi>Quot sunt signa, quibus cognoscitur uerus fidelis?</p>
+<p><lb n="68"/><hi rend="line-num">[68] </hi>Quinque.</p>
+<pb n="AVOThO_Volum IV-95"/>
+<p><lb n="69"/><hi rend="line-num">[69] </hi>Que? Primum est eiectio demoniorum, id est, prauarum tempta<lb break="no" n="70"/><hi rend="line-num">[70] </hi>tionum a mente propria. Secundum est innouatio lingue ad loquen<lb break="no" n="71"/><hi rend="line-num">[71] </hi>dum, id est, noua assuefactio eiusdem ad salubriter et honeste
+<lb n="72"/><hi rend="line-num">[72] </hi>loquendum. [f. 30a] Tercium est ablatio serpentum, id est, detestatio
+<lb n="73"/><hi rend="line-num">[73] </hi>uenenosi sermonis procedentis a lingua maledica. Quartum est illesio
+<lb n="74"/><hi rend="line-num">[74] </hi>a potu mortifero, id est, non corrumpi ab auditu uenenosi sermonis.
+<lb n="75"/><hi rend="line-num">[75] </hi>Quintum est sanatio egrorum per impositionem manuum, id est,
+<lb n="76"/><hi rend="line-num">[76] </hi>conuersio peccatorum uel prauorum hominum per exempla bonorum
+<lb n="77"/><hi rend="line-num">[77] </hi>operum.</p>
+<p><lb n="78"/><hi rend="line-num">[78] </hi>Qualiter scis tu quod per hec quinque signa cognoscatur uerus
+<lb n="79"/><hi rend="line-num">[79] </hi>fidelis?</p>
+<p><lb n="80"/><hi rend="line-num">[80] </hi>Quia Dominus expresse tangit ista quinque signa in <hi rend="italic">Euangelio</hi>
+<lb n="81"/><hi rend="line-num">[81] </hi><hi rend="italic">beati Marci</hi>.</p>
+<pb n="AVOThO_Volum IV-96"/>
+<p><lb n="82"/><hi rend="line-num">[82] </hi>Vbi?</p>
+<p><lb n="83"/><hi rend="line-num">[83] </hi>In ultimo capitulo eiusdem euangelii quando dicit: «Signa autem
+<lb n="84"/><hi rend="line-num">[84] </hi>eos qui crediderint, hec sequentur: in nomine meo demonia eicient»:
+<lb n="85"/><hi rend="line-num">[85] </hi>ecce, ubi tangit primum. «Linguis loquentur nouis»: ecce, ubi tangit
+<lb n="86"/><hi rend="line-num">[86] </hi>secundum. «Serpentes tollent»: ecce, ubi tangit tercium. «Et si quid
+<lb n="87"/><hi rend="line-num">[87] </hi>mortiferum biberint, non eos nocebit»: ecce, ubi tangit quartum.
+<lb n="88"/><hi rend="line-num">[88] </hi>«Super [f. 30b] egros manus imponent, et bene habebunt»: ecce, ubi
+<lb n="89"/><hi rend="line-num">[89] </hi>tangit quintum.</p>
+<p><lb n="90"/><hi rend="line-num">[90] </hi>Sufficiuntne ista quinque uero fideli?</p>
+<p><lb n="91"/><hi rend="line-num">[91] </hi>Domine, sufficiunt inquantum fidelis habet conuersari cum pro<lb break="no" n="92"/><hi rend="line-num">[92] </hi>ximo suo. Sed inquantum habet se ipsum ordinare ad Deum non suf<lb break="no" n="93"/><hi rend="line-num">[93] </hi>ficiunt.</p>
+<p><lb n="94"/><hi rend="line-num">[94] </hi>Quot, ergo, preter iamdicta, sunt necessaria fideli, prout habet
+<lb n="95"/><hi rend="line-num">[95] </hi>seipsum ordinare ad Deum?</p>
+<p><lb n="96"/><hi rend="line-num">[96] </hi>Domine, tria.</p>
+<p><lb n="97"/><hi rend="line-num">[97] </hi>Que? Primum est laudare eum. Secundum est meditari in eo. Ter<lb break="no" n="98"/><hi rend="line-num">[98] </hi>cium est orare ipsum.</p>
+<pb n="AVOThO_Volum IV-97"/>
+<p><lb n="99"/><hi rend="line-num">[99] </hi>Quare est laudandus?</p>
+<p><lb n="100"/><hi rend="line-num">[100] </hi>Quia bonus.</p>
+<p><lb n="101"/><hi rend="line-num">[101] </hi>Quare meditandum est in eo?</p>
+<p><lb n="102"/><hi rend="line-num">[102] </hi>Quia mirabilis in se et «in omnibus operibus suis».</p>
+<p><lb n="103"/><hi rend="line-num">[103] </hi>Quare est orandus?</p>
+<p><lb n="104"/><hi rend="line-num">[104] </hi>Quia Deus.</p>
+<p><lb n="105"/><hi rend="line-num">[105] </hi>Proba ista tria.</p>
+<p><lb n="106"/><hi rend="line-num">[106] </hi>Primum probo per <hi rend="italic">Psalmistam</hi>, qui dicit: «Laudate Dominum,
+<lb n="107"/><hi rend="line-num">[107] </hi>quoniam bonus». Secundum probo, primo per rationem, quoniam res
+<lb n="108"/><hi rend="line-num">[108] </hi>quanto mirabilior, tanto fortius ad sui considerationem inuitat uel
+<lb n="109"/><hi rend="line-num">[109] </hi>allicit animum cogitantis, idcirco quia multiplicior est in forma [f.
+<lb n="110"/><hi rend="line-num">[110] </hi>30c] uel in uirtute. Secundo probo per auctoritatem <hi rend="italic">Ysaye</hi>, dicentis in
+<lb n="111"/><hi rend="line-num">[111] </hi>principio vigesimi quinti capituli: «Fecisti mirabilia, cogitationes
+<lb n="112"/><hi rend="line-num">[112] </hi>antiquas fideles»: per que uerba innuit expresse quod in mirabilibus <pb n="AVOThO_Volum IV-98"/>
+<lb n="113"/><hi rend="line-num">[113] </hi>Dei debent cogitationes fidelium antiquari uel assiduari. Hoc etiam
+<lb n="114"/><hi rend="line-num">[114] </hi>innuit <hi rend="italic">Psalmista,</hi> qui dicit: «Mirabilia opera tua, et anima mea co<lb break="no" n="115"/><hi rend="line-num">[115] </hi>gnoscet nimis», id est, meditabitur ualde. Quod autem Deus sit mira<lb break="no" n="116"/><hi rend="line-num">[116] </hi>bilis in se et suis operibus probo utrumque. Et primo primum, quia
+<lb n="117"/><hi rend="line-num">[117] </hi>legitur <hi rend="italic">Hester</hi>, decimo quinto, circa finem: «Valde mirabilis es,
+<lb n="118"/><hi rend="line-num">[118] </hi>Domine, et facies tua plena est gratiarum». Quod autem sit mirabi<lb break="no" n="119"/><hi rend="line-num">[119] </hi>lis in suis operibus, patet per auctoritatem <hi rend="italic">Psalmiste</hi> supra memora<lb break="no" n="120"/><hi rend="line-num">[120] </hi>tam. Et iterum per <hi rend="italic">Iob</hi>, qui dicit, quinto capitulo, quod Deus «facit
+<lb n="121"/><hi rend="line-num">[121] </hi>magna et inscrutabilia et mirabilia absque numero». Tercium probo
+<lb n="122"/><hi rend="line-num">[122] </hi>per <hi rend="italic">Psalmistam</hi>, qui dicit: «Orabit ad te omnis sanctus in tempore
+<lb n="123"/><hi rend="line-num">[123] </hi>oportuno». Omnis sanctus, id est, omnis fidelis. Quia omnis uerus
+<lb n="124"/><hi rend="line-num">[124] </hi>fidelis est sanctus. Iterum in [f. 30d] <hi rend="italic">Mattheo</hi>: «Domus mea, domus
+<lb n="125"/><hi rend="line-num">[125] </hi>orationis uocabitur». Domus autem Dei est uniuersitas fidelium,
+<lb n="126"/><hi rend="line-num">[126] </hi>teste Apostolo, <hi rend="italic">Ad Thimotheum</hi>.</p>
+<p><lb n="127"/><hi rend="line-num">[127] </hi>Quot modis est Deus laudandus?</p>
+<p><lb n="128"/><hi rend="line-num">[128] </hi>Tribus.</p>
+<p><lb n="129"/><hi rend="line-num">[129] </hi>Quibus?</p>
+<pb n="AVOThO_Volum IV-99"/>
+<p><lb n="130"/><hi rend="line-num">[130] </hi>Corde benedicendo, ore annunciando, opere immitando.</p>
+<p><lb n="131"/><hi rend="line-num">[131] </hi>Proba ista tria.</p>
+<p><lb n="132"/><hi rend="line-num">[132] </hi>Primum probo per <hi rend="italic">Psalmistam</hi>, qui dicit: «Benedic anima mea
+<lb n="133"/><hi rend="line-num">[133] </hi>Domino, et omnia que intra me sunt nomini sancto eius». Secundum
+<lb n="134"/><hi rend="line-num">[134] </hi>probo per eundem, qui dicit: «Domine, labia mea aperies, et os
+<lb n="135"/><hi rend="line-num">[135] </hi>meum annunciabit laudem tuam». Tercium probo per <hi rend="italic">Apostolum</hi>, qui
+<lb n="136"/><hi rend="line-num">[136] </hi>dicit: «Estote imitatores Dei sicut filii karissimi», scilicet in operibus
+<lb n="137"/><hi rend="line-num">[137] </hi>que subiungit. Quod autem imitari Deum bonis operibus cedat in lau<lb break="no" n="138"/><hi rend="line-num">[138] </hi>dem eius, probo per Dominum, qui dicit in <hi rend="italic">Mattheo</hi>: «Sic luceat lux
+<lb n="139"/><hi rend="line-num">[139] </hi>uestra coram hominibus, ut uideant uestra bona opera, et glorificent
+<lb n="140"/><hi rend="line-num">[140] </hi>patrem uestrum, qui est in celis»: ecce expresse testatur Dominus in
+<lb n="141"/><hi rend="line-num">[141] </hi>istis uerbis quod per bona opera fidelium glorificatur Deus ab homi<lb break="no" n="142"/><hi rend="line-num">[142] </hi>nibus, id est, excellenter et publice laudatur.</p>
+<p><lb n="143"/><hi rend="line-num">[143] </hi>Quot modis meditan-[f. 31a]-dum est in eo?</p>
+<p><lb n="144"/><hi rend="line-num">[144] </hi>Quatuor modis principaliter.</p>
+<pb n="AVOThO_Volum IV-100"/>
+<p><lb n="145"/><hi rend="line-num">[145] </hi>Quibus?</p>
+<p><lb n="146"/><hi rend="line-num">[146] </hi>Primo modo, admirando maiestatem eius, non solvm quantum ad
+<lb n="147"/><hi rend="line-num">[147] </hi>trinitatem personarum, sed etiam quantum ad puritatem uel simpli<lb break="no" n="148"/><hi rend="line-num">[148] </hi>citatem essentie, et infinitatem potentie, et claritatem sapientie, et
+<lb n="149"/><hi rend="line-num">[149] </hi>eternitatem existentie. Et sic de aliis perfectionibus eius. Secundo
+<lb n="150"/><hi rend="line-num">[150] </hi>modo rememorando beneficia collata tam in bonis nature quam gra<lb break="no" n="151"/><hi rend="line-num">[151] </hi>tie. Tercio modo, contemplando iudicia eius. Quarto modo attenden<lb break="no" n="152"/><hi rend="line-num">[152] </hi>do et expectando promissa ipsius.</p>
+<p><lb n="153"/><hi rend="line-num">[153] </hi>Tu dixisti quod Deus est orandus: quid est orare?</p>
+<p><lb n="154"/><hi rend="line-num">[154] </hi>Orare est Deum rogare cum erectione puri cordis et inclinatione
+<lb n="155"/><hi rend="line-num">[155] </hi>corporis.</p>
+<pb n="AVOThO_Volum IV-101"/>
+<p><lb n="156"/><hi rend="line-num">[156] </hi>Proba.</p>
+<p><lb n="157"/><hi rend="line-num">[157] </hi>Probo per exemplum, quod Dominus dedit nobis instante passio<lb break="no" n="158"/><hi rend="line-num">[158] </hi>ne sua, sicut scripsit <hi rend="italic">Matheus</hi>, cum dicit quod Dominus «progressus
+<lb n="159"/><hi rend="line-num">[159] </hi>pusillum procidit in faciem suam orans et dicens: “Pater mi, si pos<lb break="no" n="160"/><hi rend="line-num">[160] </hi>sibile est, transeat a me calix iste”»: ecce, per hec uerba patet expres<lb break="no" n="161"/><hi rend="line-num">[161] </hi>se, quod Dominus orando ro-[f. 31b]-gauit Patrem corpore inclinato.
+<lb n="162"/><hi rend="line-num">[162] </hi>Et est certum quod corde non deuiabat ab eo.</p>
+<p><lb n="163"/><hi rend="line-num">[163] </hi>Quare est certum?</p>
+<p><lb n="164"/><hi rend="line-num">[164] </hi>Quoniam in Domino non poterat cadere fallacia uel duplicitas fal<lb break="no" n="165"/><hi rend="line-num">[165] </hi>sitatis.</p>
+<pb n="AVOThO_Volum IV-102"/>
+<p><lb n="166"/><hi rend="line-num">[166] </hi>Qua igitur oratione debet rogari Deus?</p>
+<p><lb n="167"/><hi rend="line-num">[167] </hi>Domine, illa, quam Saluator noster Dominus Ihesus Christus
+<lb n="168"/><hi rend="line-num">[168] </hi>docuit.</p>
+<p><lb n="169"/><hi rend="line-num">[169] </hi>Que est illa?</p>
+<p><lb n="170"/><hi rend="line-num">[170] </hi>Hec, scilicet: <hi rend="italic">Pater noster</hi>, etc.</p>
+<p><lb n="171"/><hi rend="line-num">[171] </hi>Qualiter scis tu quod ipse docuerit sic orare?</p>
+<p><lb n="172"/><hi rend="line-num">[172] </hi>Quia ita scriptum est in <hi rend="italic">Euangelio beati Mathei</hi>.</p>
+<p><lb n="173"/><hi rend="line-num">[173] </hi>Vbi?</p>
+<p><lb n="174"/><hi rend="line-num">[174] </hi>Sexto capitulo cum dicitur: «Sic uos orabitis: Pater noster», et
+<lb n="175"/><hi rend="line-num">[175] </hi>cetera.</p>
+<p><lb n="176"/><hi rend="line-num">[176] </hi>Quare melius est orando dicere hanc orationem quam aliam?</p>
+<p><lb n="177"/><hi rend="line-num">[177] </hi>Quia est melior cunctis aliis.</p>
+<p><lb n="178"/><hi rend="line-num">[178] </hi>Quare melior?</p>
+<p><lb n="179"/><hi rend="line-num">[179] </hi>Quia dignior, quia breuior, quia plenior.</p>
+<p><lb n="180"/><hi rend="line-num">[180] </hi>Quare dignior?</p>
+<p><lb n="181"/><hi rend="line-num">[181] </hi>Quia edita est a summo doctore.</p>
+<pb n="AVOThO_Volum IV-103"/>
+<p><lb n="182"/><hi rend="line-num">[182] </hi>Quare breuior?</p>
+<p><lb n="183"/><hi rend="line-num">[183] </hi>Quia paucioribus uerbis exprimit quicquid debet perfecta oratio
+<lb n="184"/><hi rend="line-num">[184] </hi>continere.</p>
+<p><lb n="185"/><hi rend="line-num">[185] </hi>Quare plenior?</p>
+<p><lb n="186"/><hi rend="line-num">[186] </hi>Quia nichil omittit de hiis que perfecte orans debet proponere.</p>
+<p><lb n="187"/><hi rend="line-num">[187] </hi>Quot sunt illa que perfecte orans debet proponere?</p>
+<p><lb n="188"/><hi rend="line-num">[188] </hi>Duo in genere.</p>
+<p><lb n="189"/><hi rend="line-num">[189] </hi>Que sunt?</p>
+<p><lb n="190"/><hi rend="line-num">[190] </hi>Primum [f. 31c] est captare beniuolentiam rogati. Secundum est
+<lb n="191"/><hi rend="line-num">[191] </hi>recte petere que petenda sunt ab eodem. Et istorum duorum, primo
+<lb n="192"/><hi rend="line-num">[192] </hi>docet Dominus in hac oratione facere primum, secundo secundum.</p>
+<p><lb n="193"/><hi rend="line-num">[193] </hi>Quot sunt ea, quibus Dominus docet hic captare beniuolentiam
+<lb n="194"/><hi rend="line-num">[194] </hi>Dei?</p>
+<p><lb n="195"/><hi rend="line-num">[195] </hi>Quatuor.</p>
+<p><lb n="196"/><hi rend="line-num">[196] </hi>Que sunt?</p>
+<p><lb n="197"/><hi rend="line-num">[197] </hi>Primum est auctoritas rogati. Secundum est subiectio rogantis.
+<lb n="198"/><hi rend="line-num">[198] </hi>Tercium est dignitas assessorum. Quartum est bona affectio rogantis
+<lb n="199"/><hi rend="line-num">[199] </hi>ad rogatum.</p>
+<pb n="AVOThO_Volum IV-104"/>
+<p><lb n="200"/><hi rend="line-num">[200] </hi>Vbi docet illa?</p>
+<p><lb n="201"/><hi rend="line-num">[201] </hi>Primum docet hic, cum dicit: ,Pater’. Secundum cum dicit: ,no<lb break="no" n="202"/><hi rend="line-num">[202] </hi>ster’. Tercium cum dicit: ,qui es in celis’. Quartvm cum dicit: ,sanc<lb break="no" n="203"/><hi rend="line-num">[203] </hi>tificetur nomen tuum’. Quod sic ostendo. Quia per hoc quod docet
+<lb n="204"/><hi rend="line-num">[204] </hi>Deum uocare ,patrem’, denotat ipsum habere auctoritatem et preemi<lb break="no" n="205"/><hi rend="line-num">[205] </hi>nentiam causalitatis respectu nostri. Per hoc quod dicit: ,noster’,
+<lb n="206"/><hi rend="line-num">[206] </hi>denotat subiectionem nostri ad eum. Per hoc quod dicit: ,qui es in
+<lb n="207"/><hi rend="line-num">[207] </hi>celis’, denotat comitiuam celestium creaturarum, scilicet, angelorum
+<lb n="208"/><hi rend="line-num">[208] </hi>et aliorum beatorum. Per hoc quod dicit: ,sanctifi-[f. 31d]-cetur
+<lb n="209"/><hi rend="line-num">[209] </hi>nomen tuum’, innuit orantem desiderare sanctificationem Christi,
+<lb n="210"/><hi rend="line-num">[210] </hi>qui est nomen Dei, hoc est, diuulgationem sanctitatis eius in popu<lb break="no" n="211"/><hi rend="line-num">[211] </hi>lis.</p>
+<milestone unit="section"/>
+<p><lb n="212"/><hi rend="line-num">[212] </hi>Tu dixisti quod Christus est nomen Dei. Proba.</p>
+<p><lb n="213"/><hi rend="line-num">[213] </hi>Probo, domine, per <hi rend="italic">Psalmistam</hi>, qui dicit: «Iusti confitebuntur
+<lb n="214"/><hi rend="line-num">[214] </hi>nomini tuo», etc.: ecce hic expresse testatur <hi rend="italic">Psalmista</hi> quod iusti con<lb break="no" n="215"/><hi rend="line-num">[215] </hi>fitebuntur nomini Dei. Sed confessio non fit nisi substantie rationali.
+<lb n="216"/><hi rend="line-num">[216] </hi>Ergo <hi rend="italic">Psalmista</hi> intelligit per nomen Dei substantiam rationalem et <pb n="AVOThO_Volum IV-105"/>
+<lb n="217"/><hi rend="line-num">[217] </hi>non uocem, qua nominatur ,Deus’, quia talis uox quoddam accidens
+<lb n="218"/><hi rend="line-num">[218] </hi>est, et nullam habet cognitionem. Substantia autem rationalis, cui
+<lb n="219"/><hi rend="line-num">[219] </hi>omnes iusti confitentur, non est nisi Christus. Ergo per nomen Dei
+<lb n="220"/><hi rend="line-num">[220] </hi><hi rend="italic">Psalmista</hi> Christum intelligit.</p>
+<p><lb n="221"/><hi rend="line-num">[221] </hi>Proba quod omnes iusti confiteantur Christo.</p>
+<p><lb n="222"/><hi rend="line-num">[222] </hi>Probo, domine, per hoc quia nemo potest esse iustus nisi credat in
+<lb n="223"/><hi rend="line-num">[223] </hi>Christum. Et sic omnes iusti confessione fidei confitentur Christo.</p>
+<p><lb n="224"/><hi rend="line-num">[224] </hi>Quare Christus dicitur esse nomen Dei?</p>
+<p><lb n="225"/><hi rend="line-num">[225] </hi>Quia sicut per nomen significatur res nominata, sic per Christum
+<lb n="226"/><hi rend="line-num">[226] </hi>significatur Deus, ideo quia Christus [f. 32a] non solum est uerus
+<lb n="227"/><hi rend="line-num">[227] </hi>homo, sed etiam uerus Deus.</p>
+<milestone unit="section"/>
+<p><lb n="228"/><hi rend="line-num">[228] </hi>Tu dixisti quod in illis uerbis: «Iusti confitebuntur», etc. <hi rend="italic">Psalmi</hi><lb break="no" n="229"/><hi rend="line-num">[229] </hi><hi rend="italic">sta</hi> intelligit per nomen Dei Christum, et tamen immediate post dicit:
+<lb n="230"/><hi rend="line-num">[230] </hi>«Habitabunt recti cum uultu tuo». Ergo secundum tuam rationem
+<lb n="231"/><hi rend="line-num">[231] </hi>per uultum Dei intelligit Christum, quia recti habitant cum Christo
+<lb n="232"/><hi rend="line-num">[232] </hi>per fidem et karitatem, sicut iusti confitentur ei per fidem, ut tu
+<lb n="233"/><hi rend="line-num">[233] </hi>dixisti.</p>
+<pb n="AVOThO_Volum IV-106"/>
+<p><lb n="234"/><hi rend="line-num">[234] </hi>Concedo, domine.</p>
+<p><lb n="235"/><hi rend="line-num">[235] </hi>Hoc uidetur esse inconueniens, quod tu concedis, quia nomen et
+<lb n="236"/><hi rend="line-num">[236] </hi>uultus sunt diuersa, et tamen Christus est unus tantum.</p>
+<p><lb n="237"/><hi rend="line-num">[237] </hi>Respondeo, domine, et dico quod non est inconueniens quod
+<lb n="238"/><hi rend="line-num">[238] </hi>Christus denotetur per diuersa diuersis rationibus. Sed si ego dicerem
+<lb n="239"/><hi rend="line-num">[239] </hi>quod denotaretur per diuersa sub una ratione, procul dubio dicerem
+<lb n="240"/><hi rend="line-num">[240] </hi>inconueniens.</p>
+<p><lb n="241"/><hi rend="line-num">[241] </hi>Ostende ergo qua differenti ratione denotetur Christus per nomen
+<lb n="242"/><hi rend="line-num">[242] </hi>et uultum.</p>
+<p><lb n="243"/><hi rend="line-num">[243] </hi>Ostendo, domine, per hoc quia Christus, ut dixi, dicitur nomen
+<lb n="244"/><hi rend="line-num">[244] </hi>Dei, prout Deus significatur per ipsum. Vultus autem Dei conue<lb break="no" n="245"/><hi rend="line-num">[245] </hi>nienter dicitur, prout Deus expresse cognoscitur per ipsum. Sicut
+<lb n="246"/><hi rend="line-num">[246] </hi>enim homo expresse cognoscitur per uul-[f. 32b]-tum, ita Deus
+<lb n="247"/><hi rend="line-num">[247] </hi>expresse cognoscitur per Christum, quoniam in Christo sensibiliter
+<lb n="248"/><hi rend="line-num">[248] </hi>fulgent diuine perfectiones.</p>
+<milestone unit="section"/>
+<p><lb n="249"/><hi rend="line-num">[249] </hi>Tu dixisti quod Dominus Ihesus Christus in hac oratione: <hi rend="italic">Pater</hi>
+<lb n="250"/><hi rend="line-num">[250] </hi><hi rend="italic">noster</hi>, etc., primo docet captare beniuolentiam Dei. Secundo docet
+<lb n="251"/><hi rend="line-num">[251] </hi>recto ordine petere que petenda sunt ab eodem. Et iterum ostendisti <pb n="AVOThO_Volum IV-107"/>
+<lb n="252"/><hi rend="line-num">[252] </hi>quot sunt ea, quibus docet captare beniuolentiam Dei, et quibus uer<lb break="no" n="253"/><hi rend="line-num">[253] </hi>bis. Restat, igitur, ut ostendas quot sunt ea, que docet in hac oratio<lb break="no" n="254"/><hi rend="line-num">[254] </hi>ne Dominus petere, et quo ordine.</p>
+<p><lb n="255"/><hi rend="line-num">[255] </hi>Respondeo, domine, et dico quod duo sunt in genere, que docet
+<lb n="256"/><hi rend="line-num">[256] </hi>hic petere.</p>
+<p><lb n="257"/><hi rend="line-num">[257] </hi>Que sunt?</p>
+<p><lb n="258"/><hi rend="line-num">[258] </hi>Primo ea que pertinent ad uitam eternam, uel que sunt necessaria
+<lb n="259"/><hi rend="line-num">[259] </hi>petenti ad uiuendum eternaliter. Secundo ea que necessaria sunt ei ad
+<lb n="260"/><hi rend="line-num">[260] </hi>uiuendum temporaliter.</p>
+<p><lb n="261"/><hi rend="line-num">[261] </hi>Quot sunt ea que docet petere propter uitam eternam?</p>
+<p><lb n="262"/><hi rend="line-num">[262] </hi>Tria.</p>
+<p><lb n="263"/><hi rend="line-num">[263] </hi>Que sunt?</p>
+<p><lb n="264"/><hi rend="line-num">[264] </hi>Primum est sanctificatio in presenti uita. Secundum est glorifica<lb break="no" n="265"/><hi rend="line-num">[265] </hi>tio in futura. Tercium est conformatio nostre uoluntatis ad uolunta<lb break="no" n="266"/><hi rend="line-num">[266] </hi>tem diuinam, quod est comune sanctificationi et glorificationi, quia
+<lb n="267"/><hi rend="line-num">[267] </hi>[f. 32c] nemo potest sanctificari aut glorificari, nisi conformauerit in
+<lb n="268"/><hi rend="line-num">[268] </hi>omnibus Deo uoluntatem suam.</p>
+<p><lb n="269"/><hi rend="line-num">[269] </hi>Vbi docet petere illa tria?</p>
+<pb n="AVOThO_Volum IV-108"/>
+<p><lb n="270"/><hi rend="line-num">[270] </hi>Primum docet petere, cum dicit: «Sanctificetur nomen tuum».
+<lb n="271"/><hi rend="line-num">[271] </hi>Secundum, cum dicit: «Adueniat regnum tuum». Tercium, cum
+<lb n="272"/><hi rend="line-num">[272] </hi>dicit: «Fiat uoluntas tua, sicut in celo et in terra».</p>
+<p><lb n="273"/><hi rend="line-num">[273] </hi>Que tria sic declaro. Cum enim dicit orans: «Sanctificetur nomen
+<lb n="274"/><hi rend="line-num">[274] </hi>tuum», conuenienter petit huiusmodi uerbis ut ipse sanctificetur,
+<lb n="275"/><hi rend="line-num">[275] </hi>quia ipse inquantum est creatura et maxime rationalis, est nomen
+<lb n="276"/><hi rend="line-num">[276] </hi>Dei. Sicut enim conceptus humane mentis in homine manifestatur
+<lb n="277"/><hi rend="line-num">[277] </hi>uel exprimitur per nomen seu per uocem significatiuam ad placitum,
+<lb n="278"/><hi rend="line-num">[278] </hi>sic et conceptus diuine mentis manifestatur uel exprimitur per quam<lb break="no" n="279"/><hi rend="line-num">[279] </hi>libet creaturam et maxime per hominem, qui est ad ymaginem Dei
+<lb n="280"/><hi rend="line-num">[280] </hi>factus. Sicut enim uoces ab homine proferuntur in signvm conceptus
+<lb n="281"/><hi rend="line-num">[281] </hi>humane mentis, sic et creature producuntur a Deo in signum concep<lb break="no" n="282"/><hi rend="line-num">[282] </hi>tus Dei. Et secundum hanc [f. 32d] rationem, omnis creatura est uox
+<lb n="283"/><hi rend="line-num">[283] </hi>Dei. Propter quod Iohannes Baptista, sicut legitur in primo <hi rend="italic">Iohannis</hi>, <pb n="AVOThO_Volum IV-109"/>
+<lb n="284"/><hi rend="line-num">[284] </hi>dixit de se ipso: «Ego uox clamantis in deserto». Vnde, cum dicit
+<lb n="285"/><hi rend="line-num">[285] </hi>orans: «Sanctificetur nomen tuum», in quantum per hec uerba inten<lb break="no" n="286"/><hi rend="line-num">[286] </hi>dit aliquid a Deo petere, sensus est illorum uerborum iste, scilicet:
+<lb n="287"/><hi rend="line-num">[287] </hi>mihi, qui sum nomen tuum, tribue sanctitatem. Quando uero dicit:
+<lb n="288"/><hi rend="line-num">[288] </hi>«Adueniat regnum tuum», petit glorificari eternaliter, uel in celis,
+<lb n="289"/><hi rend="line-num">[289] </hi>quia regnum Dei est gloria eterna siue celestis. Quando uero dicit:
+<lb n="290"/><hi rend="line-num">[290] </hi>«Fiat uoluntas tua, sicut in celo et in terra», petit ut ei det gratiam
+<lb n="291"/><hi rend="line-num">[291] </hi>conformandi uoluntatem suam Deo; sicut beati qui sunt in celis
+<lb n="292"/><hi rend="line-num">[292] </hi>habent conformem uolvntatem cum Eo, quasi diceret: Sic facias me
+<lb n="293"/><hi rend="line-num">[293] </hi>conformare uoluntatem meam tue quamdiu uixero hic in terra, sicut
+<lb n="294"/><hi rend="line-num">[294] </hi>habitantes in celo tecum habent suam conformem tue.</p>
+<pb n="AVOThO_Volum IV-110"/>
+<p><lb n="295"/><hi rend="line-num">[295] </hi>Tu dixisti quod per hec uerba: «Sanctificetur nomen tuum», docet
+<lb n="296"/><hi rend="line-num">[296] </hi>Dominus orantem petere sanctificationem sui. Sed ante dixisti quod
+<lb n="297"/><hi rend="line-num">[297] </hi>per eadem [f. 33a] uerba docet captare beniuolentiam Dei, adoptan<lb break="no" n="298"/><hi rend="line-num">[298] </hi>do diuulgationem sanctitatis Christi. Sed illa duo sunt diuersa, quia
+<lb n="299"/><hi rend="line-num">[299] </hi>primum pertinet ad captandum beniuolentiam et secundum ad
+<lb n="300"/><hi rend="line-num">[300] </hi>petendum necessaria. Ergo uideris inconuenienter exposuisse, cum
+<lb n="301"/><hi rend="line-num">[301] </hi>eadem uerba diuersis intentionibus adaptaueris.</p>
+<p><lb n="302"/><hi rend="line-num">[302] </hi>Respondeo, domine, et dico quod non est inconueniens eadem
+<lb n="303"/><hi rend="line-num">[303] </hi>uerba diuersis intentionibus adaptare secundum diuersos respectus
+<lb n="304"/><hi rend="line-num">[304] </hi>uel rationes. Et sic ego feci, quia ostendi quod hoc uocabulum
+<lb n="305"/><hi rend="line-num">[305] </hi>,Nomen’ diuersis rationibus denotat Christum et creaturam orantem.
+<lb n="306"/><hi rend="line-num">[306] </hi>Et ideo uerba predicta conuenienter possunt seruire uel adaptari
+<lb n="307"/><hi rend="line-num">[307] </hi>diuersis intentionibus orantis, que fuerunt expresse obiciendo.</p>
+<p><lb n="308"/><hi rend="line-num">[308] </hi>Ex uerbis tuis colligitur, quod fuit de intentione Saluatoris quod
+<lb n="309"/><hi rend="line-num">[309] </hi>uerba iam dicta seruirent duabus intentionibus orantis. Sed ipse qui
+<lb n="310"/><hi rend="line-num">[310] </hi>est eternus doctor et omnia in sapientia operatur, nichil facit frustra,
+<lb n="311"/><hi rend="line-num">[311] </hi>sed cum inuincibili ratione.</p>
+<pb n="AVOThO_Volum IV-111"/>
+<p><lb n="312"/><hi rend="line-num">[312] </hi>Ostende igitur rationem propter quam ordinauit [f. 33b] ut illa
+<lb n="313"/><hi rend="line-num">[313] </hi>uerba seruirent utrique intentioni predicte.</p>
+<p><lb n="314"/><hi rend="line-num">[314] </hi>Respondeo, domine, et dico quod ideo sic fieri ordinauit, ut
+<lb n="315"/><hi rend="line-num">[315] </hi>innueret nobis quod unum et idem est in genere id per quod diuul<lb break="no" n="316"/><hi rend="line-num">[316] </hi>gatur sanctitas Christi in populis, et id per quod sanctificatur orans
+<lb n="317"/><hi rend="line-num">[317] </hi>uel quilibet fidelis.</p>
+<p><lb n="318"/><hi rend="line-num">[318] </hi>Quod est illud?</p>
+<p><lb n="319"/><hi rend="line-num">[319] </hi>Splendor uirtutum. Per uirtutes enim quibus splenduit Christus
+<lb n="320"/><hi rend="line-num">[320] </hi>in se et in suis sequacibus, diuulgatur eius sanctitas per orbem terra<lb break="no" n="321"/><hi rend="line-num">[321] </hi>rum, et per easdem uirtutes sanctificantur eius sequaces.</p>
+<p><lb n="322"/><hi rend="line-num">[322] </hi>Quot sunt ille uirtutes?</p>
+<p><lb n="323"/><hi rend="line-num">[323] </hi>Domine, septem sunt principales.</p>
+<p><lb n="324"/><hi rend="line-num">[324] </hi>Que sunt?</p>
+<p><lb n="325"/><hi rend="line-num">[325] </hi>Tres que dicuntur theologice, et quatuor que dicuntur morales.</p>
+<p><lb n="326"/><hi rend="line-num">[326] </hi>Que sunt theologice?</p>
+<pb n="AVOThO_Volum IV-112"/>
+<p><lb n="327"/><hi rend="line-num">[327] </hi>Fides, spes, karitas.</p>
+<p><lb n="328"/><hi rend="line-num">[328] </hi>Quid est fides?</p>
+<p><lb n="329"/><hi rend="line-num">[329] </hi>Fides est uirtus, per quam fidelis animus adquiescit firmiter et
+<lb n="330"/><hi rend="line-num">[330] </hi>simpliciter ueritati diuine supernaturaliter hominibus reuelate.</p>
+<p><lb n="331"/><hi rend="line-num">[331] </hi>Quid est spes?</p>
+<p><lb n="332"/><hi rend="line-num">[332] </hi>Spes est uirtus, per quam animus fidelis erigitur ad sperandum
+<lb n="333"/><hi rend="line-num">[333] </hi>constanter bona supernaturaliter a Deo promissa.</p>
+<p><lb n="334"/><hi rend="line-num">[334] </hi>Quid est karitas?</p>
+<p><lb n="335"/><hi rend="line-num">[335] </hi>Karitas est uirtus, per quam Deum diligimus [f. 33c] propter se,
+<lb n="336"/><hi rend="line-num">[336] </hi>et proximum propter Deum.</p>
+<p><lb n="337"/><hi rend="line-num">[337] </hi>Quare dicuntur theologice?</p>
+<p><lb n="338"/><hi rend="line-num">[338] </hi>Quia specialiter pertinet earum consideratio ad scientiam uel
+<lb n="339"/><hi rend="line-num">[339] </hi>sapientiam, que theologia dicitur, a ,Theos’, quod est ,Deus’, et <pb n="AVOThO_Volum IV-113"/>
+<lb n="340"/><hi rend="line-num">[340] </hi>,logos’, quod est ,sermo’, quasi ,diuinus sermo’, id est, consideratio
+<lb n="341"/><hi rend="line-num">[341] </hi>uel scientia de ueritate comunicata per solam doctrinam Dei.</p>
+<p><lb n="342"/><hi rend="line-num">[342] </hi>Quot sunt uirtutes morales?</p>
+<p><lb n="343"/><hi rend="line-num">[343] </hi>Domine, quatuor sunt principales.</p>
+<p><lb n="344"/><hi rend="line-num">[344] </hi>Que sunt?</p>
+<p><lb n="345"/><hi rend="line-num">[345] </hi>Prudentia, iusticia, fortitudo et temperantia.</p>
+<p><lb n="346"/><hi rend="line-num">[346] </hi>Vocanturne aliter?</p>
+<pb n="AVOThO_Volum IV-114"/>
+<p><lb n="347"/><hi rend="line-num">[347] </hi>Domine, sic: cardinales.</p>
+<p><lb n="348"/><hi rend="line-num">[348] </hi>Quare dicuntur cardinales?</p>
+<p><lb n="349"/><hi rend="line-num">[349] </hi>Quia sicut porta uoluitur ordinate supra cardinem, sic uita huma<lb break="no" n="350"/><hi rend="line-num">[350] </hi>na deducitur ordinate per istas quatuor uirtutes.</p>
+<p><lb n="351"/><hi rend="line-num">[351] </hi>Quid est prudentia?</p>
+<p><lb n="352"/><hi rend="line-num">[352] </hi>Prudentia est uirtus, per quam discernuntur bona a malis, et bona
+<lb n="353"/><hi rend="line-num">[353] </hi>ad inuicem, et mala ad inuicem.</p>
+<p><lb n="354"/><hi rend="line-num">[354] </hi>Quid est iusticia?</p>
+<p><lb n="355"/><hi rend="line-num">[355] </hi>Iusticia est uirtus, per quam redditur unicuique quod suum est.</p>
+<p><lb n="356"/><hi rend="line-num">[356] </hi>Quid est fortitudo?</p>
+<p><lb n="357"/><hi rend="line-num">[357] </hi>Fortitudo est uirtus, per quam animus roboratur [f. 33d] ad sper<lb break="no" n="358"/><hi rend="line-num">[358] </hi>nendum terribilia et ad sustinendum difficilia.</p>
+<p><lb n="359"/><hi rend="line-num">[359] </hi>Quid est temperantia?</p>
+<p><lb n="360"/><hi rend="line-num">[360] </hi>Temperantia est uirtus, per quam compescuntur illiciti motus
+<lb n="361"/><hi rend="line-num">[361] </hi>animi.</p>
+<pb n="AVOThO_Volum IV-115"/>
+<p><lb n="362"/><hi rend="line-num">[362] </hi>Postquam tu dicis quod quelibet illarum septem est uirtus, quero
+<lb n="363"/><hi rend="line-num">[363] </hi>a te quid est uirtus in comuni?</p>
+<p><lb n="364"/><hi rend="line-num">[364] </hi>Dico, domine, quod uirtus est laudabilis qualitas uel habitus
+<lb n="365"/><hi rend="line-num">[365] </hi>animi faciens habentem operari bonum delectabiliter et faciliter cum
+<lb n="366"/><hi rend="line-num">[366] </hi>uoluerit.</p>
+<milestone unit="section"/>
+<p><lb n="367"/><hi rend="line-num">[367] </hi>Tu dixisti quod septem uirtutibus enumeratis et descriptis a te
+<lb n="368"/><hi rend="line-num">[368] </hi>splenduit Christus, et splendent sequaces eius. Ergo uideris innuere
+<lb n="369"/><hi rend="line-num">[369] </hi>quod in splendore uirtutum sint equales Christo quicumque secun<lb break="no" n="370"/><hi rend="line-num">[370] </hi>tur eum. Quod uidetur esse inconueniens, quia nunquam serui sunt
+<lb n="371"/><hi rend="line-num">[371] </hi>equales domino.</p>
+<p><lb n="372"/><hi rend="line-num">[372] </hi>Respondeo, domine, et dico quod splendere uirtutibus iam
+<lb n="373"/><hi rend="line-num">[373] </hi>expressis, licet sit comune Christo et sequacibus eius, non tamen
+<lb n="374"/><hi rend="line-num">[374] </hi>propter hoc est intelligendum quod equaliter eis conueniat. Sicut sol
+<lb n="375"/><hi rend="line-num">[375] </hi>et luna splendent eadem luce, non tamen equaliter. Vnde, non dixi
+<lb n="376"/><hi rend="line-num">[376] </hi>quod equaliter splenderent, sed quod in splen-[f. 34a]-dore predicta<lb break="no" n="377"/><hi rend="line-num">[377] </hi>rum uirtutum conueniunt. Vnde, dico quod Christus in uirtutibus
+<lb n="378"/><hi rend="line-num">[378] </hi>splenduit sicut sol. Sequaces autem ipsius splendent in eis ut luna.
+<lb n="379"/><hi rend="line-num">[379] </hi>Quod sic declaro, quia luna non splendet nisi per lucem a sole com<lb break="no" n="380"/><hi rend="line-num">[380] </hi>municatam. Sic et sequaces Christi non splendent nisi per uirtutes a <pb n="AVOThO_Volum IV-116"/>
+<lb n="381"/><hi rend="line-num">[381] </hi>Christo communicatas. Iterum, quia sicut sol splendet luce, quam
+<lb n="382"/><hi rend="line-num">[382] </hi>communicat lune, excellentius quam luna, sic et Christus excellen<lb break="no" n="383"/><hi rend="line-num">[383] </hi>tius splenduit in omnibus uirtutibus, quas in eum credentibus comu<lb break="no" n="384"/><hi rend="line-num">[384] </hi>nicat. Vnde, tam in illis septem, quas dixi, quam aliis, Ipse perfectis<lb break="no" n="385"/><hi rend="line-num">[385] </hi>sime splenduit. Sed alii secundum mensuram ab eo concessam.</p>
+<p><lb n="386"/><hi rend="line-num">[386] </hi>Ergo uideris innuere quod alie sint uirtutes quam septem enume<lb break="no" n="387"/><hi rend="line-num">[387] </hi>rate.</p>
+<p><lb n="388"/><hi rend="line-num">[388] </hi>Certe, domine, sic. Ego enim non enumeraui uirtutes nisi neces<lb break="no" n="389"/><hi rend="line-num">[389] </hi>sarias ad salutem eternam, quibus fidelis efficitur gratus Deo. Sed alie
+<lb n="390"/><hi rend="line-num">[390] </hi>sunt uirtutes, ut est sapientia et prophetia et uirtus faciendi miracu<pb n="AVOThO_Volum IV-117"/><lb break="no" n="391"/><hi rend="line-num">[391] </hi>la, quibus omnibus splenduit Christus excellentius cunctis aliis, tum
+<lb n="392"/><hi rend="line-num">[392] </hi>quia non solum presen-[f. 34b]-tia, sed etiam preterita et futura per<lb break="no" n="393"/><hi rend="line-num">[393] </hi>fecte noscit, tum quia miracula uel opera supra naturam auctoritate
+<lb n="394"/><hi rend="line-num">[394] </hi>propria et imperio proprie potestatis semper est operatus. Sequaces
+<lb n="395"/><hi rend="line-num">[395] </hi>autem ipsius nunquam habuerunt noticiam preteritorum aut futuro<lb break="no" n="396"/><hi rend="line-num">[396] </hi>rum, nec operati sunt aut operari possunt miracula nisi in nomine uel
+<lb n="397"/><hi rend="line-num">[397] </hi>inuocatione ipsius.</p>
+<milestone unit="section"/>
+<p><lb n="398"/><hi rend="line-num">[398] </hi>Quot sunt ea, que docet petere propter uitam temporalem?</p>
+<p><lb n="399"/><hi rend="line-num">[399] </hi>Duo in genere.</p>
+<p><lb n="400"/><hi rend="line-num">[400] </hi>Que sunt?</p>
+<p><lb n="401"/><hi rend="line-num">[401] </hi>Primum est collatio boni necessarii principaliter ad sustentatio<lb break="no" n="402"/><hi rend="line-num">[402] </hi>nem uite presentis. Secundum est remotio mali possibilis accidere
+<lb n="403"/><hi rend="line-num">[403] </hi>nobis in presenti uita. Primum docet petere, cum dicit: «Panem nos<lb break="no" n="404"/><hi rend="line-num">[404] </hi>trum cotidianum da nobis hodie»: per panem enim, qui est principa<lb break="no" n="405"/><hi rend="line-num">[405] </hi>lis materia nutrimenti, denotat quicquid necessarium est ad fomen<lb break="no" n="406"/><hi rend="line-num">[406] </hi>tum nostrum. Secundum docet petere cum dicit: «Et dimitte nobis
+<lb n="407"/><hi rend="line-num">[407] </hi>debita nostra sicut et nos dimittimus debitoribus nostris».</p>
+<p><lb n="408"/><hi rend="line-num">[408] </hi>Quot sunt mala, quorum remotionem docet ibi Dominus petere?</p>
+<pb n="AVOThO_Volum IV-118"/>
+<p><lb n="409"/><hi rend="line-num">[409] </hi>Duo in genere.</p>
+<p><lb n="410"/><hi rend="line-num">[410] </hi>Que sunt?</p>
+<p><lb n="411"/><hi rend="line-num">[411] </hi>Primum est ma-[f. 34c]-lum spirituale tantum. Secundum est
+<lb n="412"/><hi rend="line-num">[412] </hi>malum comune tam corpori quam anime uel spiritui. Primum docet
+<lb n="413"/><hi rend="line-num">[413] </hi>petere, cum dicit: «Et dimitte nobis debita nostra», et cetera. Secun<lb break="no" n="414"/><hi rend="line-num">[414] </hi>dum docet petere cum dicit: «Sed libera nos a malo».</p>
+<p><lb n="415"/><hi rend="line-num">[415] </hi>Quot sunt mala spiritualia, quorum remotionem docet ibi Domi<lb break="no" n="416"/><hi rend="line-num">[416] </hi>nus petere?</p>
+<p><lb n="417"/><hi rend="line-num">[417] </hi>Duo.</p>
+<p><lb n="418"/><hi rend="line-num">[418] </hi>Que sunt?</p>
+<p><lb n="419"/><hi rend="line-num">[419] </hi>Primum est malum culpe iam commisse. Secundvm est malum
+<lb n="420"/><hi rend="line-num">[420] </hi>impellens ad commitendum eam. Primum docet petere cum dicit:
+<lb n="421"/><hi rend="line-num">[421] </hi>«Et dimitte nobis debita nostra», et cetera, id est, culpas, quibus
+<lb n="422"/><hi rend="line-num">[422] </hi>obligamur ad penam. Secundum docet petere, cum dicit: «Et ne nos
+<lb n="423"/><hi rend="line-num">[423] </hi>inducas in temptationem», illam, scilicet, per quam aliquis labitur in
+<lb n="424"/><hi rend="line-num">[424] </hi>peccatum.</p>
+<pb n="AVOThO_Volum IV-119"/>
+<p><lb n="425"/><hi rend="line-num">[425] </hi>Tu dixisti quod Dominus in hac oratione: <hi rend="italic">Pater noster</hi>, primo docet
+<lb n="426"/><hi rend="line-num">[426] </hi>ut petatur remotio mali spiritualis uel anime. Secundo uero, mali
+<lb n="427"/><hi rend="line-num">[427] </hi>comunis corpori et anime. Iste petitiones uidentur inconuenienter
+<lb n="428"/><hi rend="line-num">[428] </hi>ordinari, quia comunia priora sunt propriis uel particularibus: ergo,
+<lb n="429"/><hi rend="line-num">[429] </hi>uidetur quod Dominus in hac oratione non [f. 34d] seruauerit ordi<lb break="no" n="430"/><hi rend="line-num">[430] </hi>nem rectum in doctrina petitionis istorum.</p>
+<p><lb n="431"/><hi rend="line-num">[431] </hi>Respondeo, domine, et dico quod Dominus rectissime ordinauit
+<lb n="432"/><hi rend="line-num">[432] </hi>illas petitiones secundum considerationem necessariam nostre saluti.
+<lb n="433"/><hi rend="line-num">[433] </hi>Licet enim secundum considerationem comunis et proprii, uel gene<lb break="no" n="434"/><hi rend="line-num">[434] </hi>ralis et particularis, debuissent ordinari sicut uos dicitis, tamen
+<lb n="435"/><hi rend="line-num">[435] </hi>secundum considerationem dignioris et minus digni possunt ordina<lb break="no" n="436"/><hi rend="line-num">[436] </hi>ri sicut Dominus ordinauit. Anima enim dignior est quam corpus.
+<lb n="437"/><hi rend="line-num">[437] </hi>Voluit ergo Dominus ut primo peteremus remotionem mali anime
+<lb n="438"/><hi rend="line-num">[438] </hi>quam mali comunis utrique, ad denotandum quod magis debemus
+<lb n="439"/><hi rend="line-num">[439] </hi>curare de bono anime quam de bono corporis. Et sic patet qualiter ab
+<lb n="440"/><hi rend="line-num">[440] </hi>eterno doctore nichil procedit inordinatum.</p>
+<pb n="AVOThO_Volum IV-120"/>
+<p><lb n="441"/><hi rend="line-num">[441] </hi>Contra: Dominus in oratione proposita exprimit tres primas peti<lb break="no" n="442"/><hi rend="line-num">[442] </hi>tiones absque aliqua copula, cum dicit: «Sanctificetur nomen tuum,
+<lb n="443"/><hi rend="line-num">[443] </hi>adueniat regnum tuum, fiat uoluntas tua», et cetera, quatuor uero
+<lb n="444"/><hi rend="line-num">[444] </hi>ultimas exprimit coniungendo per dictionem copulatiuam, cum
+<lb n="445"/><hi rend="line-num">[445] </hi>dicit: «Panem nostrum cotidianum [f. 35a] da nobis hodie, et dimit<lb break="no" n="446"/><hi rend="line-num">[446] </hi>te nobis debita nostra», et cetera. Et sic de aliis.</p>
+<p><lb n="447"/><hi rend="line-num">[447] </hi>Respondeo, domine, et dico quod non est inordinatum uel inep<lb break="no" n="448"/><hi rend="line-num">[448] </hi>tum quod fit cum uerissima ratione, sicut Dominus fecit in petitio<lb break="no" n="449"/><hi rend="line-num">[449] </hi>nibus nominatis. In primis enim tribus petitionibus, que pertinent
+<lb n="450"/><hi rend="line-num">[450] </hi>ad uitam eternam, noluit ponere copulatiuam coniunctionem, ad
+<lb n="451"/><hi rend="line-num">[451] </hi>denotandum uel ostendendum quod bona eterna possidentur simul et
+<lb n="452"/><hi rend="line-num">[452] </hi>non successiue. Sed in petitionibus, que pertinent ad uitam tempora<pb n="AVOThO_Volum IV-121"/><lb break="no" n="453"/><hi rend="line-num">[453] </hi>lem, posuit coniunctionem copulatiuam ad innuendum expresse
+<lb n="454"/><hi rend="line-num">[454] </hi>quod bona temporalia diuisim possidentur, aut successiue.</p>
+<milestone unit="section"/>
+<p><lb n="455"/><hi rend="line-num">[455] </hi>Tu dixisti quod Deus est orandus. Ad quid prodest orare?</p>
+<p><lb n="456"/><hi rend="line-num">[456] </hi>Ad consequendum plures utilitates.</p>
+<p><lb n="457"/><hi rend="line-num">[457] </hi>Quot sunt?</p>
+<p><lb n="458"/><hi rend="line-num">[458] </hi>Quatuor sunt principales.</p>
+<p><lb n="459"/><hi rend="line-num">[459] </hi>Que sunt?</p>
+<p><lb n="460"/><hi rend="line-num">[460] </hi>Prima est mereri gratiam salutis eterne: oratio enim, in quantum
+<lb n="461"/><hi rend="line-num">[461] </hi>est actus karitatis, est meritoria salutis eterne. Secunda est impetrare
+<lb n="462"/><hi rend="line-num">[462] </hi>quod petitur. Nam oratio, inquantum est [f. 35b] actus preordinatus
+<lb n="463"/><hi rend="line-num">[463] </hi>a Deo ad postulandum salubria siue iusta, est impetratoria optati,
+<lb n="464"/><hi rend="line-num">[464] </hi>quod Deus inspirat. Tercia est satisfacere de comissis, nam oratio,
+<lb n="465"/><hi rend="line-num">[465] </hi>inquantum est unus de actibus penitentie, est satisfactoria pro deli<lb break="no" n="466"/><hi rend="line-num">[466] </hi>cto. Qui enim offendit Deum, satisfacit ei aliqualiter, quando per ora<lb break="no" n="467"/><hi rend="line-num">[467] </hi>tionem se humiliat coram eo. Quarta est reficere intellectum, nam
+<lb n="468"/><hi rend="line-num">[468] </hi>oratio in quantum est sermo continens sacrum eloquium, quasi diui<lb break="no" n="469"/><hi rend="line-num">[469] </hi>no documento pascit animum orantis attente. Et sic est refectoria
+<lb n="470"/><hi rend="line-num">[470] </hi>quarto modo.</p>
+<milestone unit="section"/>
+<p><lb n="471"/><hi rend="line-num">[471] </hi>Tu dixisti in diffinitione karitatis, quod Deus est amandus prop<lb break="no" n="472"/><hi rend="line-num">[472] </hi>ter se, et proximus propter Deum.</p>
+<pb n="AVOThO_Volum IV-122"/>
+<p><lb n="473"/><hi rend="line-num">[473] </hi>Quare est Deus amandus propter se?</p>
+<p><lb n="474"/><hi rend="line-num">[474] </hi>Quia est summum bonum. Quod sic ostendo, quia Deus non
+<lb n="475"/><hi rend="line-num">[475] </hi>solum est bonus, ymo proprie est ipsa bonitas. Si enim esset bonus,
+<lb n="476"/><hi rend="line-num">[476] </hi>proprie bonus esset per bonitatem, et sic bonitas esset melior eo.
+<lb n="477"/><hi rend="line-num">[477] </hi>Cum autem nichil sit melius Deo, necesse est [f. 35c] quod ipse sit
+<lb n="478"/><hi rend="line-num">[478] </hi>summum bonum, quod est bonitas infinita. Sed nichil diligitur nisi
+<lb n="479"/><hi rend="line-num">[479] </hi>quia bonum. Ergo, rationabile est quod Deus per se diligatur, cum sit
+<lb n="480"/><hi rend="line-num">[480] </hi>per se bonus.</p>
+<p><lb n="481"/><hi rend="line-num">[481] </hi>Quare est diligendus proximus propter Deum?</p>
+<p><lb n="482"/><hi rend="line-num">[482] </hi>Propter duo.</p>
+<p><lb n="483"/><hi rend="line-num">[483] </hi>Que sunt?</p>
+<p><lb n="484"/><hi rend="line-num">[484] </hi>Primum est quia Deus precepit eum diligere. Vnde, si quis uolue<lb break="no" n="485"/><hi rend="line-num">[485] </hi>rit Deum diligere, necesse est ut preceptvm Dei adimpleat, sicut
+<lb n="486"/><hi rend="line-num">[486] </hi>Dominus testatur in <hi rend="italic">Iohanne</hi>, cum dicit: «Si quis diligit Me, sermo<lb break="no" n="487"/><hi rend="line-num">[487] </hi>nem meum seruabit». Sed Deus precepit diligere proximum, ergo
+<lb n="488"/><hi rend="line-num">[488] </hi>necesse est ut diligatur precepto ipsius. Vnde, cum diligitur precep<lb break="no" n="489"/><hi rend="line-num">[489] </hi>to Dei, diligitur propter Deum. Secundo, etiam est diligendus prop<lb break="no" n="490"/><hi rend="line-num">[490] </hi>ter Deum, quia id, propter quod proximus est diligibilis, est totum <pb n="AVOThO_Volum IV-123"/>
+<lb n="491"/><hi rend="line-num">[491] </hi>a Deo. Quod sic declaro, quia nemo est diligibilis nisi propter
+<lb n="492"/><hi rend="line-num">[492] </hi>bonum, quod habet in se. Sed totum bonum, quod in se habet quili<lb break="no" n="493"/><hi rend="line-num">[493] </hi>bet proximus, est a Deo. Ergo quilibet est diligibilis propter bonum
+<lb n="494"/><hi rend="line-num">[494] </hi>Dei, quod relucet in eo. Et sic patet, quod, cum nichil boni habeat in
+<lb n="495"/><hi rend="line-num">[495] </hi>se, propter quod sit diligibilis, [f. 35d] quin totum sit a Deo, solum
+<lb n="496"/><hi rend="line-num">[496] </hi>diligendus est propter Deum.</p>
+<milestone unit="section"/>
+<p><lb n="497"/><hi rend="line-num">[497] </hi>Tu dicis quod totum bonum, propter quod proximus est diligibi<lb break="no" n="498"/><hi rend="line-num">[498] </hi>lis, est a Deo.</p>
+<p><lb n="499"/><hi rend="line-num">[499] </hi>Declara ista.</p>
+<p><lb n="500"/><hi rend="line-num">[500] </hi>Declaro, domine, sic: quia omne bonum, quod est in proximo, aut
+<lb n="501"/><hi rend="line-num">[501] </hi>est bonum nature, aut est bonum gratie. Sed utrumque est a Deo.
+<lb n="502"/><hi rend="line-num">[502] </hi>Ergo, patet propositum.</p>
+<p><lb n="503"/><hi rend="line-num">[503] </hi>Proba quod utrumque sit a Deo.</p>
+<p><lb n="504"/><hi rend="line-num">[504] </hi>Probo per hoc, quia Deus est conditor nature humane, scilicet,
+<lb n="505"/><hi rend="line-num">[505] </hi>tam corporis quam anime. De anima enim humana certum est, non <pb n="AVOThO_Volum IV-124"/>
+<lb n="506"/><hi rend="line-num">[506] </hi>solum per theologiam, sed etiam per phosofiam, quod per solam crea<lb break="no" n="507"/><hi rend="line-num">[507] </hi>tionem in esse producitur quando infunditur corpori. De corpore
+<lb n="508"/><hi rend="line-num">[508] </hi>uero expresse dicit <hi rend="italic">Psalmista</hi>: «Qui finxit sigillatim corda eorum», et
+<lb n="509"/><hi rend="line-num">[509] </hi>cetera. Et iterum alibi: «In te proiectus sum ex utero», et cetera. Et
+<lb n="510"/><hi rend="line-num">[510] </hi>iterum alibi: «Tu formasti me». Et iterum <hi rend="italic">Iob</hi>: «In utero fecit me»,
+<lb n="511"/><hi rend="line-num">[511] </hi>scilicet, Deus, «et formauit me in uulua». De bonis etiam tam natu<lb break="no" n="512"/><hi rend="line-num">[512] </hi>re quam gratie dicit <hi rend="italic">Apostolus</hi>: «Quid habes quod non accepisti?», per
+<lb n="513"/><hi rend="line-num">[513] </hi>quod expresse testatur, quod [f. 36a] nullus habet in se bonum nisi a
+<lb n="514"/><hi rend="line-num">[514] </hi>Deo collatum. Iterum etiam de utroque bono expresse <hi rend="italic">Iacobus</hi> testa<lb break="no" n="515"/><hi rend="line-num">[515] </hi>tur, qui dicit: «Omne datum optimum, et omne donum perfectum,
+<lb n="516"/><hi rend="line-num">[516] </hi>desursum est, descendens a Patre luminum». Sed datum optimum est
+<lb n="517"/><hi rend="line-num">[517] </hi>bonum nature et donum perfectum est bonum gratie. Ergo omne
+<lb n="518"/><hi rend="line-num">[518] </hi>bonum hominis est a Deo.</p>
+<p><lb n="519"/><hi rend="line-num">[519] </hi>Proba quod datum optimum sit bonum nature.</p>
+<pb n="AVOThO_Volum IV-125"/>
+<p><lb n="520"/><hi rend="line-num">[520] </hi>Probo, domine, per id quod dicitur in <hi rend="italic">Genesi</hi>, de rebus in esse pro<lb break="no" n="521"/><hi rend="line-num">[521] </hi>ductis quantum ad naturam, scilicet: «Vidit Deus cuncta que fecerat
+<lb n="522"/><hi rend="line-num">[522] </hi>et erant ualde bona». Sed ,ualde bonum’ et ,optimvm’ idem sunt.
+<lb n="523"/><hi rend="line-num">[523] </hi>Ergo patet propositum.</p>
+<p><lb n="524"/><hi rend="line-num">[524] </hi>Proba quod donum perfectum sit bonum gratie.</p>
+<p><lb n="525"/><hi rend="line-num">[525] </hi>Probo per hoc quia donum perfectum est, quod perficit hominem.
+<lb n="526"/><hi rend="line-num">[526] </hi>Homo autem perfectus est, quando habet complementum bonitatis.
+<lb n="527"/><hi rend="line-num">[527] </hi>Bonitas uero completa est illa, per quam efficitur homo gratus uel
+<lb n="528"/><hi rend="line-num">[528] </hi>placens Deo. Talis autem bonitas est bonitas gratie, scilicet, uirtu<lb break="no" n="529"/><hi rend="line-num">[529] </hi>tum. Et sic patet quod donum perfectum est bonum gratie facientis
+<lb n="530"/><hi rend="line-num">[530] </hi>gratum. [f. 36b]</p>
+<milestone unit="section"/>
+<p><lb n="531"/><hi rend="line-num">[531] </hi>Tu dixisti quod necesse est ut uolens diligere Deum, adimpleat
+<lb n="532"/><hi rend="line-num">[532] </hi>eius precepta. Dic ergo quot sunt precepta Dei.</p>
+<p><lb n="533"/><hi rend="line-num">[533] </hi>Respondeo, domine, et dico quod precepta Dei particularia plura
+<lb n="534"/><hi rend="line-num">[534] </hi>sunt, secundum multitudinem eorum que conuenit nos agere propter
+<lb n="535"/><hi rend="line-num">[535] </hi>salutem nostram. Et hec non possem ego numerare. Sed precepta
+<lb n="536"/><hi rend="line-num">[536] </hi>uniuersalia, ad que cetera reducuntur, sunt pauca, et ideo mihi nota.</p>
+<pb n="AVOThO_Volum IV-126"/>
+<p><lb n="537"/><hi rend="line-num">[537] </hi>Quot sunt ergo precepta uniuersalia Dei?</p>
+<p><lb n="538"/><hi rend="line-num">[538] </hi>Domine, duo sunt in genere et decem in specie.</p>
+<p><lb n="539"/><hi rend="line-num">[539] </hi>Que sunt duo in genere?</p>
+<p><lb n="540"/><hi rend="line-num">[540] </hi>Discedere a malo, et facere bonum. Sic enim dicitur per <hi rend="italic">Psalmi</hi><lb break="no" n="541"/><hi rend="line-num">[541] </hi><hi rend="italic">stam</hi>: «Discede a malo et fac bonum».</p>
+<p><lb n="542"/><hi rend="line-num">[542] </hi>Que sunt decem secundum speciem?</p>
+<p><lb n="543"/><hi rend="line-num">[543] </hi>Domine, tria pertinentia ad dilectionem Dei, et septem pertinen<lb break="no" n="544"/><hi rend="line-num">[544] </hi>tia ad dilectionem proximi.</p>
+<p><lb n="545"/><hi rend="line-num">[545] </hi>Que sunt tria pertinentia ad dilectionem Dei?</p>
+<p><lb n="546"/><hi rend="line-num">[546] </hi>Duo negatiua, et unum affirmatiuum.</p>
+<p><lb n="547"/><hi rend="line-num">[547] </hi>In quo differt negatiuum ab affirmatiuo?</p>
+<p><lb n="548"/><hi rend="line-num">[548] </hi>In hoc, domine, quia per negatiuum prohibetur fieri malum uel
+<lb n="549"/><hi rend="line-num">[549] </hi>precipitur euitari. Per [f. 36c] affirmatiuum uero precipitur fieri
+<lb n="550"/><hi rend="line-num">[550] </hi>bonum.</p>
+<pb n="AVOThO_Volum IV-127"/>
+<p><lb n="551"/><hi rend="line-num">[551] </hi>Que sunt ergo duo negatiua, que dicis pertinere ad dilectionem
+<lb n="552"/><hi rend="line-num">[552] </hi>Dei?</p>
+<p><lb n="553"/><hi rend="line-num">[553] </hi>Domine, primum est preceptum uitandi ydolatriam, cum dicitur:
+<lb n="554"/><hi rend="line-num">[554] </hi>«Non habebis deos alienos. Nec facies tibi sculptile», et cetera.</p>
+<p><lb n="555"/><hi rend="line-num">[555] </hi>Quid est ydolatria?</p>
+<p><lb n="556"/><hi rend="line-num">[556] </hi>Ydolatria uel ydolatrare nichil aliud est nisi attribuere uel exhibe<lb break="no" n="557"/><hi rend="line-num">[557] </hi>re creature, quod soli conuenit Creatori, scilicet, honorem in adoran<lb break="no" n="558"/><hi rend="line-num">[558] </hi>do uel fidem in credendo, aut cuncta similia que pertinent solum ad
+<lb n="559"/><hi rend="line-num">[559] </hi>cultum Domini.</p>
+<p><lb n="560"/><hi rend="line-num">[560] </hi>Quod est secundum preceptum, quod pertinet ad dilectionem
+<lb n="561"/><hi rend="line-num">[561] </hi>Dei ut tu dixisti?.</p>
+<p><lb n="562"/><hi rend="line-num">[562] </hi>Domine, secundum preceptum est illud, per quod prohibetur
+<lb n="563"/><hi rend="line-num">[563] </hi>abusus nominis Dei, seu periurando, seu aliter utendo ipso in uanita<lb break="no" n="564"/><hi rend="line-num">[564] </hi>tibus, cum dicitur: «Non assumes nomen Dei tui in uanum».</p>
+<p><lb n="565"/><hi rend="line-num">[565] </hi>Quod est tercium quod dicis esse affirmatiuum?</p>
+<pb n="AVOThO_Volum IV-128"/>
+<p><lb n="566"/><hi rend="line-num">[566] </hi>Domine, tercium pertinens ad dilectionem Dei est illud, per quod
+<lb n="567"/><hi rend="line-num">[567] </hi>precipitur coli uel celebrari sabbatum, hoc est, dies deputata solum
+<lb n="568"/><hi rend="line-num">[568] </hi>ad cultum [f. 36d] uel laudem Dei, cum dicitur: «Memento ut diem
+<lb n="569"/><hi rend="line-num">[569] </hi>sabbati sanctifices», id est, in sanctitate celebres ad honorem uel cul<lb break="no" n="570"/><hi rend="line-num">[570] </hi>tum Dei.</p>
+<p><lb n="571"/><hi rend="line-num">[571] </hi>Que sunt septem pertinentia ad dilectionem proximi?</p>
+<p><lb n="572"/><hi rend="line-num">[572] </hi>Domine, unum affirmatiuum, et sex negatiua.</p>
+<p><lb n="573"/><hi rend="line-num">[573] </hi>Quod est affirmatiuum?</p>
+<p><lb n="574"/><hi rend="line-num">[574] </hi>«Honora patrem tuum et matrem tuam ut sis longeuus super
+<lb n="575"/><hi rend="line-num">[575] </hi>terram».</p>
+<p><lb n="576"/><hi rend="line-num">[576] </hi>Que sunt sex negatiua?</p>
+<p><lb n="577"/><hi rend="line-num">[577] </hi>«Non occides»: ecce primum. «Non mechaberis», id est, non for<lb break="no" n="578"/><hi rend="line-num">[578] </hi>nicaberis: ecce secundum. «Non furtum facies»: ecce tercium. «Non
+<lb n="579"/><hi rend="line-num">[579] </hi>loqueris contra proximum tuum falsum testimonium»: ecce quar<lb break="no" n="580"/><hi rend="line-num">[580] </hi>tum. «Non concupisces domum proximi tui», hoc est, rem cognitio<lb break="no" n="581"/><hi rend="line-num">[581] </hi>ne carentem: ecce quintum. «Non desiderabis uxorem eius, aut <pb n="AVOThO_Volum IV-129"/>
+<lb n="582"/><hi rend="line-num">[582] </hi>seruum, aut ancillam, aut bouem, aut asinum», et cetera: ecce sex<lb break="no" n="583"/><hi rend="line-num">[583] </hi>tum.</p>
+<p><lb n="584"/><hi rend="line-num">[584] </hi>Vnde scis tu quod ista sint .<num type="roman">X</num>. precepta Dei specialia?</p>
+<p><lb n="585"/><hi rend="line-num">[585] </hi>Domine, quia sicut enumeraui et explicui, sic scribuntur in vige<lb break="no" n="586"/><hi rend="line-num">[586] </hi>simo capitulo <hi rend="italic">Exodi</hi>, vbi Moyses recitat predicta .<num type="roman">X</num>. fuisse a Deo com<lb break="no" n="587"/><hi rend="line-num">[587] </hi>municata populo Israelis per eundem, scilicet, Moysen.</p>
+<p><lb n="588"/><hi rend="line-num">[588] </hi>Contra, Dominus dicit [f. 37a] vigesimo secundo capitulo <hi rend="italic">Mat</hi><lb break="no" n="589"/><hi rend="line-num">[589] </hi><hi rend="italic">thei</hi>, quod primum et maximum mandatum est istud, scilicet: «Dili<lb break="no" n="590"/><hi rend="line-num">[590] </hi>ges Dominum Deum tuum ex toto corde tuo et ex tota anima tua et
+<lb n="591"/><hi rend="line-num">[591] </hi>ex tota mente tua». Secundum uero est istud: «Diliges proximum
+<lb n="592"/><hi rend="line-num">[592] </hi>tuum sicut te ipsum».</p>
+<pb n="AVOThO_Volum IV-130"/>
+<p><lb n="593"/><hi rend="line-num">[593] </hi>Sed tu dixisti quod primum mandatum est ,non ydolatrare’ et
+<lb n="594"/><hi rend="line-num">[594] </hi>secundum est ,non assumere nomen Dei in uanum’. Ergo aut tu uel
+<lb n="595"/><hi rend="line-num">[595] </hi>Moyses inconuenienter exprimitis primum et secundum mandatum,
+<lb n="596"/><hi rend="line-num">[596] </hi>aut Dominus in <hi rend="italic">Euangelio Matthei</hi>, quod est nefas de Domino dicere.</p>
+<p><lb n="597"/><hi rend="line-num">[597] </hi>Respondeo, domine, et dico quod neutrum dictum est inconue<lb break="no" n="598"/><hi rend="line-num">[598] </hi>niens, ymo ambo concordant secundum rem. Quia loquendo de pre<lb break="no" n="599"/><hi rend="line-num">[599] </hi>ceptis Dei, quantum ad ea que specialiter prohibentur aut precipiun<lb break="no" n="600"/><hi rend="line-num">[600] </hi>tur, primum et secundum mandatum sunt ea que dixi; sed loquendo
+<lb n="601"/><hi rend="line-num">[601] </hi>de preceptis Dei quantum ad finalem rationem illorum, non sunt nisi
+<lb n="602"/><hi rend="line-num">[602] </hi>illa duo, que Dominus exprimit in <hi rend="italic">Mattheo</hi>, quod sic declaro: quia
+<lb n="603"/><hi rend="line-num">[603] </hi>finis uel finalis intentio preceptorum Dei non est nisi dilectio Dei et
+<lb n="604"/><hi rend="line-num">[604] </hi>proximi, [f. 37b] sicut <hi rend="italic">Apostolus</hi> testatur, qui dicit <hi rend="italic">Prima epistola ad</hi>
+<lb n="605"/><hi rend="line-num">[605] </hi><hi rend="italic">Thymotheum</hi>, primo, quod «finis precepti est karitas». Et iterum,
+<lb n="606"/><hi rend="line-num">[606] </hi>decimo tertio <hi rend="italic">Ad Romanos</hi>, quod «plenitudo legis est dilectio». Et
+<lb n="607"/><hi rend="line-num">[607] </hi>ideo dixi ante quod .<num type="roman">X</num>. preceptorum tria pertinebant ad dilectionem
+<lb n="608"/><hi rend="line-num">[608] </hi>Dei, et septem ad dilectionem proximi. Et tam illorum trium quam
+<lb n="609"/><hi rend="line-num">[609] </hi>illorum septem uirtutem seu finem exprimit Dominus in euangelio
+<lb n="610"/><hi rend="line-num">[610] </hi>supradicto. Vnde, qui diligit Deum eo modo quo dicit Dominus,
+<lb n="611"/><hi rend="line-num">[611] </hi>perfecte adimplet illa tria mandata que pertinent ad dilectionem Dei, <pb n="AVOThO_Volum IV-131"/>
+<lb n="612"/><hi rend="line-num">[612] </hi>et que primo fuerunt expressa in <hi rend="italic">Exodo</hi>. Qui uero diligit proximum
+<lb n="613"/><hi rend="line-num">[613] </hi>sicut Dominus docet, perfecte adimplet illa septem que pertinent ad
+<lb n="614"/><hi rend="line-num">[614] </hi>dilectionem proximi, et que fuerunt secundo expressa. Et sic patet
+<lb n="615"/><hi rend="line-num">[615] </hi>quod non est inconueniens ut sint decem sicut ego dixi, et in <hi rend="italic">Exodo</hi>
+<lb n="616"/><hi rend="line-num">[616] </hi>legitur, et duo sicut Dominus tetigit in <hi rend="italic">Matheo</hi>. Quoniam illa decem,
+<lb n="617"/><hi rend="line-num">[617] </hi>ut dixi, uirtualiter siue finaliter ad illa duo, que Dominus tetigit,
+<lb n="618"/><hi rend="line-num">[618] </hi>reducuntur.</p>
+<p><lb n="619"/><hi rend="line-num">[619] </hi>Ostende, ergo, qualiter illa decem reducuntur ad ista duo.</p>
+<p><lb n="620"/><hi rend="line-num">[620] </hi>Os-[f. 37c]-tendo, domine, per hoc quia qui diligit Deum ex toto
+<lb n="621"/><hi rend="line-num">[621] </hi>corde suo, et ex tota anima sua, et ex tota mente sua, perficit tria
+<lb n="622"/><hi rend="line-num">[622] </hi>prima mandata. Quia neque ydolatrat, neque abutitur nomine Dei,
+<lb n="623"/><hi rend="line-num">[623] </hi>neque uiolat festum eius. Cuius ratio est, quia omnes uires suas diri<lb break="no" n="624"/><hi rend="line-num">[624] </hi>git in Deum, scilicet, desiderium, quod per cor designatur. Nam
+<lb n="625"/><hi rend="line-num">[625] </hi>sicut cor est principium motus corporalis, sic desiderium est princi<lb break="no" n="626"/><hi rend="line-num">[626] </hi>pium motus spiritualis, dirigit enim in Deum omnia opera uite sue,
+<lb n="627"/><hi rend="line-num">[627] </hi>que per animam designantur, quoniam nemo uiuit nec exercet actum
+<lb n="628"/><hi rend="line-num">[628] </hi>uite nisi per animam. Dirigit etiam in Deum totam cognitionem
+<lb n="629"/><hi rend="line-num">[629] </hi>interiorem, que per mentem designatur. Ad mentem enim pertinet <pb n="AVOThO_Volum IV-132"/>
+<lb n="630"/><hi rend="line-num">[630] </hi>intelligere et memorari et etiam largo modo ymaginari et estimare.
+<lb n="631"/><hi rend="line-num">[631] </hi>Vnde qui diligit Deum predictis modis, scilicet, toto desiderio et tota
+<lb n="632"/><hi rend="line-num">[632] </hi>cognitione et tota operatione, non transgreditur aliquod illorum
+<lb n="633"/><hi rend="line-num">[633] </hi>trium preceptorum, que primo dixi pertinere ad dilectionem Dei. [f.
+<lb n="634"/><hi rend="line-num">[634] </hi>37d] Similiter dico quod qui diligit proximum suum sicut se ipsum,
+<lb n="635"/><hi rend="line-num">[635] </hi>perficit illa septem mandata que dixi pertinere ad dilectionem proxi<lb break="no" n="636"/><hi rend="line-num">[636] </hi>mi, quia parentes honorat sicut ipse uellet honorari a filiis suis; et
+<lb n="637"/><hi rend="line-num">[637] </hi>neminem occidit, sicut a nemine uellet occidi. Et sic de aliis.</p>
+<p><lb n="638"/><hi rend="line-num">[638] </hi>Patet, igitur, ex his quod tota uirtus illorum .<num type="roman">X</num>. preceptorum con<lb break="no" n="639"/><hi rend="line-num">[639] </hi>sistit in istis duobus que Dominus exprimit per <hi rend="italic">Matheum</hi>, et quod illa
+<lb n="640"/><hi rend="line-num">[640] </hi>decem reducuntur generaliter ad hec duo.</p>
+<milestone unit="section"/>
+<p><lb n="641"/><hi rend="line-num">[641] </hi>Postquam tu dicis quod ad hec duo reducuntur illa decem precep<lb break="no" n="642"/><hi rend="line-num">[642] </hi>ta, quero a te utrum sufficiat Deum diligere ex toto corde et ex tota
+<lb n="643"/><hi rend="line-num">[643] </hi>anima, et ex tota mente?</p>
+<p><lb n="644"/><hi rend="line-num">[644] </hi>Respondeo, domine, et dico quod sic.</p>
+<pb n="AVOThO_Volum IV-133"/>
+<p><lb n="645"/><hi rend="line-num">[645] </hi>Contra, duodecimo capitulo <hi rend="italic">Marci</hi> scriptum est: «Diliges Domi<lb break="no" n="646"/><hi rend="line-num">[646] </hi>num Deum tuum, ex toto corde tuo, et ex tota anima tua, et ex tota
+<lb n="647"/><hi rend="line-num">[647] </hi>mente tua, et ex tota uirtute tua». Ecce hic expresse beatus <hi rend="italic">Marchus</hi>
+<lb n="648"/><hi rend="line-num">[648] </hi>addit tribus predictis, scilicet, cordi et anime et menti, uirtutem. Et
+<lb n="649"/><hi rend="line-num">[649] </hi>iterum decimo capitulo <hi rend="italic">Luce</hi>, super eadem mate-[f. 38a]-ria scribitur:
+<lb n="650"/><hi rend="line-num">[650] </hi>«Diliges Dominum Deum tuum ex toto corde tuo et ex tota anima
+<lb n="651"/><hi rend="line-num">[651] </hi>tua et omnibus uiribus tuis et ex omni mente tua». Ecce hic expres<lb break="no" n="652"/><hi rend="line-num">[652] </hi>se beatus <hi rend="italic">Lucas</hi> interposuit predictis tribus, ,uires’: ergo, uidetur
+<lb n="653"/><hi rend="line-num">[653] </hi>quod non sufficiant illa tria. Et sic uidetur quod <hi rend="italic">Matheus</hi> fuerit insuf<lb break="no" n="654"/><hi rend="line-num">[654] </hi>ficiens, aut alii duo superflui. Iterum, si tria tantum sufficiunt ad
+<lb n="655"/><hi rend="line-num">[655] </hi>Deum diligendum, uidetur mihi quod illud tercium potius debeat
+<lb n="656"/><hi rend="line-num">[656] </hi>esse ,uirtus’ quam ,mens’. Tum quia de uirtute fit mentio per <hi rend="italic">Mar</hi><lb break="no" n="657"/><hi rend="line-num">[657] </hi><hi rend="italic">chum</hi>, ut dixi, tum quia in sexto capitulo <hi rend="italic">Deuteronomii</hi> ponitur uirtus
+<lb n="658"/><hi rend="line-num">[658] </hi>pro tercio illorum que requiruntur ad dilectionem Dei, quoniam ibi
+<lb n="659"/><hi rend="line-num">[659] </hi>expresse dicitur: «Diliges Dominum Deum tuum ex toto corde tuo
+<lb n="660"/><hi rend="line-num">[660] </hi>et ex tota anima tua et ex tota uirtute tua», et nulla fit ibi mentio
+<lb n="661"/><hi rend="line-num">[661] </hi>expresse de mente.</p>
+<pb n="AVOThO_Volum IV-134"/>
+<p><lb n="662"/><hi rend="line-num">[662] </hi>Respondeo, domine, ad hec duo. Et primo ad primum, dicendo
+<lb n="663"/><hi rend="line-num">[663] </hi>quod nec <hi rend="italic">Matheus</hi> est diminutus, nec alii euangeliste superflui, quo<lb break="no" n="664"/><hi rend="line-num">[664] </hi>niam illa tria, que tanguntur per <hi rend="italic">Matheum</hi>, continent [f. 38b] secun<lb break="no" n="665"/><hi rend="line-num">[665] </hi>dum rem illud quartum, quod additur ab aliis. Quod sic declaro: quia
+<lb n="666"/><hi rend="line-num">[666] </hi>qui diligit Deum ex tota anima sua, proprie loquendo de anima, dili<lb break="no" n="667"/><hi rend="line-num">[667] </hi>git ex omnibus potentiis siue ex omnibus uiribus siue ex tota uirtu<lb break="no" n="668"/><hi rend="line-num">[668] </hi>te. Nam anima est principium omnium uirium uel omnium uirtu<lb break="no" n="669"/><hi rend="line-num">[669] </hi>tum humanarum. Vnde, quantum ad rem, sufficit illud quod dicit
+<lb n="670"/><hi rend="line-num">[670] </hi><hi rend="italic">Matheus</hi>; tamen ad maiorem expressionem <hi rend="italic">Marchus</hi> et <hi rend="italic">Luchas</hi> addide<pb n="AVOThO_Volum IV-135"/><lb break="no" n="671"/><hi rend="line-num">[671] </hi>runt alia, scilicet, uirtutem et uires, per que nichil aliud designatur
+<lb n="672"/><hi rend="line-num">[672] </hi>nisi efficatia. Tanquam si uellent dicere: Diliges Dominum Deum
+<lb n="673"/><hi rend="line-num">[673] </hi>tuum ex toto corde tuo et ex tota anima tua et ex tota mente tua et
+<lb n="674"/><hi rend="line-num">[674] </hi>ex tota efficatia tua. Vnde, <hi rend="italic">Marchus</hi> et <hi rend="italic">Luchas</hi> addiderunt efficaciam
+<lb n="675"/><hi rend="line-num">[675] </hi>predictis tribus, non ad denotandum quod alia quam illa tria sint ins<lb break="no" n="676"/><hi rend="line-num">[676] </hi>trumenta dilectionis diuine quantum ad humanam potentiam, quo<lb break="no" n="677"/><hi rend="line-num">[677] </hi>niam sub efficacia diligendi comprehenduntur illa tria expressa per
+<lb n="678"/><hi rend="line-num">[678] </hi><hi rend="italic">Matheum</hi>, et sub illis tribus comprehenditur efficacia. Sed ideo [f.
+<lb n="679"/><hi rend="line-num">[679] </hi>38c] addiderunt efficaciam tanquam quartum, ut per hoc expressius
+<lb n="680"/><hi rend="line-num">[680] </hi>denotarentur rationes propter quas Deus est diligendus, et conditio<lb break="no" n="681"/><hi rend="line-num">[681] </hi>nes quibus est diligendus, quoniam et rationes sunt quatuor, et con<lb break="no" n="682"/><hi rend="line-num">[682] </hi>ditiones sunt quatuor.</p>
+<p><lb n="683"/><hi rend="line-num">[683] </hi>Que sunt rationes quatuor, propter quas Deus est diligendus?</p>
+<p><lb n="684"/><hi rend="line-num">[684] </hi>Domine, prima est quia est Creator. Secunda, quia est Conserua<lb break="no" n="685"/><hi rend="line-num">[685] </hi>tor. Tercia, quia est Redemptor. Quarta est quia Glorificator.</p>
+<p><lb n="686"/><hi rend="line-num">[686] </hi>Proba quod Deus sit diligendus propter istas quatuor rationes.</p>
+<p><lb n="687"/><hi rend="line-num">[687] </hi>Probo, domine, per <hi rend="italic">Psalmistam</hi>, qui dicit: «Diligam te Domine,
+<lb n="688"/><hi rend="line-num">[688] </hi>fortitudo mea»: ecce, ubi tangit beneficium creationis, quia nulla <pb n="AVOThO_Volum IV-136"/>
+<lb n="689"/><hi rend="line-num">[689] </hi>operatio fortior quam creare, quod est proprie aliquid de nichilo in
+<lb n="690"/><hi rend="line-num">[690] </hi>esse producere, et per hoc differt a generare et facere, quia generare
+<lb n="691"/><hi rend="line-num">[691] </hi>est proprie aliquid de aliquo in esse producere; facere uero est ad
+<lb n="692"/><hi rend="line-num">[692] </hi>utrumque comune. «Dominus firmamentum meum»: ecce, ubi tan<lb break="no" n="693"/><hi rend="line-num">[693] </hi>git beneficium conseruationis, per quod firmamur in esse. «Et refu<lb break="no" n="694"/><hi rend="line-num">[694] </hi>gium meum»: ecce, ubi tangit beneficium [f. 38d] redemptionis uel
+<lb n="695"/><hi rend="line-num">[695] </hi>iustificationis quia in periculis culparum nostrarum solus ipse est
+<lb n="696"/><hi rend="line-num">[696] </hi>refugium nostrum, redimens nos a captiuitate dyaboli. «Et liberator
+<lb n="697"/><hi rend="line-num">[697] </hi>meus»: ecce, ubi tangit beneficium glorificationis, quoniam per eam
+<lb n="698"/><hi rend="line-num">[698] </hi>liberatur homo ab omni tribulatione siue miseria.</p>
+<p><lb n="699"/><hi rend="line-num">[699] </hi>Que sunt conditiones quatuor, quibus Deus est diligendus?</p>
+<p><lb n="700"/><hi rend="line-num">[700] </hi>Domine, prima est ut diligatur sapienter, quod denotatur, cum
+<lb n="701"/><hi rend="line-num">[701] </hi>dicitur: «Ex toto corde tuo», quia, ut ait <hi rend="italic">Augustinus</hi>, «sensus est ut
+<lb n="702"/><hi rend="line-num">[702] </hi>diligatur intellectu sine errore, quod non faciunt heretici». Secunda <pb n="AVOThO_Volum IV-137"/>
+<lb n="703"/><hi rend="line-num">[703] </hi>conditio est, ut diligatur feruenter, et hoc denotatur, cum dicitur:
+<lb n="704"/><hi rend="line-num">[704] </hi>«Ex tota anima tua», quia, ut ait <hi rend="italic">Augustinus</hi>, «sensus est ex uolunta<lb break="no" n="705"/><hi rend="line-num">[705] </hi>te sine contradictione, quod non faciunt tepidi». Tercia conditio est,
+<lb n="706"/><hi rend="line-num">[706] </hi>ut diligatur fortiter seu efficaciter, quod denotatur per uires aut per
+<lb n="707"/><hi rend="line-num">[707] </hi>uirtutem, hoc est, ut parati simus amore ipsius aggredi ardua et pati
+<lb n="708"/><hi rend="line-num">[708] </hi>terribilia, quod non faciunt timidi. Quarta conditio est, ut dili-[f.
+<lb n="709"/><hi rend="line-num">[709] </hi>39a]-gatur perseueranter, quod denotatur per totam mentem, quia,
+<lb n="710"/><hi rend="line-num">[710] </hi>ut ait <hi rend="italic">Augustinus</hi>, cum dicitur: «Ex tota mente», sensus est: ex tota
+<lb n="711"/><hi rend="line-num">[711] </hi>memoria sine oblivione, quod non faciunt inconstantes.</p>
+<p><lb n="712"/><hi rend="line-num">[712] </hi>Responde ad secundum.</p>
+<p><lb n="713"/><hi rend="line-num">[713] </hi>Respondeo, domine, et dico quod, quantum ad rem, tantum ualet
+<lb n="714"/><hi rend="line-num">[714] </hi>dicere quod Deus diligatur tota mente, intelligendo per mentem
+<lb n="715"/><hi rend="line-num">[715] </hi>totam cognitionem interiorem, quantum si diceretur, tota uirtute.</p>
+<p><lb n="716"/><hi rend="line-num">[716] </hi>Sed quia sub nomine uirtutis comprehenditur efficacia uel fortitu<lb break="no" n="717"/><hi rend="line-num">[717] </hi>do, ideo <hi rend="italic">Moyses</hi>, qui loquebatur populo timido et carnali consideranti
+<lb n="718"/><hi rend="line-num">[718] </hi>tantummodo sensibilia, dixit: «Diliges tota uirtute», et non «tota
+<lb n="719"/><hi rend="line-num">[719] </hi>mente». Sed nichilominus tantum ualet hoc modo dicere quantum
+<lb n="720"/><hi rend="line-num">[720] </hi>illo.</p>
+<milestone unit="section"/>
+<p><lb n="721"/><hi rend="line-num">[721] </hi>Videtur esse impossibile quod Deus diligatur in presenti uita tota
+<lb n="722"/><hi rend="line-num">[722] </hi>mente uel toto corde, et cetera, quoniam cor uel mens ad multa
+<lb n="723"/><hi rend="line-num">[723] </hi>necessaria distrahitur tota die propter defectus humane nature.</p>
+<pb n="AVOThO_Volum IV-138"/>
+<p><lb n="724"/><hi rend="line-num">[724] </hi>Respondeo, domine, et dico quod loquen-[f. 39b]-do de totalita<lb break="no" n="725"/><hi rend="line-num">[725] </hi>te uie, possibile est Deum diligere tota mente uel toto corde, sed
+<lb n="726"/><hi rend="line-num">[726] </hi>loquendo de totalitate patrie non est possibile.</p>
+<p><lb n="727"/><hi rend="line-num">[727] </hi>Que est totalitas uie?</p>
+<p><lb n="728"/><hi rend="line-num">[728] </hi>Totalitas uie est totalitas pertinens ad presentem uitam in qua
+<lb n="729"/><hi rend="line-num">[729] </hi>sumus uiatores, et hic diligitur Deus totaliter quando nichil fit con<lb break="no" n="730"/><hi rend="line-num">[730] </hi>trarium ei, scilicet, quando diligens amore ipsius cauet sibi omnino a
+<lb n="731"/><hi rend="line-num">[731] </hi>peccato mortali. Sic enim diligit Deum, quod nullo modo committe<lb break="no" n="732"/><hi rend="line-num">[732] </hi>ret peccatum mortale, quod est contrarium Deo, quia directe contra<lb break="no" n="733"/><hi rend="line-num">[733] </hi>riatur caritati.</p>
+<p><lb n="734"/><hi rend="line-num">[734] </hi>Que est totalitas patrie?</p>
+<p><lb n="735"/><hi rend="line-num">[735] </hi>Illa que pertinet ad statum beatorum, in qua diligens Deum
+<lb n="736"/><hi rend="line-num">[736] </hi>nichil facit dissonum ei, sicut est peccatum ueniale, quod in presen<lb break="no" n="737"/><hi rend="line-num">[737] </hi>ti uita non potest omnino uitari propter infirmitatem nostram, et
+<lb n="738"/><hi rend="line-num">[738] </hi>ideo per ipsum retardatur hic feruor karitatis. Sed in patria, ubi tota
+<lb n="739"/><hi rend="line-num">[739] </hi>nostra infirmitas erit absorbta, feruebit ad plenum karitas et conti<lb break="no" n="740"/><hi rend="line-num">[740] </hi>nuo, quia neque peccato ueniali neque aliqua infirmitate uel defectu
+<lb n="741"/><hi rend="line-num">[741] </hi>nostro feruor [f. 39c] eius poterit impediri.</p>
+<milestone unit="section"/>
+<p><lb n="742"/><hi rend="line-num">[742] </hi>Postquam exposuisti preceptum dilectionis Dei, rogo te ut expo<lb break="no" n="743"/><hi rend="line-num">[743] </hi>nas preceptum dilectionis proximi, et specialiter ut ostendas quid sit
+<lb n="744"/><hi rend="line-num">[744] </hi>diligere proximum sicut se ipsum. Videtur enim mihi quod si dile<pb n="AVOThO_Volum IV-139"/><lb break="no" n="745"/><hi rend="line-num">[745] </hi>xero proximum quantum me ipsum, aut minus diligam Deum quam
+<lb n="746"/><hi rend="line-num">[746] </hi>preceptum sit, aut tantum diligam proximum quantum Deum. Sed
+<lb n="747"/><hi rend="line-num">[747] </hi>utrvmque uidetur esse inconueniens.</p>
+<p><lb n="748"/><hi rend="line-num">[748] </hi>Respondeo, domine, et dico quod Deus non precipit quod aliquis
+<lb n="749"/><hi rend="line-num">[749] </hi>diligat proximum quantum se, quia hoc preceptum esset irrationabi<lb break="no" n="750"/><hi rend="line-num">[750] </hi>le, quoniam bonum separatum non potest tantum diligi quantum
+<lb n="751"/><hi rend="line-num">[751] </hi>coniunctum. Sed precepit ut quisque diligeret proximum sicut se.
+<lb n="752"/><hi rend="line-num">[752] </hi>Nam per hoc aduerbium ,sicut’ non importatur quantitas uel mensu<lb break="no" n="753"/><hi rend="line-num">[753] </hi>ra dilectionis, sed similitudo. Vnde sicut quisque diligit seipsum ac
+<lb n="754"/><hi rend="line-num">[754] </hi>debet diligere secundum rationem dilectione iusta, recta, sancta, ope<lb break="no" n="755"/><hi rend="line-num">[755] </hi>rosa, sic etiam debet diligere proximum.</p>
+<p><lb n="756"/><hi rend="line-num">[756] </hi>Que est dilectio iusta?</p>
+<p><lb n="757"/><hi rend="line-num">[757] </hi>Illa, per quam diligens uult bonum dilec-[f. 39d]-to. Vnde, sicut
+<lb n="758"/><hi rend="line-num">[758] </hi>quisque diligendo se uult sibi bonum, sic debet diligere proximum
+<lb n="759"/><hi rend="line-num">[759] </hi>propter bonum eius, non propter usum uel propter utilitatem sui.</p>
+<p><lb n="760"/><hi rend="line-num">[760] </hi>Que est dilectio recta?</p>
+<pb n="AVOThO_Volum IV-140"/>
+<p><lb n="761"/><hi rend="line-num">[761] </hi>Illa, per quam diligens uult uel appetit pro dilecto semper maio<lb break="no" n="762"/><hi rend="line-num">[762] </hi>ra bona. Vnde, sicut quisque diligendo se uellet potius esse sapiens
+<lb n="763"/><hi rend="line-num">[763] </hi>aut uirtuosus quam diues in bonis temporalibus, ita similiter debet
+<lb n="764"/><hi rend="line-num">[764] </hi>uelle de proximo.</p>
+<p><lb n="765"/><hi rend="line-num">[765] </hi>Que est dilectio sancta?</p>
+<p><lb n="766"/><hi rend="line-num">[766] </hi>Illa, per quam diligens uult bonum dilecto in ordine ad Deum.
+<lb n="767"/><hi rend="line-num">[767] </hi>Vnde, sicut quisque diligendo se uult sibi bonum, per quod placeat
+<lb n="768"/><hi rend="line-num">[768] </hi>Deo, similiter debet uelle de proximo.</p>
+<p><lb n="769"/><hi rend="line-num">[769] </hi>Que est dilectio operosa?</p>
+<p><lb n="770"/><hi rend="line-num">[770] </hi>Illa, per quam non solum diligens corde uult bonum dilecto uel
+<lb n="771"/><hi rend="line-num">[771] </hi>appetit, sed etiam opere procurat. Vnde, sicut quisque non solum
+<lb n="772"/><hi rend="line-num">[772] </hi>appetit sibi bonum sed etiam procurat cum potest, ita similiter debet
+<lb n="773"/><hi rend="line-num">[773] </hi>de proximo facere.</p>
+<milestone unit="section"/>
+<p><lb n="774"/><hi rend="line-num">[774] </hi>Tu dixisti quod nemo diligit bonum separatum tantum quantum
+<lb n="775"/><hi rend="line-num">[775] </hi>coniunctum, nec tenetur ad hoc, [f. 40a] ergo uidetur quod nemo
+<lb n="776"/><hi rend="line-num">[776] </hi>teneatur tantum diligere Deum quantum se ipsum, cum sit Deus
+<lb n="777"/><hi rend="line-num">[777] </hi>separatus ab homine, sicut proximus a proximo.</p>
+<p><lb n="778"/><hi rend="line-num">[778] </hi>Respondeo, domine, et dico quod Deus, quantum ad distinctio<lb break="no" n="779"/><hi rend="line-num">[779] </hi>nem essentie, separatus est ab unaquaque creatura, quia alia est essen<pb n="AVOThO_Volum IV-141"/><lb break="no" n="780"/><hi rend="line-num">[780] </hi>tia Dei et alia est essentia creature, sicut unusquisque proximus est
+<lb n="781"/><hi rend="line-num">[781] </hi>distinctus uel separatus ab alio per propriam substantiam. Sed tamen
+<lb n="782"/><hi rend="line-num">[782] </hi>quantum ad actum essendi uel existendi, Deus non est separatus a
+<lb n="783"/><hi rend="line-num">[783] </hi>creatura, ymo est intimus ei, et nichil ipsa creatura habet intimius
+<lb n="784"/><hi rend="line-num">[784] </hi>quam ipsum Deum, quantum ad influentiam essendi. Quia totum
+<lb n="785"/><hi rend="line-num">[785] </hi>esse et totum bonum quod habet creatura, est uel procedit a plenitu<lb break="no" n="786"/><hi rend="line-num">[786] </hi>dine Creatoris, ita quod si unico momento subtraheretur creature
+<lb n="787"/><hi rend="line-num">[787] </hi>influentia Creatoris, confestim in nichilum uerteretur. Et ideo quis<lb break="no" n="788"/><hi rend="line-num">[788] </hi>que debet Deum diligere super omnia et plus quam omnia et etiam
+<lb n="789"/><hi rend="line-num">[789] </hi>plus quam se, cum in se ipso nichil boni habeat uel habere possit quin
+<lb n="790"/><hi rend="line-num">[790] </hi>sit a Deo. [f. 40b]</p>
+<p><lb n="791"/><hi rend="line-num">[791] </hi>Adhuc dubito circa predicta propter hoc, quia cum Deus et pro<lb break="no" n="792"/><hi rend="line-num">[792] </hi>ximus sint diuersa, uidetur mihi quod nemo possit simul perficere
+<lb n="793"/><hi rend="line-num">[793] </hi>dilectionem Dei et proximi.</p>
+<pb n="AVOThO_Volum IV-142"/>
+<p><lb n="794"/><hi rend="line-num">[794] </hi>Respondeo, domine, et dico quod simul possunt perfici simultate
+<lb n="795"/><hi rend="line-num">[795] </hi>habitus, quoniam uno habitu karitatis, ut supra dixi, diligitur Deus
+<lb n="796"/><hi rend="line-num">[796] </hi>propter se et proximus propter Ipsum. Sed loquendo de simultate
+<lb n="797"/><hi rend="line-num">[797] </hi>actus uel temporis mensurantis diuersos actus dilectionis, quandoque
+<lb n="798"/><hi rend="line-num">[798] </hi>adimplentur ille dilectiones simul, quandoque separatim. Quia quan<lb break="no" n="799"/><hi rend="line-num">[799] </hi>doque in actu dilectionis fertur intentio tantum in Deum, quandoque
+<lb n="800"/><hi rend="line-num">[800] </hi>uero in proximum propter Deum. Et hoc dico loquendo de alio pro<lb break="no" n="801"/><hi rend="line-num">[801] </hi>ximo a Christo, quia in Christo semper perficiuntur ambo precepta
+<lb n="802"/><hi rend="line-num">[802] </hi>dilectionis, ideo quia ipse est Deus et proximus. Vnde, qui perfecte
+<lb n="803"/><hi rend="line-num">[803] </hi>diligit Christum, perfecte adimplet ambo precepta dilectionis.</p>
+<p><lb n="804"/><hi rend="line-num">[804] </hi>Quomodo dicis tu quod Christus est proximus, cum sit Deus?</p>
+<pb n="AVOThO_Volum IV-143"/>
+<p><lb n="805"/><hi rend="line-num">[805] </hi>Dico, domine, quod Christus est proximus noster secundum
+<lb n="806"/><hi rend="line-num">[806] </hi>omnem acceptionem proximitatis, quia ex parte humane nature [f.
+<lb n="807"/><hi rend="line-num">[807] </hi>40c], quam habet, est proximus noster identitate nature uel speciei,
+<lb n="808"/><hi rend="line-num">[808] </hi>sicut est proximus unusquisque cuilibet alii. Quod patet per <hi rend="italic">Augus</hi><lb break="no" n="809"/><hi rend="line-num">[809] </hi><hi rend="italic">tinum</hi>, qui dicit super illo uerbo: «Diliges proximum tuum sicut te
+<lb n="810"/><hi rend="line-num">[810] </hi>ipsum», quoniam per proximum debemus intelligere quemlibet
+<lb n="811"/><hi rend="line-num">[811] </hi>hominem. Iterum etiam est nobis proximus religione: illi enim qui
+<lb n="812"/><hi rend="line-num">[812] </hi>sunt unius religionis aut secte, proximi uocantur. Secundum quam
+<lb n="813"/><hi rend="line-num">[813] </hi>acceptionem dicitur per <hi rend="italic">Psalmistam</hi> in persona Christi: «Proximi mei
+<lb n="814"/><hi rend="line-num">[814] </hi>aduersum me loquebantur». Proximos suos uocabat iudeos, qui
+<lb n="815"/><hi rend="line-num">[815] </hi>loquebantur aduersus Christum, qui erat iudeus. Vnde et Christus
+<lb n="816"/><hi rend="line-num">[816] </hi>unius et eiusdem religionis est cum omnibus christianis, quia caput
+<lb n="817"/><hi rend="line-num">[817] </hi>est christiane religionis. Item etiam est nobis proximus compassione.
+<lb n="818"/><hi rend="line-num">[818] </hi>Sic enim accipitur proximus tercio modo, sicut patet in <hi rend="italic">Lucha,</hi> vbi
+<lb n="819"/><hi rend="line-num">[819] </hi>dicitur de uulnerato a latronibus, quod proximus illi fuit, «qui fecit
+<lb n="820"/><hi rend="line-num">[820] </hi>in illum misericordiam», quamuis non fuisset eiusdem religionis
+<lb n="821"/><hi rend="line-num">[821] </hi>cum eo. Sic et Christus fecit in [f. 40d] nobis misericordiam sum<lb break="no" n="822"/><hi rend="line-num">[822] </hi>mam, quia compatiendo nobis tradidit corpus suum morti, ut nos a
+<lb n="823"/><hi rend="line-num">[823] </hi>morte perpetua liberaret. Iterum etiam possumus dicere quod ipse est
+<lb n="824"/><hi rend="line-num">[824] </hi>proximus noster cognatione uel parentela, saltem spirituali. Quia ipse
+<lb n="825"/><hi rend="line-num">[825] </hi>dicit in <hi rend="italic">Lucha</hi>: «Qui facit uoluntatem Patris mei, hic pater meus et <pb n="AVOThO_Volum IV-144"/>
+<lb n="826"/><hi rend="line-num">[826] </hi>mater mea et frater meus et soror mea est.». Et sic patet quod, per<lb break="no" n="827"/><hi rend="line-num">[827] </hi>fecte diligendo Christum, simul perficiuntur et actu et habitu ambo
+<lb n="828"/><hi rend="line-num">[828] </hi>precepta dilectionis. Vnde, uidetur mihi quod quisque fidelis debeat
+<lb n="829"/><hi rend="line-num">[829] </hi>studiose animum suum ad Christum conuertere, cum lex Dei suffi<lb break="no" n="830"/><hi rend="line-num">[830] </hi>cienter in eo adimpleatur.</p>
+<p><lb n="831"/><hi rend="line-num">[831] </hi>Ipsi ergo sit laus et gloria in secula seculorum.</p>
+<p><lb n="832"/><hi rend="line-num">[832] </hi>Quomodo ergo conuertis tu animum tuum ad Christum?</p>
+<milestone unit="section"/>
+<p><lb n="833"/><hi rend="line-num">[833] </hi>Domine, tribus modis quantum ad obseruantiam cotidianam.
+<lb n="834"/><hi rend="line-num">[834] </hi>Primo, inuocando in mane quando surgo, et dicendo cum signo cru<lb break="no" n="835"/><hi rend="line-num">[835] </hi>cis muniens pectus meum: «In nomine Ihesu Nazareni, surge et
+<lb n="836"/><hi rend="line-num">[836] </hi>ambula, intende, prospere procede». Secundo, salutan-[f. 41a]-do
+<lb n="837"/><hi rend="line-num">[837] </hi>ubique et maxime coram sacramento altaris, et dico: «Aue, benigne
+<lb n="838"/><hi rend="line-num">[838] </hi>Ihesu. Aue, amor inmensurabilis. Aue, manna absconditum. Aue,
+<lb n="839"/><hi rend="line-num">[839] </hi>dulcedo eterna. Aue, gaudium interminabile. Aue, splendor Patris.
+<lb n="840"/><hi rend="line-num">[840] </hi>Aue, lux mundi. Aue, pax cordium. Aue, salus hominum. Aue, glo<lb break="no" n="841"/><hi rend="line-num">[841] </hi>ria electorum Dei. Aue, suauissime fructus dulcissime atque salutife<lb break="no" n="842"/><hi rend="line-num">[842] </hi>re Uirginis, per quem saluati et liberati sumus. In cuius nomine fle<pb n="AVOThO_Volum IV-145"/><lb break="no" n="843"/><hi rend="line-num">[843] </hi>ctitur omne genu celestium, terrestrium et infernorum». Deinde, ter<lb break="no" n="844"/><hi rend="line-num">[844] </hi>cio, adoro ipsum gratias agens et deprecans, sic dicendo: «Adoro te
+<lb n="845"/><hi rend="line-num">[845] </hi>Christe, benedico te, glorifico te, gratias ago tibi propter magnam
+<lb n="846"/><hi rend="line-num">[846] </hi>gloriam tuam, quam dignatus es manifestare atque communicare
+<lb n="847"/><hi rend="line-num">[847] </hi>hominibus. Gratias ago tibi propter beneficia que mihi confers ut
+<lb n="848"/><hi rend="line-num">[848] </hi>Deus meus, et ut Dominus meus, et ut Rex meus, et ut Pater meus,
+<lb n="849"/><hi rend="line-num">[849] </hi>et ut Magister meus. Te ergo deprecor ut me uiuere facias et finire
+<lb n="850"/><hi rend="line-num">[850] </hi>uitam ad gloriam [f. 41b] tui. Qui uiuis et regnas cum Deo Patre in
+<lb n="851"/><hi rend="line-num">[851] </hi>unitate Spiritus Sancti, Deus, per omnia secula seculorum. Amen».</p>
+<milestone unit="section"/>
+<p><lb n="852"/><hi rend="line-num">[852] </hi>Videtur mihi quod sit presumptio et stulticia quia uos, qui estis
+<lb n="853"/><hi rend="line-num">[853] </hi>pueri, studetis in Sacra Scriptura, quoniam <hi rend="italic">Apostolus</hi> dicit: «Cum
+<lb n="854"/><hi rend="line-num">[854] </hi>essem paruulus, sapiebam ut paruulus, cogitabam ut paruulus, loque<lb break="no" n="855"/><hi rend="line-num">[855] </hi>bar ut paruulus. Cum autem factus sum uir euacuaui que paruuli <pb n="AVOThO_Volum IV-146"/>
+<lb n="856"/><hi rend="line-num">[856] </hi>erant». Quibus uerbis expresse denotat uel testatur quod in aliis
+<lb n="857"/><hi rend="line-num">[857] </hi>debent pueri siue paruuli cogitare et loqui, quam uiri. Sed ad uiros
+<lb n="858"/><hi rend="line-num">[858] </hi>uel adultos pertinet studere in Sacra Scriptura, non ergo ad paruulos.</p>
+<p><lb n="859"/><hi rend="line-num">[859] </hi>Domine, salua pace vestra, dicimus quod paruulis siue pueris
+<lb n="860"/><hi rend="line-num">[860] </hi>conuenit studere in Sacra Scriptura, non solum legendo, sed loquen<lb break="no" n="861"/><hi rend="line-num">[861] </hi>do et meditando: tum quia est utile, tum quia est a Deo sic ordina<lb break="no" n="862"/><hi rend="line-num">[862] </hi>tum. Quod autem sit utile patet per hoc, quia per doctrinam Sacre
+<lb n="863"/><hi rend="line-num">[863] </hi>Scripture habetur uera noticia de Deo. Et quod hoc sit utile homini,
+<lb n="864"/><hi rend="line-num">[864] </hi>patet per id, quod scribitur in libro <hi rend="italic">Sapientie</hi>, vbi dicitur quod «uani
+<lb n="865"/><hi rend="line-num">[865] </hi>sunt omnes homines, in quibus non [f. 41c] est Dei scientia». Et si
+<lb n="866"/><hi rend="line-num">[866] </hi>uani, ergo inutiles et carentes omni fructu utilitatis. Et sic patet per
+<lb n="867"/><hi rend="line-num">[867] </hi>oppositum quod habere scientiam uel noticiam de Deo est ualde fru<lb break="no" n="868"/><hi rend="line-num">[868] </hi>ctuosum uel utile. Et iterum patet per id, quod dicitur in <hi rend="italic">Ecclesiaste</hi>,
+<lb n="869"/><hi rend="line-num">[869] </hi>scilicet, quod «nosse Deum est consummata iusticia». Et sic patet
+<lb n="870"/><hi rend="line-num">[870] </hi>quod ad habendum noticiam de Deo, que noticia est utillima, conue<lb break="no" n="871"/><hi rend="line-num">[871] </hi>nit studere in Sacra Scriptura. Et iterum patet quod utile sit in ea stu<pb n="AVOThO_Volum IV-147"/><lb break="no" n="872"/><hi rend="line-num">[872] </hi>dere, per id quod dicitur in fine <hi rend="italic">Ecclesiastes</hi>, scilicet: «Time Deum et
+<lb n="873"/><hi rend="line-num">[873] </hi>mandata eius obserua. Hoc enim est omnis homo». Cum, igitur, om<lb break="no" n="874"/><hi rend="line-num">[874] </hi>nis homo sit ordinatus ad obseruantiam mandatorum Dei, et illa tra<lb break="no" n="875"/><hi rend="line-num">[875] </hi>dantur in Sacra Scriptura, patet quod omni homini prodest in ea stu<lb break="no" n="876"/><hi rend="line-num">[876] </hi>dere. Item patet etiam per hoc quia doctrina Sacre Scripture, cum sit
+<lb n="877"/><hi rend="line-num">[877] </hi>doctrina Dei, beatificat hominem, teste <hi rend="italic">Dauid</hi>, qui dicit: «Beatus
+<lb n="878"/><hi rend="line-num">[878] </hi>homo quem tu erudieris, Domine, et de lege tua edocueris eum».</p>
+<p><lb n="879"/><hi rend="line-num">[879] </hi>Quod autem sit ita ordinatum a Deo, ut paruuli studeant in Sacra
+<lb n="880"/><hi rend="line-num">[880] </hi>Scriptura, decla-[f. 41d]-ratur per id quod dicitur in primo <hi rend="italic">Prouerbio</hi><lb break="no" n="881"/><hi rend="line-num">[881] </hi><hi rend="italic">rum</hi>, quod «parabole Salomonis scripte sunt ut detur paruulis astu<lb break="no" n="882"/><hi rend="line-num">[882] </hi>tia». Iterum declaratur per id quod dicitur in <hi rend="italic">Psalmo</hi>, scilicet:
+<lb n="883"/><hi rend="line-num">[883] </hi>«Declaratio sermonum tuorum illuminat et intellectum dat paruu<lb break="no" n="884"/><hi rend="line-num">[884] </hi>lis». Confirmatur etiam per hoc quia Deus admittit paruulos et eli<lb break="no" n="885"/><hi rend="line-num">[885] </hi>git ad laudem sui, sicut testatur <hi rend="italic">Psalmista</hi>, qui dicit: «Laudate pueri
+<lb n="886"/><hi rend="line-num">[886] </hi>Dominum». Et item alibi: «Ex ore infantium et lactentium perfecis<lb break="no" n="887"/><hi rend="line-num">[887] </hi>ti laudem», et cetera. Et sic patet quod non est opus presumptionis
+<lb n="888"/><hi rend="line-num">[888] </hi>aut stulticie nos studere in sacra pagina, ymo potius est opus discre<lb break="no" n="889"/><hi rend="line-num">[889] </hi>tionis et prudentie, non obstante eo quod dicitur per <hi rend="italic">Paulum</hi>. Quia
+<lb n="890"/><hi rend="line-num">[890] </hi>per uerba beati <hi rend="italic">Pauli</hi> non habetur uel innuitur quod paruulis et uiris
+<lb n="891"/><hi rend="line-num">[891] </hi>non sit comune studere in Sacra Pagina, sed quod diuersimode conue<pb n="AVOThO_Volum IV-148"/><lb break="no" n="892"/><hi rend="line-num">[892] </hi>nit eis in ea studere uel loqui, quoniam uiris conuenit altius et per<lb break="no" n="893"/><hi rend="line-num">[893] </hi>fectius quam conueniat pueris.</p>
+<p><lb n="894"/><hi rend="line-num">[894] </hi>Quod autem non fuerit intentionis eius dicere quod paruuli non
+<lb n="895"/><hi rend="line-num">[895] </hi>debeant studere [f. 42a] in sacra pagina, patet per hoc quod comen<lb break="no" n="896"/><hi rend="line-num">[896] </hi>dat Thimotheum, eo quod ab infantia studuerit in literis sacris uel
+<lb n="897"/><hi rend="line-num">[897] </hi>didicerit eas.</p>
+<milestone unit="section"/>
+<p><lb n="898"/><hi rend="line-num">[898] </hi>Ex dictis uestris arguo contra uos. Vos enim dixistis quod utile seu
+<lb n="899"/><hi rend="line-num">[899] </hi>fructuosum est studere in Sacra Scriptura, quoniam ex intellectu eius
+<lb n="900"/><hi rend="line-num">[900] </hi>utilitas prouenit intelligentibus. Sed ex intellectu Sacre Scripture non
+<lb n="901"/><hi rend="line-num">[901] </hi>consecuntur utilitatem illi qui non adimplent opere intellectum eius,
+<lb n="902"/><hi rend="line-num">[902] </hi>quales sunt paruuli; ergo, non prodest eis in ea studere. Quod autem
+<lb n="903"/><hi rend="line-num">[903] </hi>uolentibus consequi fructum ex intellectu Sacre Scripture sit necessa<lb break="no" n="904"/><hi rend="line-num">[904] </hi>rium operibus exequi documenta eius, patet per illud <hi rend="italic">Psalmi</hi>: «Intel<lb break="no" n="905"/><hi rend="line-num">[905] </hi>lectus bonus omnibus facientibus eum». Et item per id quod dicit
+<lb n="906"/><hi rend="line-num">[906] </hi>beatus <hi rend="italic">Iacobus</hi> in exortatione sua, cum dicit: «Estote factores uerbi et
+<lb n="907"/><hi rend="line-num">[907] </hi>non auditores tantum»: per quod innuit quod necesse est ut auditor
+<lb n="908"/><hi rend="line-num">[908] </hi>uerborum Sacre Scripture prosequatur operibus documenta illius.
+<lb n="909"/><hi rend="line-num">[909] </hi>Paruuli uero seu pueri, licet audire possent et intelligere uerba Sacre
+<lb n="910"/><hi rend="line-num">[910] </hi>Scripture, tamen [f. 42b] opere non adimplent, quia propter indiscre<lb break="no" n="911"/><hi rend="line-num">[911] </hi>tionem seu imperfectionem etatis, potius applicant animum stulticie <pb n="AVOThO_Volum IV-149"/>
+<lb n="912"/><hi rend="line-num">[912] </hi>quam sapientie. Sicut testatur Scriptura in <hi rend="italic">Prouerbiis</hi>, que dicit quod
+<lb n="913"/><hi rend="line-num">[913] </hi>«Stulticia alligata est cordibus puerorum», id est, a natura ligata
+<lb n="914"/><hi rend="line-num">[914] </hi>propter imperfectionem etatis.</p>
+<p><lb n="915"/><hi rend="line-num">[915] </hi>Ad hec, domine, respondemus: primo ad id quod dicitis esse neces<lb break="no" n="916"/><hi rend="line-num">[916] </hi>sarium ut alumnus Sacre Scripture, si uoluerit utilitatem ab ea con<lb break="no" n="917"/><hi rend="line-num">[917] </hi>sequi, opere adimpleat intellectum eius, dicendo quod duplex est uti<lb break="no" n="918"/><hi rend="line-num">[918] </hi>litas, que prouenit ex uerbis uel documentis Sacre Scripture. Prima
+<lb n="919"/><hi rend="line-num">[919] </hi>est utilitas uie, scilicet, informatio intellectus ad noticiam credendo<lb break="no" n="920"/><hi rend="line-num">[920] </hi>rum et agendorum et uitandorum et timendorum et sperandorum.
+<lb n="921"/><hi rend="line-num">[921] </hi>Alia uero est utilitas termini comunis, scilicet, eterne salutis, et istam
+<lb n="922"/><hi rend="line-num">[922] </hi>non consequitur auditor tantum Sacre Scripture, sed etiam factor. Et
+<lb n="923"/><hi rend="line-num">[923] </hi>de ista utilitate locuntur auctoritates per uos allegate superius. Sed
+<lb n="924"/><hi rend="line-num">[924] </hi>utilitatem primam, scilicet, noticiam eorum, que propter salutem
+<lb n="925"/><hi rend="line-num">[925] </hi>eternam sunt cognoscenda, [f. 42c] bene consequitur seu consequi
+<lb n="926"/><hi rend="line-num">[926] </hi>potest auditor tantum, dum tamen audita intelligat. Vnde, licet
+<lb n="927"/><hi rend="line-num">[927] </hi>pueri non consequerentur secundam utilitatem meritis propriorum
+<lb n="928"/><hi rend="line-num">[928] </hi>operum, primam tamen consequi possunt per studium Sacre Scriptu<lb break="no" n="929"/><hi rend="line-num">[929] </hi>re. Nec tamen propter imperfectionem etatis tollitur eis omnino quin <pb n="AVOThO_Volum IV-150"/>
+<lb n="930"/><hi rend="line-num">[930] </hi>possint aliquo modo intellectum Sacre Scripture operi applicare, sicut
+<lb n="931"/><hi rend="line-num">[931] </hi>possibile est imperfectioni ipsorum, quoniam, licet naturaliter pueri
+<lb n="932"/><hi rend="line-num">[932] </hi>sint ad stulticias proni, tamen possunt ab eis elongari uel eripi per
+<lb n="933"/><hi rend="line-num">[933] </hi>bonitatem discipline, cui subici possunt, quoniam disciplinabiles
+<lb n="934"/><hi rend="line-num">[934] </hi>sunt, sicut patet in auctoritate superius allegata ex libro <hi rend="italic">Prouerbiorum</hi>,
+<lb n="935"/><hi rend="line-num">[935] </hi>scilicet, cum dicebatur: «Stulticia alligata est cordibus puerorum»,
+<lb n="936"/><hi rend="line-num">[936] </hi>quoniam immediate post dicitur: «Et uirga discipline fugabit eam».
+<lb n="937"/><hi rend="line-num">[937] </hi>Et per hoc patet responsio ad secundum.</p>
+<p><lb n="938"/><hi rend="line-num">[938] </hi>Iterum ostendo uobis quod propter Deum non oportet uos stude<lb break="no" n="939"/><hi rend="line-num">[939] </hi>re in Sacra Scriptura, quia sufficit ut cor applicetur ei, sicut patet in
+<lb n="940"/><hi rend="line-num">[940] </hi><hi rend="italic">Prouerbiis</hi>, vbi dicitur: «Prebe mihi cor tuum». Et item, in primo
+<lb n="941"/><hi rend="line-num">[941] </hi><hi rend="italic">Sapientie</hi>: «Sen-[f. 42d]-tite de Domino in bonitate, et in simplicita<lb break="no" n="942"/><hi rend="line-num">[942] </hi>te cordis querite illum». Sed quisque potest exibere cor Deo et que<lb break="no" n="943"/><hi rend="line-num">[943] </hi>rere ipsum in simplicitate cordis absque noticia Sacre Scripture, sicut
+<lb n="944"/><hi rend="line-num">[944] </hi>faciunt laici. Ergo uidetur quod non sit necessarium eis in ea studere.
+<lb n="945"/><hi rend="line-num">[945] </hi>Ad hoc, domine, respondemus dicentes quod ad consequendam
+<lb n="946"/><hi rend="line-num">[946] </hi>salutem eternam necessarium est habere noticiam documentorum
+<lb n="947"/><hi rend="line-num">[947] </hi>Sacre Scripture, uel per studium proprium, uel per traditionem fac<lb break="no" n="948"/><hi rend="line-num">[948] </hi>tam a doctoribus ecclesie, quoniam ad minus oportet ea scire de Sacra
+<lb n="949"/><hi rend="line-num">[949] </hi>Scriptura, que pertinent ad rectitudinem et plenitudinem fidei, uel <pb n="AVOThO_Volum IV-151"/>
+<lb n="950"/><hi rend="line-num">[950] </hi>implicite uel explicite. Vnde, quamuis laicis et ignorantibus literas
+<lb n="951"/><hi rend="line-num">[951] </hi>non sit necessarium in ea studere, tamen est necessarium ut docu<lb break="no" n="952"/><hi rend="line-num">[952] </hi>menta fidei recipiant a studentibus in ea. Ex quo patet quod ad salu<lb break="no" n="953"/><hi rend="line-num">[953] </hi>tem humani generis necessarium est quod aliqui studeant diligenter
+<lb n="954"/><hi rend="line-num">[954] </hi>in Sacra Scriptura. Et iterum etiam patet ex dictis quod melius est
+<lb n="955"/><hi rend="line-num">[955] </hi>proprio studio habere noticiam documentorum Sacre Scripture, quam
+<lb n="956"/><hi rend="line-num">[956] </hi>traditione alterius, [f. 43a] quia melius est se ipsum et alios posse ins<lb break="no" n="957"/><hi rend="line-num">[957] </hi>truere, quam ab aliis instrui. Item etiam, dato quod non esset neces<lb break="no" n="958"/><hi rend="line-num">[958] </hi>sarium in ea studere propter adquisitionem salutis eterne, tamen
+<lb n="959"/><hi rend="line-num">[959] </hi>semper esset utilissimum in ea studere pro tanto, quia per studium
+<lb n="960"/><hi rend="line-num">[960] </hi>in ea perfectior de Deo habetur noticia, et omne bonum, quanto per<lb break="no" n="961"/><hi rend="line-num">[961] </hi>fectius cognoscitur, tanto feruentius diligitur siue deuotius. Et ideo
+<lb n="962"/><hi rend="line-num">[962] </hi>dixi ,siue deuotius’, quia deuotio nichil aliud est nisi feruor affectio<lb break="no" n="963"/><hi rend="line-num">[963] </hi>nis amantis erga amatum. Et sic patet responsio ad id quod fuit
+<lb n="964"/><hi rend="line-num">[964] </hi>obiectum de laicis.</p>
+<p><lb n="965"/><hi rend="line-num">[965] </hi>Ad auctoritates autem allegatas respondemus quod ibi non doce<lb break="no" n="966"/><hi rend="line-num">[966] </hi>tur animus exiberi Deo singulariter, sed principaliter, quia nichil exi<lb break="no" n="967"/><hi rend="line-num">[967] </hi>beri Deo prodest exibenti, nisi exibeatur cum sinceritate uel puritate
+<lb n="968"/><hi rend="line-num">[968] </hi>cordis. Sed nichilominus oportet etiam Deo alia preter cor exibere, <pb n="AVOThO_Volum IV-152"/>
+<lb n="969"/><hi rend="line-num">[969] </hi>sicut testatur <hi rend="italic">Apostolus</hi>, qui dicit: «Corde creditur ad iusticiam, sed
+<lb n="970"/><hi rend="line-num">[970] </hi>ore fit confessio ad salutem». Idem <hi rend="italic">Iacobus</hi> testatur, qui dicit quod
+<lb n="971"/><hi rend="line-num">[971] </hi>«fides sine operibus est ociosa», id est, inutilis. Ex [f. 43b] quo patet
+<lb n="972"/><hi rend="line-num">[972] </hi>quod ad consequendam eternam salutem non sufficit exibere cor Deo,
+<lb n="973"/><hi rend="line-num">[973] </hi>nisi rectitudo cordis operibus confirmetur suo loco et tempore.</p>
+<p><lb n="974"/><hi rend="line-num">[974] </hi>Dicimus etiam quod fidelibus non solum est necessarium habere
+<lb n="975"/><hi rend="line-num">[975] </hi>noticiam documentorum Sacre Scripture propter predictas utilitates,
+<lb n="976"/><hi rend="line-num">[976] </hi>sed etiam propter fidei defensionem. Sicut patet per beatum <hi rend="italic">Petrum</hi>,
+<lb n="977"/><hi rend="line-num">[977] </hi>qui dicit: «Dominum Ihesum Christum sanctificate in cordibus ues<lb break="no" n="978"/><hi rend="line-num">[978] </hi>tris, parati semper ad satisfactionem omni poscenti uos rationem de
+<lb n="979"/><hi rend="line-num">[979] </hi>ea fide et spe que, in uobis est». Quibus uerbis expresse innuit quod
+<lb n="980"/><hi rend="line-num">[980] </hi>non sufficit Deo seruire corde, sed etiam necessarium est ut opere
+<lb n="981"/><hi rend="line-num">[981] </hi>seruiamus ei.</p>
+<milestone unit="section"/>
+<p><lb n="982"/><hi rend="line-num">[982] </hi>[(C, f. 20b). Et huic exortationi beati Petri concordat illa exortatio
+<lb n="983"/><hi rend="line-num">[983] </hi><hi rend="italic">Prouer</hi>, <num type="roman">XXVII</num>: «Stude sapientie, fili mi, et letifica cor meum, ut possis
+<lb n="984"/><hi rend="line-num">[984] </hi>exprobranti respondere sermonem»; et simile est quod ait Apostolus,
+<lb n="985"/><hi rend="line-num">[985] </hi><hi rend="italic">Titi</hi>, primo, scilicet, quod «oportet... episcopum... esse... amplecten<lb break="no" n="986"/><hi rend="line-num">[986] </hi>tem eum, qui secundum doctrinam est fidelem sermonem, ut potens
+<lb n="987"/><hi rend="line-num">[987] </hi>sit exortari in doctrina sana et eos qui contradicunt arguere»].</p>
+<milestone unit="section"/>
+<p><lb n="989"/><hi rend="line-num">[989] </hi>Explicit <hi rend="italic">Alphabetum catholicorum</hi>.</p>
+<p><lb n="990"/><hi rend="line-num">[990] </hi>Deo gratias.</p>
+</div>
+    </body>
+    <back>
+    </back>
+  </text>
+</TEI>
