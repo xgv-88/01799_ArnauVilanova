@@ -30,7 +30,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/></teiHeader>
   <text>
     <body>
 <pb n="AVOThO_Volum IV-87"/>
@@ -98,7 +98,7 @@
 <p><lb n="60"/><hi rend="line-num">[60] </hi>Quid est Ihesus Christus?</p>
 <p><lb n="61"/><hi rend="line-num">[61] </hi>Ihesus Christus est eternus Dei filius in tempore natus ex uirgine.</p>
 <p><lb n="62"/><hi rend="line-num">[62] </hi>Vnde dicitur articulus?</p>
-<p><lb n="63"/><hi rend="line-num">[63] </hi>Ab ,arcto, arctas’.</p>
+<p><lb n="63"/><hi rend="line-num">[63] </hi>Ab, arcto, arctas’.</p>
 <p><lb n="64"/><hi rend="line-num">[64] </hi>Quare?</p>
 <p><lb n="65"/><hi rend="line-num">[65] </hi>Quia credentem arctat uel obligat ad dirigendum mentem in
 <lb n="66"/><hi rend="line-num">[66] </hi>ueritatem diuinam.</p>
