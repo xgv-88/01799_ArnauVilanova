@@ -17,7 +17,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
   <text>
 <back>
       <div type="apparatus" subtype="critical">
@@ -256,7 +256,7 @@
 <note n="314">uescerentur <hi rend="italic">f</hi> uterentur</note>
 <pb n="AVOThO_Volum XIV-88 (Aparat Crític)"/>
 <note n="315">Ysaiam <hi rend="italic">f</hi> Esaiam | qui <hi rend="italic">B seq verb illeg exp et canc</hi></note>
-<note n="315-316">dominauit super populum meum <hi rend="italic">B</hi> d. s. p. m. <hi rend="italic">f</hi> super p. m. etc 315-316 qui dominamini super populum meum et peruertent omne rectum <hi rend="italic">m om</hi> | et peruertent omne rectum <hi rend="italic">f om</hi></note>
+<note n="315-316">dominauit super populum meum <hi rend="italic">B</hi> d. s. p. m. <hi rend="italic">f</hi> super p. m. etc | qui dominamini super populum meum et peruertent omne rectum <hi rend="italic">m om</hi> | et peruertent omne rectum <hi rend="italic">f om</hi></note>
 <note n="317">gratus <hi rend="italic">f</hi> grati | et <hi rend="italic">f seq</hi> non | meritum <hi rend="italic">f</hi> interitum</note>
 <note n="318">negotia <hi rend="italic">fm</hi> negocia</note>
 <note n="319">aduocatus <hi rend="italic">f</hi> aduocati | fraudari <hi rend="italic">f</hi> defraudari</note>
