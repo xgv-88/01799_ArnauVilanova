@@ -17,7 +17,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
   <text>
 <pb n="AVOThO_Volum XIV-71 (Fonts)"/>
 <note n="41-46">Cf. <hi rend="italic">Apologia de versutiis atque perversitatibus pseudotheologorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 138, lín. 1306-1311.</note>
@@ -30,7 +30,7 @@
 <pb n="AVOThO_Volum XIV-79 (Fonts)"/>
 <note n="176">Mt <num type="roman">XVII</num>,5; cf. Mc <num type="roman">IX</num>,6; Lc <num type="roman">IX</num>,35; i Mt <num type="roman">III</num>,17; 2 Ptr <num type="roman">I</num>,17.</note>
 <pb n="AVOThO_Volum XIV-80 (Fonts)"/>
-<note n="193">Num <num type="roman">XII</num>,5-8: «descendit Dominus [...] vocans Aaron et Mariam [...] dixit ad eos: [...] Si quis fuerit inter vos propheta Domini, in visione apparebo ei, vel per somnium loquar ad illum. At non talis servus meus Moyses [...] ore enim ad os loquor ei», i Ex <num type="roman">XXXIII</num>,11: «Loquebatur autem Dominus ad Moysen facie ad faciem».</note>
+<note n="193"/>
 <note n="194-195">Iob <num type="roman">XXXIII</num>,15.</note>
 <note n="195-200">Cf., respectivament, Gen <num type="roman">XXXVII</num>,5-11; i Mt <num type="roman">II</num>,19.</note>
 <pb n="AVOThO_Volum XIV-81 (Fonts)"/>
