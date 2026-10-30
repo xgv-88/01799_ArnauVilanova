@@ -17,7 +17,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
   <text>
     <body>
 <pb n="AVOThO_Volum XIV-67"/>
@@ -39,8 +39,8 @@
 <p><lb n="15"/><hi rend="line-num">[15] </hi>Desiderium erat et adhuc est quod frater noster rex Aragonum
 <lb n="16"/><hi rend="line-num">[16] </hi>esset principalis in proposito cogitatus predicti, ita quod, sicut est
 <lb n="17"/><hi rend="line-num">[17] </hi>maior in carne, sic desideramus quod esset maior in graciis celestibus
-<lb n="18"/><hi rend="line-num">[18] </hi>et quod assumeret feruenter illud propositum et quod simul prose<lb break="no" n="19"/><hi rend="line-num">[19] </hi>queremur ipsum.</p>
-<p><lb n="20"/><hi rend="line-num">[20] </hi>Timor autem et dubium reprimebant et quodammodo retrahe<lb break="no" n="21"/><hi rend="line-num">[21] </hi>bant nos a diuulgatione et prosequtione propositi. Timebamus enim
+<lb n="18"/><hi rend="line-num">[18] </hi>et quod assumeret feruenter illud propositum et quod simul prosequeremur <lb break="no" n="19"/><hi rend="line-num">[19] </hi>ipsum.</p>
+<p><lb n="20"/><hi rend="line-num">[20] </hi>Timor autem et dubium reprimebant et quodammodo retrahebant nos<lb break="no" n="21"/><hi rend="line-num">[21] </hi> a diuulgatione et prosequtione propositi. Timebamus enim
 <lb n="22"/><hi rend="line-num">[22] </hi>quod tam frater noster quam alii, tam clerici quam layci, reputarent
 <lb n="23"/><hi rend="line-num">[23] </hi>nos fantasticos, quia cogitatus noster dictabat nobis quod in statu
 <lb n="24"/><hi rend="line-num">[24] </hi>nostro, scilicet regis et coniugati, deberemus precise uiuere secun<lb break="no" n="25"/><hi rend="line-num">[25] </hi>dum regulam euangelii, scilicet despiciendo et contempnendo quic<lb break="no" n="26"/><hi rend="line-num">[26] </hi>quid ordinatur ad terrenam felicitatem et querendo et amplectendo
