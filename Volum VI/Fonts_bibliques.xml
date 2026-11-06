@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Edició Crítica Digital - Arnau de Vilanova, Tractatus epistolarum christini ad principes catholicos et praecones</title>
+</titleStmt>
+<publicationStmt>
+<p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. VI, pàgines 235-261: edició crítica del
+<title>Tractatus epistolarum christini ad principes catholicos et praecones</title>
+(línies 1-712).
+</bibl>
+<listWit>
+<witness xml:id="B">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Borgh. 205, f. 63r-74a.</witness>
+<witness xml:id="C">Roma, Biblioteca dell’Accademia nazionale dei Lincei e Corsiniana, Cors. 1256 (40.E.3), f. 29r-47r.</witness>
+<witness xml:id="K1">Bernkastel-Kues, St. Nikolaus-Hospital Bernkastel, Cod. Cus. 54, f. 82v-90v.</witness>
+<witness xml:id="K2">Bernkastel-Kues, St. Nikolaus-Hospitals Bernkastel, Cod. Cus. 42, f. 249r-252r.</witness>
+<witness xml:id="V">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Vat. lat. 3824, f. 98r-110v.</witness>
+<witness xml:id="c">
+Joaquim Carreras i Artau,
+<hi rend="italic">Del epistolario espiritual de Arnaldo de Vilanova</hi>
+, dins «Estudios Franciscanos», 49 (1948), 392-406.
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/></teiHeader>
+<text>
+<div type="apparatus" subtype="sources">
+<pb n="AVOThO_Volum VI-235 (Fonts)"/>
+<note type="source" n="13">
+Cf.
+<bibl type="biblical" n="Iob 36,4">
+<title type="abbr">Iob</title>
+<biblScope unit="chapter" from="36" to="36">
+<num type="roman" value="36">XXXVI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="14">
+Cf.
+<bibl type="biblical" n="Ps 50,19">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="50" to="50">
+<num type="roman" value="50">L</num>
+</biblScope>
+,
+<biblScope unit="verse" from="19" to="19">19</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-236 (Fonts)"/>
+<note type="source" n="20-21">
+<cit type="biblical">
+<bibl type="biblical" n="Apoc 21,2">
+<title type="abbr">Apoc</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Ego Ioannes vidi sanctam civitatem Jerusalem novam descendentem de coelo a Deo»</quote>
+</cit>
+;
+<cit type="biblical">
+<bibl type="biblical" n="Apoc 21,10">
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Ostendit mihi civitatem sanctam Jerusalem»</quote>
+</cit>
+. Cf.
+<bibl type="biblical" n="Ioel 3,17">
+<title type="abbr">Ioel</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="17" to="17">17</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="1 Mach 15,7">
+<title type="abbr">1 Mach</title>
+<biblScope unit="chapter" from="15" to="15">
+<num type="roman" value="15">XV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="21">
+<cit type="biblical">
+<bibl type="biblical" n="Apoc 21,9">
+<title type="abbr">Apoc</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="9" to="9">9</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Veni, et ostendam tibi sponsam, uxorem Agni»</quote>
+</cit>
+;
+<cit type="biblical">
+<bibl type="biblical" n="Apoc 21,11">
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="11" to="11">11</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«(Ostendit civitatem) habentem claritatem Dei»</quote>
+</cit>
+;
+<cit type="biblical">
+<bibl type="biblical" n="Apoc 21,23">
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="23" to="23">23</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Nam claritas Dei illuminavit eam»</quote>
+</cit>
+. Cf.
+<bibl type="biblical" n="Tob 13,20">
+<title type="abbr">Tob</title>
+<biblScope unit="chapter" from="13" to="13">
+<num type="roman" value="13">XIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="24">
+<bibl type="biblical" n="Apoc 1,13">
+<title type="abbr">Apoc</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="13" to="13">13</biblScope>
+</bibl>
+. Cf.
+<bibl type="biblical" n="Dan 7,13">
+<title type="abbr">Dan</title>
+<biblScope unit="chapter" from="7" to="7">
+<num type="roman" value="7">VII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="13" to="13">13</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="27-30">
+<cit type="biblical">
+<bibl type="biblical" n="Ier 1,10">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Ecce constitui te hodie super gentes et super regna, ut evellas, et destruas, et disperdas, et dissipes, et aedifices, et plantes»</quote>
+</cit>
+.
+</note>
+<note type="source" n="39-40">
+<bibl type="biblical" n="Ps 134,7">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="134" to="134">
+<num type="roman" value="134">CXXXIV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="42-43">
+Cf.
+<bibl type="biblical" n="Iud 16,10">
+<title type="abbr">Iud</title>
+<biblScope unit="chapter" from="16" to="16">
+<num type="roman" value="16">XVI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-237 (Fonts)"/>
+<note type="source" n="44">
+Cf.
+<bibl type="biblical" n="Ier 1,1">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="47-48">
+<bibl type="biblical" n="Gen 3,24">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="24" to="24">24</biblScope>
+</bibl>
+. Cf.
+<bibl type="biblical" n="Prov 3,18">
+<title type="abbr">Prov</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="18" to="18">18</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Prov 11,30">
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="30" to="30">30</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Prov 13,12">
+<biblScope unit="chapter" from="13" to="13">
+<num type="roman" value="13">XIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="12" to="12">12</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Prov 15,4">
+<biblScope unit="chapter" from="15" to="15">
+<num type="roman" value="15">XV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="49">
+<bibl type="biblical" n="Iud 5,20">
+<title type="abbr">Iud.</title>
+<biblScope unit="chapter" from="5" to="5">
+<num type="roman" value="5">V</num>
+</biblScope>
+,
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+</note>
+<note type="source" n="50">
+Cf.
+<cit type="biblical">
+<bibl type="biblical" n="Eccli 27,12">
+<title type="abbr">Eccli</title>
+<biblScope unit="chapter" from="27" to="27">
+<num type="roman" value="27">XXVII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="12" to="12">12</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Homo sanctus in sapientia manet sicut sol»</quote>
+</cit>
+.
+</note>
+<pb n="AVOThO_Volum VI-238 (Fonts)"/>
+<note type="source" n="85">
+<cit type="biblical">
+<bibl type="biblical" n="Iud 7,5">
+<title type="abbr">Iud</title>
+<biblScope unit="chapter" from="7" to="7">
+<num type="roman" value="7">VII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="5" to="5">5</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Cumque descendisset populus ad aquas, dixit Dominus ad Gedeon: Qui lingua lambuerint aquas, sicut solent canes lambere, separabis eos seorsum: qui autem curvatis genibus biberint, in altera parte erunt»</quote>
+</cit>
+. Arnau transforma l’expressió ‘curvatis genibus’ en ‘genu flexo’.
+</note>
+<note type="source" n="86-88">
+Cf.
+<bibl type="biblical" n="Iud 7,16">
+<title type="abbr">Iud</title>
+<biblScope unit="chapter" from="7" to="7">
+<num type="roman" value="7">VII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="16" to="16">16</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Iud 7,19">
+<biblScope unit="chapter" from="7" to="7">
+<num type="roman" value="7">VII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="19" to="19">19</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="89">
+Cf.
+<bibl type="biblical" n="Gen 6,10">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="6" to="6">
+<num type="roman" value="6">VI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Gen 9,27">
+<biblScope unit="chapter" from="9" to="9">
+<num type="roman" value="9">IX</num>
+</biblScope>
+,
+<biblScope unit="verse" from="27" to="27">27</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="92-93">
+<bibl type="biblical" n="2 Sam 1,22">
+<title type="abbr">2 Sam</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="22" to="22">22</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="94-95">
+Cf.
+<bibl type="biblical" n="1 Reg 11,1">
+<title type="abbr">1 Reg</title>
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="1 Reg 11,4">
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="97">
+Cf.
+<bibl type="biblical" n="Gen 32,11">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="32" to="32">
+<num type="roman" value="32">XXXII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="11" to="11">11</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="98-99">
+Cf.
+<bibl type="biblical" n="Gen 25,33-34">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="25" to="25">
+<num type="roman" value="25">XXV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="33" to="34">33-34</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Gen 31,18">
+<biblScope unit="chapter" from="31" to="31">
+<num type="roman" value="31">XXXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="18" to="18">18</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="100-101">
+Cf.
+<bibl type="biblical" n="Dan 13,45-62">
+<title type="abbr">Dan</title>
+<biblScope unit="chapter" from="13" to="13">
+<num type="roman" value="13">XIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="45" to="62">45-62</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="102">
+<bibl type="biblical" n="Eccli 48,1">
+<title type="abbr">Eccli</title>
+<biblScope unit="chapter" from="48" to="48">
+<num type="roman" value="48">XLVIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="102-104">
+Cf.
+<bibl type="biblical" n="Esth 2,21-22">
+<title type="abbr">Esth</title>
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="21" to="22">21-22</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Io 3,4">
+<title type="abbr">Io</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-239 (Fonts)"/>
+<note type="source" n="105-106">
+Cf.
+<bibl type="biblical" n="Mt 16,23">
+<title type="abbr">Mt</title>
+<biblScope unit="chapter" from="16" to="16">
+<num type="roman" value="16">XVI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="23" to="23">23</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="107-108">
+Cf.
+<bibl type="biblical" n="Act 4,1-22">
+<title type="abbr">Act</title>
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="22">1-22</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="109-110">
+Cf.
+<bibl type="biblical" n="Act 8,8-24">
+<title type="abbr">Act</title>
+<biblScope unit="chapter" from="8" to="8">
+<num type="roman" value="8">VIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="24">8-24</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Act 13,8-12">
+<biblScope unit="chapter" from="13" to="13">
+<num type="roman" value="13">XIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="12">8-12</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="111">
+<cit type="biblical">
+<bibl type="biblical" n="Bar 6,16">
+<title type="abbr">Bar</title>
+<biblScope unit="chapter" from="6" to="6">
+<num type="roman" value="6">VI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="16" to="16">16</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Constitutis illis in domo, oculi eorum pleni sunt pulvere a pedibus introëuntium»</quote>
+</cit>
+.
+</note>
+<note type="source" n="111-112">
+Cf.
+<bibl type="biblical" n="Ps 68,24">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="68" to="68">
+<num type="roman" value="68">LXVIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="24" to="24">24</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Is 6,10">
+<title type="abbr">Is</title>
+<biblScope unit="chapter" from="6" to="6">
+<num type="roman" value="6">VI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Rom 11,10">
+<title type="abbr">Rom</title>
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+. Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Allocutio super significatione nominis tetragrammaton</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO,
+<num type="roman">III</num>
+, 144, lín. 123;
+<hi rend="italic">Apologia de versutiis</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, 59, lín. 17-18.
+</note>
+<note type="source" n="113-115">
+<bibl type="biblical" n="Io 12,42">
+<title type="abbr">Io</title>
+<biblScope unit="chapter" from="12" to="12">
+<num type="roman" value="12">XII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="42" to="42">42</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="115-116">
+<bibl type="biblical" n="Io 12,43">
+<title type="abbr">Io</title>
+<biblScope unit="chapter" from="12" to="12">
+<num type="roman" value="12">XII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="43" to="43">43</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="117-119">
+<bibl type="biblical" n="Ier 8,8-9">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="8" to="8">
+<num type="roman" value="8">VIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="9">8-9</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="119-120">
+<cit type="biblical">
+<bibl type="biblical" n="2 Tim 3,9">
+<title type="abbr">2 Tim</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="9" to="9">9</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«sed ultra non proficient: insipientia enim eorum manifesta erit omnibus, sicut et illorum fuit»</quote>
+</cit>
+. Arnau de Vilanova canvia l’‘omnibus’ per ‘cunctis’.
+</note>
+<note type="source" n="127-129">
+<bibl type="biblical" n="Ios 1,8">
+<title type="abbr">Ios</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="8">8</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-240 (Fonts)"/>
+<note type="source" n="133">
+Cf.
+<bibl type="biblical" n="Mt 14,29">
+<title type="abbr">Mt</title>
+<biblScope unit="chapter" from="14" to="14">
+<num type="roman" value="14">XIV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="29" to="29">29</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="133-135">
+<cit type="biblical">
+<bibl type="biblical" n="Ier 31,4-5">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="31" to="31">
+<num type="roman" value="31">XXXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="5">4-5</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Rursumque aedificabo te, et aedificaberis, virgo Israël: adhuc ornaberis tympanis tuis, et egredieris in choro ludentium. Adhuc plantabis vineas in montibus Samariae: plantabunt plantantes, et donec tempus veniat, non vindemiabunt»</quote>
+</cit>
+. Notem el canvi d’‘egredieris’ per ‘ingredieris’.
+</note>
+<note type="source" n="136">
+<bibl type="biblical" n="Col 3,16">
+<title type="abbr">Col</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="16" to="16">16</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="139-141">
+<bibl type="biblical" n="1 Cor 1,27">
+<title type="abbr">1 Cor</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="27" to="27">27</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="141-142">
+<bibl type="biblical" n="Eccli 51,4">
+<title type="abbr">Eccli</title>
+<biblScope unit="chapter" from="51" to="51">
+<num type="roman" value="51">LI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="144-145">
+Cf.
+<bibl type="biblical" n="1 Sam 17,51">
+<title type="abbr">1 Sam</title>
+<biblScope unit="chapter" from="17" to="17">
+<num type="roman" value="17">XVII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="51" to="51">51</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Iudith 13,10">
+<title type="abbr">Iudith</title>
+<biblScope unit="chapter" from="13" to="13">
+<num type="roman" value="13">XIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-241 (Fonts)"/>
+<note type="source" n="168-169">
+Cf.
+<bibl type="biblical" n="Lc 11,37-54">
+<title type="abbr">Lc</title>
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="37" to="54">37-54</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Lc 23,10">
+<biblScope unit="chapter" from="23" to="23">
+<num type="roman" value="23">XXIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldi de Villanova</hi>
+,
+<hi rend="italic">Instrumentum alterum appellationis magistri Arnaldi de Villanova a processu Parisiensium ad Apostolicam Sedem</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, 352, AVOThO, V, lín. 220-224: «Patet, igitur, ex predictis quod illi denunciators contra me, quos fingit Officialis, non fuerunt in theologia magistri, sed ypocrite […] et successores phariseorum, qui Christum, impura liuoris inuidia, malicia prosequebantur, ut nequissimi draconis membra pestiffera».
+</note>
+<note type="source" n="173-174">
+Cf.
+<bibl type="biblical" n="Gen 11,2-9">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="9">2-9</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="173-189">
+Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">X</num>
+, lín. 615-631.
+</note>
+<pb n="AVOThO_Volum VI-242 (Fonts)"/>
+<note type="source" n="195">
+Cf.
+<bibl type="biblical" n="Deut 11,14">
+<title type="abbr">Deut</title>
+<biblScope unit="chapter" from="11" to="11">
+<num type="roman" value="11">XI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="14" to="14">14</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Ier 3,3">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="3">3</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="199">
+Cf.
+<bibl type="biblical" n="Mal 3,10">
+<title type="abbr">Mal</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="10">10</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-245 (Fonts)"/>
+<note type="source" n="281-282">
+<bibl type="biblical" n="2 Cor 2,15">
+<title type="abbr">2 Cor</title>
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="15" to="15">15</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="285">
+<bibl type="biblical" n="Iud 5,20">
+<title type="abbr">Iud</title>
+<biblScope unit="chapter" from="5" to="5">
+<num type="roman" value="5">V</num>
+</biblScope>
+,
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Bar 3,34">
+<title type="abbr">Bar</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="34" to="34">34</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-246 (Fonts)"/>
+<note type="source" n="291-292">
+Cf.
+<bibl type="biblical" n="Gen 27,36">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="27" to="27">
+<num type="roman" value="27">XXVII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="36" to="36">36</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="292-293">
+<bibl type="biblical" n="Prov 7,10-11">
+<title type="abbr">Prov</title>
+<biblScope unit="chapter" from="7" to="7">
+<num type="roman" value="7">VII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="10" to="11">10-11</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="301-302">
+<bibl type="biblical" n="2 Reg 19,31">
+<title type="abbr">2 Reg</title>
+<biblScope unit="chapter" from="19" to="19">
+<num type="roman" value="19">XIX</num>
+</biblScope>
+,
+<biblScope unit="verse" from="31" to="31">31</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Is 9,7">
+<title type="abbr">Is</title>
+<biblScope unit="chapter" from="9" to="9">
+<num type="roman" value="9">IX</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Is 37,32">
+<biblScope unit="chapter" from="37" to="37">
+<num type="roman" value="37">XXXVII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="32" to="32">32</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="304-305">
+<bibl type="biblical" n="Eccli 24,23">
+<title type="abbr">Eccli</title>
+<biblScope unit="chapter" from="24" to="24">
+<num type="roman" value="24">XXIV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="23" to="23">23</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="309-310">
+Cf.
+<bibl type="biblical" n="Is 5,2.4">
+<title type="abbr">Is.</title>
+<biblScope unit="chapter" from="5" to="5">
+<num type="roman" value="5">V</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Deut 32,32-33">
+<title type="abbr">Deut</title>
+<biblScope unit="chapter" from="32" to="32">
+<num type="roman" value="32">XXXII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="32" to="33">32-33</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-247 (Fonts)"/>
+<note type="source" n="328-330">
+<bibl type="biblical" n="Mal 2,11">
+<title type="abbr">Mal</title>
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="11" to="11">11</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="341-342">
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De tempore</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 273, lín. 1591-1592: «[…] ad inducendum corda mortalium ad contemptum terrenorum et appetitum celestium […]»;
+<hi rend="italic">De mysterio</hi>
+, lín. 290-292: «[…] finem religionis catholice doctrine, qui est corda mortalium inducere ad contemptum terrene felicitatis et appetitum celestis […]».
+</note>
+<note type="source" n="349-350">
+<bibl type="biblical" n="Lam 4,2">
+<title type="abbr">Lam</title>
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="351-352">
+<bibl type="biblical" n="Lam 4,5">
+<title type="abbr">Lam</title>
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="5" to="5">5</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-249 (Fonts)"/>
+<note type="source" n="379">
+Cf.
+<cit type="biblical">
+<bibl type="biblical" n="Ps 21,7">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Ego autem sum vermis, et non homo»</quote>
+</cit>
+. Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">VII</num>
+, lín. 525-526;
+<num type="roman">XI</num>
+, lín. 675-676.
+</note>
+<note type="source" n="383-384">
+Cf.
+<bibl type="biblical" n="Ps 5,11">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="5" to="5">
+<num type="roman" value="5">V</num>
+</biblScope>
+,
+<biblScope unit="verse" from="11" to="11">11</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-250 (Fonts)"/>
+<note type="source" n="408">
+Cf.
+<bibl type="biblical" n="Mt 16,23">
+<title type="abbr">Mt</title>
+<biblScope unit="chapter" from="16" to="16">
+<num type="roman" value="16">XVI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="23" to="23">23</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">I</num>
+, lín. 105;
+<hi rend="italic">De mysterio</hi>
+, lín. 267-269: «constat quod scrutinium
+<hi rend="italic">Scripturarum</hi>
+est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non querant que sua sunt, sed que Christi».
+</note>
+<note type="source" n="420-421">
+<bibl type="biblical" n="Eccli 39,1">
+<title type="abbr">Eccli</title>
+<biblScope unit="chapter" from="39" to="39">
+<num type="roman" value="39">XXXIX</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="422">
+<bibl type="biblical" n="1 Thess 5,20">
+<title type="abbr">1 Thess</title>
+<biblScope unit="chapter" from="5" to="5">
+<num type="roman" value="5">V</num>
+</biblScope>
+,
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+. El text citat, efectivament, no és la lletra
+<hi rend="italic">Ad Timoteum</hi>
+, sinó l’acabada d’indicar.
+</note>
+<note type="source" n="423-425">
+Cf.
+<bibl type="biblical" n="2 Ptr 1,21">
+<title type="abbr">2 Ptr</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="21" to="21">21</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="426">
+<cit type="biblical">
+<bibl type="biblical" n="2 Par 20,20">
+<title type="abbr">2 Par</title>
+<biblScope unit="chapter" from="20" to="20">
+<num type="roman" value="20">XX</num>
+</biblScope>
+,
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«credite prophetis eius et cuncta evenient prospera»</quote>
+</cit>
+.
+</note>
+<pb n="AVOThO_Volum VI-251 (Fonts)"/>
+<note type="source" n="431-433">
+<cit type="biblical">
+<bibl type="biblical" n="2 Tim 3,2">
+<title type="abbr">2 Tim</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«et erunt homines seipsos amantes, cupidi, elati, superbi, blasphemi, parentibus non obedientes, ingrati, scelesti»</quote>
+</cit>
+;
+<cit type="biblical">
+<bibl type="biblical" n="2 Tim 3,8">
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="8">8</biblScope>
+</bibl>
+<quote>«[…] et hii resistunt veritati, homines corrupti mente, reprobi circa fidem»</quote>
+</cit>
+.
+</note>
+<note type="source" n="434-435">
+<bibl type="biblical" n="2 Tim 3,3-4">
+<title type="abbr">2 Tim</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="4">3-4</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="437">
+<bibl type="biblical" n="2 Ptr 2,1-2">
+<title type="abbr">2 Ptr</title>
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="2">1-2</biblScope>
+</bibl>
+. Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De mysterio</hi>
+, lín. 251-252.
+</note>
+<note type="source" n="440-441">
+<bibl type="biblical" n="2 Tim 3,2">
+<title type="abbr">2 Tim</title>
+<biblScope unit="chapter" from="3" to="3">
+<num type="roman" value="3">III</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="458">
+<bibl type="biblical" n="Rom 14,17">
+<title type="abbr">Rom</title>
+<biblScope unit="chapter" from="14" to="14">
+<num type="roman" value="14">XIV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="17" to="17">17</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-252 (Fonts)"/>
+<note type="source" n="462">
+Cf.
+<bibl type="biblical" n="1 Io 2,18">
+<title type="abbr">1 Io</title>
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="18" to="18">18</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="1 Io 2,22">
+<biblScope unit="chapter" from="2" to="2">
+<num type="roman" value="2">II</num>
+</biblScope>
+,
+<biblScope unit="verse" from="22" to="22">22</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="1 Io 4,3">
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="3">3</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Apoc">
+<title type="abbr">Apoc</title>
+<hi rend="italic">passim</hi>
+</bibl>
+.
+</note>
+<note type="source" n="493-494">
+<bibl type="biblical" n="Ier 6,15">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="6" to="6">
+<num type="roman" value="6">VI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="15" to="15">15</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-253 (Fonts)"/>
+<note type="source" n="512-515">
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De tempore</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 265-266, lín. 1462-1467: «[…] nulla iusticia, nulla honestatis species concedit ut quis aduersus hominem non iniuriosum […] motu uel impetu rabido concitetur, maxime propter scripturam catholicam non discussam publice disputationis examine neque limatam studiose determinationis scrutinio».
+</note>
+<note type="source" n="518-519">
+Cf.
+<cit type="biblical">
+<bibl type="biblical" n="Ps 35,4">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="35" to="35">
+<num type="roman" value="35">XXXV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Noluit intelligere ut bene ageret»</quote>
+</cit>
+.
+</note>
+<pb n="AVOThO_Volum VI-254 (Fonts)"/>
+<note type="source" n="525-526">
+Cf.
+<bibl type="biblical" n="Ps 21,7">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">VI</num>
+, lín. 379;
+<num type="roman">XI</num>
+, lín. 675-676.
+</note>
+<note type="source" n="530-531">
+Cf.
+<bibl type="biblical" n="1 Cor 1,27-28">
+<title type="abbr">1 Cor</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="27" to="28">27-28</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="531-533">
+<bibl type="biblical" n="Ps 8,3">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="8" to="8">
+<num type="roman" value="8">VIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="3">3</biblScope>
+</bibl>
+(en la Vulgata, en comptes de ‘defensorem’, llegim ‘ultorem’). Cf.
+<bibl type="biblical" n="Mt 21,16">
+<title type="abbr">Mt</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="16" to="16">16</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="533-536">
+<bibl type="biblical" n="Ps 63,7-9">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="63" to="63">
+<num type="roman" value="63">LXIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="9">7-9</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="536-538">
+<bibl type="biblical" n="Ps 63,9-10">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="63" to="63">
+<num type="roman" value="63">LXIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="9" to="10">9-10</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-255 (Fonts)"/>
+<note type="source" n="544">
+Cf.
+<bibl type="biblical" n="2 Cor 12,2">
+<title type="abbr">2 Cor</title>
+<biblScope unit="chapter" from="12" to="12">
+<num type="roman" value="12">XII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="552-553">
+Cf.
+<bibl type="biblical" n="2 Cor 12,2">
+<title type="abbr">2 Cor</title>
+<biblScope unit="chapter" from="12" to="12">
+<num type="roman" value="12">XII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="2" to="2">2</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="560-561">
+Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">II</num>
+, lín. 169-170.
+</note>
+<pb n="AVOThO_Volum VI-256 (Fonts)"/>
+<note type="source" n="574-575">
+Cf.
+<bibl type="biblical" n="Ex 25,31.37">
+<title type="abbr">Ex</title>
+<biblScope unit="chapter" from="25" to="25">
+<num type="roman" value="25">XXV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="31" to="31">31</biblScope>
+.
+<biblScope unit="verse" from="37" to="37">37</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Ex 40,4">
+<biblScope unit="chapter" from="40" to="40">
+<num type="roman" value="40">XL</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Num 8,3-4">
+<title type="abbr">Num</title>
+<biblScope unit="chapter" from="8" to="8">
+<num type="roman" value="8">VIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="4">3-4</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Eccle 26,22">
+<title type="abbr">Eccle</title>
+<biblScope unit="chapter" from="26" to="26">
+<num type="roman" value="26">XXVI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="22" to="22">22</biblScope>
+</bibl>
+;
+<bibl type="biblical" n="Apoc 1,12.20">
+<title type="abbr">Apoc</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="12" to="12">12</biblScope>
+.
+<biblScope unit="verse" from="20" to="20">20</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="579-580">
+<bibl type="biblical" n="Lam 4,1">
+<title type="abbr">Lam</title>
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="580-581">
+<bibl type="biblical" n="Lam 4,8">
+<title type="abbr">Lam</title>
+<biblScope unit="chapter" from="4" to="4">
+<num type="roman" value="4">IV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="8" to="8">8</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="584-585">
+<bibl type="biblical" n="Ps 57,4">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="57" to="57">
+<num type="roman" value="57">LVII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="4" to="4">4</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De mysterio</hi>
+, lín. 282-283: «[…] “ipsi immiscent se infinitis questionibus”, “alienati a uulua et errantes ab utero” […]».
+</note>
+<note type="source" n="585-586">
+Cf.
+<bibl type="biblical" n="Ier 8,7">
+<title type="abbr">Ier</title>
+<biblScope unit="chapter" from="8" to="8">
+<num type="roman" value="8">VIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De tempore</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 229, lín. 942-943: «[…] ut tempus premunitionis non minus cognoscat turtur quam miluus»;
+<hi rend="italic">De mysterio</hi>
+, lín. 981-983: «Quia si miluus cognoscit tempus sue premunitionis, multo fortius tutur Dei cognoscet illud ex ordinatione diuina».
+</note>
+<pb n="AVOThO_Volum VI-257 (Fonts)"/>
+<note type="source" n="589">
+<bibl type="biblical" n="Gen 15,16">
+<title type="abbr">Gen</title>
+<biblScope unit="chapter" from="15" to="15">
+<num type="roman" value="15">XV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="16" to="16">16</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="598">
+Cf.
+<bibl type="biblical" n="Mt 23,26">
+<title type="abbr">Mt</title>
+<biblScope unit="chapter" from="23" to="23">
+<num type="roman" value="23">XXIII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="26" to="26">26</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="606">
+Cf.
+<cit type="biblical">
+<bibl type="biblical" n="Ez 14,23">
+<title type="abbr">Ez</title>
+<biblScope unit="chapter" from="14" to="14">
+<num type="roman" value="14">XIV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="23" to="23">23</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Cognoscetis quod non frustra fecerim omnia»</quote>
+</cit>
+. Cf.
+<hi rend="small-caps">Arnaldi de Villanova</hi>
+,
+<hi rend="italic">Introductio in librum De semine scripturarum</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO,
+<num type="roman">III</num>
+, 89, lín. 142-143; 90, lín. 155;
+<hi rend="italic">Allocutio super significatione nominis tetragramaton</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO,
+<num type="roman">III</num>
+, 140, lín. 31;
+<hi rend="italic">De tempore</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 248, lín. 1211;
+<hi rend="italic">De mysterio</hi>
+, lín. 518.
+</note>
+<pb n="AVOThO_Volum VI-258 (Fonts)"/>
+<note type="source" n="608-609">
+Cf.
+<cit type="biblical">
+<bibl type="biblical" n="Io 15,1">
+<title type="abbr">Io</title>
+<biblScope unit="chapter" from="15" to="15">
+<num type="roman" value="15">XV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="1" to="1">1</biblScope>
+</bibl>
+<pc>:</pc>
+<quote>«Ego sum vitis vera et Pater meus agricola est»</quote>
+</cit>
+.
+</note>
+<note type="source" n="615-631">
+Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">II</num>
+, lín. 168-189.
+</note>
+<pb n="AVOThO_Volum VI-259 (Fonts)"/>
+<note type="source" n="637-638">
+<bibl type="biblical" n="Eccle 1,7">
+<title type="abbr">Eccle</title>
+<biblScope unit="chapter" from="1" to="1">
+<num type="roman" value="1">I</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+</note>
+<note type="source" n="661-662">
+<bibl type="biblical" n="Ps 105,3">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="105" to="105">
+<num type="roman" value="105">CV</num>
+</biblScope>
+,
+<biblScope unit="verse" from="3" to="3">3</biblScope>
+</bibl>
+.
+</note>
+<pb n="AVOThO_Volum VI-260 (Fonts)"/>
+<note type="source" n="675-676">
+Cf.
+<bibl type="biblical" n="Ps 21,7">
+<title type="abbr">Ps</title>
+<biblScope unit="chapter" from="21" to="21">
+<num type="roman" value="21">XXI</num>
+</biblScope>
+,
+<biblScope unit="verse" from="7" to="7">7</biblScope>
+</bibl>
+.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">Tractatus epistolarum christini</hi>
+,
+<num type="roman">VI</num>
+, lín. 379;
+<num type="roman">VII</num>
+, lín. 525-526;
+<hi rend="italic">De mysterio</hi>
+, lín. 1037-1038;
+<hi rend="italic">Instrumentum alterum appellationis magistri Arnaldi de Villanova a processu Parisiensium ad Apostolicam Sedem</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 345, lín. 11.
+</note>
+<note type="source" n="678">
+Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De mysterio</hi>
+, lín. 17-18: «[…] quia sum catulus ecclesie supradicte […]».
+</note>
+<note type="source" n="680-681">
+Cf.
+<bibl type="biblical" n="Num 22,28">
+<title type="abbr">Num</title>
+<biblScope unit="chapter" from="22" to="22">
+<num type="roman" value="22">XXII</num>
+</biblScope>
+,
+<biblScope unit="verse" from="28" to="28">28</biblScope>
+</bibl>
+;
+<hi rend="small-caps">Arnaldus de Villanova</hi>
+,
+<hi rend="italic">De tempore</hi>
+, ed.
+<hi rend="small-caps">Perarnau</hi>
+, AVOThO, V, 263, lín. 1409-1410.
+</note>
+</div>
+</text>
+</TEI>
