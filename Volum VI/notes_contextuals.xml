@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Edició Crítica Digital - Arnau de Vilanova, Tractatus epistolarum christini ad principes catholicos et praecones</title>
+</titleStmt>
+<publicationStmt>
+<p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. VI, pàgines 235-261: edició crítica del
+<title>Tractatus epistolarum christini ad principes catholicos et praecones</title>
+(línies 1-712).
+</bibl>
+<listWit>
+<witness xml:id="B">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Borgh. 205, f. 63r-74a.</witness>
+<witness xml:id="C">Roma, Biblioteca dell’Accademia nazionale dei Lincei e Corsiniana, Cors. 1256 (40.E.3), f. 29r-47r.</witness>
+<witness xml:id="K1">Bernkastel-Kues, St. Nikolaus-Hospital Bernkastel, Cod. Cus. 54, f. 82v-90v.</witness>
+<witness xml:id="K2">Bernkastel-Kues, St. Nikolaus-Hospitals Bernkastel, Cod. Cus. 42, f. 249r-252r.</witness>
+<witness xml:id="V">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Vat. lat. 3824, f. 98r-110v.</witness>
+<witness xml:id="c">
+Joaquim Carreras i Artau,
+<hi rend="italic">Del epistolario espiritual de Arnaldo de Vilanova</hi>
+, dins «Estudios Franciscanos», 49 (1948), 392-406.
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/></teiHeader>
+<text>
+<div type="notes" subtype="contextual">
+<pb n="AVOThO_Volum VI-235 (Notes Contextuals)"/>
+<note n="1-387">
+Les epístoles es divideixen en dos grups. En les del primer (
+<num type="roman">I</num>
+-
+<num type="roman">VI</num>
+), els destinadaris són
+<hi rend="italic">collegia theologorum</hi>
+, és a dir, convents o monestirs distingits. Els destinataris dels segon grup (
+<num type="roman">VII</num>
+-
+<num type="roman">XII</num>
+) són persones que ocupen càrrecs elevats: eclesiàstics, és a dir, cardenals, arquebisbes o bisbes (
+<num type="roman">VII</num>
+-
+<num type="roman">X</num>
+); o civils: reis (
+<num type="roman">XI</num>
+-
+<num type="roman">XII</num>
+).
+</note>
+<note n="1-149">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.1. El prior del convent de Saint-Jacques, de París, era en aquest moment Bernard d’Auvergne.
+</note>
+<pb n="AVOThO_Volum VI-240 (Notes Contextuals)"/>
+<note n="150-194">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.2.
+</note>
+<pb n="AVOThO_Volum VI-242 (Notes Contextuals)"/>
+<note n="195-213">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.3.
+</note>
+<pb n="AVOThO_Volum VI-243 (Notes Contextuals)"/>
+<note n="214-274">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.4.
+</note>
+<note n="220">
+‘prostratis elephantibus’: a començaments del segle XIV, eren ben conegudes observacions sobre els elefants, procedents de bestiaris antics, com la que llegim, per exemple, dins
+<hi rend="small-caps">Alexander Neckam</hi>
+,
+<hi rend="italic">De naturis rerum</hi>
+,
+<num type="roman">CXLIII</num>
+,
+<hi rend="italic">De elephante</hi>
+, 222 (manllevada a Cassiodor): «elephas […] tanto pondere supinatus propriis viribus surgere nequit, quod pedes eius nullis instituuntur articulis».
+</note>
+<pb n="AVOThO_Volum VI-244 (Notes Contextuals)"/>
+<note n="241">‘sompno litargico’: és habitual que Arnau de Vilanova utilitzi, en les seves obres teològiques, conceptes que procedeixen de l’àmbit mèdic. Així, per exemple, en la lín. 14 ha fet servir el mot ‘sanitas’ per aplicar-lo a ‘doctrina’. O en les lín. 130 i 590 compareix ‘insane’ o ‘insania’. En la lín. 347 surt ‘uenenum’ i, poc després, 352, ‘morbus’.</note>
+<note n="251">Els ‘duo […] precones’ semblen ésser sant Francesc i sant Domènec.</note>
+<pb n="AVOThO_Volum VI-245 (Notes Contextuals)"/>
+<note n="275-363">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.5.
+</note>
+<pb n="AVOThO_Volum VI-248 (Notes Contextuals)"/>
+<note n="364-387">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 2.6. L’abat de Valmagna era en aquests moments Ponç Maurin.
+</note>
+<pb n="AVOThO_Volum VI-249 (Notes Contextuals)"/>
+<note n="388-543">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.1. La diòcesi d’Auch era sufragània de la de Bordeus. El bisbe d’Auch era Amanieu, i el de Bordeus, Bertrand de Got, futur papa Climent V.
+</note>
+<pb n="AVOThO_Volum VI-255 (Notes Contextuals)"/>
+<note n="Inscriptio ep. VIII">
+‘Angelo’, amb ressonàncies de l’Apocalipsi: Apoc
+<num type="roman">VIII</num>
+,7.8.10.12;
+<num type="roman">IX</num>
+,1.13;
+<num type="roman">XI</num>
+,15.
+</note>
+<note n="544-565">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.2. El bisbe de València era en aquests moments Ramon Despont.
+</note>
+<pb n="AVOThO_Volum VI-256 (Notes Contextuals)"/>
+<note n="Inscriptio ep. IX">
+‘Angelo’, cf.
+<hi rend="italic">Inscriptio ep. VIII</hi>
+.
+</note>
+<note n="566-599">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.3. El titular de la diòcesi d’Ambrun era llavors Guilelmus de Mandagot.
+</note>
+<pb n="AVOThO_Volum VI-257 (Notes Contextuals)"/>
+<note n="Inscriptio ep. X">
+‘Angelo’, cf.
+<hi rend="italic">Inscriptio ep. VIII</hi>
+.
+</note>
+<note n="600-636">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.4. El bisbe d’Auxerre era Petrus de Mornay.
+</note>
+<pb n="AVOThO_Volum VI-259 (Notes Contextuals)"/>
+<note n="637-695">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.5.
+</note>
+<pb n="AVOThO_Volum VI-261 (Notes Contextuals)"/>
+<note n="695">La lletra està datada, doncs, a Gènova, el 17 de novembre de 1301.</note>
+<note n="696-712">
+Cf.
+<hi rend="small-caps">Scavizzi</hi>
+,
+<hi rend="italic">Estudi introductori</hi>
+, apartat 3.6.
+</note>
+</div>
+</text>
+</TEI>
