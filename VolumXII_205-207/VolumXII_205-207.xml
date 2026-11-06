@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Praesentatio facta Burdegaliae coram domino summo pontifice Clemente V</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. XII, pàgines 171-189: edició crítica de la <title>Praesentatio facta Burdegaliae coram domino summo pontifice Clemente V</title> (línies 1-398).</bibl>
+        <listWit>
+          <witness xml:id="V">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Vat. lat. 3824, f. 254d-261d.</witness>
+          <witness xml:id="G">Graz, Universitätsbibliothek, 1226, f. 32c-d.</witness>
+          <witness xml:id="e">Franz Ehrle, <hi rend="italic">Historia Bibliothecae Romanorum Pontificum</hi>, vol. <num type="roman">I</num>, Roma, Typis Vaticanis, 1890, 10-11 [línies 11-33 de l’edició].</witness>
+          <witness xml:id="f">Heinrich Finke, <hi rend="italic">Aus den Tagen Bonifaz VIII. Funde und Forschungen</hi> (Vorreformationsgeschichtliche Forschungen, 2), Münster, Aschendorff, 1902, <num type="roman">CCI</num>-<num type="roman">CCXI</num> [línies 1-148, 247-271 i 280-398 de l’edició].</witness>
+          <witness xml:id="m">Marcelino Menéndez y Pelayo, <hi rend="italic">Arnaldo de Vilanova, médico catalán del siglo XIII. Ensayo histórico</hi>, Madrid, M. Murillo, 1879, 71 [línies 1-10 de l’edició].</witness>
+          <witness xml:id="p">Josep Perarnau, <hi rend="italic">Estudi introductori</hi>, dins AVOThO, <num type="roman">III</num>, 33-34.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <text>
+    <body>
+<pb n="AVOThO_Volum XII-171"/>
+<head type="title"><lb/><hi rend="small-caps">Arnaldi de Villanova</hi>
+<lb/>PRESENTATIO FACTA BURDEGALIE
+<lb/>CORAM DOMINO SUMMO PONTIFICE CLEMENTE V</head>
+<div type="section">
+<head type="speaker">[<hi rend="small-caps">Bernardus Caprarii, publicus notarius</hi>]</head>
+<p><lb n="1"/><hi rend="line-num">[1] </hi>In nomine Domini nostri. Amen.</p>
+<p><lb n="2"/><hi rend="line-num">[2] </hi>Vniuersis per presens publicum instrumentum pateat manifeste
+<lb n="3"/><hi rend="line-num">[3] </hi>quod anno eiusdem ·<num type="roman">M</num>º·<num type="roman">CCC</num>º·<num type="roman">V</num>º·, indictione tercia, pontificatus
+<lb n="4"/><hi rend="line-num">[4] </hi>sanctissimi patris et domini domini Clementis, diuina prouidentia
+<lb n="5"/><hi rend="line-num">[5] </hi>pape quinti, anno primo, mensis augusti die ·<num type="roman">XXIV</num>ª·, in presentia
+<lb n="6"/><hi rend="line-num">[6] </hi>predicti domini Clementis, summi pontificis, et ipso sedente pro tri<lb break="no" n="7"/><hi rend="line-num">[7] </hi>bunali, ad audientiam publicam celebrandam in aula palacii archie<lb break="no" n="8"/><hi rend="line-num">[8] </hi>piscopalis Burdegalensis, et mei, notarii, ac testium subscriptorum
+<lb n="9"/><hi rend="line-num">[9] </hi>personaliter constitutus, magister Arnaldus de Uillanoua, protestatus
+<lb n="10"/><hi rend="line-num">[10] </hi>est et legit quandam scripturam, cuius tenor sequitur in hec uerba:</p>
+</div>
+<div type="section">
+<head type="speaker">[<hi rend="small-caps">Arnaldus de Villanova</hi>]</head>
+<p><lb n="11"/><hi rend="line-num">[11] </hi>Coram uobis, sanctissimo patre domino Clemente quinto, Dei
+<lb n="12"/><hi rend="line-num">[12] </hi>prouisione summo pontifice, propono et confiteor ego, magister
+<lb n="13"/><hi rend="line-num">[13] </hi>Arnaldus de Uillanoua, me scripsisse multa opuscula super euangeli<lb break="no" n="14"/><hi rend="line-num">[14] </hi>ca ueritate, secundum lumen mihi concessum a Domino Iesu Christo. <pb n="AVOThO_Volum XII-172"/>
+<lb n="15"/><hi rend="line-num">[15] </hi>Quorum opusculorum pars maior fuit per dominum Benedictum,
+<lb n="16"/><hi rend="line-num">[16] </hi>olim papam, et immediatum anteces[f. 255a]sorem uestrum in
+<lb n="17"/><hi rend="line-num">[17] </hi>camera Sedis Apostolice collocata, licet per modum prede silenter
+<lb n="18"/><hi rend="line-num">[18] </hi>occupasset omnes scripturas, quas ego spontaneus ad presentandum
+<lb n="19"/><hi rend="line-num">[19] </hi>eidem portaueram.</p>
+<p><lb n="20"/><hi rend="line-num">[20] </hi>Deinde, post obitum eius, per dominos cardinales, scilicet,
+<lb n="21"/><hi rend="line-num">[21] </hi>dominum Theodericum, Urbeuetanum, et dominum Robertum,
+<lb n="22"/><hi rend="line-num">[22] </hi>cisterciensem, et dominum Iacobum Guayethani, constitutos per <pb n="AVOThO_Volum XII-173"/>
+<lb n="23"/><hi rend="line-num">[23] </hi>collegium ad recognoscendum et consignandum bona papalis camere
+<lb n="24"/><hi rend="line-num">[24] </hi>simul cum camerario Sedis Apostolice, domino Ioanne de Penestra,
+<lb n="25"/><hi rend="line-num">[25] </hi>electo Spoletano, fuerunt predicta opuscula consignata.</p>
+<p><lb n="26"/><hi rend="line-num">[26] </hi>Postmodum, uero, ex habundanti cautela, coram eodem camerario,
+<lb n="27"/><hi rend="line-num">[27] </hi>ego ipse, cum attestatione publica distinxi predicta opera uel tractatus,
+<lb n="28"/><hi rend="line-num">[28] </hi>non solum titulis, sed iniciis omnium, rememorando et explicando
+<lb n="29"/><hi rend="line-num">[29] </hi>zelum meum et diligentem sollicitudinem presentandi et subiciendi
+<lb n="30"/><hi rend="line-num">[30] </hi>omnia dicta opera uel tractatus examini et iudicio Apostolice Sedis,
+<lb n="31"/><hi rend="line-num">[31] </hi>prout apparet per publicum instrumentum inde confectum per
+<lb n="32"/><hi rend="line-num">[32] </hi>manum Ioannis de Gar[f. 255b]cino, dicti Rici, publici auctoritate
+<lb n="33"/><hi rend="line-num">[33] </hi>Sedis Apostolice notarii.</p>
+<p><lb n="34"/><hi rend="line-num">[34] </hi>Nunc autem, quia diuina largiente clementia, Sedes Apostolica
+<lb n="35"/><hi rend="line-num">[35] </hi>rutilat claritate pontificis et ea clarius elucescunt, quorum substan<lb break="no" n="36"/><hi rend="line-num">[36] </hi>tiam plenior lux informat, idcirco, sub plenitudine uestre lucis ac
+<lb n="37"/><hi rend="line-num">[37] </hi>temporis uestri serenitate, uolo sollicitudinem meam atque deuo<lb break="no" n="38"/><hi rend="line-num">[38] </hi>tionem ad Sedem Apostolicam super opusculis prelibatis, reiteratis
+<lb n="39"/><hi rend="line-num">[39] </hi>protestatione, presentatione ac supplicatione, ad Christi gloriam
+<lb n="40"/><hi rend="line-num">[40] </hi>renouare.</p>
+<pb n="AVOThO_Volum XII-174"/>
+<p><lb n="41"/><hi rend="line-num">[41] </hi>Dico igitur quod, inter tractatus meos consignatos in camera
+<lb n="42"/><hi rend="line-num">[42] </hi>Sedis Apostolice, primus intitulatur <hi rend="italic">Dyalogus de elementis catholice fidei</hi>,
+<lb n="43"/><hi rend="line-num">[43] </hi>et incipit: «Es tu fidelis?».</p>
+<p><lb n="44"/><hi rend="line-num">[44] </hi>Secundus intitulatur <hi rend="italic">De prudentia catholicorum scolarium</hi>, quoniam
+<lb n="45"/><hi rend="line-num">[45] </hi>informat scolares catholicos ad prudenter studendum in scientiis, tam
+<lb n="46"/><hi rend="line-num">[46] </hi>secularibus quam diuinis, et incipit: «Qui indiget sapientia postulet
+<lb n="47"/><hi rend="line-num">[47] </hi>a Deo».</p>
+<p><lb n="48"/><hi rend="line-num">[48] </hi>Tercius intitulatur <hi rend="italic">De tempore aduentus Antichristi</hi>, et incipit:
+<lb n="49"/><hi rend="line-num">[49] </hi>«Constitui super uos speculatores». Et est ille tractatus [f. 255c],
+<lb n="50"/><hi rend="line-num">[50] </hi>cuius medietatem primam, in qua principia probationis contine<lb break="no" n="51"/><hi rend="line-num">[51] </hi>bantur, theologi Parisienses amputauerunt et reliquam, in qua
+<lb n="52"/><hi rend="line-num">[52] </hi>tantum exprimebantur conclusiones, presentauerunt domino Boni<lb break="no" n="53"/><hi rend="line-num">[53] </hi>facio, quondam pape ·<num type="roman">VIII</num>º·. Quam medietatem dictus Bonifacius
+<lb n="54"/><hi rend="line-num">[54] </hi>satis digne comburi fecit magis ad ignominiam presentantium quam
+<lb n="55"/><hi rend="line-num">[55] </hi>contumeliam editoris.</p>
+<p><lb n="56"/><hi rend="line-num">[56] </hi>Quartus tractatus intitulatur <hi rend="italic">De misterio cymbalorum Ecclesie</hi>, in quo
+<lb n="57"/><hi rend="line-num">[57] </hi>sub alio stilo probantur eedem conclusiones euidentibus documentis.
+<lb n="58"/><hi rend="line-num">[58] </hi>Et fuit editus in aula summi pontificis sub Bonifacio supradicto.
+<lb n="59"/><hi rend="line-num">[59] </hi>Quem ipse, non solum acceptauit, sed eximie comendauit. Et incipit:
+<lb n="60"/><hi rend="line-num">[60] </hi>«Qui interrogant, interrogent in Abela».</p>
+<pb n="AVOThO_Volum XII-175"/>
+<p><lb n="61"/><hi rend="line-num">[61] </hi>Quintus tractatus intitulatur <hi rend="italic">Philosophia catholica</hi>, quoniam in
+<lb n="62"/><hi rend="line-num">[62] </hi>eo per textum <hi rend="italic">Ueteris Testamenti</hi> apertissime demonstratur Iesum
+<lb n="63"/><hi rend="line-num">[63] </hi>Nazarenum fuisse uerum messiam patribus promissum et panduntur
+<lb n="64"/><hi rend="line-num">[64] </hi>ibidem uersutie maximi Antichristi suorumque pre[f. 255d]curso<lb break="no" n="65"/><hi rend="line-num">[65] </hi>rum et traditur ars infallibilis ad cognoscendum et dissipandum eas
+<lb n="66"/><hi rend="line-num">[66] </hi>et precursores illius. Vbi etiam ecclesie tempora certis differentiis
+<lb n="67"/><hi rend="line-num">[67] </hi>explicantur iuxta testimonium <hi rend="italic">Scripturarum</hi>. Et incipit: «Homines
+<lb n="68"/><hi rend="line-num">[68] </hi>pestilentes dissipant ciuitatem».</p>
+<p><lb n="69"/><hi rend="line-num">[69] </hi>Sextus tractatus intitulatur <hi rend="italic">Apologia de pseudotheologis et pseudoreli</hi><lb break="no" n="70"/><hi rend="line-num">[70] </hi><hi rend="italic">giosis</hi>, quoniam ibidem per <hi rend="italic">Scripturas sacras</hi> infallibilis datur noticia
+<lb n="71"/><hi rend="line-num">[71] </hi>predictorum ac dissipantur obiectiones eorum contra denunciatio<lb break="no" n="72"/><hi rend="line-num">[72] </hi>nem finalium temporum per me factam. Et incipit: «Ad ea, que per
+<lb n="73"/><hi rend="line-num">[73] </hi>uestras literas intimastis».</p>
+<p><lb n="74"/><hi rend="line-num">[74] </hi>Septimus tractatus intitulatur <hi rend="italic">Eulogium de noticia uerorum et pseu</hi><lb break="no" n="75"/><hi rend="line-num">[75] </hi><hi rend="italic">doapostolorum</hi>, quoniam per testimonium sacri textus docentur indu<lb break="no" n="76"/><hi rend="line-num">[76] </hi>bitanter cognosci ueri precones euuangelice ueritatis et pseudo, qui
+<lb n="77"/><hi rend="line-num">[77] </hi>scilicet sunt falsarii ueritatis eiusdem. Et incipit: «Quoniam <hi rend="small-caps">Apos</hi><lb break="no" n="78"/><hi rend="line-num">[78] </hi><hi rend="small-caps">tolus</hi>, <hi rend="italic">Ad Thessalonicenses</hi>».</p>
+<pb n="AVOThO_Volum XII-176"/>
+<p><lb n="79"/><hi rend="line-num">[79] </hi>Octauus tractatus intitulatur <hi rend="italic">Denunciatio Gerundensis contra fratrem</hi>
+<lb n="80"/><hi rend="line-num">[80] </hi><hi rend="italic">Bernardum de Podio</hi> [f. 256a] …</p>
+<p><lb n="81"/><hi rend="line-num">[81] </hi>… [f. 257a] lectibus et erroneis atque catholicarum mentium
+<lb n="82"/><hi rend="line-num">[82] </hi>infectiuis et corruptiuis quemadmodum lucidissime panditur in
+<lb n="83"/><hi rend="line-num">[83] </hi>tractatu, quem publicaui nuper, ut dixi. Pro tanto impressi dicto
+<lb n="84"/><hi rend="line-num">[84] </hi>tractatui titulum <hi rend="italic">Tyriacalis antidoti</hi>. Et incipit: «Credo, karissime
+<lb n="85"/><hi rend="line-num">[85] </hi>pater, quod a uestra memoria non effluxerit».</p>
+<p><lb n="86"/><hi rend="line-num">[86] </hi>Quem tractatus, cum ceteris supradictis, uobis et per uos in
+<lb n="87"/><hi rend="line-num">[87] </hi>perpetuum Apostolice Sedi presento sub forma que continetur in
+<lb n="88"/><hi rend="line-num">[88] </hi>protestatione facta per me coram domino Ioanne de Penestra, Sedis
+<lb n="89"/><hi rend="line-num">[89] </hi>Apostolice camerario. Quam protestationem, ad pleniorem fidem
+<lb n="90"/><hi rend="line-num">[90] </hi>uestre sanctitati, offero de presenti et lego ad euidentiam clariorem.</p>
+<p><lb n="91"/><hi rend="line-num">[91] </hi>Cum predictis etiam scripturis et sub eadem protestatione simi<lb break="no" n="92"/><hi rend="line-num">[92] </hi>liter offero et presento tres alias scripturas, quarum duas diu est
+<lb n="93"/><hi rend="line-num">[93] </hi>edidi.</p>
+<p><lb n="94"/><hi rend="line-num">[94] </hi>Primo, scilicet, tractatum, qui est <hi rend="italic">De interpretatione nominis The</hi><lb break="no" n="95"/><hi rend="line-num">[95] </hi><hi rend="italic">tagramaton tam in lingua hebraica quam latina</hi>.</p>
+<pb n="AVOThO_Volum XII-177"/>
+<p><lb n="96"/><hi rend="line-num">[96] </hi>Secundo, tractatum, qui intitulatur <hi rend="italic">De prophetis dormientibus</hi>, et est
+<lb n="97"/><hi rend="line-num">[97] </hi>expositio enigmatum libri <hi rend="italic">De semine scripturarum</hi>.</p>
+<p><lb n="98"/><hi rend="line-num">[98] </hi>Tercio, <hi rend="italic">Tractatum ·<num type="roman">XII</num>· epistolarum</hi>, quibus libellus <hi rend="italic">De misterio cym</hi><lb break="no" n="99"/><hi rend="line-num">[99] </hi><hi rend="italic">balorum</hi> missus [f. 257b] fuit ad reges catholicos et prelatos et theolo<lb break="no" n="100"/><hi rend="line-num">[100] </hi>gorum collegia, sicut patet per seriem ac titulos earundem.</p>
+<p><lb n="101"/><hi rend="line-num">[101] </hi>Protestor etiam et confiteor me dixisse quod quicumque aliquam
+<lb n="102"/><hi rend="line-num">[102] </hi>predictarum editionum repudiaret uel abcecaret aut exterminaret uel
+<lb n="103"/><hi rend="line-num">[103] </hi>quomodocumque persequeretur, idcirco quia defluxiones uel lapsus
+<lb n="104"/><hi rend="line-num">[104] </hi>et impuritates catholicorum statuum detegunt, esset inimicus euan<lb break="no" n="105"/><hi rend="line-num">[105] </hi>gelice ueritatis et uere de membris maximi Antichristi. Nam indu<lb break="no" n="106"/><hi rend="line-num">[106] </hi>bitanter est uiciosus qui doctrinam orret, que uicia detestatur. Vnde,
+<lb n="107"/><hi rend="line-num">[107] </hi>cum omnis doctrina scripta siue prolata, que puris eloquiis exprimit
+<lb n="108"/><hi rend="line-num">[108] </hi>euangelicam ueritatem et detestatur dyabolicam prauitatem, sit a
+<lb n="109"/><hi rend="line-num">[109] </hi>Spiritu Sancto, constat quod inimicus Dei foret, qui talem doctrinam
+<lb n="110"/><hi rend="line-num">[110] </hi>persequeretur, et talem dico in meis editionibus contineri.</p>
+<p><lb n="111"/><hi rend="line-num">[111] </hi>Que doctrina per omnes editiones habundat inuectionibus et
+<lb n="112"/><hi rend="line-num">[112] </hi>increpationibus ad detestationem plenissimam uiciorum. Nec per
+<lb n="113"/><hi rend="line-num">[113] </hi>hoc minus digne sunt deuotione catholicorum, cum ille inuectiones
+<lb n="114"/><hi rend="line-num">[114] </hi>atque incre[f. 257c]pationes sint euuangelice, quoniam ex uerbis
+<lb n="115"/><hi rend="line-num">[115] </hi>utriusque <hi rend="italic">Testamenti</hi> sincere accipiuntur. Et qui stilum orret <hi rend="italic">Diuino</hi><lb break="no" n="116"/><hi rend="line-num">[116] </hi><hi rend="italic">rum eloquiorum</hi>, Deo inimicatur. Cum igitur editiones predicte conue<lb break="no" n="117"/><hi rend="line-num">[117] </hi>niant cum <hi rend="italic">Sacris eloquiis</hi> in materia et in forma et etiam fine, sitque
+<lb n="118"/><hi rend="line-num">[118] </hi>certum quod omnis scriptura, que sacro canoni consonat in hiis tribus <pb n="AVOThO_Volum XII-178"/>
+<lb n="119"/><hi rend="line-num">[119] </hi>a Deo est principaliter, constat quod qui tales scripturas persequitur,
+<lb n="120"/><hi rend="line-num">[120] </hi>ex proposito diuine ueritati directe inimicatur.</p>
+<p><lb n="121"/><hi rend="line-num">[121] </hi>Protestor etiam et confiteor me dixisse quod, si quis predictas
+<lb n="122"/><hi rend="line-num">[122] </hi>scripturas orreret, quia sunt edite per ministerium medici corporalis,
+<lb n="123"/><hi rend="line-num">[123] </hi>non ambularet in spiritu Iesu Christi, quoniam ipse medicos non
+<lb n="124"/><hi rend="line-num">[124] </hi>exclusit ab intelligentia <hi rend="italic">Sacrorum eloquiorum</hi>, nec unquam apostoli
+<lb n="125"/><hi rend="line-num">[125] </hi>dixerunt beato Luce, quando scripsit <hi rend="italic">Euuangelium</hi> et <hi rend="italic">Actus Apostolo</hi><lb break="no" n="126"/><hi rend="line-num">[126] </hi><hi rend="italic">rum</hi>: «Intromitte te de medicina et non de theologia». Sciebant enim
+<lb n="127"/><hi rend="line-num">[127] </hi>scriptum esse quod omnes fideles sunt docibiles Dei et quod ad intel<lb break="no" n="128"/><hi rend="line-num">[128] </hi>ligentiam <hi rend="italic">Sacre scripture</hi> non ingreditur nisi cui Christus [f. 257d]
+<lb n="129"/><hi rend="line-num">[129] </hi>aperire dignatur. Quoniam illi aperitur, cui ipse aperit, et clauditur, <pb n="AVOThO_Volum XII-179"/>
+<lb n="130"/><hi rend="line-num">[130] </hi>cui claudit. Sciebant etiam scriptum esse quod «Spiritus ubi uult
+<lb n="131"/><hi rend="line-num">[131] </hi>spirat», etc. Et iterum quod «manifestatio Spiritus datur unicuique
+<lb n="132"/><hi rend="line-num">[132] </hi>secundum mensuram donationis Christi» et quod «Pater abscondit
+<lb n="133"/><hi rend="line-num">[133] </hi>secreta sua hiis, qui se reputant sapientes atque prudentes et reuelat
+<lb n="134"/><hi rend="line-num">[134] </hi>ea paruulis». Et iterum quod «abhominatio est Deo omnis illusor et
+<lb n="135"/><hi rend="line-num">[135] </hi>cum simplicibus sermocinatio eius». Sciebant etiam quod habenti<lb break="no" n="136"/><hi rend="line-num">[136] </hi>bus caritatem datur intellectus <hi rend="italic">Sacrorum eloquiorum</hi>, «non habentibus
+<lb n="137"/><hi rend="line-num">[137] </hi>autem aufertur, etiam ille, quem uidentur habere», teste Domino in
+<lb n="138"/><hi rend="line-num">[138] </hi><hi rend="italic">Matheo</hi>. Et quod «unctio Spiritus Sancti docet eos de omnibus», ut
+<lb n="139"/><hi rend="line-num">[139] </hi>ait <hi rend="italic">Iohannes</hi>, nec indigent alio doctore.</p>
+<p><lb n="140"/><hi rend="line-num">[140] </hi>In hiis autem, qui sunt per scientiam magistralem inflati uel
+<lb n="141"/><hi rend="line-num">[141] </hi>tumidi, et per superbiam gigantei, caritas non existit. Et ideo, non
+<lb n="142"/><hi rend="line-num">[142] </hi>solum priuantur noticia secretorum Dei, sed etiam illa, quam comuni
+<lb n="143"/><hi rend="line-num">[143] </hi>iudicio uidentur aut creduntur habere, sicut in predictis opusculis
+<lb n="144"/><hi rend="line-num">[144] </hi>exemplis plurimis declaraui. Quorum unum hic ad euidentiam repe<lb break="no" n="145"/><hi rend="line-num">[145] </hi>to, scilicet, de [f. 258a] baculo cecorum, qui ab omni cane corroditur,
+<lb n="146"/><hi rend="line-num">[146] </hi>et est auctoritas illa Domini, <hi rend="italic">Actuum</hi> primo, cum dicit: «Non est
+<lb n="147"/><hi rend="line-num">[147] </hi>uestrum nosse tempora uel momenta, que Pater posuit in sua potes<pb n="AVOThO_Volum XII-180"/><lb break="no" n="148"/><hi rend="line-num">[148] </hi>tate». Per que uerba, dicunt pseudotheologi et inflati magistri quod
+<lb n="149"/><hi rend="line-num">[149] </hi>absolute cunctis fidelibus denegatur noticia temporis Antichristi
+<lb n="150"/><hi rend="line-num">[150] </hi>et quorumcumque finalium temporum. In quo dicto multipliciter
+<lb n="151"/><hi rend="line-num">[151] </hi>ostendunt se fore priuatos comuni noticia ueritatis.</p>
+<p><lb n="152"/><hi rend="line-num">[152] </hi>Et primo, noticia pertinente ad naturalem discretionem, per
+<lb n="153"/><hi rend="line-num">[153] </hi>quam intelligit omnis habens usum rationis, quod responsio recta
+<lb n="154"/><hi rend="line-num">[154] </hi>siue rationabilis non transgreditur terminos questionis uel interro<lb break="no" n="155"/><hi rend="line-num">[155] </hi>gationis. Constat autem quod interrogatio, ad quam per illa uerba
+<lb n="156"/><hi rend="line-num">[156] </hi>Dominus respondebat, fuit hec: «Domine, si in tempore hoc restitues
+<lb n="157"/><hi rend="line-num">[157] </hi>regnum Israel?». Itaque, interrogatio fuit solum de regno Israel et
+<lb n="158"/><hi rend="line-num">[158] </hi>de restitutione ipsius et non de regno Antichristi, tum quia regnum
+<lb n="159"/><hi rend="line-num">[159] </hi>Israel, siue accipiatur ad literam pro temporali, siue pro spirituali et
+<lb n="160"/><hi rend="line-num">[160] </hi>eterno, nequaquam potest regnum Antichristi significare, quoniam
+<lb n="161"/><hi rend="line-num">[161] </hi>illud est regnum Dei et is[f. 258b]tud dyaboli, tum quia restitui
+<lb n="162"/><hi rend="line-num">[162] </hi>non potest quod nondum fuit. Constat autem quod, quando discipuli
+<lb n="163"/><hi rend="line-num">[163] </hi>fecerunt illam interrogationem, scilicet, in die sue ascensionis, perso<lb break="no" n="164"/><hi rend="line-num">[164] </hi>nale regnum Antichristi nondum extiterat, cum adhuc sit futurum.
+<lb n="165"/><hi rend="line-num">[165] </hi>Qui ergo dicunt quod per illa uerba Dominus absolute denegauit
+<lb n="166"/><hi rend="line-num">[166] </hi>noticiam temporis Antichristi, sensu naturali carere probantur, si ad
+<lb n="167"/><hi rend="line-num">[167] </hi>interrogationem responsio comparetur.</p>
+<p><lb n="168"/><hi rend="line-num">[168] </hi>Secundo probantur carere noticia communi gramaticalium in
+<lb n="169"/><hi rend="line-num">[169] </hi>·<num type="roman">IV</num><hi rend="sup">or</hi>· dictionibus. Primo, in hoc uerbo: «Est». Quia, ut <hi rend="italic">Glossa ordi</hi><lb break="no" n="170"/><hi rend="line-num">[170] </hi><hi rend="italic">naria</hi> dicit ibidem: «Non dixit: “Non erit”, sed: “Non est”, notans
+<lb n="171"/><hi rend="line-num">[171] </hi>adhuc esse infirmos et non ad secreta idoneos». Per que uerba <hi rend="italic">Glosa</hi>
+<lb n="172"/><hi rend="line-num">[172] </hi>facit aperte differentiam inter «est» et «erit», patenter ostendens
+<lb n="173"/><hi rend="line-num">[173] </hi>quod Eternus Gramaticus non sine causa posuit ibi presens et non <pb n="AVOThO_Volum XII-181"/>
+<lb n="174"/><hi rend="line-num">[174] </hi>futurum, scilicet, ut innueret quod noticia temporum illorum, de
+<lb n="175"/><hi rend="line-num">[175] </hi>quibus interrogabant, non denegabatur eis quantum ad futurum, sed
+<lb n="176"/><hi rend="line-num">[176] </hi>solum quantum ad tunc. Sic etiam beatus <hi rend="small-caps">Augustinus</hi>, primo <hi rend="italic">De</hi>
+<lb n="177"/><hi rend="line-num">[177] </hi><hi rend="italic">Trinitate</hi>, sapienter exponit illud uerbum Domino, ·<num type="roman">XXIV</num>º· <hi rend="italic">Matthei</hi>:
+<lb n="178"/><hi rend="line-num">[178] </hi>«De die autem illa et hora», scilicet, consummati[f. 258c]onis secu<lb break="no" n="179"/><hi rend="line-num">[179] </hi>li siue iudicii generalis, «nemo scit». Non enim dixit: «Nemo sciet»,
+<lb n="180"/><hi rend="line-num">[180] </hi>quia, ut ibidem ait <hi rend="small-caps">Augustinus</hi>, et probat per illa uerba: «Multa
+<lb n="181"/><hi rend="line-num">[181] </hi>habeo uobis dicere, que non potestis modo portare», etc., daturus
+<lb n="182"/><hi rend="line-num">[182] </hi>erat indubitanter eis noticiam diei et hore consummationis tempore
+<lb n="183"/><hi rend="line-num">[183] </hi>oportuno, que omnia in <hi rend="italic">Gladio</hi> plenissime declarantur. Cum igitur
+<lb n="184"/><hi rend="line-num">[184] </hi>predicti theologi non faciant differentiam inter «est» et «erit», sicut
+<lb n="185"/><hi rend="line-num">[185] </hi><hi rend="italic">Glossa</hi>, quam debuerunt uidisse, facit, procul dubio se ostendunt
+<lb n="186"/><hi rend="line-num">[186] </hi>priuatos communi gramaticalium noticia uel dolosos.</p>
+<p><lb n="187"/><hi rend="line-num">[187] </hi>Secundo patet idem per hoc pronomen: «Uestrum», quod ex uir<lb break="no" n="188"/><hi rend="line-num">[188] </hi>tute sua refertur ad uires humanas. Non enim dixit Dominus: «Non
+<lb n="189"/><hi rend="line-num">[189] </hi>cognoscetis», sed dixit: «Non est uestrum nosse», uolens innuere
+<lb n="190"/><hi rend="line-num">[190] </hi>quod propriis uiribus, ut pretendebant per modum interrogandi,
+<lb n="191"/><hi rend="line-num">[191] </hi>non poterant noscere tempora, de quibus interrogabant. Quod aperte
+<lb n="192"/><hi rend="line-num">[192] </hi><hi rend="italic">Glossa</hi> super aduersatiua, que sequitur, exprimit, quando dicit: «Ideo
+<lb n="193"/><hi rend="line-num">[193] </hi>dixit: “Sed accipietis uirtutem superuenientis Spiritus”, etc., ut quod
+<lb n="194"/><hi rend="line-num">[194] </hi>non potestis propriis uiribus, possitis per uirtutem Spiritus Sancti».
+<lb n="195"/><hi rend="line-num">[195] </hi>Sic enim eis promiserat [f. 258d] in <hi rend="italic">Iohanne</hi>, cum dixit: «Ille spiritus
+<lb n="196"/><hi rend="line-num">[196] </hi>ueritatis, quem mittet Pater in nomine meo, docebit uos omnem
+<lb n="197"/><hi rend="line-num">[197] </hi>ueritatem et que uentura sunt annunciabit uobis». Et iste modus
+<lb n="198"/><hi rend="line-num">[198] </hi>loquendi, scilicet, «non est uestrum», etc., similis est illi, quo alibi
+<lb n="199"/><hi rend="line-num">[199] </hi>dicit: «Non estis uos qui loquimini, sed Spiritus Patris», etc. Patet <pb n="AVOThO_Volum XII-182"/>
+<lb n="200"/><hi rend="line-num">[200] </hi>igitur per uim pronominis quod quamuis in illis uerbis denegasset
+<lb n="201"/><hi rend="line-num">[201] </hi>noticiam finalium temporum, non tamen denegabat eam quantum ad
+<lb n="202"/><hi rend="line-num">[202] </hi>beneficium diuine reuelationis, sed quantum ad facultatem humane
+<lb n="203"/><hi rend="line-num">[203] </hi>rationis.</p>
+<p><lb n="204"/><hi rend="line-num">[204] </hi>Tercio patet ignorantia gramaticalium in predictis per hoc uer<lb break="no" n="205"/><hi rend="line-num">[205] </hi>bum: «Nosse», quod ex ui sua magis importat preteritum tempus
+<lb n="206"/><hi rend="line-num">[206] </hi>quam presens uel futurum, ut bene sciebat Dominus, qui nichil
+<lb n="207"/><hi rend="line-num">[207] </hi>facit frustra. Vnde, cum expresserit uerbum preteriti temporis magis
+<lb n="208"/><hi rend="line-num">[208] </hi>quam presentis aut futuri, clare per sua uerba insinuauit quod non ad
+<lb n="209"/><hi rend="line-num">[209] </hi>futurum, sed ad preteritum dirigebat suam responsionem.</p>
+<p><lb n="210"/><hi rend="line-num">[210] </hi>Quarto patet ignorantia gramaticalium in predictis per hoc
+<lb n="211"/><hi rend="line-num">[211] </hi>relatiuum: «Que». Quia nullus ignorat gramaticus quod relatiuum
+<lb n="212"/><hi rend="line-num">[212] </hi>restringit suum antecedens et non [f. 259a] permittit esse absolutum.
+<lb n="213"/><hi rend="line-num">[213] </hi>Nam si quis diceret episcopis uel abbatibus: «Non est uestrum dis<lb break="no" n="214"/><hi rend="line-num">[214] </hi>pensare in casibus, quos papa retinuit sue potestati», stultum esset
+<lb n="215"/><hi rend="line-num">[215] </hi>intelligere per hec uerba quod absolute, in nullo casu, possent dispen<lb break="no" n="216"/><hi rend="line-num">[216] </hi>sare, uel quod papa, cum uellet, non posset in casibus sibi retentis,
+<lb n="217"/><hi rend="line-num">[217] </hi>eis auctoritatem concedere dispensandi. Quoniam locutio per uim
+<lb n="218"/><hi rend="line-num">[218] </hi>relatiui solum contrahitur ad casus determinatos, de quibus nichilo<lb break="no" n="219"/><hi rend="line-num">[219] </hi>minus ipse papa potest dare dispendandi auctoritatem. Cum igitur
+<lb n="220"/><hi rend="line-num">[220] </hi>Dominus non dixerit absolute: «Non est uestrum nosse tempora»,
+<lb n="221"/><hi rend="line-num">[221] </hi>sed addidit: «Que Pater posuit in sua potestate», et illa determinauit
+<lb n="222"/><hi rend="line-num">[222] </hi>ipsemet, cum dixit: «De die autem illa et hora nemo scit, neque
+<lb n="223"/><hi rend="line-num">[223] </hi>angeli in celo, nisi solus Pater», relinquitur manifestum eos ignorare
+<lb n="224"/><hi rend="line-num">[224] </hi>gramaticam, qui uerba predicta extendunt ad alia tempora, quam ad
+<lb n="225"/><hi rend="line-num">[225] </hi>illa, que ipsemet dicit Patrem sue potestati retinuisse.</p>
+<p><lb n="226"/><hi rend="line-num">[226] </hi>Claret igitur ex hiis omnibus quod, dum ruminant uerba predicta
+<lb n="227"/><hi rend="line-num">[227] </hi>responsionis Domini sine dulcedine caritatis, [f. 259b] noticia carent
+<lb n="228"/><hi rend="line-num">[228] </hi>eorum, que nosse communiter credebantur, vt impleatur in eis illud
+<lb n="229"/><hi rend="line-num">[229] </hi><hi rend="italic">Sapientie</hi>, scilicet: «Excecauit eos malicia eorum», etc. Nam propter <pb n="AVOThO_Volum XII-183"/>
+<lb n="230"/><hi rend="line-num">[230] </hi>elationem cordis inflati uento presumptionis nequiuerunt, ad intuen<lb break="no" n="231"/><hi rend="line-num">[231] </hi>dum pedem litere inclinari tam hic quam in multis aliis sanctorum
+<lb n="232"/><hi rend="line-num">[232] </hi>scripturis. Proinde nescierunt neque intellexerunt, sed in tenebris
+<lb n="233"/><hi rend="line-num">[233] </hi>ambulantes turbati sunt et moti sunt sicut ebrius et omnis sapientia
+<lb n="234"/><hi rend="line-num">[234] </hi>eorum deuorata est, ut illud adimpleatur, quod dixit Dominus in
+<lb n="235"/><hi rend="line-num">[235] </hi><hi rend="italic">Ioanne</hi>: «Ego ad hoc ueni, ut qui non uident», scilicet, ignari et humi<lb break="no" n="236"/><hi rend="line-num">[236] </hi>les, «uideant, et qui uident», id est, uidere se putant per scientiam
+<lb n="237"/><hi rend="line-num">[237] </hi>magistralem, «ceci fiant», ita ut allegatio predicte auctoritatis sit
+<lb n="238"/><hi rend="line-num">[238] </hi>eis de cetero ad ignominiam sempiternam. Qui dixerunt Apostolo:
+<lb n="239"/><hi rend="line-num">[239] </hi>«Recede a nobis, scientiam uiarum tuarum nolumus. Sed alta sapere
+<lb n="240"/><hi rend="line-num">[240] </hi>studebimus et humilibus minime consentire».</p>
+<p><lb n="241"/><hi rend="line-num">[241] </hi>A qua cecitate et ignominia, caritas et humilitas apostolos pre<lb break="no" n="242"/><hi rend="line-num">[242] </hi>seruauit. Quoniam igitur informati erant apostoli ueritate, que est
+<lb n="243"/><hi rend="line-num">[243] </hi>secundum pietatem, non despexe[f. 259c]runt aut contempserunt
+<lb n="244"/><hi rend="line-num">[244] </hi>Lucam, quia medicus erat. Quoniam si contempsissent ideo sua
+<lb n="245"/><hi rend="line-num">[245] </hi>scripta, non habuissent spiritum Christi, de quo ait <hi rend="small-caps">Apostolus,</hi> <hi rend="italic">Ad</hi>
+<lb n="246"/><hi rend="line-num">[246] </hi><hi rend="italic">Romanos</hi>: «Si quis spiritum Christi non habet, hic non est eius».</p>
+<p><lb n="247"/><hi rend="line-num">[247] </hi>Protestor etiam et confiteor me dixisse quod ille habet spiritum
+<lb n="248"/><hi rend="line-num">[248] </hi>Christi et ambulat in eodem, qui construit in se ipso templum Chris<lb break="no" n="249"/><hi rend="line-num">[249] </hi>to cum illis quatuor lapidibus, quibus ipse Dominus Iesus Christus
+<lb n="250"/><hi rend="line-num">[250] </hi>docuit principaliter eclesiam sibi construi supra fidei fundamentum.
+<lb n="251"/><hi rend="line-num">[251] </hi>Quorum primus est paupertas uoluntaria. Quia qui Christum non
+<lb n="252"/><hi rend="line-num">[252] </hi>lingua solum gerit, sed in ueritate cordis et operis, terrenam opulen<lb break="no" n="253"/><hi rend="line-num">[253] </hi>tiam non amat nec appetit, et si affluat ei, dispensat eam ad gloriam
+<lb n="254"/><hi rend="line-num">[254] </hi>Christi et edificationem atque consolationem proximorum siue fide<lb break="no" n="255"/><hi rend="line-num">[255] </hi>lium.</p>
+<pb n="AVOThO_Volum XII-184"/>
+<p><lb n="256"/><hi rend="line-num">[256] </hi>Secundus lapis est humilitas uera, scilicet, cordis et conuer<lb break="no" n="257"/><hi rend="line-num">[257] </hi>sationis. Nam qui Christum in ueritate gerit nullo genere gratie,
+<lb n="258"/><hi rend="line-num">[258] </hi>siue temporalis, ut sunt genus et pulcritudo et robur et sanitas et
+<lb n="259"/><hi rend="line-num">[259] </hi>diuitie et dignitates, etc., siue spiritualis, ut scientia et intelligentia
+<lb n="260"/><hi rend="line-num">[260] </hi>et similia, unquam se reputat alio meliorem nec despicit aliquos,
+<lb n="261"/><hi rend="line-num">[261] </hi>quantumcumque minores, tum quia cognoscit quod omne [f. 259d]
+<lb n="262"/><hi rend="line-num">[262] </hi>bonum quod habet a Deo est, tum quia bene nouit se ignorare quan<lb break="no" n="263"/><hi rend="line-num">[263] </hi>tum et quale donum gratie Deus, apud quem non est acceptio perso<lb break="no" n="264"/><hi rend="line-num">[264] </hi>narum, reseruat minori uel potest abscondere in eodem.</p>
+<p><lb n="265"/><hi rend="line-num">[265] </hi>Tercius lapis est caritas perfecta, ut, scilicet, sic diligat Deum,
+<lb n="266"/><hi rend="line-num">[266] </hi>quod nullo modo mandata eius omittat uel transgrediatur; sic proxi<lb break="no" n="267"/><hi rend="line-num">[267] </hi>mum, quod in omni bono congaudeat ei et, quantum poterit, ipsum
+<lb n="268"/><hi rend="line-num">[268] </hi>procuret eidem et in omni malo condoleat siue compatiatur et, quan<lb break="no" n="269"/><hi rend="line-num">[269] </hi>tum poterit, auertere studeat ab eodem.</p>
+<p><lb n="270"/><hi rend="line-num">[270] </hi>Quartus lapis est pudicicia siue castitas integra, scilicet, tam cor<lb break="no" n="271"/><hi rend="line-num">[271] </hi>dis quam conuersationis.</p>
+<p><lb n="272"/><hi rend="line-num">[272] </hi>De primo lapide ait Dominus <hi rend="italic">Mathei</hi>, ·<num type="roman">V</num>º·: «Beati pauperes spi<lb break="no" n="273"/><hi rend="line-num">[273] </hi>ritu», etc. De secundo, <hi rend="small-caps">Apostolus</hi>, <hi rend="italic">Ad Philippenses</hi>: «Hoc sentite in
+<lb n="274"/><hi rend="line-num">[274] </hi>uobis, quod et in Christo Iesu, qui humiliauit semetipsum», etc. Et
+<lb n="275"/><hi rend="line-num">[275] </hi>beatus <hi rend="small-caps">Petrus</hi>, ultimo <hi rend="italic">Prime canonice</hi>: «Omnes inuicem humilitatem
+<lb n="276"/><hi rend="line-num">[276] </hi>insinuate, quia Deus superbis resistit, humilibus autem dat gra<lb break="no" n="277"/><hi rend="line-num">[277] </hi>tiam». De tercio, idem, <hi rend="italic">Ad Corinthios</hi>: «Si linguis hominum loquar
+<lb n="278"/><hi rend="line-num">[278] </hi>et angelorum», etc. De quarto, <hi rend="italic">Iacobus</hi>: «Que autem desursum est
+<lb n="279"/><hi rend="line-num">[279] </hi>sapientia, primum [f. 260a] quidem pudica est».</p>
+<p><lb n="280"/><hi rend="line-num">[280] </hi>Dixi ergo et dico quod in quacumque persona uel in quocumque
+<lb n="281"/><hi rend="line-num">[281] </hi>collegio deerit unus lapidum predictorum, realiter non faciet ecle<lb break="no" n="282"/><hi rend="line-num">[282] </hi>siam Christi, sed uerius Antichristi aut sinagogam Sathane.</p>
+<pb n="AVOThO_Volum XII-185"/>
+<p><lb n="283"/><hi rend="line-num">[283] </hi>Propterea dixi et etiam dico quod quicumque diceret medico
+<lb n="284"/><hi rend="line-num">[284] </hi>christiano: «Intromitte te de medicina et non de theologia», non
+<lb n="285"/><hi rend="line-num">[285] </hi>solum ostenderet se ignarum catholice ueritatis, sed etiam falsarium
+<lb n="286"/><hi rend="line-num">[286] </hi>et subuersorem ipsius. Nam sacra scientia communis est omnibus
+<lb n="287"/><hi rend="line-num">[287] </hi>fidelibus secundum mensuram donationis Christi et solum illi
+<lb n="288"/><hi rend="line-num">[288] </hi>appropriant eam sibi, qui ambulant in spiritu superbie et magistralis
+<lb n="289"/><hi rend="line-num">[289] </hi>inflationis, qui spiritus est Sathane. Proinde, qui sic loqueretur, esset
+<lb n="290"/><hi rend="line-num">[290] </hi>indubitanter illud os drachonis, de quo testatur <hi rend="italic">Apocalypsis</hi>, quod ab
+<lb n="291"/><hi rend="line-num">[291] </hi>eo egrediuntur «tres spiritus immundi in modum ranarum», id est,
+<lb n="292"/><hi rend="line-num">[292] </hi>loquacitas trium abhominabilium uiciorum, scilicet, superbie siue
+<lb n="293"/><hi rend="line-num">[293] </hi>fastus, et furoris aut ire, et immundicie siue fede scurrilitatis.</p>
+<p><lb n="294"/><hi rend="line-num">[294] </hi>Dixi etiam et dico quod si talis esset sub habitu regulari, esset ille
+<lb n="295"/><hi rend="line-num">[295] </hi>ypocrita, de quo <hi rend="italic">Iob</hi> loquitur sub methafora strucionis. Et si haberet
+<lb n="296"/><hi rend="line-num">[296] </hi>[f. 260b] officium predicandi, foret sua predicatio abusiua, quoniam,
+<lb n="297"/><hi rend="line-num">[297] </hi>ut patet ex <hi rend="italic">Actibus Apostolorum</hi>, indignus est prorsus ministerio uerbi
+<lb n="298"/><hi rend="line-num">[298] </hi>salutaris, qui uerbo contrariatur moribus et affectu, sicut dyabolus.
+<lb n="299"/><hi rend="line-num">[299] </hi>Esset etiam ille pseudopropheta, de quo testatur <hi rend="italic">Apocalipsis</hi> quod
+<lb n="300"/><hi rend="line-num">[300] </hi>faciet adorari drachonem. Et si foret positus in gradu sublimitatis,
+<lb n="301"/><hi rend="line-num">[301] </hi>constitueret unum de capitibus drachonis ibidem tactis.</p>
+<pb n="AVOThO_Volum XII-186"/>
+<p><lb n="302"/><hi rend="line-num">[302] </hi>Protestor etiam et confiteor me dixisse ac dicere quod quamuis
+<lb n="303"/><hi rend="line-num">[303] </hi>custodia ueritatis euuangelice solum ex auctoritate conueniat pre<lb break="no" n="304"/><hi rend="line-num">[304] </hi>latis et iudicibus canonice institutis, tamen denunciatio uulnerum
+<lb n="305"/><hi rend="line-num">[305] </hi>et omnis lesure ipsius apud custodes, communis est quibuscumque
+<lb n="306"/><hi rend="line-num">[306] </hi>fidelibus, nulla differentia sexus uel etatis aut status uel conditionis
+<lb n="307"/><hi rend="line-num">[307] </hi>aliquem eximente. Nam omnis fidelis habens usum rationis potest
+<lb n="308"/><hi rend="line-num">[308] </hi>et debet catholico moderamine denunciare quoscumque falsarios uel
+<lb n="309"/><hi rend="line-num">[309] </hi>aduersarios euuangelice ueritatis.</p>
+<p><lb n="310"/><hi rend="line-num">[310] </hi>Ad quod tenetur ex zelo essentiali religionis catholice. Nam, cum
+<lb n="311"/><hi rend="line-num">[311] </hi>religio catholica ordinetur ad salutem eternam, nullus catholicorum
+<lb n="312"/><hi rend="line-num">[312] </hi>consequi potest eam, [f. 260c] nisi sincere obseruet dictam religio<lb break="no" n="313"/><hi rend="line-num">[313] </hi>nem. Ad cuius sinceritatem seruandam, necesse est ut pro sinceritate
+<lb n="314"/><hi rend="line-num">[314] </hi>zelet euuangelice ueritatis, supra quam fundatur religio christiana.
+<lb n="315"/><hi rend="line-num">[315] </hi>Proinde, quia zelus iste sit necessarius unicuique fidelium ad salutem,
+<lb n="316"/><hi rend="line-num">[316] </hi>essentialis est cuilibet ut fideli et ideo debet rupturas eius et uulnera
+<lb n="317"/><hi rend="line-num">[317] </hi>quisque denunciare.</p>
+<p><lb n="318"/><hi rend="line-num">[318] </hi>Sed potest hoc facere duplici priuilegio. Quorum unum est
+<lb n="319"/><hi rend="line-num">[319] </hi>priuilegium secte legalis. Legalis, dico, ad differentiam hereticalis,
+<lb n="320"/><hi rend="line-num">[320] </hi>que nullo priuilegio gaudet alicubi. Sed legalis etiam apud infide<lb break="no" n="321"/><hi rend="line-num">[321] </hi>lium sectas hic habet quod quicumque illi secte subicitur, potest
+<lb n="322"/><hi rend="line-num">[322] </hi>apud custodes eius denunciare quoscumque ledentes eam. Si ergo
+<lb n="323"/><hi rend="line-num">[323] </hi>in secta mahometice legis, que est secta mendacii, hoc priuilegium
+<lb n="324"/><hi rend="line-num">[324] </hi>unicuique conceditur, multo dignius siue fortius hoc priuilegium
+<lb n="325"/><hi rend="line-num">[325] </hi>conuenit omnibus Christi sequacibus, qui lege pietatis et ueritatis
+<lb n="326"/><hi rend="line-num">[326] </hi>ab eo sunt informati. Aliud uero priuilegium, per quod licet cunctis
+<lb n="327"/><hi rend="line-num">[327] </hi>fidelibus illud facere, priuilegium est monete regalis, cuius falsarios,
+<lb n="328"/><hi rend="line-num">[328] </hi>cuiuscumque sint excellentie, potest mulier [f. 260d] aut puer unus
+<lb n="329"/><hi rend="line-num">[329] </hi>denunciare. Cum igitur dominus Iesus Christus sit rex cunctorum
+<lb n="330"/><hi rend="line-num">[330] </hi>fidelium, non solum dominio potestatis ut ceterorum, sed etiam fauo<lb break="no" n="331"/><hi rend="line-num">[331] </hi>re gratie salutaris, et eis ad commutationem spiritualiter exercendam
+<lb n="332"/><hi rend="line-num">[332] </hi>dederit pro moneta euangelicam ueritatem, constat quod priuilegio
+<lb n="333"/><hi rend="line-num">[333] </hi>monete regalis potest omnis fidelis falsarios eius denunciare.</p>
+<pb n="AVOThO_Volum XII-187"/>
+<p><lb n="334"/><hi rend="line-num">[334] </hi>Que omnia, pater sanctissime, dixi et adhuc dico ad retundendum
+<lb n="335"/><hi rend="line-num">[335] </hi>maxillas eorum, qui non approximant ueritati et qui domino Bene<lb break="no" n="336"/><hi rend="line-num">[336] </hi>dicto quondam, uestro antecessori, suggillauerunt sophistice quod in
+<lb n="337"/><hi rend="line-num">[337] </hi>meis editionibus usurpabam officium alienum.</p>
+<p><lb n="338"/><hi rend="line-num">[338] </hi>Ne tamen mihi arrogare uidear noticiam euuangelice ueritatis,
+<lb n="339"/><hi rend="line-num">[339] </hi>dico et confiteor et protestor quod omnia dicta mea in cunctis editio<lb break="no" n="340"/><hi rend="line-num">[340] </hi>nibus prelibatis, offero et presento uobis, ut capiti legitimo sponse
+<lb n="341"/><hi rend="line-num">[341] </hi>Christi et magistro uniuersali catholicorum, nihil in eis uolens tenere
+<lb n="342"/><hi rend="line-num">[342] </hi>atque sentire nisi quod uestra sanctitas decreuerit tenendum et sen<lb break="no" n="343"/><hi rend="line-num">[343] </hi>tiendum. Tamen, sicut in protestatione Perusina expressi, paratus
+<lb n="344"/><hi rend="line-num">[344] </hi>sum in obsequium Apostolice Sedis uel matris eclesie fideliter, sub
+<lb n="345"/><hi rend="line-num">[345] </hi>lumine [f. 261a] uestri iudicii, respondere in scriptis obiectionibus
+<lb n="346"/><hi rend="line-num">[346] </hi>quorumcumque uolentium impugnare scripturas meas, dum tamen
+<lb n="347"/><hi rend="line-num">[347] </hi>easdem in scriptis tradant, ut ueritas et oppositum eius perpetuo
+<lb n="348"/><hi rend="line-num">[348] </hi>clareant hinc et inde.</p>
+<p><lb n="349"/><hi rend="line-num">[349] </hi>Et quia nullus eorum, quorum obiectiones prostraui et conquas<lb break="no" n="350"/><hi rend="line-num">[350] </hi>saui, uel alius pro eius resumpsit uires ad defendendum uel susti<lb break="no" n="351"/><hi rend="line-num">[351] </hi>nendum aut reparandum eorum opiniones aut dicta, peto suppliciter
+<lb n="352"/><hi rend="line-num">[352] </hi>quod uestra uniuersalis paternitas iniungat eisdem et aliis theologis
+<lb n="353"/><hi rend="line-num">[353] </hi>quibuscumque quod quicquid obicere poterint scribant cum dili<lb break="no" n="354"/><hi rend="line-num">[354] </hi>gentia, simulque festinent uestre sanctitati ut amatores euuangelice
+<lb n="355"/><hi rend="line-num">[355] </hi>ueritatis in scriptis offerre uel presentare taliter quod iudicii uel
+<lb n="356"/><hi rend="line-num">[356] </hi>examinis Apostolice Sedis lucem appetere se ostendant et non odire,
+<lb n="357"/><hi rend="line-num">[357] </hi>cum sit scriptum quod lucem odit ille solvmmodo, qui se male agere
+<lb n="358"/><hi rend="line-num">[358] </hi>non ignorat.</p>
+<p><lb n="359"/><hi rend="line-num">[359] </hi>Ad perpetuam uero memoriam huius protestationis, confessionis,
+<lb n="360"/><hi rend="line-num">[360] </hi>presentationis et supplicationis mee, requiro uos dominum Bernar<lb break="no" n="361"/><hi rend="line-num">[361] </hi>dum Caprarii, publicum auctoritate imperiali notarium, quod hec [f.
+<lb n="362"/><hi rend="line-num">[362] </hi>261b] omnia, sicut legi et in presenti scripto continentur, in formam
+<lb n="363"/><hi rend="line-num">[363] </hi>publicam redigatis et omni petenti copiam faciatis inde.</p>
+</div>
+<pb n="AVOThO_Volum XII-188"/>
+<div type="section">
+<head type="speaker">[<hi rend="small-caps">Bernardus Caprarii, publicus notarius</hi>]</head>
+<p><lb n="365"/><hi rend="line-num">[365] </hi>Et incontinenti, dominus papa superius nominatus, respondens
+<lb n="366"/><hi rend="line-num">[366] </hi>dicto magistro Arnaldo et eum nominans «filium suum dilectum»,
+<lb n="367"/><hi rend="line-num">[367] </hi>dixit ei quod factum siue negocium ab ipso magistro Arnaldo pro<lb break="no" n="368"/><hi rend="line-num">[368] </hi>positum magnum erat, quia tangebat in aliquibus fidem catholicam
+<lb n="369"/><hi rend="line-num">[369] </hi>et euuangelicam ueritatem. Adiciens idem dominus papa quod opera
+<lb n="370"/><hi rend="line-num">[370] </hi>per ipsum magistrum Arnaldum eidem reddita, diligenti examinatio<lb break="no" n="371"/><hi rend="line-num">[371] </hi>ne ac maturo consilio indigebant, nec constabat eidem, ut dixit, quod
+<lb n="372"/><hi rend="line-num">[372] </hi>essent a Deo, nec nouerat quicquam de tenore ipsorum et ideo ipse
+<lb n="373"/><hi rend="line-num">[373] </hi>nec approbabat nec reprobabat ad presens, sed recipiebat ea et exa<lb break="no" n="374"/><hi rend="line-num">[374] </hi>mini ac iudicio suo et Sedis Apostolice reseruabat. Qua examinatione
+<lb n="375"/><hi rend="line-num">[375] </hi>facta, si inuenirentur eadem opera doctrinam erroneam continere,
+<lb n="376"/><hi rend="line-num">[376] </hi>tunc ipse dominus papa ea corrigeret et inde faceret quod esset super
+<lb n="377"/><hi rend="line-num">[377] </hi>hiis faciendum. Si autem eadem opera doctrinam inuenirentur habere
+<lb n="378"/><hi rend="line-num">[378] </hi>salubrem et uniuersitati fidelium utilem aut necessariam, [f. 261c]
+<lb n="379"/><hi rend="line-num">[379] </hi>tunc ea dominus papa, in gloriam Dei et augmentum nominis ipsius
+<lb n="380"/><hi rend="line-num">[380] </hi>magistri Arnaldi, sollempniter approbaret. Laudans idem dominus
+<lb n="381"/><hi rend="line-num">[381] </hi>papa scientiam, studium atque subtilitatem ingenii dicti magistri
+<lb n="382"/><hi rend="line-num">[382] </hi>Arnaldi et ipsius uitam et conuersationem ac deuotionem ipsius, quia
+<lb n="383"/><hi rend="line-num">[383] </hi>uidebat eum in simplicitate et humilitate ac obedientia et reuerentia
+<lb n="384"/><hi rend="line-num">[384] </hi>Sedis Apostolice more boni catholici ambulare.</p>
+<p><lb n="385"/><hi rend="line-num">[385] </hi>Acta fuerunt hec Burdegalie, in palacio supradicto, anno, indic<lb break="no" n="386"/><hi rend="line-num">[386] </hi>tione, pontificatu, mense et die predictis, presentibus reuerendis in <pb n="AVOThO_Volum XII-189"/>
+<lb n="387"/><hi rend="line-num">[387] </hi>Christo patribus, dominis Agenensi et Biterrensi episcopis, Iussellen<lb break="no" n="388"/><hi rend="line-num">[388] </hi>si et de Belloloco abbatibus, dominis ·P·, priore Sancti Macharii, Bur<lb break="no" n="389"/><hi rend="line-num">[389] </hi>degalensis diocesis, ·R· d’en Goth, canonico Agenensi, ac aliorum
+<lb n="390"/><hi rend="line-num">[390] </hi>plurium multitudine copiosa ad hec uocatis et rogatis.</p>
+<p><lb n="391"/><hi rend="line-num">[391] </hi>Et ego, Bernardus Caprarii, clericus Burdegalensis diocesis,
+<lb n="392"/><hi rend="line-num">[392] </hi>publicus imperiali auctoritate notarius, predictis omnibus proposi<lb break="no" n="393"/><hi rend="line-num">[393] </hi>tis, lectis, protestatis et responsis, ut superius est premis[f. 261d]<lb break="no" n="394"/><hi rend="line-num">[394] </hi>sum, presens fui una cum testibus predictis, et ea manu mea propria
+<lb n="395"/><hi rend="line-num">[395] </hi>scripsi et in publicam formam redigi meoque signo consueto signaui
+<lb n="396"/><hi rend="line-num">[396] </hi>rogatus.</p>
+<p><lb n="397"/><hi rend="line-num">[397] </hi>Explicit <hi rend="italic">Presentatio Burdegalensis</hi>.</p>
+<p><lb n="398"/><hi rend="line-num">[398] </hi>Benedictus Deus in seculum seculi. Amen.</p>
+</div>
+    </body>
+    <back>
+      <div type="apparatus" subtype="critical">
+<pb n="AVOThO_Volum XII-171 (Aparat Crític)"/>
+<note n="1-10">In nomine ... scripturam <hi rend="italic">m</hi> In nomine Domini universis per praesens publicum instrumentum pateat quod anno ejusdem MCCCV, indictione tertia Pontificatus S. S. Domini Clementis V ... et ipso sedente pro tribunali ad audientiam publicam celebrandam in aula palatii archiepiscopalis Bordegaliae et mei notarii et testium subscriptorum personaliter magister Arnaldus de Villanova protestatus est et legit quamdam scripturam</note>
+<note n="3">·<num type="roman">M</num>º·<num type="roman">CCC</num>º·<num type="roman">V</num>º· <hi rend="italic">V</hi> ·<num type="roman">M</num>º·<num type="roman">CCC</num>º· quinto</note>
+<note n="13">Uillanoua <hi rend="italic">e</hi> Villa nova</note>
+<note n="14">mihi <hi rend="italic">e</hi> michi</note>
+<pb n="AVOThO_Volum XII-173 (Aparat Crític)"/>
+<note n="30">dicta <hi rend="italic">V seq</hi> mea <hi rend="italic">canc</hi></note>
+<note n="32">publici <hi rend="italic">e</hi> publica</note>
+<pb n="AVOThO_Volum XII-176 (Aparat Crític)"/>
+<note n="80"><hi rend="italic">Deest folium</hi></note>
+<note n="256"/>
+<pb n="AVOThO_Volum XII-181 (Aparat Crític)"/>
+<note n="179">enim <hi rend="italic">V add in mg</hi></note>
+<note n="186">communi <hi rend="italic">V seq</hi> n <hi rend="italic">canc et exp</hi></note>
+<pb n="AVOThO_Volum XII-184 (Aparat Crític)"/>
+<note n="257">gerit <hi rend="italic">V seq</hi> nl <hi rend="italic">canc et exp</hi></note>
+<note n="269">et <hi rend="italic">V add in mg</hi></note>
+<pb n="AVOThO_Volum XII-185 (Aparat Crític)"/>
+<note n="284">te <hi rend="italic">f om</hi></note>
+<pb n="AVOThO_Volum XII-186 (Aparat Crític)"/>
+<note n="328">sunt <hi rend="italic">f</hi> sint</note>
+<pb n="AVOThO_Volum XII-187 (Aparat Crític)"/>
+<note n="338">mihi <hi rend="italic">V seq</hi> m <hi rend="italic">canc et exp</hi></note>
+<note n="349">nullus <hi rend="italic">f</hi> ullus</note>
+<note n="362">scripto <hi rend="italic">V add</hi> -to <hi rend="italic">in mg</hi></note>
+<pb n="AVOThO_Volum XII-188 (Aparat Crític)"/>
+<note n="372">ipse <hi rend="italic">V</hi> -e <hi rend="italic">ex corr lit illeg</hi></note>
+<note n="383">ac <hi rend="italic">f</hi> et</note>
+<note n="385">Burdegalie <hi rend="italic">f</hi> Burdeg(alis)</note>
+<pb n="AVOThO_Volum XII-189 (Aparat Crític)"/>
+<note n="389">d’en <hi rend="italic">Vf</hi> den</note>
+      </div>
+      <div type="apparatus" subtype="sources">
+<pb n="AVOThO_Volum XII-173 (Fonts)"/>
+<note type="source" n="26-33"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 217, lín. 833-839: «Ego enim, sicut apparet per instrumenta superius memorata iam subieci et iterum de presenti subicio totaliter omnia prelibata examini et ordinationi predicte matris, nichil in illis volens tenere sive sentire, nisi quod ipsa decreverit tenendum et sentiendum. Matri namque predicte incorporari et indissolubiliter adherere volens atque detestabiliter horrens ab eius unitate discedere, cuncta opera mea super evangelica veritate devotione catholica presento et offero scrutinio sue lucis».</note>
+<pb n="AVOThO_Volum XII-174 (Fonts)"/>
+<note type="source" n="41-80"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 216-217, lín. 798-811.</note>
+<note type="source" n="46-47">Cf. <cit type="biblical"><bibl type="biblical" n="Iac 1,5"><title type="abbr">Iac</title> <biblScope unit="chapter" from="1" to="1"><num type="roman" value="1">I</num></biblScope>,<biblScope unit="verse" from="5" to="5">5</biblScope></bibl><pc>:</pc> <quote>«Si quis autem vestrum indiget sapientia, postulet a Deo, qui dat omnibus affluenter, et non improperat: et dabitur ei»</quote></cit>.</note>
+<note type="source" n="49">Cf. <cit type="biblical"><bibl type="biblical" n="Ier 6,17"><title type="abbr">Ier</title> <biblScope unit="chapter" from="6" to="6"><num type="roman" value="6">VI</num></biblScope>,<biblScope unit="verse" from="17" to="17">17</biblScope></bibl><pc>:</pc> <quote>«Et constitui super vos speculatores: Audite vocem tubae. Et dixerunt: Non audiemus»</quote></cit>.</note>
+<note type="source" n="49-53">Cf. <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 202, lín. 181-189.</note>
+<note type="source" n="60">Cf. <bibl type="biblical" n="2 Sam 20,18"><title type="abbr">2 Sam</title> <biblScope unit="chapter" from="20" to="20"><num type="roman" value="20">XX</num></biblScope>,<biblScope unit="verse" from="18" to="18">18</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-175 (Fonts)"/>
+<note type="source" n="67-68">Cf. <bibl type="biblical" n="Prov 29,8"><title type="abbr">Prov</title> <biblScope unit="chapter" from="29" to="29"><num type="roman" value="29">XXIX</num></biblScope>,<biblScope unit="verse" from="8" to="8">8</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-177 (Fonts)"/>
+<note type="source" n="101-120"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 212, lín. 631-649; i 214, lín. 716-721; <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 216, lín. 771-775.</note>
+<pb n="AVOThO_Volum XII-178 (Fonts)"/>
+<note type="source" n="121-139">Cf. <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">De tempore</hi>, ed. <hi rend="small-caps">Perarnau</hi>, AVOThO, V, 262-263, lín. 1404-1422; <hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 108-109, lín. 800-826; <hi rend="italic">Denuntiatio tertia Gerundensis</hi>, ed. <hi rend="small-caps">Carreras</hi>, 55-56.</note>
+<note type="source" n="126"><hi rend="small-caps">Arnaldus de Villanova,</hi> <hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 107, lín. 793-794: «[…] de medicina debetis uos intromittere, non de theologia». En la <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 205, lín. 307-308, Arnau de Vilanova recorda (d’ell mateix) al flamant papa Benet XI que en temps de Bonifaci VIII, «cum fuisset in ministerio spirituali repudiatus, ad ministerium corporalis obsequii fuit ex improviso ac subito introductus».</note>
+<note type="source" n="127">Cf. <cit type="biblical"><bibl type="biblical" n="Io 6,45"><title type="abbr">Io</title> <biblScope unit="chapter" from="6" to="6"><num type="roman" value="6">VI</num></biblScope>,<biblScope unit="verse" from="45" to="45">45</biblScope></bibl><pc>:</pc> <quote>«Est scriptum in prophetis: Et erunt omnes docibiles Dei»</quote></cit>; <cit type="biblical"><bibl type="biblical" n="Is 54,13"><title type="abbr">Is</title> <biblScope unit="chapter" from="54" to="54"><num type="roman" value="54">LIV</num></biblScope>,<biblScope unit="verse" from="13" to="13">13</biblScope></bibl><pc>:</pc> <quote>«universos filios tuos doctos a Domino, et multitudinem pacis filiis tuis»</quote></cit>.</note>
+<pb n="AVOThO_Volum XII-179 (Fonts)"/>
+<note type="source" n="130-131"><bibl type="biblical" n="Io 3,8"><title type="abbr">Io</title> <biblScope unit="chapter" from="3" to="3"><num type="roman" value="3">III</num></biblScope>,<biblScope unit="verse" from="8" to="8">8</biblScope></bibl>.</note>
+<note type="source" n="131-132"><cit type="biblical"><bibl type="biblical" n="1 Cor 12,7"><title type="abbr">1 Cor</title> <biblScope unit="chapter" from="12" to="12"><num type="roman" value="12">XII</num></biblScope>,<biblScope unit="verse" from="7" to="7">7</biblScope></bibl><pc>:</pc> <quote>«Unicuique autem datur manifestatio Spiritus ad utilitatem»</quote></cit>; <cit type="biblical"><bibl type="biblical" n="Eph 4,7"><title type="abbr">Eph</title> <biblScope unit="chapter" from="4" to="4"><num type="roman" value="4">IV</num></biblScope>,<biblScope unit="verse" from="7" to="7">7</biblScope></bibl><pc>:</pc> <quote>«Unicuique autem nostrum data est gratia secundum mensuram donationis Christi»</quote></cit>.</note>
+<note type="source" n="132-134"><bibl type="biblical" n="Mt 11,25"><title type="abbr">Mt</title> <biblScope unit="chapter" from="11" to="11"><num type="roman" value="11">XI</num></biblScope>,<biblScope unit="verse" from="25" to="25">25</biblScope></bibl> (i <bibl type="biblical" n="Lc 10,21"><title type="abbr">Lc</title> <biblScope unit="chapter" from="10" to="10"><num type="roman" value="10">X</num></biblScope>,<biblScope unit="verse" from="21" to="21">21</biblScope></bibl>): «Confiteor tibi, Pater, Domine caeli et terrae, quia abscondisti haec a sapientibus, et prudentibus, et revelasti ea parvulis».</note>
+<note type="source" n="134-135"><bibl type="biblical" n="Prov 3,32"><title type="abbr">Prov</title> <biblScope unit="chapter" from="3" to="3"><num type="roman" value="3">III</num></biblScope>,<biblScope unit="verse" from="32" to="32">32</biblScope></bibl>.</note>
+<note type="source" n="136-137"><bibl type="biblical" n="Mt 25,29"><title type="abbr">Mt</title> <biblScope unit="chapter" from="25" to="25"><num type="roman" value="25">XXV</num></biblScope>,<biblScope unit="verse" from="29" to="29">29</biblScope></bibl>.</note>
+<note type="source" n="138"><bibl type="biblical" n="1 Io 2,27"><title type="abbr">1 Io</title> <biblScope unit="chapter" from="2" to="2"><num type="roman" value="2">II</num></biblScope>,<biblScope unit="verse" from="27" to="27">27</biblScope></bibl>.</note>
+<note type="source" n="140-144">Cf., per exemple, <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">De mysterio</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 64, lín. 182-188; 68, lín. 240-256; <hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 58-59, lín. 10-18; 63-64, lín. 85-104; 65, lín. 115-117; 75, lín. 265-271; 79, lín. 293-296.</note>
+<note type="source" n="146-148"><bibl type="biblical" n="Act 1,7"><title type="abbr">Act</title> <biblScope unit="chapter" from="1" to="1"><num type="roman" value="1">I</num></biblScope>,<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-180 (Fonts)"/>
+<note type="source" n="148-151">Cf., per exemple, <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">De tempore</hi>, ed. <hi rend="small-caps">Perarnau</hi>, AVOThO, V, 192-193, lín. 390-404; <hi rend="italic">De mysterio</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 76, aparat de variants corresponent a les lín. 413-414.</note>
+<note type="source" n="152-225">Cf. <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">De tempore</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 204-205, lín. 572-590; 240, lín. 1095-1114; <hi rend="italic">De mysterio</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 72-74, lín. 312-366; <hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 111-112, lín. 871-885; <hi rend="italic">Denuntiatio Gerundensis</hi>, ed. <hi rend="small-caps">Carreras,</hi> <hi rend="italic">La polémica</hi>, 46-49; <hi rend="italic">Gladius</hi>, Vat. lat. 3824, f. 189a-b; <hi rend="italic">Carpinatio</hi>, Vat. lat. 3824, f. 196c; <hi rend="italic">Antidotum</hi>, AVOThO, XII, lín. 469-477, 714-738, 944-953, 978-983.</note>
+<note type="source" n="156-157"><bibl type="biblical" n="Act 1,6b"><title type="abbr">Act</title> <biblScope unit="chapter" from="1" to="1"><num type="roman" value="1">I</num></biblScope>,<biblScope unit="verse" from="6b" to="6b">6b</biblScope></bibl>.</note>
+<note type="source" n="169-176">Aquesta <hi rend="italic">Glossa</hi> resulta ésser d’<hi rend="small-caps">Hugo de Sancto Caro</hi>, <hi rend="italic">Postilla super librum Actuum Apostolorum</hi>, f. 279d: «Nec dicit, non erit, sed non est, etc. In quo notat eos adhuc esse infirmos, et ad secreta minus idoneos, quasi aliquando erit vestrum, sed non modo».</note>
+<pb n="AVOThO_Volum XII-181 (Fonts)"/>
+<note type="source" n="176-183"><hi rend="small-caps">Augustinus</hi>, <hi rend="italic">De Trinitate</hi>, I,XI-XII,23, ed. <hi rend="small-caps">Mountain</hi>, <hi rend="small-caps">Glorie</hi>, 61, lín. 21-34.</note>
+<note type="source" n="177-179"><bibl type="biblical" n="Mt 24,36"><title type="abbr">Mt</title> <biblScope unit="chapter" from="24" to="24"><num type="roman" value="24">XXIV</num></biblScope>,<biblScope unit="verse" from="36" to="36">36</biblScope></bibl>.</note>
+<note type="source" n="180-181"><bibl type="biblical" n="Io 16,12"><title type="abbr">Io</title> <biblScope unit="chapter" from="16" to="16"><num type="roman" value="16">XVI</num></biblScope>,<biblScope unit="verse" from="12" to="12">12</biblScope></bibl>.</note>
+<note type="source" n="183"><hi rend="italic">Gladius</hi>, Vat. lat. 3824, f. 189c-d.</note>
+<note type="source" n="192-194">La <hi rend="italic">Glossa ordinaria</hi>, ed. <hi rend="small-caps">Rusch</hi> (<hi rend="italic">https://ja.cat/5Pz8F</hi>, 31 d’agost de 2020) [i <hi rend="italic">Glossa ordinaria</hi>, II, ed. <hi rend="small-caps">Migne</hi>, col. 427c], comenta: «[…] <hi rend="italic">sed accipietis virtutem Spiritus sancti</hi>, ut quod propter infirmitatem carnis non potestis, possitis ex virtute Spiritus sancti».</note>
+<note type="source" n="195-197"><cit type="biblical"><bibl type="biblical" n="Io 14,26"><title type="abbr">Io</title> <biblScope unit="chapter" from="14" to="14"><num type="roman" value="14">XIV</num></biblScope>,<biblScope unit="verse" from="26" to="26">26</biblScope></bibl><pc>:</pc> <quote>«Spiritus Sanctus, quem mittet Pater in nomine meo, ille vos docebit omnia, et suggeret vobis omnia quaecumque dixero vobis»</quote></cit>, i <cit type="biblical"><bibl type="biblical" n="Io 16,13"><title type="abbr">Io</title> <biblScope unit="chapter" from="16" to="16"><num type="roman" value="16">XVI</num></biblScope>,<biblScope unit="verse" from="13" to="13">13</biblScope></bibl><pc>:</pc> <quote>«Spiritus veritatis, docebit vos omnem veritatem: non enim loquetur a semetipso, sed quaecumque audiet loquetur, et quae ventura sunt annuntiabit vobis»</quote></cit>.</note>
+<note type="source" n="199"><bibl type="biblical" n="Mt 10,20"><title type="abbr">Mt</title> <biblScope unit="chapter" from="10" to="10"><num type="roman" value="10">X</num></biblScope>,<biblScope unit="verse" from="20" to="20">20</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-182 (Fonts)"/>
+<note type="source" n="213-214">Cf. <hi rend="small-caps">Arnaldus de Villanova,</hi> <hi rend="italic">De mysterio</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 76, n. 413-414; <hi rend="italic">Denunciatio Gerundensis</hi>, ed. <hi rend="small-caps">Carreras</hi>, 47; i <hi rend="italic">Antidotum</hi>, lín. 196-197.</note>
+<note type="source" n="222-223"><bibl type="biblical" n="Mt 24,36"><title type="abbr">Mt</title> <biblScope unit="chapter" from="24" to="24"><num type="roman" value="24">XXIV</num></biblScope>,<biblScope unit="verse" from="36" to="36">36</biblScope></bibl>.</note>
+<note type="source" n="229"><bibl type="biblical" n="Sap 2,21b"><title type="abbr">Sap</title> <biblScope unit="chapter" from="2" to="2"><num type="roman" value="2">II</num></biblScope>,<biblScope unit="verse" from="21b" to="21b">21b</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-183 (Fonts)"/>
+<note type="source" n="234-238"><bibl type="biblical" n="Io 9,39"><title type="abbr">Io</title> <biblScope unit="chapter" from="9" to="9"><num type="roman" value="9">IX</num></biblScope>,<biblScope unit="verse" from="39" to="39">39</biblScope></bibl>.</note>
+<note type="source" n="239-240"><bibl type="biblical" n="Iob 21,14"><title type="abbr">Iob</title> <biblScope unit="chapter" from="21" to="21"><num type="roman" value="21">XXI</num></biblScope>,<biblScope unit="verse" from="14" to="14">14</biblScope></bibl> i <bibl type="biblical" n="Rom 12,16"><title type="abbr">Rom</title> <biblScope unit="chapter" from="12" to="12"><num type="roman" value="12">XII</num></biblScope>,<biblScope unit="verse" from="16" to="16">16</biblScope></bibl>.</note>
+<note type="source" n="245-246"><bibl type="biblical" n="Rom 8,9b"><title type="abbr">Rom</title> <biblScope unit="chapter" from="8" to="8"><num type="roman" value="8">VIII</num></biblScope>,<biblScope unit="verse" from="9b" to="9b">9b</biblScope></bibl>.</note>
+<note type="source" n="247-282">Cf., <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Philosophia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 68, lín. 177; 64, lín. 100-113; 65, lín. 130-133; 66, lín. 143.</note>
+<pb n="AVOThO_Volum XII-184 (Fonts)"/>
+<note type="source" n="272-273"><bibl type="biblical" n="Mt 5,3"><title type="abbr">Mt</title> <biblScope unit="chapter" from="5" to="5"><num type="roman" value="5">V</num></biblScope>,<biblScope unit="verse" from="3" to="3">3</biblScope></bibl>.</note>
+<note type="source" n="273-274"><bibl type="biblical" n="Phil 2,5.8"><title type="abbr">Phil</title> <biblScope unit="chapter" from="2" to="2"><num type="roman" value="2">II</num></biblScope>,<biblScope unit="verse" from="5" to="5">5</biblScope>.<biblScope unit="verse" from="8" to="8">8</biblScope></bibl>.</note>
+<note type="source" n="275-277"><bibl type="biblical" n="1 Ptr 5,5"><title type="abbr">1 Ptr</title> <biblScope unit="chapter" from="5" to="5"><num type="roman" value="5">V</num></biblScope>,<biblScope unit="verse" from="5" to="5">5</biblScope></bibl>.</note>
+<note type="source" n="277-278"><bibl type="biblical" n="1 Cor 13,1"><title type="abbr">1 Cor</title> <biblScope unit="chapter" from="13" to="13"><num type="roman" value="13">XIII</num></biblScope>,<biblScope unit="verse" from="1" to="1">1</biblScope></bibl>.</note>
+<note type="source" n="278-279"><bibl type="biblical" n="Iac 3,17b"><title type="abbr">Iac</title> <biblScope unit="chapter" from="3" to="3"><num type="roman" value="3">III</num></biblScope>,<biblScope unit="verse" from="17b" to="17b">17b</biblScope></bibl>.</note>
+<note type="source" n="283-293">Cf. <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 107-109, lín. 792-826.</note>
+<pb n="AVOThO_Volum XII-185 (Fonts)"/>
+<note type="source" n="289-293"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Gladius</hi>, Vat. lat. 3824, f. 182a-b: «Et ab ore talium testatur <hi rend="italic">Apocalypsis</hi> exire tres spiritus immundos in modvm ranarum, quos alibi per ignem et fumum et sulphur [f. 182b] designat. Nam de uiciosa loquacitate, superbie spiritus et detractionis ac scurrilitatis egreditur».</note>
+<note type="source" n="291"><bibl type="biblical" n="Apoc 16,13"><title type="abbr">Apoc</title> <biblScope unit="chapter" from="16" to="16"><num type="roman" value="16">XVI</num></biblScope>,<biblScope unit="verse" from="13" to="13">13</biblScope></bibl>.</note>
+<note type="source" n="295">Cf. <bibl type="biblical" n="Iob 39,13-18"><title type="abbr">Iob</title> <biblScope unit="chapter" from="39" to="39"><num type="roman" value="39">XXXIX</num></biblScope>,<biblScope unit="verse" from="13" to="18">13-18</biblScope></bibl>.</note>
+<note type="source" n="297-298">Cf. <bibl type="biblical" n="Act 14,3"><title type="abbr">Act</title> <biblScope unit="chapter" from="14" to="14"><num type="roman" value="14">XIV</num></biblScope>,<biblScope unit="verse" from="3" to="3">3</biblScope></bibl>.</note>
+<note type="source" n="299-300"><bibl type="biblical" n="Apoc 13,4"><title type="abbr">Apoc</title> <biblScope unit="chapter" from="13" to="13"><num type="roman" value="13">XIII</num></biblScope>,<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>.</note>
+<pb n="AVOThO_Volum XII-186 (Fonts)"/>
+<note type="source" n="302-337"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Tertia denuntiatio Gerundensis</hi>, ed. <hi rend="small-caps">Carreras</hi>, 57; <hi rend="italic">Confessio Ilerdensis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, 75, lín. 161-169.</note>
+<pb n="AVOThO_Volum XII-187 (Fonts)"/>
+<note type="source" n="343"><hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 218, lín. 852-857.</note>
+      </div>
+      <div type="notes" subtype="contextual">
+<pb n="AVOThO_Volum XII-171 (Notes Contextuals)"/>
+<note n="6">Bertrand de Got (1264-1414) fou escollit Papa el dia 5 de juny de 1305. El dia 24 de juliol anuncià públicament que prendria el nom de Climent (V). Fou coronat a Lió el 14 de novembre. Cf. <hi rend="small-caps">Menache</hi>, <hi rend="italic">Clement V</hi>, 13-16; i <hi rend="small-caps">Paravicini Bagliani</hi>, <hi rend="italic">Clemente V</hi>. L’any 1301 Arnau de Vilanova ja li havia enviat còpia del seu <hi rend="italic">De mysterio</hi>. Cf. <hi rend="small-caps">Scavizzi</hi>, <hi rend="italic">Il «Tractatus epistolarum christini»</hi>, 101-106. Sobre les relacions d’Arnau de Vilanova amb Climent V, i en general amb els papes del seu temps, vegeu <hi rend="small-caps">Manselli</hi>, <hi rend="italic">Arnaldo da Villanova e i papi del suo tempo.</hi></note>
+<note n="8">‘et mei notarii’: Bernardus Caprarii era clergue de la diòcesi de Bordeus i «publicus imperiali auctoritate notarius» (cf. lín. 391-392 i 360-361).</note>
+<pb n="AVOThO_Volum XII-172 (Notes Contextuals)"/>
+<note n="15">‘Benedictum’: Benet XI fou Papa des de l’octubre de 1303 fins al 7 de juliol de 1304. Poc abans de morir, el dia 2 de juny de 1304, en presència seva Arnau de Vilanova va llegir la <hi rend="italic">Protestatio, praesentatio ac supplicatio Benedicto XI</hi>. Sobre la relació entre Arnau de Vilanova i Benet XI, vegeu: <hi rend="small-caps">Manselli</hi>, <hi rend="italic">Arnaldo da Villanova e i papi del suo tempo.</hi> Sobre aquest Papa, vegeu: <hi rend="small-caps">Walter</hi>, <hi rend="italic">Benedetto XI</hi>, i <hi rend="italic">Benedetto XI, Papa.</hi> Cf. també el volum col·lectiu <hi rend="italic">Benedetto XI, frate Predicatore e Papa</hi>, editat per <hi rend="small-caps">Benedetti</hi>.</note>
+<note n="17">‘per modum prede’: en la <hi rend="italic">Ad Benedictum XI</hi>, Arnau de Vilanova no va fer una llista de les obres que presentava (cf. <hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 212, lín. 631-646) ni va fer registrar la mateixa <hi rend="italic">Protestatio</hi> per via oficial. Benet XI va agafar algunes d’aquestes obres, la «pars maius» (lín. 15), però en en va deixar d’altres. Havent après la lliçó, Arnau de Vilanova en la <hi rend="italic">Protestatio facta Perusii</hi> (cf. ed. <hi rend="small-caps">Perarnau</hi>, 216-217, lín. 793-827) i en la <hi rend="italic">Protestatio facta Burdegaliae</hi> (lín. 41-100) fa la llista de les obres que presenta i llegeix els escrits en audiència pública o en un acte oficial, amb testimonis i acta notarial.</note>
+<note n="20-25"><hi rend="small-caps">Ehrle</hi>, <hi rend="italic">Historia Bibliothecae Romanorum Pontificum</hi>, I, 10, a propòsit de les obres que Arnau de Vilanova va lliurar a Benet XI i que foren consignades en l’inventari <hi rend="italic">post mortem</hi>, manifesta: «Arbitror ea in “quaternis sive cartapellis” conclusa esse, quae in indice Perusino sub n. 68 recensetur». El text esmentat de la recensió Perusina de l’any 1311 fa: «Item plures quaternos sive cartapellos, quorum aliqui sunt scripti in cartis bambacinis et alii in pecudinis, et sunt de diversis materiis», ed. <hi rend="small-caps">Ehrle</hi>, <hi rend="italic">Historia</hi>, I, 33, núm. 68. I a continuació esmenta l’obra de Martín de Ateca que ja coneixem. Hom hi trobarà també indicacions sobre l’inventari <hi rend="italic">post mortem</hi> (9-13).</note>
+<note n="21">‘dominum Theodericum, Urbeuetanum’: Theodoricus Rainieri († 1306), d’Orvieto, fou creat cardenal per Bonifaci VIII l’any 1298. Va exercir el càrrec de camarlenc (1295-1300). Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 12, 37, 41 i 400; <hi rend="small-caps">Cardella</hi>, <hi rend="italic">Memorie</hi>, II, 55-56; <hi rend="small-caps">Chacón,</hi> <hi rend="italic">Vitae</hi>, II. col. 328-329.</note>
+<note n="21-22">‘dominum Robertum, cisterciensem’: Robert de Pontigny († 1306), abat del monestir de Pontigny (1285) i abat general del Cister. Amic de Felip el Bell i de Carles d’Anjou, fou creat cardenal per Celestí V l’any 1294. Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 12 i 46; <hi rend="small-caps">Cardella</hi>, <hi rend="italic">Memorie</hi>, II, 44-45; <hi rend="small-caps">Chacón,</hi> <hi rend="italic">Vitae</hi>, II. col. 290; <hi rend="small-caps">Duchesne</hi>, <hi rend="italic">Histoire</hi>, II, 333-334.</note>
+<note n="22">‘dominum Iacobum Guayethani’: Giacomo Caetani Stefaneschi (c. 1260-1341) fou creat cardenal per Bonifaci VIII (1295). Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 12 i 50; <hi rend="small-caps">Cardella</hi>, <hi rend="italic">Memorie</hi>, II, 51-53; <hi rend="small-caps">Chacón,</hi> <hi rend="italic">Vitae</hi>, II. col. 324-325.</note>
+<pb n="AVOThO_Volum XII-173 (Notes Contextuals)"/>
+<note n="24">‘domino Ioanne de Penestra’: va ésser camarlenc de 1301 a 1305 i bisbe electe d’Spoleto (1303-1307). Va morir abans de prendre possessió d’aquest darrer càrrec. Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 461; <hi rend="small-caps">Ughellus</hi>, <hi rend="italic">Italia Sacra</hi>, col. 1265; <hi rend="small-caps">Burkart</hi>, <hi rend="italic">Das Verzeichnis als Schatz</hi>, 206.</note>
+<note n="26-33">Cf. <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 215-218, lín. 723-882. En la <hi rend="italic">Confessió de Barcelona</hi>, ed. <hi rend="small-caps">Batllori</hi>, 102-103, Arnau de Vilanova explica així la presentació d’obres a la Santa Seu: «e sia cert que la Sglésia de Roma ha vist e reebut e segellat en son tresaur ·<num type="roman">XI</num>· obres e moltes cartes públiques, les quals sobre aquesta matèria he scrites e fetes fer en diverses lochs, axí que totes aquelles scriptures he retengudes a sa coneixença e a son juhí».</note>
+<note n="32">‘Ioannis de Garcino, dicti Rici’: <hi rend="italic">Protestatio facta Perusii</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 218, lín. 878-881.</note>
+<note n="34">‘diuina largiente clementia’: joc de paraules Clemens/clementia.</note>
+<pb n="AVOThO_Volum XII-174 (Notes Contextuals)"/>
+<note n="41-43">Cf. AVOThO, IV, 86-152. El títol en el Vat. lat. 3824, f. 9r, és <hi rend="italic">Alphabetum catholicorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 87, lín. 1-2.</note>
+<note n="44-47">Cf. AVOThO, IV, 205-232.</note>
+<note n="48-49">Cf. AVOThO, V, 169-276.</note>
+<note n="49-55">Sobre la intervenció de Bonifaci VIII en l’afer de París, cf. <hi rend="small-caps">Perarnau</hi>, <hi rend="italic">Sobre la primera crisi</hi>, 369-370, n. 39. La «medietatem primam», amb els «principia probationis», que no fou enviada a Bonifaci VIII sembla ser la constituïda per les lín. 1-892, de l’ed. <hi rend="small-caps">Perarnau</hi>, AVOThO, V, 169-892.</note>
+<note n="56-60">Cf. <hi rend="italic">De mysterio</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 53-133.</note>
+<note n="59">‘non solum acceptauit, sed eximie comendauit’: sobre aquesta actitud tan positiva de Bonifaci VIII envers el <hi rend="italic">De mysterio</hi>, Arnau de Vilanova no en diu res a l’<hi rend="italic">Ad Benedictum XI</hi> o a la <hi rend="italic">Protestatio facta Perusii</hi>. En la llista d’acusacions presentada <pb n="AVOThO_Volum XII-175 (Notes Contextuals)"/> per Plaisians, a París, el 13 i 14 de juny de 1303, contra Bonifaci VIII, ed. J. <hi rend="small-caps">Coste</hi>, <hi rend="italic">Boniface VIII en procès</hi>, 146-147, núm. 15, llegim: «Item quendam librum compositum per magistrum Arnaldum de Villanova, medicum, continentem sive sapientem heresim, per episcopum Parisiensem, et per magistros theologice facultatis Parisiensis reprobatum, damnatum et combustum, et per ipsum Bonifatium publice et in pleno consistorio cardinalium similiter reprobatum, condemnatum et combustum, postmodum rescriptum, idem vitium continens, revocavit et etiam approbavit». Per l’<hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 206, lín. 364-366, també sabem que el ‘refrendarius’ va dir, admirat, que les paraules del <hi rend="italic">De mysterio</hi> eren ‘celestia’.</note>
+<note n="61-68"><hi rend="italic">Philosophia catholica et divina</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 57-195. La part dedicada a ‘demostrar’ (amb textos de l’Antic Testament) que Jesucrist és el veritable Messies és la formada per les pàgines 100-148, lín. 644-1379; la dels «Ecclesie tempora», per les pàgines 78-89, lín. 324-477. El tractat en general, i especialment les parts restants, té com a objectiu desemmascarar l’Anticrist i les seves astúcies i elaborar una estratègica per a vèncer-lo.</note>
+<note n="69-73"><hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 57-199. Les respostes a les objeccions ocupen les línies 243-900.</note>
+<note n="74-78"><hi rend="italic">Eulogium</hi>, ed. <hi rend="small-caps">D’Amico</hi> <hi rend="italic">et alii</hi>, 84-96.</note>
+<note n="76">Fins a set vegades (lín. 104-105, 303, 309, 314, 338, 354-355) fa servir Arnau de Vilanova l’expressió «euuangelica ueritas» en la <hi rend="italic">Praesentatio facta Burdegaliae</hi>. Remarquem la centralitat d’aquest concepte en l’univers mental arnaldià.</note>
+<pb n="AVOThO_Volum XII-176 (Notes Contextuals)"/>
+<note n="79-80"><hi rend="italic">Denuntiatio Gerundensis</hi>, ed. <hi rend="small-caps">Carreras</hi>, 44-52.</note>
+<note n="80-81">És una veritable llàstima que manqui el foli 256 del Vat. lat. 3824! La <hi rend="italic">Protestatio facta Perusii</hi> i l’<hi rend="italic">Abbreviatio</hi> són útils per tal de refer, almenys en part, el contingut d’aquest foli. Les línies 24-32 de l’<hi rend="italic">Abbreviatio</hi> es corresponen amb el contingut d’aquest foli que manca (f. 256a-d). Per tant, podem afegir sense cap mena de dubte la <hi rend="italic">Confessio Ilerdensis</hi>, el <hi rend="italic">Gladius</hi>, la <hi rend="italic">Carpinatio</hi>, l’<hi rend="italic">Ad Benedictum XI</hi>, a la llista que Arnau de Vilanova està elaborant i molt probablement les tres <hi rend="italic">Denuntiationes Massilienses</hi>. Vegeu, <hi rend="italic">infra</hi>, <hi rend="italic">Abbreviatio</hi>, aparat de comentaris corresponent a les lín. 28-32.</note>
+<note n="81-85"><hi rend="italic">Antidotum</hi>, editat en aquest mateix volum. Notem, però, la forma del títol: <hi rend="italic">Tyriacale antidotum</hi>.</note>
+<note n="86-90">Arnau de Vilanova torna a presentar les obres que ja va lliurar a Perusa (‘sede vacante’), el dia 18 de juliol de 1304, davant el camarlenc Iohannes de Penestra, i hi afegeix la <hi rend="italic">Protestatio facta Perusii</hi>.</note>
+<note n="94-95"><hi rend="italic">Allocutio super significatione nominis tetragrammaton</hi>, AVOThO, III, 139-181.</note>
+<pb n="AVOThO_Volum XII-177 (Notes Contextuals)"/>
+<note n="96-97"><hi rend="italic">Introductio in librum «De semine scripturarum»</hi>, AVOThO, III, 83-119. Aquest títol i el de les lín. 94-95 no coincideixen amb els que encapçalen les respectives obres en aquest mateix manuscrit Vat. lat. 3824. L’ordre de les obres també està invertit.</note>
+<note n="98-100"><hi rend="italic">Tractatus epistularum christini</hi>, ed. <hi rend="small-caps">Scavizzi</hi>, 84-115; ed. <hi rend="small-caps">Carreras</hi>, 392-406.</note>
+<note n="101-120">Arnau de Vilanova manifesta estar convençut que les seves obres concorden en matèria, forma i finalitat amb la Bíblia (lín. 116-177); en paraules de l’<hi rend="italic">Ad Benedictum XI</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 203, lín. 255-257; 214, lín. 715-717, serien «quasi sermones Dei». Contradir-les significa contradir la mateixa veritat divina. Hi ha un cert binarisme en aquesta manera d’argumentar d’Arnau de Vilanova. Cf. <hi rend="small-caps">Mensa i Valls</hi>, <hi rend="italic">Les raons d’un anunci apocalíptic</hi>, 203-204.</note>
+<pb n="AVOThO_Volum XII-178 (Notes Contextuals)"/>
+<note n="121-151">Cf., també, les línies 287-289. La Sagrada Escriptura només es pot comprendre si Jesucrist n’obre el sentit; i fa aquest do a qui vol (lín. 127-129). Per tant, ningú (posem per cas un metge) pel fet de no haver estudiat teologia, no pot ser exclòs «de la intel·ligència de les Paraules sagrades» (lín. 124). La caritat (lín. 135-138), i no la «ciència», constitueix la disposició subjectiva necessària per tal de rebre aquell do. És més, la «ciència» infla. Els seglars han de «legir la sancta Escriptura», meditar-la, ensenyar-la als altres (<hi rend="italic">Lliçó de Narbona</hi>, ed. <hi rend="small-caps">Batllori</hi>, 156, lín. 3). En canvi, per «saber de philosoph[ia, no és l’home major amic de Déu, mas] major disputador, e major par[loter], e pus contestador […]» (<hi rend="italic">Lliçó de Narbona</hi>, ed. <hi rend="small-caps">Batllori</hi>, 163, lín. 8-10). En les obres d’Arnau de Vilanova es dibuixa una contraposició entre la teologia, diguem-ne professional, dels professors universitaris i mestres dels Studia, i les reflexions més arran de terra, inspirades en la meditació del text sagrat, pròpies d’Arnau de Vilanova i de grups de beguins. Llegim en l’<hi rend="italic">Alia informatio beguinorum</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 71-72, lín. 488-493: «[…] per tal que nos esquivem les errós e·ls perils demunt dits, no volem estudiar en scièncias philosophicals o seglars, ne en les tradicions o doctrines o ensenyament de Déu […]». Certament, Arnau de Vilanova pensa la ‘teologia’ des d’unes categories que encaixen —i fins i tot en serien una excel·lent versió— amb l’anomenada «vernacular theology». Cf. <hi rend="small-caps">Gillespie</hi>, <hi rend="italic">Vernacular Theologie</hi>, 401-420; i, pel que fa a Arnau de Vilanova, el meu <hi rend="italic">Arnau de Vilanova i els «theologi philosophantes»</hi>, 309-316.</note>
+<pb n="AVOThO_Volum XII-179 (Notes Contextuals)"/>
+<note n="138-149"><p>‘pseudotheologi et inflati magistri’: amb aquesta expressió, Arnau de Vilanova es refereix sobretot als teòlegs de París. Normalment al·ludeix als seus adversaris dominics amb paraules com «pseudoreligiosi» o «pseudopredicatores».</p><p><hi rend="small-caps">Petrus de Alvernia</hi>, <hi rend="italic">Utrum Antichristus sit venturus in brevi</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 381, lín. 229-230, tot comentant <bibl type="biblical" n="Actes 1,7"><title>Actes</title> <biblScope unit="chapter" from="1" to="1"><num type="roman" value="1">I</num></biblScope>,<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>, afirma a pròposit dels temps de l’Anticrist i de la fi del món: «Igitur, scire illud non est simpliciter expediens». Sobre aquest autor, vegeu: <hi rend="italic">Peter of Auvergne</hi>, ed. <hi rend="small-caps">Flüeler</hi>. També <hi rend="small-caps">Thomas Aquinas</hi>, <hi rend="italic">Commentum in quartum librum Sententiarum magistri Petri Lombardi</hi>, IV, d. 43, q. 1, a. 3, qc. 2, co., 1064b, havia estat molt clar: «Similiter nec per revelationem haberi potest, ideo, ut omnes semper sint soliciti et praeparati ad Christo occurrendum; et propet hoc etiam Apostolis de hoc quaerentibus respondit, <bibl type="biblical" n="Act 1,7"><title type="abbr">Act.</title> <biblScope unit="chapter" from="1" to="1"><num type="roman" value="1">I</num></biblScope>,<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>: “non est vestrum nosse tempora vel momenta, quae Pater posuit in sua potestate” [...] Quod enim Apostolis quaerentibus noluit indicare, nec aliis revelabit».</p></note>
+<pb n="AVOThO_Volum XII-182 (Notes Contextuals)"/>
+<note n="206-207">‘Dominus […] nichil facit frustra’: és un principi molt utilitzat per Arnau de Vilanova. Cf. <hi rend="italic">Antidotum</hi>, aparat de comentaris corresponent a les lín. 444-445.</note>
+<note n="211-212">Cf., per exemple, <hi rend="small-caps">Rogerius Baconus</hi>, <hi rend="italic">Summa Gramatica</hi>, ed. <hi rend="small-caps">Steele</hi>, 37, lín. 11-13.</note>
+<pb n="AVOThO_Volum XII-183 (Notes Contextuals)"/>
+<note n="244">Cf. <bibl type="biblical" n="Col 4,14"><title type="abbr">Col.</title> <biblScope unit="chapter" from="4" to="4"><num type="roman" value="4">IV</num></biblScope>,<biblScope unit="verse" from="14" to="14">14</biblScope></bibl>.</note>
+<note n="247-279">Aquestes quatre virtuts esdevindran fonamentals en les obres postpolèmiques. Així, per exemple, en l’<hi rend="italic">Epistola ad zonam pelliceam</hi>, ed. <hi rend="small-caps">Cartaregia</hi>, <hi rend="small-caps">Perarnau</hi>, Arnau de Vilanova en fa la columna vertebral de la seva exposició. En la <hi rend="italic">Per ciò che molti</hi>, ed. <hi rend="small-caps">Nadal</hi>, 83-87, lín. 263-310, en canvi, els quatre braços de la creu de Crist, que simbolitzen les quatre virtuts que tot cristià ha de seguir, són la humilitat, la justícia, la paciència i la caritat. La pobresa i la castedat han estat substituïdes, doncs, per la paciència i la justícia. Cf. <hi rend="small-caps">Salvador de les Borges</hi>, <hi rend="italic">Arnau de Vilanova moralista</hi>, 109-113.</note>
+<pb n="AVOThO_Volum XII-185 (Notes Contextuals)"/>
+<note n="284">Cf. lín. 126 (i el correponent aparat de comentaris). Els teòlegs professionals (<hi rend="italic">Apologia</hi>, ed. <hi rend="small-caps">Perarnau</hi>, 107, lín. 794) pretenien que Arnau de Vilanova es dediqués a la medicina i no a la teologia. El mateix Bonifaci VIII (<hi rend="italic">Interpretatio</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, AVOThO, XIV, 111, lín. 650-651) li hauria etzibat: «Intromitte te de medicina et non de theologia et honorabimus te». En aquest fragment de la <hi rend="italic">Protestatio facta Burdegaliae</hi>, però, no sembla que Arnau de Vilanova es refereixi únicament a Bonifaci VIII.</note>
+<note n="287-289">Cf. <hi rend="italic">supra</hi>, lín. 121-151.</note>
+<note n="295">‘sub metaphora strucionis’: <hi rend="small-caps">Rabanus Maurus</hi>, <hi rend="italic">De universo</hi>, ed. <hi rend="small-caps">Migne</hi>, 111, col. 245c: «[...] Quod animal in similitudine avis pennas habere videtur, tamen de terra altius non elevatur [...] Per struthionem mystice hypocritae significantur»; col. 254a-b: «Struthio avis quidem est, sed volare non potest, totamque vitam suam circa terram occupat: quales sunt quidam Deo militantes et saeculi negotiis se implicantes». Cf, també, <hi rend="small-caps">Arnaldus de Villanova</hi>, <hi rend="italic">Interpretatio</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, AVOThO, XIV, 105-107, lín. 570-575.</note>
+<note n="300">‘drachonem’: <hi rend="small-caps">Rabanus Maurus</hi>, <hi rend="italic">De universo</hi>, ed. <hi rend="small-caps">Migne</hi>, 111, col. 230a: «Mystice draco aut diabolum significat, aut ministros eius, vel etiam persecutores Ecclesiae, homines nefandos, cuius mysterium in pluribus locis Scripturae invenitur».</note>
+<pb n="AVOThO_Volum XII-187 (Notes Contextuals)"/>
+<note n="334-337">En la <hi rend="italic">Interpretatio de visionibus in somniis</hi>, ed. <hi rend="small-caps">Mensa i Valls</hi>, AVOThO, XIV, 110-111, lín. 616-620, per exemple, Arnau de Vilanova descriu amb més detall aquestes maquinacions sorgides de l’entorn de Benet XI.</note>
+<pb n="AVOThO_Volum XII-188 (Notes Contextuals)"/>
+<note n="373-378">El papa Climent V es reserva per a ell i la Santa Seu l’examen i el judici de les obres d’Arnau de Vilanova. Sembla, doncs, que tenien tota la raó del món els marmessors d’Arnau de Vilanova quan varen protestar contra la Sentència condemnatòria de les obres d’Arnau de Vilanova, publicada el 8 de novembre de 1316 (quan Arnau de Vilanova i Climent V ja havien mort), a Tarragona (en seu vacant), i signada pel vicari general de la diòcesi, Jofre de Cruïlles, i l’inquisidor general, Joan de Llotger. Sobre aquest tema, vegeu: <hi rend="small-caps">Mensa i Valls</hi>, <hi rend="italic">Confrontació de les tesis condemnades</hi>, 305-334, article en el qual el lector interessat podrà trobar la bibliografia.</note>
+<pb n="AVOThO_Volum XII-189 (Notes Contextuals)"/>
+<note n="387">‘Agenensi et Biterrensi episcopis’: Bertrand de Got (homònim i oncle de Climent V) fou bisbe d’Agen, diòcesi sufragània de Bordeus, des de 1292 fins a 1306. Berenguer Frédol fou bisbe de Besiers de 1294 fins a 1306. Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 77 i 137, respectivament. Sobre Bertrand de Got, oncle, vegeu <hi rend="italic">Gallia christiana</hi>, II, col. 921-923; i quant a Berenguer Frédol, cf. <hi rend="small-caps">Santi</hi>, <hi rend="italic">Bérenger Frédol</hi>. És molt significativa la presència d’aquest amic d’Arnau de Vilanova en l’acte de lectura de la <hi rend="italic">Praesentatio facta Burdegaliae</hi>. Berenguer Frédol fou creat cardenal el 15 de desembre de 1305.</note>
+<note n="387-388">‘Iussellensi et de Belloloco abbatibus’: l’abat de l’abadia benedictina de Sant Pere de Joncels (‘Iussellensis’ o ‘Iuncellensis’) era en aquest moment G. Fredoli. Cf. <hi rend="italic">Gallia christiana</hi>, VI, col. 401. La segona abadia al·ludida sembla ser l’«Abbatia Bellilocensis», prop del riu Dordogne, del bisbat de Llemotges; en aquest cas l’abat seria Bernardus de Cumengis. Cf. <hi rend="italic">Gallia christiana</hi>, II, col. 604.</note>
+<note n="388-389">‘·P·, priore Sancti Macharii, Burdegalensis diocesis’: Sant Macari era un priorat benedictí dedicat a sant Salvador, que depenia del monestir de la Santa Creu de Bordeus. Cf. <hi rend="small-caps">Besse</hi>, <hi rend="italic">Provinces</hi>, 105.</note>
+<note n="389">‘·R· d’en Goth, canonico Agenensi’: no sembla que sigui en Raymond de Goth, nebot de Climent V, creat cardenal l’any 1305. Quan fou elevat al cardenalat era arxidiaca de Sens († 1310). Cf. <hi rend="small-caps">Eubel</hi>, <hi rend="italic">Hierarchia Catholica</hi>, I, 14; <hi rend="small-caps">Cardella</hi>, <hi rend="italic">Memorie storiche</hi>, II, col. 85-86; <hi rend="small-caps">Chacón,</hi> <hi rend="italic">Vitae</hi>, II, col. 379; <hi rend="small-caps">Duchesne</hi>, <hi rend="italic">Histoire</hi>, II, 364-366. La persona al·ludida en el text sembla ésser el canonge de la catedral de Saint-Caprais d’Agen. Cf. Abbé <hi rend="small-caps">Barrère</hi>, <hi rend="italic">Histoire religieuse</hi>, II, 77.</note>
+      </div>
+    </back>
+  </text>
+</TEI>
