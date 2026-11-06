@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edició Crítica Digital - Arnau de Vilanova, Antidotum contra uenenum effusum per fratrem Martinum de Atheca, predicatorem</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. XII, pàgines 49-111: edició crítica de l’<title>Antidotum contra uenenum effusum per fratrem Martinum de Atheca, predicatorem</title> (línies 1-1103).</bibl>
+        <listWit>
+          <witness xml:id="G">Graz, Universitätsbibliothek, 1226, f. 32b-c [línies 98-109 de l’edició].</witness>
+          <witness xml:id="O">Oxford, Bodleian Library, Canon. Misc. 370, f. 193r-212v.</witness>
+          <witness xml:id="V">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Vat. lat. 3824, f. 237c-254c.</witness>
+          <witness xml:id="e">Franz Ehrle, <hi rend="italic">Arnaldo de Villanova e i «Thomatiste». Contributo alla storia della scuola Tomistica</hi>, dins «Gregorianum», 1 (1920), 487 i 501 [edita les lín. 1-33, 545-548 i 552-577].</witness>
+          <witness xml:id="f">Heinrich Finke, <hi rend="italic">Aus den Tagen Bonifaz VIII. Funde und Forschungen</hi> (Vorreformationsgeschichtliche Forschungen, 2), Münster, Aschendorff, 1902, <num type="roman">CXXV</num> [edita les lín. 1-7 i 1094-1103].</witness>
+          <witness xml:id="m">Jaume Mensa i Valls, <hi rend="italic">El tomismo de Martín de Ateca († 1306) según Arnau de Vilanova</hi>, dins «Revista española de filosofía medieval», 21 (2014), 196-199 [<hi rend="italic">Antidotum</hi>, lín. 74-163].</witness>
+          <witness xml:id="n">Jaume Mensa i Valls, <hi rend="italic">Arnau de Vilanova adversario de Tomás de Aquino: La polémica sobre la conveniencia de conocer los tiempos finales</hi>, dins «Archives d’histoire doctrinale et littéraire du Moyen Âge», 81 (2014), 137-138 [<hi rend="italic">Antidotum</hi>, 160-163 i 171-200].</witness>
+          <witness xml:id="p">Josep Perarnau i Espelt, <hi rend="italic">Noves dades biogràfiques de mestre Arnau de Vilanova</hi>, dins «Arxiu de Textos Catalans Antics», 7-8 (1988-1989), 277-278 [<hi rend="italic">Antidotum</hi>, 4-14, 495-504, 1082-1083].</witness>
+          <witness xml:id="v">Jaume Mensa i Valls, <hi rend="italic">Los neologismos «bubulcaritas» (y derivados) y «bovizare» en la obra espiritual latina de Arnau de Vilanova</hi>, dins «Archivum Latinitatis Medii Aevi», 76 (2018), 297-311.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <text>
+    <back>
+      <div type="apparatus" subtype="critical">
+<pb n="AVOThO_Volum XII-49 (Aparat Crític)"/>
+<note n="2">Atheca <hi rend="italic">O</hi> Acheta | denunciationes <hi rend="italic">O</hi> denunciaciones <hi rend="italic">ef</hi> denuntiationes | Maioricensem <hi rend="italic">O</hi> Maioricarum</note>
+<note n="4">Credo <hi rend="italic">O</hi> [.]redo <hi rend="italic">in spat vac add</hi> c- <hi rend="italic">pro rubricatore</hi></note>
+<note n="5">mihi <hi rend="italic">ef</hi> michi</note>
+<note n="6">Atheca <hi rend="italic">O</hi> Acheta | denunciationes <hi rend="italic">e</hi> denuntiationes <hi rend="italic">p</hi> Denuntiationes</note>
+<pb n="AVOThO_Volum XII-50 (Aparat Crític)"/>
+<note n="10">uero <hi rend="italic">O</hi> vero | uestre <hi rend="italic">O</hi> vestre</note>
+<note n="10-11">uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="11">a curia <hi rend="italic">O</hi> ac meo</note>
+<note n="17">dum <hi rend="italic">O</hi> cum</note>
+<note n="18">mihi <hi rend="italic">e</hi> michi | uni <hi rend="italic">O</hi> vni</note>
+<note n="22">cum <hi rend="italic">O om</hi> | perlegissem <hi rend="italic">V praem</hi> legisse <hi rend="italic">canc</hi></note>
+<note n="23">dictus <hi rend="italic">e</hi> predictus</note>
+<note n="24">per me scriptis <hi rend="italic">O</hi> plenissime scriptis per me</note>
+<note n="25">sollepnitate <hi rend="italic">e</hi> sollempnitate</note>
+<note n="26">uoluerit <hi rend="italic">O</hi> voluerit | defectus <hi rend="italic">O</hi> de factis | iamdicte <hi rend="italic">e</hi> iam dicte</note>
+<pb n="AVOThO_Volum XII-51 (Aparat Crític)"/>
+<note n="28">Bernardum <hi rend="italic">O</hi> B.</note>
+<note n="30">Uigorosi <hi rend="italic">O</hi> Vigorosi</note>
+<note n="32">ubique <hi rend="italic">O</hi> vbique | et contemptus <hi rend="italic">O iter, prim canc</hi></note>
+<note n="35">uestra <hi rend="italic">O</hi> vestra</note>
+<pb n="AVOThO_Volum XII-52 (Aparat Crític)"/>
+<note n="39">in singulis <hi rend="italic">O</hi> singulis | que <hi rend="italic">O</hi> quibus | philosophiam <hi rend="italic">O</hi> prophetiam</note>
+<note n="41">ubi <hi rend="italic">O</hi> vbi</note>
+<note n="42">traditis <hi rend="italic">V praem</hi> dictis <hi rend="italic">canc</hi></note>
+<note n="44">obcecat <hi rend="italic">O</hi> obsecat</note>
+<note n="45">eclesiam <hi rend="italic">O</hi> ecclesiam</note>
+<note n="49">uidet <hi rend="italic">O</hi> videt</note>
+<note n="52">ex manifestis ad hoc <hi rend="italic">O</hi> ad hoc ex manifestis</note>
+<note n="57">paganus <hi rend="italic">O praem lit illeg canc</hi></note>
+<pb n="AVOThO_Volum XII-53 (Aparat Crític)"/>
+<note n="58">falso <hi rend="italic">O</hi> falsum</note>
+<note n="59">id <hi rend="italic">V add int lin</hi></note>
+<note n="61-62">ueritatis <hi rend="italic">O</hi> veritatis</note>
+<note n="62">per (potentiam) <hi rend="italic">O</hi> om | uel <hi rend="italic">O</hi> vel</note>
+<note n="64">euangelice <hi rend="italic">O</hi> euuangelice</note>
+<note n="65">uocat <hi rend="italic">O</hi> vocat | suum <hi rend="italic">O</hi> s.</note>
+<note n="66">uerum <hi rend="italic">O</hi> verum | qui <hi rend="italic">O</hi> quia</note>
+<note n="67">uerbum <hi rend="italic">O</hi> verbum | contempnat <hi rend="italic">O</hi> condempnat</note>
+<note n="68">dicerit <hi rend="italic">O</hi> dixerit | suo <hi rend="italic">O</hi> s.</note>
+<note n="69">uana <hi rend="italic">O</hi> vana | frenantis <hi rend="italic">O</hi> frenam | suam <hi rend="italic">O</hi> s.</note>
+<note n="70">ut <hi rend="italic">O</hi> vt | uanum <hi rend="italic">O</hi> bonum</note>
+<note n="71">direxerit <hi rend="italic">O</hi> dixerit</note>
+<note n="72">ut <hi rend="italic">O</hi> vt</note>
+<note n="74">Fundamentum <hi rend="italic">O</hi> [.]undamentum <hi rend="italic">in spat vac add</hi> f- <hi rend="italic">pro rubricatore</hi> | ut <hi rend="italic">O</hi> vt</note>
+<note n="76">ignorauerunt et etiam <hi rend="italic">O om</hi> | etiam <hi rend="italic">m</hi> eciam</note>
+<pb n="AVOThO_Volum XII-54 (Aparat Crític)"/>
+<note n="78">ut <hi rend="italic">O</hi> vt</note>
+<note n="79-80">Matthei, primo <hi rend="italic">O om</hi></note>
+<note n="81">Itaque <hi rend="italic">O</hi> Ita | uideritis <hi rend="italic">O</hi> videritis</note>
+<note n="82">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="83">hominibus <hi rend="italic">O</hi> omnibus</note>
+<note n="85">uicinissime <hi rend="italic">O</hi> vicinissime</note>
+<note n="87">eclesie <hi rend="italic">Om</hi> ecclesie</note>
+<pb n="AVOThO_Volum XII-55 (Aparat Crític)"/>
+<note n="91">ut <hi rend="italic">O</hi> vt</note>
+<note n="92">uerba <hi rend="italic">O</hi> verba</note>
+<note n="94">Ieronimo <hi rend="italic">O</hi> Iheronimo</note>
+<note n="95">Thesalonicenses <hi rend="italic">O</hi> Thessalonicenses | ubi <hi rend="italic">O</hi> vbi | aperte <hi rend="italic">O</hi> apperte</note>
+<pb n="AVOThO_Volum XII-56 (Aparat Crític)"/>
+<note n="98-109">Item ... ille <hi rend="italic">G</hi> Quod beato Methodio fuit reuelatum de persecucione maximi Antechristi in ·<num type="roman">VI</num>º· millenario durationis mundi, quam reuelationem aprobat beatus Ieronimus. Item, fuit reuelatum beato Cirillo, per numerum annorum Christi, tempus natiuitatis et crementis Antechristi, et istam aprovat romana ecclesia. Item, fuit reuelatum beate Yldegardi [f. 32c] de origine et de persecutione Antechristi per annos Christi, et istam aprobauit papa Eugenius et ipsam canonizauit. Item, fuit reuelatum Horoscopo et Yohacim de tempore illius, et iste reuelationes sunt famose in ecclesia Dei.</note>
+<note n="98">Ieronimus <hi rend="italic">O</hi> Iheronimus</note>
+<note n="99">Ystoriarum <hi rend="italic">O</hi> Historiarum</note>
+<note n="100">sexto <hi rend="italic">O</hi> VIº</note>
+<note n="103">eclesia <hi rend="italic">Om</hi> ecclesia | ap[er]te <hi rend="italic">V</hi> apte <hi rend="italic">O</hi> apperte</note>
+<note n="104">crementi <hi rend="italic">O</hi> crementis</note>
+<pb n="AVOThO_Volum XII-57 (Aparat Crític)"/>
+<note n="106">quibus et <hi rend="italic">O</hi> quibus</note>
+<note n="108">sollempnes <hi rend="italic">O</hi> solempnes</note>
+<note n="109">eclesia <hi rend="italic">Om</hi> ecclesia</note>
+<note n="110">ut <hi rend="italic">O</hi> vt</note>
+<note n="111">euangelice <hi rend="italic">O</hi> euuangelice | ratio <hi rend="italic">O</hi> ideo</note>
+<pb n="AVOThO_Volum XII-58 (Aparat Crític)"/>
+<note n="115">sit <hi rend="italic">O praem</hi> est <hi rend="italic">canc</hi></note>
+<note n="116">sint <hi rend="italic">O</hi> sunt | contraria <hi rend="italic">O om</hi></note>
+<note n="117">ut <hi rend="italic">O</hi> vt | eadem <hi rend="italic">O</hi> de</note>
+<note n="118">unius <hi rend="italic">O</hi> vnius</note>
+<note n="121">iste <hi rend="italic">O</hi> ille</note>
+<note n="123">uero <hi rend="italic">O</hi> vero</note>
+<note n="125">hoc <hi rend="italic">O</hi> homo</note>
+<note n="127">quenquam <hi rend="italic">m</hi> quemquam | ut <hi rend="italic">O</hi> vt</note>
+<note n="128">posse <hi rend="italic">O</hi> posset</note>
+<note n="129">aperte <hi rend="italic">O</hi> apperte | possunt <hi rend="italic">V corr</hi> possant</note>
+<note n="131">id est <hi rend="italic">O</hi> et</note>
+<pb n="AVOThO_Volum XII-59 (Aparat Crític)"/>
+<note n="136">uel <hi rend="italic">O</hi> vel</note>
+<note n="137">hoc <hi rend="italic">O</hi> homo | ubi <hi rend="italic">O</hi> vbi</note>
+<note n="138">Abrahan <hi rend="italic">O</hi> Habraam</note>
+<note n="143">iste <hi rend="italic">O</hi> ille</note>
+<note n="145-146">consequenter introducit <hi rend="italic">O inv</hi></note>
+<note n="146">libro <hi rend="italic">O om</hi></note>
+<note n="147">ultima O vltima | usque <hi rend="italic">O</hi> vsque | finem <hi rend="italic">v</hi> fine</note>
+<note n="148">incertum <hi rend="italic">O</hi> vt incertum</note>
+<note n="149">iste potest <hi rend="italic">O</hi> potest ille</note>
+<note n="151">-bus mensibus uel die- <hi rend="italic">V add in mg</hi> | uel diebus uel <hi rend="italic">O</hi> aut diebus vel | uel quibus <hi rend="italic">V add int lin</hi> | annorum <hi rend="italic">V add int lin</hi></note>
+<note n="152">mensium <hi rend="italic">V</hi> -um <hi rend="italic">in ras</hi> | uel <hi rend="italic">O</hi> vel | dierum V -rum <hi rend="italic">in ras</hi></note>
+<note n="152-153">generationis <hi rend="italic">V</hi> -ationis <hi rend="italic">in ras et in mg</hi></note>
+<note n="154">presenti <hi rend="italic">O</hi> presente</note>
+<note n="155">uellet <hi rend="italic">O</hi> vellet</note>
+<note n="158">lumen <hi rend="italic">O</hi> lumem</note>
+<pb n="AVOThO_Volum XII-60 (Aparat Crític)"/>
+<note n="161">lippis <hi rend="italic">O</hi> lupis</note>
+<note n="164">etiam <hi rend="italic">O seq</hi> quod | fideles <hi rend="italic">O</hi> fidelis</note>
+<pb n="AVOThO_Volum XII-61 (Aparat Crític)"/>
+<note n="168">ymo <hi rend="italic">V praem</hi> yn <hi rend="italic">canc</hi> | uerius <hi rend="italic">O</hi> verius</note>
+<note n="169">in illud <hi rend="italic">V corr voc illeg</hi></note>
+<note n="170">Bernardum <hi rend="italic">O</hi> B.</note>
+<note n="172">uerba <hi rend="italic">O</hi> verba | uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="174">uel <hi rend="italic">O</hi> vel</note>
+<note n="176">uel <hi rend="italic">O</hi> vel</note>
+<note n="177">uestrum <hi rend="italic">O</hi> vestrum | uel <hi rend="italic">O</hi> vel | uiribus <hi rend="italic">O</hi> viribus | uestre <hi rend="italic">O</hi> vestre</note>
+<note n="178">utitur <hi rend="italic">O</hi> vtitur</note>
+<note n="179">uos <hi rend="italic">O</hi> vos</note>
+<note n="180">uoluir <hi rend="italic">O</hi> voluit</note>
+<note n="183">uestrum <hi rend="italic">O</hi> vestrum | nosse <hi rend="italic">O add</hi> etc.</note>
+<note n="184">uos <hi rend="italic">O</hi> vos</note>
+<pb n="AVOThO_Volum XII-62 (Aparat Crític)"/>
+<note n="185">ibidem Glossa <hi rend="italic">O</hi> Glosa ibidem | uerbum <hi rend="italic">O</hi> verbum | illud <hi rend="italic">O</hi> istud</note>
+<note n="188">subiungit <hi rend="italic">O</hi> subiungitur</note>
+<note n="189">uerbo <hi rend="italic">O</hi> verbo</note>
+<note n="190">uirtutem <hi rend="italic">O</hi> virtutem | dicit <hi rend="italic">V seq</hi> -tur <hi rend="italic">canc et exp</hi></note>
+<note n="191-192">Glossa <hi rend="italic">O</hi> Glosa</note>
+<note n="192">mentionem <hi rend="italic">O</hi> mensionem | iste <hi rend="italic">O</hi> ille | neque <hi rend="italic">O</hi> nec</note>
+<note n="194">fraudem <hi rend="italic">O</hi> fraudis | ueritatis <hi rend="italic">O</hi> veritatis | ueritatis <hi rend="italic">O</hi> veritatis | uel <hi rend="italic">O</hi> vel</note>
+<note n="195">maxime <hi rend="italic">V praem</hi> n <hi rend="italic">canc</hi></note>
+<note n="196">uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="197">casibus <hi rend="italic">O praem</hi> talibus | quos <hi rend="italic">O</hi> quod | dementia <hi rend="italic">O</hi> dementiam</note>
+<note n="198">uel <hi rend="italic">O</hi> vel | episcopi <hi rend="italic">O om</hi></note>
+<note n="199">uel <hi rend="italic">O</hi> vel</note>
+<note n="200">uellet <hi rend="italic">O</hi> vellet</note>
+<note n="202">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="205">uestrum <hi rend="italic">O</hi> vestrum | uerum <hi rend="italic">O</hi> verum | quidem <hi rend="italic">O om</hi> | quia <hi rend="italic">O</hi> quod</note>
+<note n="206">uult <hi rend="italic">O</hi> vult</note>
+<pb n="AVOThO_Volum XII-63 (Aparat Crític)"/>
+<note n="208">utuntur <hi rend="italic">O</hi> vtuntur | etc. <hi rend="italic">O om</hi></note>
+<note n="209">asseritur <hi rend="italic">O</hi> asserit | per <hi rend="italic">O om</hi></note>
+<note n="211">aliquem <hi rend="italic">O</hi> aliquam</note>
+<note n="212">prefinisse <hi rend="italic">O</hi> -fini- <hi rend="italic">illeg</hi></note>
+<note n="213">dixit <hi rend="italic">O</hi> dicit</note>
+<note n="214">dixit <hi rend="italic">O</hi> dicit | etiam <hi rend="italic">O</hi> in</note>
+<note n="215-216">finalia tempora <hi rend="italic">O</hi> tempora finalia</note>
+<note n="217">apertionis <hi rend="italic">O</hi> optionis</note>
+<note n="221">iste <hi rend="italic">O</hi> ille | uel <hi rend="italic">O</hi> vel | uellent <hi rend="italic">O</hi> vellent</note>
+<note n="224">uerius <hi rend="italic">O</hi> verius</note>
+<note n="225">sicut <hi rend="italic">O</hi> sic | isto <hi rend="italic">O</hi> illo</note>
+<note n="226">ut <hi rend="italic">O</hi> vt | ex <hi rend="italic">O om</hi></note>
+<pb n="AVOThO_Volum XII-64 (Aparat Crític)"/>
+<note n="227">Glossa <hi rend="italic">O</hi> Glosa | Thesalonicenses <hi rend="italic">O</hi> Thessalonicenses</note>
+<note n="234">·<num type="roman">XLV</num>· <hi rend="italic">O seq</hi> dies | ut <hi rend="italic">O</hi> vt</note>
+<note n="236">uerbis <hi rend="italic">O</hi> verbis | precisio <hi rend="italic">O</hi> precioso</note>
+<note n="237">uerbis <hi rend="italic">O</hi> verbis | uocabulum <hi rend="italic">O</hi> vocabulum</note>
+<note n="238">nichilominus <hi rend="italic">O</hi> nihilominus | equipollens <hi rend="italic">O</hi> equipolens</note>
+<note n="240">totum tempus <hi rend="italic">O</hi> toto tempore</note>
+<note n="241">uel <hi rend="italic">O</hi> vel | illis <hi rend="italic">O om</hi></note>
+<note n="243">uita <hi rend="italic">O</hi> vita | consummatio <hi rend="italic">O</hi> consumatio | uel <hi rend="italic">O</hi> vel | ultra <hi rend="italic">O</hi> vltra</note>
+<note n="244">remanebunt <hi rend="italic">O</hi> remanebat | uita <hi rend="italic">O</hi> vita</note>
+<note n="245">oportebit <hi rend="italic">O</hi> opportebit</note>
+<note n="247">medium <hi rend="italic">O praem</hi> me <hi rend="italic">canc</hi></note>
+<note n="248">ueritas <hi rend="italic">O</hi> veritas</note>
+<note n="252">patet <hi rend="italic">V seq</hi> per hoc <hi rend="italic">canc et exp</hi></note>
+<pb n="AVOThO_Volum XII-65 (Aparat Crític)"/>
+<note n="253">sic <hi rend="italic">O</hi> sit | uoluit <hi rend="italic">O</hi> voluit</note>
+<note n="254">ueritatem <hi rend="italic">O</hi> veritatem</note>
+<note n="255">quod <hi rend="italic">O</hi> quia</note>
+<note n="257">et <hi rend="italic">O om</hi> | est <hi rend="italic">O</hi> et</note>
+<note n="259">diebus <hi rend="italic">O</hi> dies</note>
+<note n="261">paruula distantia <hi rend="italic">O</hi> parvulam distantiam</note>
+<note n="262">utrobique <hi rend="italic">O</hi> vtrobique | uel <hi rend="italic">O</hi> vel</note>
+<note n="266">eius <hi rend="italic">O om</hi></note>
+<note n="269">uirtus <hi rend="italic">O</hi> virtus</note>
+<note n="270">Glossa <hi rend="italic">O</hi> Glosa | aperte <hi rend="italic">O</hi> apperte</note>
+<note n="271">Thesalonicenses <hi rend="italic">O</hi> Thessalonicenses | Quem <hi rend="italic">O</hi> Quod</note>
+<note n="272">Glossa <hi rend="italic">O</hi> Glosa | ista <hi rend="italic">O</hi> illa</note>
+<pb n="AVOThO_Volum XII-66 (Aparat Crític)"/>
+<note n="276">estimatione <hi rend="italic">O</hi> extimatione | uel <hi rend="italic">O</hi> vel</note>
+<note n="277">uel <hi rend="italic">O</hi> vel | uicium <hi rend="italic">O</hi> vicium</note>
+<note n="278">Bernardum <hi rend="italic">O</hi> B. | apertissime <hi rend="italic">O</hi> appertissime</note>
+<note n="280">uero <hi rend="italic">O</hi> vero | quibus <hi rend="italic">O</hi> praem in | extimationem <hi rend="italic">V</hi> ex- <hi rend="italic">ex corr lit illeg (</hi>ni<hi rend="italic">?)</hi>; <hi rend="italic">praem</hi> ext <hi rend="italic">canc et exp</hi></note>
+<note n="281">fraudolente <hi rend="italic">O</hi> fraudolentes</note>
+<note n="282">uere <hi rend="italic">O</hi> vere</note>
+<note n="286-287">Sacre ... scripture <hi rend="italic">O om</hi></note>
+<note n="287">Apocalipsis <hi rend="italic">O</hi> Apocalypsi</note>
+<note n="289">Glossa <hi rend="italic">O</hi> Glosa | sicut in Gladio <hi rend="italic">O om</hi> | traditur <hi rend="italic">O</hi> tradit</note>
+<pb n="AVOThO_Volum XII-67 (Aparat Crític)"/>
+<note n="290">appropinquantibus <hi rend="italic">O praem</hi> in | illi <hi rend="italic">O</hi> illis</note>
+<note n="291">ualde <hi rend="italic">O</hi> valde | proderit O prodiderit | uirtutum <hi rend="italic">O</hi> virtutum</note>
+<note n="292">precognoscant <hi rend="italic">O</hi> prenoscant</note>
+<note n="293">uel <hi rend="italic">O</hi> vel | iste <hi rend="italic">O</hi> illi</note>
+<note n="296">non proderat filiis sui temporis <hi rend="italic">O</hi> non proderit filiis suis temporis quod scire non proderat filiis</note>
+<note n="297-298">etc. Nec dixit absolute quod non prodesset <hi rend="italic">O om</hi> | ut <hi rend="italic">O</hi> vt</note>
+<pb n="AVOThO_Volum XII-68 (Aparat Crític)"/>
+<note n="299">Glosis <hi rend="italic">O</hi> Glosas | uero <hi rend="italic">O</hi> vero</note>
+<note n="301">aperte <hi rend="italic">O</hi> apperte</note>
+<note n="302">scire finalia tempora <hi rend="italic">O</hi> finalia tempora scire</note>
+<note n="303">Et <hi rend="italic">O om</hi></note>
+<note n="304">eis hoc scire non proderat <hi rend="italic">O</hi> hoc scire eis non proderat</note>
+<note n="305">clarissime patent <hi rend="italic">O inv</hi></note>
+<note n="305-306">obtenebrandi <hi rend="italic">V praem</hi> o <hi rend="italic">canc et exp</hi></note>
+<note n="306">uideant <hi rend="italic">O</hi> videant | ueritatem <hi rend="italic">O</hi> veritatem | uel <hi rend="italic">O</hi> vel</note>
+<note n="308">Sacra Scripta <hi rend="italic">O</hi> Sacram Scripturam</note>
+<note n="313">uenenum <hi rend="italic">O</hi> venenum</note>
+<note n="314">paragrafo <hi rend="italic">O om</hi></note>
+<note n="315">paragrafo <hi rend="italic">O om</hi></note>
+<pb n="AVOThO_Volum XII-69 (Aparat Crític)"/>
+<note n="316">acceptio <hi rend="italic">O</hi> acceptacio</note>
+<note n="318">quam <hi rend="italic">O</hi> quod</note>
+<note n="319">uult <hi rend="italic">O</hi> vult</note>
+<note n="322">ubi <hi rend="italic">O</hi> uvi | uult <hi rend="italic">O</hi> vult</note>
+<note n="323">karissime <hi rend="italic">O</hi> carissime</note>
+<note n="324">ut <hi rend="italic">O</hi> vt</note>
+<note n="326">erigere <hi rend="italic">O</hi> eligere | currendo <hi rend="italic">O om</hi></note>
+<note n="327">ruinas <hi rend="italic">O</hi> ruynas</note>
+<note n="328">Et <hi rend="italic">O</hi> [.]t <hi rend="italic">in spat vac add</hi> e- <hi rend="italic">pro rubricatore</hi></note>
+<note n="331">ueritatem <hi rend="italic">O</hi> mentem | ut <hi rend="italic">O</hi> vt</note>
+<note n="333">qua <hi rend="italic">O</hi> que | Ueritatis <hi rend="italic">O</hi> Veritatis</note>
+<note n="334">ueritati <hi rend="italic">O</hi> veritati</note>
+<note n="335">nec <hi rend="italic">O</hi> vel</note>
+<note n="336">uel <hi rend="italic">O</hi> vel</note>
+<note n="338">tempora finalia <hi rend="italic">O inv</hi></note>
+<note n="339">ut <hi rend="italic">O</hi> vt</note>
+<note n="341">implicat <hi rend="italic">V corr</hi> impliccat <hi rend="italic">exp prim</hi> -c- | ueritatem <hi rend="italic">O</hi> veritatem</note>
+<pb n="AVOThO_Volum XII-70 (Aparat Crític)"/>
+<note n="342">quam <hi rend="italic">O</hi> quoniam | iste <hi rend="italic">O</hi> ille</note>
+<note n="344">quando <hi rend="italic">O</hi> quoniam | uerba <hi rend="italic">O</hi> verba</note>
+<note n="345">solvm <hi rend="italic">O</hi> solum</note>
+<note n="347">nichilominus <hi rend="italic">O</hi> nichillominus</note>
+<note n="349-350">esset eam communicaturus <hi rend="italic">O</hi> eam communicaturus esset</note>
+<note n="351">universitas <hi rend="italic">O</hi> vniversitas</note>
+<note n="353">ubi <hi rend="italic">O</hi> vbi</note>
+<note n="356">uocare <hi rend="italic">O</hi> vocare</note>
+<note n="358">fuit omnino <hi rend="italic">O inv</hi></note>
+<note n="362">ueritas <hi rend="italic">O</hi> veritas</note>
+<pb n="AVOThO_Volum XII-71 (Aparat Crític)"/>
+<note n="363">ubi <hi rend="italic">O</hi> vbi | dicit <hi rend="italic">O</hi> dixit</note>
+<note n="364">reuelati uel <hi rend="italic">O om</hi></note>
+<note n="366">ubi <hi rend="italic">O</hi> vbi | quod <hi rend="italic">V in ras</hi> | intimitaretur <hi rend="italic">V add</hi> -r <hi rend="italic">int lin</hi></note>
+<note n="368">ueritatem <hi rend="italic">O</hi> veritatem | uel <hi rend="italic">O</hi> vel</note>
+<note n="369-370">reputaui <hi rend="italic">O</hi> reputauit</note>
+<note n="370">uocem <hi rend="italic">O</hi> vocem</note>
+<pb n="AVOThO_Volum XII-72 (Aparat Crític)"/>
+<note n="372">illud <hi rend="italic">O</hi> id</note>
+<note n="373">irreligiosi <hi rend="italic">O</hi> ii religiosi</note>
+<note n="376">uerba <hi rend="italic">O</hi> verba</note>
+<note n="383">uel <hi rend="italic">O</hi> aut</note>
+<note n="385">secundus <hi rend="italic">O</hi> sequens (?)</note>
+<note n="385">referentes <hi rend="italic">O</hi> refferentes | ut <hi rend="italic">O</hi> vt</note>
+<note n="387">uerum <hi rend="italic">O</hi> verum</note>
+<note n="388">referre <hi rend="italic">O</hi> refferre</note>
+<note n="389">referre <hi rend="italic">O</hi> refferre</note>
+<note n="391">uel <hi rend="italic">O</hi> vel</note>
+<note n="392">uvi <hi rend="italic">O</hi> vbi | uidetur <hi rend="italic">O</hi> videtur | uel <hi rend="italic">O</hi> vel</note>
+<note n="393">uel <hi rend="italic">O</hi> vel</note>
+<pb n="AVOThO_Volum XII-73 (Aparat Crític)"/>
+<note n="394">usque <hi rend="italic">O</hi> vsque</note>
+<note n="397">uere <hi rend="italic">O</hi> vere</note>
+<note n="399">corruit <hi rend="italic">O</hi> corrupit</note>
+<note n="403">literam <hi rend="italic">O</hi> litteram</note>
+<note n="404">Luchas <hi rend="italic">O</hi> Lucas</note>
+<note n="405">uideritis <hi rend="italic">O</hi> videritis | exercitu <hi rend="italic">O</hi> excercitu</note>
+<note n="406">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="407">ut <hi rend="italic">O</hi> vt | <hi rend="italic">Lucham O</hi> Lucam</note>
+<note n="410">·<num type="roman">XI</num>º· <hi rend="italic">O</hi> Vndecimo | oculum <hi rend="italic">O</hi> occulum | eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="411">oculus <hi rend="italic">O</hi> occulus</note>
+<note n="412">eclesie <hi rend="italic">O</hi> ecclesie | eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="414">·<num type="roman">XII</num>º· <hi rend="italic">O</hi> Duodecimo | eclesia <hi rend="italic">O</hi> ecclesia</note>
+<note n="415">uigilauit <hi rend="italic">O</hi> vigilauit | enim <hi rend="italic">O</hi> inde</note>
+<note n="416">eclesie <hi rend="italic">O</hi> ecclesie | uniuersalis <hi rend="italic">O</hi> vniversalis</note>
+<pb n="AVOThO_Volum XII-74 (Aparat Crític)"/>
+<note n="417">sollempniter <hi rend="italic">O</hi> solempniter</note>
+<note n="419">ut <hi rend="italic">O</hi> vt</note>
+<note n="421">uel <hi rend="italic">O</hi> vel | eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="423">·<num type="roman">XIII</num>º· <hi rend="italic">O</hi> Terciodecimo | uerbo <hi rend="italic">O</hi> verbo</note>
+<note n="424">uerbum <hi rend="italic">O</hi> verbum</note>
+<note n="425">ipse <hi rend="italic">O</hi> ille | uerbum <hi rend="italic">O</hi> verbum</note>
+<note n="427">uidit <hi rend="italic">O</hi> vidit</note>
+<note n="429">uero <hi rend="italic">O</hi> vero</note>
+<note n="430">·<num type="roman">XIV</num>º· <hi rend="italic">O</hi> Quartodecimo | uerbu <hi rend="italic">O</hi> verbum</note>
+<note n="431">est <hi rend="italic">O om</hi> | non <hi rend="italic">V praem</hi> preteriti temporis <hi rend="italic">canc</hi></note>
+<note n="432">meis <hi rend="italic">O</hi> eis</note>
+<pb n="AVOThO_Volum XII-75 (Aparat Crític)"/>
+<note n="435">uerbis <hi rend="italic">V praem</hi> illis <hi rend="italic">canc O</hi> verbis</note>
+<note n="437">uerbum <hi rend="italic">O</hi> verbum</note>
+<note n="438">Topicorum <hi rend="italic">O</hi> Thopicorum</note>
+<note n="439">significatum <hi rend="italic">O</hi> signifficatum</note>
+<note n="440">quia <hi rend="italic">O</hi> que (?) | uel <hi rend="italic">O</hi> vel</note>
+<note n="441">uerbum <hi rend="italic">O</hi> verbum</note>
+<note n="441-442">preteriti et presentis <hi rend="italic">O</hi> presentis et preteriti</note>
+<note n="442">uoluisset <hi rend="italic">O</hi> voluisset | significare <hi rend="italic">O</hi> signifficare</note>
+<note n="443">istud <hi rend="italic">O</hi> illud | unum <hi rend="italic">O</hi> vnum</note>
+<note n="444">cum <hi rend="italic">O</hi> tamen</note>
+<note n="445">uoluit <hi rend="italic">O</hi> voluit</note>
+<note n="446">significare <hi rend="italic">O</hi> signifficare</note>
+<pb n="AVOThO_Volum XII-76 (Aparat Crític)"/>
+<note n="447">iste <hi rend="italic">O om</hi> | subticuerit O subiit (?) | huiusmodi <hi rend="italic">O</hi> huius</note>
+<note n="451">Bootz <hi rend="italic">O</hi> Boot | dicit <hi rend="italic">O</hi> dixit</note>
+<note n="452">uerbum <hi rend="italic">O</hi> verbum</note>
+<note n="454">ut <hi rend="italic">O</hi> ut | dignareris <hi rend="italic">O</hi> dignaretur</note>
+<note n="455">id <hi rend="italic">O</hi> hic | Bootz <hi rend="italic">O</hi> Booz</note>
+<note n="456">ut <hi rend="italic">O</hi> vt</note>
+<note n="458">uerba <hi rend="italic">O</hi> verba</note>
+<note n="461">ut <hi rend="italic">O</hi> vt | dicere <hi rend="italic">O om</hi></note>
+<note n="462">responsione <hi rend="italic">O</hi> conuersione</note>
+<note n="463">significauit <hi rend="italic">O</hi> signifficant</note>
+<note n="464">iste <hi rend="italic">O</hi> ille</note>
+<note n="465">ut <hi rend="italic">O</hi> vt</note>
+<note n="466">uultus <hi rend="italic">O</hi> vultus</note>
+<note n="467">sophisticum <hi rend="italic">O</hi> sophisticis</note>
+<note n="469">·<num type="roman">XV</num>º· <hi rend="italic">O</hi> Quintodecimo</note>
+<note n="470">finalivm <hi rend="italic">O</hi> finalium</note>
+<note n="471">uestrum <hi rend="italic">O</hi> vestrum | dixit eis <hi rend="italic">O om</hi> eis</note>
+<note n="472">uerbis <hi rend="italic">O</hi> verbis | redit <hi rend="italic">O</hi> reddit</note>
+<note n="473">uomitum <hi rend="italic">O</hi> nominaliter (?)</note>
+<pb n="AVOThO_Volum XII-77 (Aparat Crític)"/>
+<note n="475">uere <hi rend="italic">O</hi> vere</note>
+<note n="477">uel <hi rend="italic">O</hi> vel</note>
+<note n="478">uerbis <hi rend="italic">O</hi> verbis | ultima <hi rend="italic">O</hi> vltima | duo <hi rend="italic">O</hi> duorum</note>
+<note n="479">uenimus <hi rend="italic">O</hi> venimus | ut <hi rend="italic">O</hi> vt</note>
+<note n="481">et non certitudinis <hi rend="italic">O om</hi> | uel <hi rend="italic">O</hi> vel | enim est <hi rend="italic">O inv</hi></note>
+<note n="484">uero <hi rend="italic">O</hi> non | denunciatur <hi rend="italic">O</hi> denunciantur</note>
+<note n="486">ut <hi rend="italic">O</hi> vt</note>
+<note n="489">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="490">maximus <hi rend="italic">O</hi> maius</note>
+<note n="491">et <hi rend="italic">O</hi> om | uiuendo <hi rend="italic">O</hi> viuendo</note>
+<note n="495">dicit <hi rend="italic">O</hi> dixit</note>
+<note n="496">uenit <hi rend="italic">O</hi> venit</note>
+<note n="497">exclusis <hi rend="italic">O</hi> clusis</note>
+<pb n="AVOThO_Volum XII-78 (Aparat Crític)"/>
+<note n="498">ut <hi rend="italic">O</hi> vt | uisitabat <hi rend="italic">O</hi> visitabat</note>
+<note n="500">uerbo <hi rend="italic">O</hi> verbo | uel <hi rend="italic">O</hi> nec</note>
+<note n="502">quid <hi rend="italic">O</hi> quod | ut <hi rend="italic">O</hi> vt</note>
+<note n="503">ut <hi rend="italic">O</hi> vt | ut <hi rend="italic">O</hi> vt</note>
+<note n="504">ut <hi rend="italic">O</hi> vt</note>
+<note n="505">Thimoteum <hi rend="italic">O</hi> Thymoteum</note>
+<note n="506">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi> | ·<num type="roman">XI</num>· <hi rend="italic">O</hi> vndecim</note>
+<note n="507">unus <hi rend="italic">O</hi> vnum</note>
+<note n="508">remittere <hi rend="italic">O</hi> remitere</note>
+<note n="510">improperia <hi rend="italic">O</hi> impropria</note>
+<pb n="AVOThO_Volum XII-79 (Aparat Crític)"/>
+<note n="512">seu <hi rend="italic">O</hi> siue | ut <hi rend="italic">O</hi> vt</note>
+<note n="514">argumento O articulo | utitur <hi rend="italic">O</hi> vtitur</note>
+<note n="517">uerbis <hi rend="italic">O</hi> verbis | uespere <hi rend="italic">O</hi> vespere</note>
+<note n="518">trecenti <hi rend="italic">O</hi> CCC</note>
+<note n="519">utrobique <hi rend="italic">O</hi> vtrobique</note>
+<pb n="AVOThO_Volum XII-80 (Aparat Crític)"/>
+<note n="520">comunes <hi rend="italic">Ov</hi> communes</note>
+<note n="521">accipiunt <hi rend="italic">O</hi> accipit</note>
+<note n="522">usvali <hi rend="italic">v</hi> usuali | sic arguit <hi rend="italic">O</hi> si arguit</note>
+<note n="523">ut uos <hi rend="italic">O</hi> vt vos | uera <hi rend="italic">O</hi> vera</note>
+<note n="524">quam <hi rend="italic">O</hi> non</note>
+<pb n="AVOThO_Volum XII-81 (Aparat Crític)"/>
+<note n="528">ubi <hi rend="italic">O</hi> vbi | uel <hi rend="italic">O</hi> vel | alium <hi rend="italic">O om</hi></note>
+<note n="530">cvm <hi rend="italic">O</hi> cum</note>
+<note n="532">opinio <hi rend="italic">O</hi> oppinio | uerba <hi rend="italic">O</hi> verba</note>
+<note n="533">expositiones <hi rend="italic">O</hi> oppiniones</note>
+<note n="534-535">ueritatis <hi rend="italic">O</hi> veritatis</note>
+<note n="536">Epiphane <hi rend="italic">O</hi> Epifane</note>
+<note n="538">uidetur <hi rend="italic">O</hi> non | aperte <hi rend="italic">O</hi> apperte | Glossa communis <hi rend="italic">O</hi> Glosa comunis</note>
+<note n="539">referunt <hi rend="italic">O</hi> referuntur</note>
+<note n="541">Glossa communis <hi rend="italic">O</hi> Glosa comunis</note>
+<note n="541-542">Antiocho ... alium modum <hi rend="italic">O om</hi></note>
+<note n="542">aplicari <hi rend="italic">O</hi> applicari</note>
+<note n="543">aut <hi rend="italic">O</hi> at | hec <hi rend="italic">O</hi> hoc</note>
+<note n="545-546">doctorum <hi rend="italic">e</hi> doctorem</note>
+<note n="547">uerum <hi rend="italic">O</hi> verum</note>
+<pb n="AVOThO_Volum XII-82 (Aparat Crític)"/>
+<note n="550">Gilbertus <hi rend="italic">V in ras</hi></note>
+<pb n="AVOThO_Volum XII-83 (Aparat Crític)"/>
+<note n="553">uero <hi rend="italic">O</hi> vero</note>
+<note n="554">catholicam <hi rend="italic">V praem</hi> etiam <hi rend="italic">canc</hi></note>
+<note n="558">etiam patet <hi rend="italic">O inv</hi></note>
+<note n="559">iste <hi rend="italic">O</hi> ille</note>
+<pb n="AVOThO_Volum XII-84 (Aparat Crític)"/>
+<note n="563">Genesim <hi rend="italic">O</hi> Genesi | et <hi rend="italic">O seq</hi> no <hi rend="italic">canc</hi></note>
+<note n="564">litere <hi rend="italic">O</hi> legere</note>
+<note n="565">Sacrorum Eloquiorum <hi rend="italic">e</hi> sacrorum eloquiorum</note>
+<note n="566">eclesia <hi rend="italic">Oe</hi> ecclesia</note>
+<note n="568">·<num type="roman">VII</num>· <hi rend="italic">O</hi> septem</note>
+<pb n="AVOThO_Volum XII-85 (Aparat Crític)"/>
+<note n="573">concurr[u]nt <hi rend="italic">V</hi> concurrnt <hi rend="italic">O</hi> cuncurrunt</note>
+<note n="574">uel O vel</note>
+<note n="575">que <hi rend="italic">O</hi> quod</note>
+<note n="577">uenturus <hi rend="italic">O</hi> venturus</note>
+<note n="578">aduentvm <hi rend="italic">O</hi> aduentus</note>
+<note n="579">probatur <hi rend="italic">O</hi> probant</note>
+<note n="580">eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="582">ociosum <hi rend="italic">O</hi> occiosum</note>
+<note n="583">pro <hi rend="italic">O bis prim canc</hi></note>
+<note n="585">iste <hi rend="italic">O</hi> ille</note>
+<note n="586">ista <hi rend="italic">O</hi> illa</note>
+<note n="587">unius <hi rend="italic">O</hi> vnius | utruque <hi rend="italic">O</hi> vtruque</note>
+<pb n="AVOThO_Volum XII-86 (Aparat Crític)"/>
+<note n="589">litere <hi rend="italic">O praem voc</hi> (mani?) <hi rend="italic">canc</hi> | ut <hi rend="italic">O</hi> vt | Glossa <hi rend="italic">O</hi> Glosa</note>
+<note n="590">usque <hi rend="italic">O</hi> vsque</note>
+<note n="591">templi <hi rend="italic">O</hi> populi</note>
+<note n="592">Ystoriam <hi rend="italic">O</hi> Historiam | Machabeorum <hi rend="italic">V</hi> -orum <hi rend="italic">add int lin</hi></note>
+<note n="593">habuerit <hi rend="italic">O</hi> habuit | milia <hi rend="italic">O</hi> millia | trecentos <hi rend="italic">O</hi> CCC</note>
+<note n="594">uero <hi rend="italic">O</hi> vero | litere <hi rend="italic">O</hi> littere</note>
+<note n="595">Usque <hi rend="italic">O</hi> Vsque</note>
+<note n="596">uel <hi rend="italic">O</hi> vel</note>
+<note n="600">locutus <hi rend="italic">O</hi> loquutus</note>
+<note n="601">usque <hi rend="italic">O</hi> vsque</note>
+<note n="602">milia <hi rend="italic">O</hi> mi. | trecenti <hi rend="italic">O</hi> CCC</note>
+<note n="602-603">Cum ergo ... trecenti <hi rend="italic">O om</hi></note>
+<note n="604">quod aliud <hi rend="italic">O om</hi> | uoluit <hi rend="italic">O</hi> voluit | uerba <hi rend="italic">O</hi> verba | significare <hi rend="italic">O</hi> signifficare</note>
+<note n="607">uoluisset <hi rend="italic">O</hi> voluisset | significare <hi rend="italic">O</hi> signifficare</note>
+<pb n="AVOThO_Volum XII-87 (Aparat Crític)"/>
+<note n="608">expressisset <hi rend="italic">O</hi> expressius set</note>
+<note n="610">uerba <hi rend="italic">O</hi> verba | significare <hi rend="italic">O</hi> signifficare</note>
+<note n="614">qui <hi rend="italic">O</hi> quod</note>
+<note n="615">Spiritus Sanctus <hi rend="italic">O</hi> tempus tunc</note>
+<note n="616">uoluisset <hi rend="italic">O</hi> voluisset | significare <hi rend="italic">O</hi> signifficare</note>
+<note n="617">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="618">uoluit <hi rend="italic">O</hi> voluit | significare <hi rend="italic">O</hi> signifficare</note>
+<note n="619">litere <hi rend="italic">O</hi> littere</note>
+<note n="620">ubi <hi rend="italic">O</hi> vbi</note>
+<note n="621">Glossa <hi rend="italic">O</hi> Glosa</note>
+<note n="622">cui <hi rend="italic">O</hi> cum | innititur <hi rend="italic">O</hi> inititur</note>
+<note n="624">refellit <hi rend="italic">O</hi> reffellitur</note>
+<note n="626">conuenit <hi rend="italic">O</hi> continet</note>
+<note n="627">refellitur <hi rend="italic">O</hi> reffellitur | iste <hi rend="italic">O</hi> ille</note>
+<note n="628">uel <hi rend="italic">O</hi> uel | uisionis <hi rend="italic">O</hi> visionis</note>
+<note n="629">uisio <hi rend="italic">O</hi> visio | uespere <hi rend="italic">O</hi> vespere | uera <hi rend="italic">O</hi> vera</note>
+<note n="630">intelligitur <hi rend="italic">V praem</hi> uisio <hi rend="italic">canc</hi></note>
+<note n="631">duratura <hi rend="italic">O</hi> duraturis | uastatio <hi rend="italic">V praem</hi> u <hi rend="italic">canc et exp O</hi> vastatio</note>
+<note n="632">enim potest <hi rend="italic">O inv</hi></note>
+<note n="633">uiolenta <hi rend="italic">O</hi> violenta</note>
+<pb n="AVOThO_Volum XII-88 (Aparat Crític)"/>
+<note n="634">adiunctum <hi rend="italic">O</hi> adiectum | aut <hi rend="italic">O</hi> vel | uel <hi rend="italic">O</hi> aut</note>
+<note n="635">aut <hi rend="italic">O</hi> vel</note>
+<note n="637">litere <hi rend="italic">O</hi> littere</note>
+<note n="638">uiolat <hi rend="italic">O</hi> violat | uero <hi rend="italic">O</hi> vero</note>
+<note n="639">unguem <hi rend="italic">O</hi> vnguem</note>
+<note n="640">omittunt <hi rend="italic">O</hi> obmittunt</note>
+<note n="642">dixit <hi rend="italic">O</hi> dicit | ego <hi rend="italic">O praem</hi> exp</note>
+<note n="643">ut <hi rend="italic">O</hi> vt</note>
+<note n="644">P[etrum] <hi rend="italic">O</hi> Pt. | in <hi rend="italic">O om</hi></note>
+<note n="647">locuntur <hi rend="italic">O</hi> loquuntur</note>
+<note n="648">afirmant <hi rend="italic">O</hi> affirmant | P[etrum] <hi rend="italic">O</hi> Petrum | nec <hi rend="italic">O</hi> neque</note>
+<note n="649">uel <hi rend="italic">O</hi> vel</note>
+<note n="651">ut <hi rend="italic">O</hi> vt | aut <hi rend="italic">O om</hi></note>
+<note n="652">uel <hi rend="italic">O</hi> vel | litere <hi rend="italic">O</hi> littere | uero <hi rend="italic">O</hi> vero</note>
+<pb n="AVOThO_Volum XII-89 (Aparat Crític)"/>
+<note n="654">ut <hi rend="italic">O</hi> vt</note>
+<note n="655">adhuc <hi rend="italic">O</hi> ad hec</note>
+<note n="656">quantumcumque <hi rend="italic">O</hi> quibuscumque</note>
+<note n="660">aperte <hi rend="italic">O</hi> apperte</note>
+<note n="661">secundi <hi rend="italic">O</hi> sui</note>
+<note n="664">restringatur <hi rend="italic">O</hi> restringuatur | Iterum <hi rend="italic">O</hi> Item</note>
+<pb n="AVOThO_Volum XII-90 (Aparat Crític)"/>
+<note n="665">ubi <hi rend="italic">O</hi> vbi</note>
+<note n="668">ueritatis <hi rend="italic">O</hi> veritatis</note>
+<note n="669">quem <hi rend="italic">O</hi> quod</note>
+<note n="670">uexauit <hi rend="italic">O</hi> vexauit | dixit <hi rend="italic">O</hi> dicit</note>
+<note n="671">defeci O defficio | proposito <hi rend="italic">O lect dub</hi></note>
+<note n="672">nusquam <hi rend="italic">O</hi> nunquam</note>
+<note n="673">uel <hi rend="italic">O</hi> vel</note>
+<note n="675">adhuc <hi rend="italic">O</hi> ad hoc</note>
+<note n="676">uerba <hi rend="italic">O</hi> verba</note>
+<note n="680">discedat <hi rend="italic">O</hi> dicedat | alias <hi rend="italic">O om</hi></note>
+<note n="681">ei <hi rend="italic">O</hi> eis</note>
+<note n="682">uel O vel</note>
+<pb n="AVOThO_Volum XII-91 (Aparat Crític)"/>
+<note n="684">usque <hi rend="italic">O</hi> vsque</note>
+<note n="685">·<num type="roman">V</num><hi rend="sup">e</hi>· <hi rend="italic">O</hi> ·<num type="roman">V</num>· | milia <hi rend="italic">O</hi> mille | Illud <hi rend="italic">O</hi> Id</note>
+<note n="686">Ieronimus <hi rend="italic">O</hi> Iheronimus | Vincentius <hi rend="italic">O</hi> Macentius</note>
+<note n="687">hebraicam <hi rend="italic">O</hi> hebraycam | ueritatem <hi rend="italic">O</hi> veritatem</note>
+<note n="688-689">·<num type="roman">IV</num><hi rend="sup">or</hi>· O quatuor | milia <hi rend="italic">O</hi> mille | iuxta ... obseruauerunt <hi rend="italic">V add in cal</hi></note>
+<note n="690">ut <hi rend="italic">O</hi> vt</note>
+<note n="691">Abacuch <hi rend="italic">O</hi> Abacuh</note>
+<note n="692">incipiant <hi rend="italic">O</hi> incipiunt</note>
+<note n="693">ostensum est <hi rend="italic">O inv</hi></note>
+<pb n="AVOThO_Volum XII-92 (Aparat Crític)"/>
+<note n="695">·<num type="roman">XI</num>º· <hi rend="italic">O</hi> Vndecimo | uel <hi rend="italic">O</hi> vel</note>
+<note n="696">aliqua <hi rend="italic">O</hi> alia | ueri <hi rend="italic">O</hi> uiri</note>
+<note n="697">eclesia <hi rend="italic">O</hi> ecclesia</note>
+<note n="699">sit forte <hi rend="italic">O inv</hi></note>
+<note n="700">gloriosam <hi rend="italic">O</hi> glosam | resurrectionem <hi rend="italic">O lect dub</hi></note>
+<note n="702">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi> | summa <hi rend="italic">O</hi> summantus</note>
+<note n="703">Primus <hi rend="italic">O om</hi></note>
+<note n="704">ut <hi rend="italic">O</hi> vt</note>
+<note n="705">ut <hi rend="italic">O</hi> vt</note>
+<note n="706">uinvm <hi rend="italic">O</hi> vinum</note>
+<note n="710">in <hi rend="italic">O praem</hi> est</note>
+<note n="711">usus <hi rend="italic">O</hi> vsus | comunes <hi rend="italic">O</hi> communes</note>
+<note n="712">uel <hi rend="italic">O</hi> vel | uos <hi rend="italic">O</hi> vos</note>
+<note n="713">uerum <hi rend="italic">O</hi> verum</note>
+<note n="714">ubi <hi rend="italic">O</hi> vbi</note>
+<note n="716">uexabatur <hi rend="italic">O</hi> vexabatur | utilia <hi rend="italic">O</hi> vtilia</note>
+<note n="717">meis <hi rend="italic">O</hi> eis | unum <hi rend="italic">O</hi> vnum</note>
+<pb n="AVOThO_Volum XII-93 (Aparat Crític)"/>
+<note n="718">in <hi rend="italic">O</hi> etiam</note>
+<note n="719">uenenum <hi rend="italic">O</hi> venenum | rabido <hi rend="italic">O</hi> rabito | uulnerandi <hi rend="italic">O</hi> vulnerandi</note>
+<note n="720">ubi <hi rend="italic">O</hi> non</note>
+<note n="721">Et <hi rend="italic">O om</hi> | non <hi rend="italic">O</hi> cum</note>
+<note n="724">hoc <hi rend="italic">O</hi> hic | Israel <hi rend="italic">O</hi> Ysrahel</note>
+<note n="726">reliquimus <hi rend="italic">O</hi> relinquimus | secuti <hi rend="italic">O</hi> sequuti</note>
+<note n="727">modus <hi rend="italic">O seq</hi> modo</note>
+<note n="728">locutiones <hi rend="italic">O</hi> loquationes</note>
+<note n="729">locutio <hi rend="italic">O</hi> loquutio</note>
+<note n="730">ui <hi rend="italic">O</hi> vi | indicat <hi rend="italic">O</hi> ibi dicat</note>
+<note n="732">utrum <hi rend="italic">O</hi> vtrum | causalis <hi rend="italic">O</hi> casualis</note>
+<note n="733">ui <hi rend="italic">O</hi> vi | locutionibus <hi rend="italic">O</hi> loquutionibus</note>
+<note n="734">reliquimus <hi rend="italic">O</hi> relinquimus</note>
+<note n="735">secuti <hi rend="italic">O</hi> sequuti | ui <hi rend="italic">O</hi> vi</note>
+<note n="736">fiendum <hi rend="italic">V iter in mg</hi></note>
+<note n="737">querit <hi rend="italic">O om</hi></note>
+<note n="738">uel <hi rend="italic">O</hi> vel</note>
+<note n="739">Lucha <hi rend="italic">O</hi> Luca</note>
+<note n="740">aperuit <hi rend="italic">O</hi> apperuit | ut <hi rend="italic">O</hi> vt</note>
+<pb n="AVOThO_Volum XII-94 (Aparat Crític)"/>
+<note n="744">non <hi rend="italic">O om</hi> | aperuerit <hi rend="italic">O</hi> apperuit</note>
+<note n="745">omnes intellectus Scripturarum <hi rend="italic">O</hi> Scripturarum intellectus omnes</note>
+<note n="746">uel <hi rend="italic">O</hi> vel | ueritatis <hi rend="italic">O</hi> veritatis | ut <hi rend="italic">O</hi> vt | Glossa <hi rend="italic">O</hi> Glosa</note>
+<note n="747">uel <hi rend="italic">O</hi> vel | explendum <hi rend="italic">O</hi> exemplum | ministerium <hi rend="italic">O</hi> misterium</note>
+<note n="749">congruos <hi rend="italic">O</hi> congruo</note>
+<note n="754">uel <hi rend="italic">O</hi> vel | uestrum <hi rend="italic">O</hi> vestrum | etc. <hi rend="italic">O om</hi></note>
+<note n="755">uerba <hi rend="italic">O</hi> verba</note>
+<note n="756">uel <hi rend="italic">O</hi> vel | uerba <hi rend="italic">O</hi> verba</note>
+<note n="757">uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="758">significare <hi rend="italic">O</hi> signifficare | esset <hi rend="italic">O</hi> esse | illis <hi rend="italic">O</hi> vel | uel <hi rend="italic">O</hi> vel</note>
+<note n="759">ut <hi rend="italic">O</hi> vt</note>
+<note n="759-760">significabat <hi rend="italic">O</hi> signifficabat | uerba O verba | eis <hi rend="italic">O praem</hi> in | prohibitum <hi rend="italic">O praem</hi> signifficatum</note>
+<note n="761">ut <hi rend="italic">O</hi> vt | exprimit <hi rend="italic">O</hi> exponit</note>
+<note n="764">meo <hi rend="italic">O</hi> in eo</note>
+<pb n="AVOThO_Volum XII-95 (Aparat Crític)"/>
+<note n="766">uoluit <hi rend="italic">O</hi> noluit</note>
+<note n="767">ultima <hi rend="italic">O</hi> vltima</note>
+<note n="768">etiam <hi rend="italic">O</hi> et</note>
+<note n="771">ultima <hi rend="italic">O</hi> vltima | quod <hi rend="italic">O om</hi></note>
+<note n="772">ultime <hi rend="italic">O</hi> vltime | ultimam <hi rend="italic">O</hi> vltimam</note>
+<note n="773">ultime <hi rend="italic">O</hi> vltime</note>
+<note n="774">ultima <hi rend="italic">O</hi> vltima</note>
+<note n="778">quem <hi rend="italic">O</hi> quod</note>
+<note n="782">aperit <hi rend="italic">O</hi> apperit | uult <hi rend="italic">O</hi> vult</note>
+<note n="785">usque <hi rend="italic">O</hi> vsque | quo <hi rend="italic">O</hi> in quo | aperire <hi rend="italic">O</hi> apperire</note>
+<note n="786">acumine <hi rend="italic">O</hi> accumeni</note>
+<note n="787">uoluit <hi rend="italic">O</hi> voluit</note>
+<note n="788">ut <hi rend="italic">O</hi> vt | nominaui <hi rend="italic">O</hi> nominauit | Nec <hi rend="italic">O</hi> non</note>
+<note n="789">uel <hi rend="italic">O</hi> vel</note>
+<pb n="AVOThO_Volum XII-96 (Aparat Crític)"/>
+<note n="791">Proinde <hi rend="italic">O</hi> Perinde</note>
+<note n="792">futuram <hi rend="italic">O</hi> futuris | uniuerso <hi rend="italic">O</hi> vniverso</note>
+<note n="793">eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="795">uel <hi rend="italic">O</hi> vel | antecedentibus <hi rend="italic">O</hi> anterioribus</note>
+<note n="796">absconduntur <hi rend="italic">O</hi> abscunduntur</note>
+<note n="798">ut <hi rend="italic">O</hi> vt | uenit <hi rend="italic">O</hi> venit | ut <hi rend="italic">O</hi> vt | uident <hi rend="italic">O</hi> vident | uideant <hi rend="italic">O</hi> videant</note>
+<note n="799">uident <hi rend="italic">O</hi> vident | uidere <hi rend="italic">O</hi> videre | putant <hi rend="italic">O</hi> reputant</note>
+<note n="801">fuerunt <hi rend="italic">O om</hi></note>
+<note n="802">theologizantes <hi rend="italic">O</hi> theologisantes</note>
+<note n="803">hunc <hi rend="italic">O om</hi></note>
+<note n="804">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi></note>
+<pb n="AVOThO_Volum XII-97 (Aparat Crític)"/>
+<note n="805">·<num type="roman">IV</num><hi rend="sup">or</hi>· <hi rend="italic">O</hi> quatuor</note>
+<note n="806">ut <hi rend="italic">O</hi> vt</note>
+<note n="808">uerba <hi rend="italic">O</hi> verba | ·<num type="roman">XXIV</num><hi rend="sup">o</hi>· <hi rend="italic">O</hi> XXIV</note>
+<note n="810">superfluum <hi rend="italic">O</hi> falsum | tum <hi rend="italic">O</hi> tamen | ut <hi rend="italic">O</hi> vt</note>
+<note n="812">literalem <hi rend="italic">O</hi> litteralem</note>
+<note n="814">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="815">mea <hi rend="italic">O</hi> in ea</note>
+<note n="817">hoc <hi rend="italic">O om</hi> | etsi <hi rend="italic">O</hi> si | glosatorum <hi rend="italic">O</hi> glosorum</note>
+<note n="818">aliquam <hi rend="italic">O</hi> aliam</note>
+<note n="819">literali <hi rend="italic">O</hi> litterali | de <hi rend="italic">O seq voc illeg canc</hi></note>
+<note n="820"><hi rend="italic">Luchas O</hi> Lucas | uana <hi rend="italic">O</hi> vana</note>
+<note n="821">meo <hi rend="italic">O</hi> modo</note>
+<note n="822">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi></note>
+<note n="823">calumpniari <hi rend="italic">O</hi> calumpniatur | et <hi rend="italic">O</hi> om | destitit <hi rend="italic">O</hi> desistit | ut <hi rend="italic">O</hi> vt</note>
+<note n="823-824">uerificaret <hi rend="italic">O</hi> uerifficaret</note>
+<note n="824">illud <hi rend="italic">O</hi> illum</note>
+<note n="824-825">concinnabat <hi rend="italic">O</hi> condempnabat</note>
+<pb n="AVOThO_Volum XII-98 (Aparat Crític)"/>
+<note n="829">patet <hi rend="italic">O om</hi></note>
+<note n="831">principalis <hi rend="italic">O</hi> principalem</note>
+<note n="832">illorum <hi rend="italic">O</hi> ipsorum</note>
+<note n="836">uerum <hi rend="italic">O</hi> verum</note>
+<note n="837">etc. <hi rend="italic">O om</hi></note>
+<note n="842">ut <hi rend="italic">O</hi> vt</note>
+<note n="843">quam <hi rend="italic">O</hi> que | presumis <hi rend="italic">O lect dub</hi></note>
+<note n="844">uerba <hi rend="italic">O</hi> verba</note>
+<note n="845">et <hi rend="italic">O om</hi></note>
+<note n="846">in <hi rend="italic">O om</hi></note>
+<note n="849">nichilominus <hi rend="italic">O</hi> nichillominus</note>
+<pb n="AVOThO_Volum XII-99 (Aparat Crític)"/>
+<note n="850">unam <hi rend="italic">O</hi> vnam</note>
+<note n="851">sexto <hi rend="italic">O</hi> VI<hi rend="sup">o</hi></note>
+<note n="853">Quod <hi rend="italic">O om</hi></note>
+<note n="855">reprobando <hi rend="italic">v</hi> resprobando</note>
+<note n="858">utitur <hi rend="italic">O</hi> vtitur | Glossa <hi rend="italic">O</hi> Glosa</note>
+<note n="859">sicut uos <hi rend="italic">O</hi> sic ut | uera <hi rend="italic">O</hi> vera | Quod <hi rend="italic">O</hi> per</note>
+<note n="860">qui <hi rend="italic">O</hi> quid</note>
+<note n="861">literam <hi rend="italic">O</hi> litteram | similiter <hi rend="italic">O</hi> similis | libro <hi rend="italic">O</hi> numero</note>
+<note n="863">ut <hi rend="italic">O</hi> vt</note>
+<note n="863-864">etiam ... ostensum <hi rend="italic">O om</hi></note>
+<note n="866">uel <hi rend="italic">O</hi> vel</note>
+<note n="869">ut <hi rend="italic">O</hi> vt | brocardicum <hi rend="italic">O</hi> brocardum | uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="871">editionvm <hi rend="italic">O</hi> editionum | uel <hi rend="italic">O</hi> vel</note>
+<pb n="AVOThO_Volum XII-100 (Aparat Crític)"/>
+<note n="872">Proinde <hi rend="italic">O seq</hi> fecit</note>
+<note n="874">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi></note>
+<note n="875">quod <hi rend="italic">O om</hi> | usque <hi rend="italic">O</hi> vsque</note>
+<note n="875-876">fluxisse <hi rend="italic">O</hi> fuisse</note>
+<note n="876">·<num type="roman">V</num><hi rend="sup">e</hi>· <hi rend="italic">O</hi> V | tercio <hi rend="italic">O</hi> III</note>
+<note n="877">Ieronimus <hi rend="italic">O</hi> Iheronimus</note>
+<note n="879">est magis credendum <hi rend="italic">O</hi> magis credendum est</note>
+<note n="880">ystoriografa <hi rend="italic">O</hi> historiographa</note>
+<note n="882">sincerius <hi rend="italic">O</hi> sincerus | eclesia <hi rend="italic">O</hi> ecclesia | subticuit <hi rend="italic">O</hi> substituit</note>
+<note n="885">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="887">paragrafo <hi rend="italic">O seq</hi> tercio | uero <hi rend="italic">O</hi> vero</note>
+<note n="889">uera <hi rend="italic">O</hi> nam</note>
+<note n="892">aliqua <hi rend="italic">O</hi> alia</note>
+<pb n="AVOThO_Volum XII-101 (Aparat Crític)"/>
+<note n="895">una <hi rend="italic">O</hi> vna | aliquotis <hi rend="italic">O</hi> aliquotiens</note>
+<note n="896">uerum <hi rend="italic">O</hi> verum</note>
+<note n="899-900">debacatus <hi rend="italic">O</hi> debaccatus</note>
+<note n="901">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi></note>
+<note n="903">uaticinorum <hi rend="italic">O</hi> vaticinorum</note>
+<note n="904">facit <hi rend="italic">O om</hi></note>
+<note n="907">ut <hi rend="italic">O</hi> vt | intercurrunt <hi rend="italic">O</hi> intercorrunt | ·<num type="roman">XXIV</num><hi rend="sup">or</hi>· <hi rend="italic">O</hi> XXIV</note>
+<note n="908">potest <hi rend="italic">O</hi> patet | unicuique <hi rend="italic">O</hi> vnicuique | ystorias <hi rend="italic">O</hi> historias | uelit <hi rend="italic">O</hi> vel</note>
+<note n="909">distinguere <hi rend="italic">O</hi> distinguentur</note>
+<pb n="AVOThO_Volum XII-102 (Aparat Crític)"/>
+<note n="912">apocrifa <hi rend="italic">O</hi> apocriffa</note>
+<note n="913">uerbis <hi rend="italic">O</hi> verbis | ostenditur <hi rend="italic">O</hi> ostendit | uel <hi rend="italic">O</hi> vel (<hi rend="italic">bis</hi>)</note>
+<note n="916">prophetali <hi rend="italic">O</hi> philosophali | et <hi rend="italic">O</hi> om | ystoriali <hi rend="italic">O</hi> historiali</note>
+<note n="918">etiam <hi rend="italic">O</hi> et</note>
+<note n="919">usque <hi rend="italic">O</hi> vsque</note>
+<note n="920">uerificata <hi rend="italic">O</hi> verificata | Quappropter <hi rend="italic">O</hi> Quappropter | apocrife <hi rend="italic">O</hi> appocriffe</note>
+<note n="922">apocrife O apocriffe | constat <hi rend="italic">O praem</hi> quod <hi rend="italic">canc</hi></note>
+<pb n="AVOThO_Volum XII-103 (Aparat Crític)"/>
+<note n="925">usque <hi rend="italic">O</hi> vsque</note>
+<note n="926">uerum <hi rend="italic">O</hi> verum | figuratiuum <hi rend="italic">O</hi> figuratum</note>
+<note n="928">probat <hi rend="italic">O praem</hi> debet | dirigitur <hi rend="italic">O lect dub</hi></note>
+<note n="932">uel <hi rend="italic">O</hi> vel</note>
+<note n="933">uitam <hi rend="italic">O</hi> vitam | ueritatem <hi rend="italic">O</hi> veritatem</note>
+<note n="934">Nam illi, qui Christi <hi rend="italic">O om</hi></note>
+<note n="937">deuiauit <hi rend="italic">O</hi> delirauit | ut <hi rend="italic">O</hi> vt</note>
+<note n="939">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi> | capitulo nono <hi rend="italic">O inv</hi> | uanitatem <hi rend="italic">O</hi> vanitatem</note>
+<note n="943">ut <hi rend="italic">O</hi> vt</note>
+<note n="946">aperuerat <hi rend="italic">O</hi> apperuerat | in <hi rend="italic">Actibus</hi> O iactibus | recitatam <hi rend="italic">O</hi> recitaui</note>
+<note n="948">quam <hi rend="italic">O</hi> quia | in dolo subticuit <hi rend="italic">O</hi> subticuit in dolo</note>
+<note n="949">dixit <hi rend="italic">O</hi> dicit</note>
+<note n="950">uenerit <hi rend="italic">O</hi> venerit | ueritatis <hi rend="italic">O</hi> veritatis | uos <hi rend="italic">O</hi> vos</note>
+<pb n="AVOThO_Volum XII-104 (Aparat Crític)"/>
+<note n="951">ueritatem <hi rend="italic">O</hi> veritatem | uentura <hi rend="italic">O</hi> ventura | uobis <hi rend="italic">O</hi> vobis</note>
+<note n="953">uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="954">uel <hi rend="italic">O</hi> vel</note>
+<note n="955">uel <hi rend="italic">O</hi> vel</note>
+<note n="957">utrumque <hi rend="italic">O</hi> vtrumque</note>
+<note n="959">apostoli <hi rend="italic">O seq</hi> non | Sancti <hi rend="italic">O</hi> sed</note>
+<note n="960">ignorauerunt <hi rend="italic">O</hi> ignorauerant</note>
+<note n="961">uel <hi rend="italic">O</hi> vel | naturalis <hi rend="italic">O</hi> naturaliter</note>
+<note n="965">Quapropter <hi rend="italic">O</hi> Quappropter | qui <hi rend="italic">O</hi> que</note>
+<note n="966">pre <hi rend="italic">O om</hi></note>
+<note n="968">diligenter <hi rend="italic">O corr</hi> diliguenter (?) | uoluit <hi rend="italic">O</hi> voluit</note>
+<note n="970">fuit <hi rend="italic">O om</hi></note>
+<note n="971">uel <hi rend="italic">O</hi> vel | uerbis <hi rend="italic">O</hi> verbis | ·<num type="roman">XVIII</num><hi rend="sup">o</hi>· <hi rend="italic">O</hi> decimo octauo | uel <hi rend="italic">O</hi> vel</note>
+<note n="972">possint <hi rend="italic">O</hi> possit</note>
+<note n="973">ut <hi rend="italic">O</hi> vt</note>
+<note n="974">Augustinus <hi rend="italic">V add in mg</hi> | literam <hi rend="italic">O</hi> litteram | uerba <hi rend="italic">O</hi> verba</note>
+<pb n="AVOThO_Volum XII-105 (Aparat Crític)"/>
+<note n="976">uerba <hi rend="italic">O</hi> verba | que <hi rend="italic">O</hi> quam | iste <hi rend="italic">O</hi> ille</note>
+<note n="978">uerbis <hi rend="italic">O</hi> verbis | uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="979">tempora <hi rend="italic">O add</hi> etc. | locutus <hi rend="italic">O</hi> loquutus</note>
+<note n="981">relatiuum <hi rend="italic">O</hi> reuelaturis</note>
+<note n="982">specificet <hi rend="italic">O</hi> specifficet</note>
+<note n="984">uestrum <hi rend="italic">O</hi> vestrum</note>
+<note n="986">uerbis <hi rend="italic">O</hi> verbis | locutus <hi rend="italic">O</hi> loquutus</note>
+<note n="988">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi></note>
+<note n="991">aperte <hi rend="italic">O</hi> apperte | uel <hi rend="italic">O</hi> vel</note>
+<note n="992">fuerit <hi rend="italic">O</hi> fuit | uel <hi rend="italic">O</hi> vel</note>
+<note n="993">eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="996">unum <hi rend="italic">O</hi> vnum</note>
+<note n="998">masticatum <hi rend="italic">O</hi> mastigatur | uel <hi rend="italic">O</hi> vel</note>
+<note n="999">nequiciam <hi rend="italic">V</hi> nequi- <hi rend="italic">in ras</hi></note>
+<pb n="AVOThO_Volum XII-106 (Aparat Crític)"/>
+<note n="1000">inuehitur <hi rend="italic">V corr</hi> inhiuehitur <hi rend="italic">canc prim</hi> -hi-</note>
+<note n="1001">eclesie <hi rend="italic">O</hi> ecclesie | sed <hi rend="italic">O</hi> secundum</note>
+<note n="1002">patet <hi rend="italic">O</hi> oportet | iste <hi rend="italic">O</hi> ille</note>
+<note n="1004">uidit <hi rend="italic">O</hi> vidit</note>
+<note n="1005">eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="1005-1006">Quapropter <hi rend="italic">O</hi> Quappropter</note>
+<note n="1006">Antichristi <hi rend="italic">O corr</hi> Antichristum (?)</note>
+<note n="1008">in <hi rend="italic">O om</hi></note>
+<note n="1009-1010">tempus <hi rend="italic">V add in mg</hi></note>
+<note n="1012">eclesie <hi rend="italic">O</hi> ecclesie</note>
+<note n="1015">uerba <hi rend="italic">O</hi> verba</note>
+<note n="1016">alivm <hi rend="italic">O</hi> alium | uos <hi rend="italic">O</hi> vos</note>
+<note n="1018">Tercivm <hi rend="italic">Ov</hi> Tercium</note>
+<note n="1020">usque <hi rend="italic">O</hi> vsque</note>
+<pb n="AVOThO_Volum XII-107 (Aparat Crític)"/>
+<note n="1021">uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="1022">ydiotas <hi rend="italic">O</hi> ydiotis | uel <hi rend="italic">O</hi> vel</note>
+<note n="1023">uiueret <hi rend="italic">O</hi> viueret</note>
+<note n="1024">uite <hi rend="italic">O</hi> vite</note>
+<note n="1024-1025">Que deliramenta <hi rend="italic">O</hi> Quedam liramenta</note>
+<note n="1026">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi> | quantum <hi rend="italic">O</hi> quod (?)</note>
+<note n="1027">monstrat <hi rend="italic">O</hi> mostrat | quadruuialibus <hi rend="italic">O</hi> quadriuialibus</note>
+<note n="1028">didicit <hi rend="italic">O</hi> didiscit</note>
+<note n="1030">locuntur <hi rend="italic">O</hi> loquuntur</note>
+<note n="1032">uelocitate <hi rend="italic">O</hi> velocitate</note>
+<note n="1033">uirtute <hi rend="italic">O</hi> virtute</note>
+<note n="1034">barbarismum <hi rend="italic">O</hi> barbarissmum | soloescismum <hi rend="italic">O</hi> solescimum</note>
+<note n="1035">fieri posset <hi rend="italic">O inv</hi> | uirtute <hi rend="italic">O</hi> virtute</note>
+<pb n="AVOThO_Volum XII-108 (Aparat Crític)"/>
+<note n="1037">bubalicum <hi rend="italic">V praem</hi> b <hi rend="italic">canc et exp</hi></note>
+<note n="1038">usus <hi rend="italic">O</hi> vsus | Aliter <hi rend="italic">O</hi> -ter <hi rend="italic">lect dub</hi> | exponuntur <hi rend="italic">O</hi> exponintur</note>
+<note n="1039">uestra O vestra</note>
+<note n="1040">dicendo <hi rend="italic">O om</hi> | uerbis <hi rend="italic">O</hi> verbis</note>
+<note n="1042">uelocitari <hi rend="italic">O</hi> velocitari | nisi <hi rend="italic">O</hi> donec</note>
+<note n="1043">uel <hi rend="italic">O</hi> vel</note>
+<note n="1044">dixit <hi rend="italic">O</hi> dicit</note>
+<note n="1045">quin <hi rend="italic">O</hi> quando</note>
+<note n="1047">sumi <hi rend="italic">O lect dub</hi> | uirtus <hi rend="italic">O</hi> virtus</note>
+<note n="1049">uenturi <hi rend="italic">O</hi> venturi</note>
+<note n="1051">aperte <hi rend="italic">O</hi> apperte</note>
+<note n="1052">soluentur <hi rend="italic">V praem</hi> s <hi rend="italic">canc et exp</hi></note>
+<note n="1053">ista <hi rend="italic">O</hi> illa | purificatio <hi rend="italic">O</hi> purifficatio</note>
+<note n="1055">Quapropter <hi rend="italic">O</hi> Quappropter</note>
+<note n="1056">In <hi rend="italic">O</hi> [.]n <hi rend="italic">in spat vac add</hi> i- <hi rend="italic">pro rubricatore</hi> | ·<num type="roman">XII</num>º· <hi rend="italic">O</hi> duodecimo</note>
+<note n="1058">filacterias <hi rend="italic">O</hi> filaterias | magnificant <hi rend="italic">O</hi> magnifficant | Tum <hi rend="italic">V corr voc illeg O</hi> Tam</note>
+<note n="1059-1060">Ebdomada, ebdomade <hi rend="italic">O</hi> Ebdomada et ebdomade</note>
+<note n="1060">Ebdomades, ebdomadis <hi rend="italic">O</hi> Ebdomades et ebdomadis | Tum <hi rend="italic">V corr voc illeg O</hi> et</note>
+<note n="1061">ystorias <hi rend="italic">O</hi> historias | ·<num type="roman">LXX</num><hi rend="sup">a</hi>· <hi rend="italic">O</hi> LXX</note>
+<note n="1062">Daniel, uoluit <hi rend="italic">O om</hi></note>
+<pb n="AVOThO_Volum XII-109 (Aparat Crític)"/>
+<note n="1064">Salvatoris <hi rend="italic">O</hi> Saluatoris</note>
+<note n="1065">Tamen <hi rend="italic">O</hi> Tum</note>
+<note n="1067">Nichilominus <hi rend="italic">O</hi> Nichillominus | ualde <hi rend="italic">O</hi> valde</note>
+<note n="1070">Dicit <hi rend="italic">O praem</hi> diem <hi rend="italic">canc</hi> | litera <hi rend="italic">O</hi> littera | habetur <hi rend="italic">O</hi> habentur | quod ille <hi rend="italic">O om</hi> | ·<num type="roman">LXX</num><hi rend="sup">a</hi>· <hi rend="italic">O</hi> LXX</note>
+<note n="1071">usque <hi rend="italic">O</hi> vsque</note>
+<note n="1072">literam <hi rend="italic">O</hi> litteram | ·<num type="roman">LXX</num><hi rend="sup">a</hi>· <hi rend="italic">O</hi> LXX</note>
+<note n="1073">populum tuum et super <hi rend="italic">O om</hi> | urbem O vrbem</note>
+<note n="1074">etc. <hi rend="italic">O om</hi> | contineri <hi rend="italic">O</hi> contrarium | Scito <hi rend="italic">O</hi> Scitote</note>
+<note n="1075">animaduerte <hi rend="italic">O</hi> animaduertite | ut <hi rend="italic">O</hi> vt | reedificetur <hi rend="italic">O</hi> rehedificetur</note>
+<note n="1076">usque <hi rend="italic">O</hi> vsque</note>
+<note n="1077">·<num type="roman">LXII</num>· <hi rend="italic">O</hi> ·<num type="roman">LXXII</num>· | ·<num type="roman">LXX</num><hi rend="sup">a</hi>· <hi rend="italic">O</hi> LXX</note>
+<note n="1081">contineri <hi rend="italic">O</hi> continetur | usque <hi rend="italic">O</hi> vsque</note>
+<note n="1082">uolens <hi rend="italic">O</hi> volens | deferre <hi rend="italic">O</hi> defferre</note>
+<note n="1084">ei <hi rend="italic">O</hi> eius</note>
+<note n="1085">uel <hi rend="italic">O</hi> vel</note>
+<note n="1086">hoc sit <hi rend="italic">O om</hi> | aliter <hi rend="italic">O</hi> taliter | uel <hi rend="italic">O</hi> vel</note>
+<pb n="AVOThO_Volum XII-110 (Aparat Crític)"/>
+<note n="1089">Primvm <hi rend="italic">O</hi> Primum</note>
+<note n="1090">textus <hi rend="italic">O add</hi> est | uicio <hi rend="italic">O</hi> vicio</note>
+<note n="1092">utrumque <hi rend="italic">O</hi> vtroque</note>
+<pb n="AVOThO_Volum XII-111 (Aparat Crític)"/>
+<note n="1094">karissimo <hi rend="italic">O</hi> carissimo</note>
+<note n="1097">sulphur <hi rend="italic">O</hi> suphur</note>
+<note n="1099">et <hi rend="italic">O om</hi></note>
+<note n="1100">uniuersaliter <hi rend="italic">O</hi> vniuersaliter</note>
+<note n="1102">ut O vt</note>
+<note n="1103">Explicit Antidotum <hi rend="italic">O om</hi></note>
+      </div>
+    </back>
+  </text>
+</TEI>
