@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Edició Crítica Digital - Arnau de Vilanova, Tractatus epistolarum christini ad principes catholicos et praecones</title>
+</titleStmt>
+<publicationStmt>
+<p>Edició unificada TEI P5 amb preservació de línia al text, numeració visible i aplanament de notes</p>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+Arnaldi de Villanova Opera Theologica Omnia (AVOThO), vol. VI, pàgines 235-261: edició crítica del
+<title>Tractatus epistolarum christini ad principes catholicos et praecones</title>
+(línies 1-712).
+</bibl>
+<listWit>
+<witness xml:id="B">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Borgh. 205, f. 63r-74a.</witness>
+<witness xml:id="C">Roma, Biblioteca dell’Accademia nazionale dei Lincei e Corsiniana, Cors. 1256 (40.E.3), f. 29r-47r.</witness>
+<witness xml:id="K1">Bernkastel-Kues, St. Nikolaus-Hospital Bernkastel, Cod. Cus. 54, f. 82v-90v.</witness>
+<witness xml:id="K2">Bernkastel-Kues, St. Nikolaus-Hospitals Bernkastel, Cod. Cus. 42, f. 249r-252r.</witness>
+<witness xml:id="V">Ciutat del Vaticà, Biblioteca Apostolica Vaticana, Vat. lat. 3824, f. 98r-110v.</witness>
+<witness xml:id="c">
+Joaquim Carreras i Artau,
+<hi rend="italic">Del epistolario espiritual de Arnaldo de Vilanova</hi>
+, dins «Estudios Franciscanos», 49 (1948), 392-406.
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/></teiHeader>
+<text>
+<back>
+<div type="apparatus" subtype="critical">
+<pb n="AVOThO_Volum VI-235 (Aparat Crític)"/>
+<note n="Incipit">
+Incipit … precones
+<hi rend="italic">C om</hi>
+| precones
+<hi rend="italic">
+K
+<hi rend="sub">2</hi>
+om.
+</hi>
+</note>
+<note n="Incipit">
+christini
+<hi rend="italic">c</hi>
+christianarum
+</note>
+<note n="Inscriptio ep. I">
+Parisius
+<hi rend="italic">B seq</hi>
+A. de Vilnova
+<hi rend="italic">del</hi>
+</note>
+<note n="14">
+et in corde humilitas
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="17">
+in
+<hi rend="sup">3</hi>
+<hi rend="italic">
+K
+<hi rend="sub">2</hi>
+om
+</hi>
+</note>
+<pb n="AVOThO_Volum VI-236 (Aparat Crític)"/>
+<note n="24">
+pateat
+<hi rend="italic">c</hi>
+pareat | esse
+<hi rend="italic">c om</hi>
+</note>
+<note n="25">
+agni
+<hi rend="italic">B add</hi>
+celi
+</note>
+<note n="28">
+euellat
+<hi rend="italic">V seq</hi>
+et destruat
+<hi rend="italic">canc</hi>
+</note>
+<note n="29">
+Domini
+<hi rend="italic">
+K
+<hi rend="sub">2</hi>
+c
+</hi>
+domum
+</note>
+<note n="30">
+mundi
+<hi rend="italic">C</hi>
+modi
+<hi rend="italic">B add int lin</hi>
+</note>
+<note n="35">
+tamen unius
+<hi rend="italic">c lect dub</hi>
+tonitruus
+</note>
+<note n="38">
+quibus
+<hi rend="italic">C seq</hi>
+vocem | Deus
+<hi rend="italic">C add in mg</hi>
+</note>
+<note n="39">
+in
+<hi rend="italic">C exp add in mg</hi>
+et
+</note>
+<pb n="AVOThO_Volum VI-237 (Aparat Crític)"/>
+<note n="48">
+est sydus
+<hi rend="italic">B</hi>
+sydus est | celi
+<hi rend="italic">B om</hi>
+</note>
+<note n="50">
+mutabilis
+<hi rend="italic">C</hi>
+mirabilis
+</note>
+<note n="57">
+dominium
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="72">
+in
+<hi rend="italic">K</hi>
+<hi rend="sub">2</hi>
+<hi rend="italic">om</hi>
+</note>
+<note n="75">
+sunt
+<hi rend="italic">B</hi>
+sint
+</note>
+<pb n="AVOThO_Volum VI-238 (Aparat Crític)"/>
+<note n="81">
+utique
+<hi rend="italic">c</hi>
+itaque
+</note>
+<note n="83">
+reliquum
+<hi rend="italic">C</hi>
+reliquam
+</note>
+<note n="84">
+sterilitate
+<hi rend="italic">C</hi>
+sterilitatem
+</note>
+<note n="85">
+aquas
+<hi rend="italic">c</hi>
+aquis
+</note>
+<note n="89-90">
+primogenuit
+<hi rend="italic">C lect dub</hi>
+primogenitur / primogenitique
+</note>
+<note n="90">
+conuenienter
+<hi rend="italic">C om</hi>
+| nomen
+<hi rend="italic">C seq</hi>
+et | nomen
+<hi rend="italic">
+K
+<hi rend="sub">2</hi>
+om
+</hi>
+</note>
+<note n="91">
+dilatatio
+<hi rend="italic">B corr</hi>
+dilatio
+<hi rend="italic">add</hi>
+-ta-
+<hi rend="italic">int lin</hi>
+</note>
+<note n="94">
+Salomon
+<hi rend="italic">C</hi>
+Salamon
+</note>
+<note n="100">
+Daniel
+<hi rend="italic">c</hi>
+Danieli
+</note>
+<note n="103">
+Ionas
+<hi rend="italic">V al man in ras C</hi>
+Abacuch
+</note>
+<note n="104">
+Niniuitis
+<hi rend="italic">c</hi>
+minutis
+<hi rend="italic">coni</hi>
+minutius
+</note>
+<pb n="AVOThO_Volum VI-239 (Aparat Crític)"/>
+<note n="113">
+dilectissimi
+<hi rend="italic">B</hi>
+karissimi
+</note>
+<note n="114">
+crediderunt
+<hi rend="italic">C</hi>
+crederunt
+</note>
+<note n="118">
+eius
+<hi rend="italic">V add in mg C om</hi>
+</note>
+<pb n="AVOThO_Volum VI-240 (Aparat Crític)"/>
+<note n="131">
+gut[t]ur
+<hi rend="italic">V</hi>
+gutur
+</note>
+<note n="133">
+dicetis
+<hi rend="italic">CB</hi>
+dicentis
+</note>
+<note n="137">
+in
+<hi rend="italic">K</hi>
+<hi rend="sub">2</hi>
+<hi rend="italic">om</hi>
+| uiis
+<hi rend="italic">B om</hi>
+</note>
+<note n="140">
+huius mundi sunt
+<hi rend="italic">C</hi>
+sunt huius mundi
+<hi rend="italic">B</hi>
+sunt mundi huius | eligit
+<hi rend="italic">CBc</hi>
+elegit
+</note>
+<note n="144">
+celebrius
+<hi rend="italic">V al man in ras</hi>
+</note>
+<note n="147">
+irrisorum
+<hi rend="italic">B</hi>
+irrisorium | sompnia
+<hi rend="italic">B add in mg</hi>
+</note>
+<pb n="AVOThO_Volum VI-241 (Aparat Crític)"/>
+<note n="169">
+legisperiti
+<hi rend="italic">
+K
+<hi rend="sub">2</hi>
+</hi>
+legisperitis
+</note>
+<note n="170">
+sanie liuoris
+<hi rend="italic">C</hi>
+levoris sanie
+</note>
+<note n="171">
+constrinxerint
+<hi rend="italic">c</hi>
+construxerit
+</note>
+<note n="173">
+reserauit
+<hi rend="italic">C</hi>
+reservavit
+</note>
+<note n="180">
+alligasset
+<hi rend="italic">C om</hi>
+</note>
+<pb n="AVOThO_Volum VI-242 (Aparat Crític)"/>
+<note n="192-193">
+studeatis
+<hi rend="italic">V</hi>
+stude-
+<hi rend="italic">in ras</hi>
+</note>
+<note n="Inscriptio ep. III">
+Parisius
+<hi rend="italic">C al man corr</hi>
+Parius
+<hi rend="italic">add int lin</hi>
+-si-
+</note>
+<note n="209">
+operis
+<hi rend="italic">C</hi>
+temporis
+</note>
+<pb n="AVOThO_Volum VI-243 (Aparat Crític)"/>
+<note n="215">
+caractere
+<hi rend="italic">C add in mg</hi>
+</note>
+<note n="219">
+intuenda
+<hi rend="italic">C</hi>
+tuenda
+</note>
+<note n="220">
+erigi
+<hi rend="italic">C</hi>
+eligi
+</note>
+<note n="226">
+conditoris
+<hi rend="italic">C</hi>
+conditionis
+</note>
+<note n="229">
+legat
+<hi rend="italic">C</hi>
+legis
+<hi rend="italic">add in mg</hi>
+legat
+</note>
+<note n="231">
+boni
+<hi rend="italic">
+CBK
+<hi rend="sub">1</hi>
+</hi>
+doni
+</note>
+<pb n="AVOThO_Volum VI-244 (Aparat Crític)"/>
+<note n="234">
+siquidem
+<hi rend="italic">C corr</hi>
+quidem
+<hi rend="italic">add in mg</hi>
+si- | excellentie
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="235">
+nosse
+<hi rend="italic">C</hi>
+noscere
+</note>
+<note n="238">
+boni
+<hi rend="italic">CB</hi>
+doni | precium
+<hi rend="italic">
+BK
+<hi rend="sub">1</hi>
+</hi>
+premium
+</note>
+<note n="248">
+iudicii
+<hi rend="italic">B</hi>
+iudicis
+</note>
+<note n="249">
+affectum
+<hi rend="italic">C</hi>
+effectum
+</note>
+<note n="259">
+theologorum
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="261">
+tantum
+<hi rend="italic">C</hi>
+tanquam
+<hi rend="italic">add in mg</hi>
+tantum
+<hi rend="italic">B add int lin</hi>
+</note>
+<pb n="AVOThO_Volum VI-245 (Aparat Crític)"/>
+<note n="267">
+opprimere
+<hi rend="italic">C</hi>
+exprimere
+</note>
+<note n="268">
+igitur
+<hi rend="italic">C</hi>
+ergo
+</note>
+<note n="270">
+in
+<hi rend="italic">c om</hi>
+| laudes
+<hi rend="italic">C</hi>
+ladis
+</note>
+<note n="272">
+(et) a
+<hi rend="italic">C om</hi>
+</note>
+<note n="277">
+illuminat
+<hi rend="italic">C</hi>
+illuminaverit
+</note>
+<note n="288">
+a caritate
+<hi rend="italic">V add in mg CB om</hi>
+| dedit
+<hi rend="italic">c</hi>
+debit
+</note>
+<pb n="AVOThO_Volum VI-246 (Aparat Crític)"/>
+<note n="292">
+describitur
+<hi rend="italic">C</hi>
+scribitur
+</note>
+<note n="296">
+declinauit
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="304">
+flores
+<hi rend="italic">B seq</hi>
+suos
+</note>
+<note n="307">
+et
+<hi rend="italic">C exp</hi>
+</note>
+<note n="316">
+fastidium
+<hi rend="italic">c seq</hi>
+in
+</note>
+<note n="318">
+omni
+<hi rend="italic">C</hi>
+domo
+</note>
+<note n="320">
+liberalitas
+<hi rend="italic">B</hi>
+libertas
+</note>
+<note n="322">
+mutationis
+<hi rend="italic">c</hi>
+imitationis
+</note>
+<pb n="AVOThO_Volum VI-247 (Aparat Crític)"/>
+<note n="324">
+rationabile
+<hi rend="italic">B</hi>
+rationale
+</note>
+<note n="336">
+perdidit
+<hi rend="italic">
+CBK
+<hi rend="sub">1</hi>
+</hi>
+perdiderit
+</note>
+<note n="340">
+igitur
+<hi rend="italic">CB</hi>
+ergo
+</note>
+<note n="341">
+forma sed
+<hi rend="italic">B</hi>
+forma set
+<hi rend="italic">C</hi>
+formasset | capitalis
+<hi rend="italic">B</hi>
+capital
+</note>
+<note n="342">
+despicere
+<hi rend="italic">C</hi>
+respicere
+</note>
+<note n="345">
+etsi nomine
+<hi rend="italic">V in ras</hi>
+| etsi
+<hi rend="italic">C</hi>
+si | sunt
+<hi rend="italic">B</hi>
+fuerint
+</note>
+<note n="346-347">
+eos indubitanter
+<hi rend="italic">B</hi>
+indubitanter eos
+</note>
+<note n="350">
+manuum
+<hi rend="italic">c</hi>
+manum
+</note>
+<pb n="AVOThO_Volum VI-248 (Aparat Crític)"/>
+<note n="360">
+claritas
+<hi rend="italic">C</hi>
+caritas
+</note>
+<note n="361">
+uestri
+<hi rend="italic">C seq</hi>
+et
+</note>
+<note n="367">
+suscipiantur
+<hi rend="italic">C</hi>
+inscipiantur
+</note>
+<note n="369">
+obtunditur
+<hi rend="italic">C</hi>
+obtenditur | acumen
+<hi rend="italic">C</hi>
+acumine
+</note>
+<note n="373">
+thesauro
+<hi rend="italic">B seq</hi>
+suo
+</note>
+<note n="375">
+ambigo
+<hi rend="italic">B</hi>
+ambiguo
+</note>
+<note n="376">
+beneficiorum
+<hi rend="italic">B</hi>
+-rum
+<hi rend="italic">add int lin</hi>
+</note>
+<note n="377">
+Agni
+<hi rend="italic">V seq</hi>
+et resonent
+<hi rend="italic">canc</hi>
+</note>
+<pb n="AVOThO_Volum VI-249 (Aparat Crític)"/>
+<note n="381">
+huius
+<hi rend="italic">V add in mg CB om</hi>
+</note>
+<note n="383">
+eius
+<hi rend="italic">C add in mg</hi>
+</note>
+<note n="384">
+gut[t]ur
+<hi rend="italic">V</hi>
+gutur
+</note>
+<note n="385">
+in sempiternum
+<hi rend="italic">c</hi>
+vi sempiterni
+</note>
+<note n="Inscriptio ep. VII">
+Burdegalensi
+<hi rend="italic">C</hi>
+Burdogalensi
+</note>
+<note n="393">
+in
+<hi rend="italic">C add int lin</hi>
+</note>
+<note n="394">
+caritas
+<hi rend="italic">C</hi>
+claritas
+</note>
+<note n="397">
+agni
+<hi rend="italic">C</hi>
+igni
+</note>
+<pb n="AVOThO_Volum VI-250 (Aparat Crític)"/>
+<note n="404">
+sit
+<hi rend="italic">C add in mg</hi>
+| tota
+<hi rend="italic">B add</hi>
+-ta
+<hi rend="italic">int lin</hi>
+</note>
+<note n="412">
+cause sue
+<hi rend="italic">
+CBK
+<hi rend="sub">1</hi>
+</hi>
+sue cause
+</note>
+<note n="415">
+horologio
+<hi rend="italic">V corr</hi>
+orrogio
+<hi rend="italic">exp prim</hi>
+-r-
+<hi rend="italic">add int lin</hi>
+-lo-
+<hi rend="italic">et add in mg</hi>
+horologio
+</note>
+<note n="420">
+exquiret
+<hi rend="italic">C</hi>
+inquiret
+</note>
+<note n="421">
+inquit
+<hi rend="italic">B seq al man int lin</hi>
+enim
+</note>
+<note n="422">
+Timotheum
+<hi rend="italic">V</hi>
+Thimo
+<hi rend="italic">B</hi>
+Thymothum
+<hi rend="italic">exp al man add int lin</hi>
+Thessalonicensses
+<hi rend="italic">C</hi>
+Thymotheum
+<hi rend="italic">c</hi>
+Th
+</note>
+<note n="423">
+piscator
+<hi rend="italic">C</hi>
+piscatorum
+</note>
+<pb n="AVOThO_Volum VI-251 (Aparat Crític)"/>
+<note n="432">
+corrupti
+<hi rend="italic">B seq</hi>
+ac
+</note>
+<note n="435">
+conuertentur
+<hi rend="italic">c</hi>
+convertentes
+</note>
+<note n="437">
+blasfemaretur
+<hi rend="italic">C</hi>
+blasfematur
+</note>
+<note n="441">
+querendi
+<hi rend="italic">CB</hi>
+requirendi
+</note>
+<note n="446">
+tempora
+<hi rend="italic">C add int lin</hi>
+</note>
+<note n="448">
+caractere
+<hi rend="italic">C seq</hi>
+aperte docebit | consignantur
+<hi rend="italic">C seq</hi>
+ratio
+</note>
+<note n="449">
+aperte
+<hi rend="italic">c</hi>
+apte | perfallacis
+<hi rend="italic">B</hi>
+fallacis
+</note>
+<note n="450">
+turma
+<hi rend="italic">C</hi>
+turbina
+</note>
+<note n="451">
+per se
+<hi rend="italic">B om</hi>
+</note>
+<pb n="AVOThO_Volum VI-252 (Aparat Crític)"/>
+<note n="474">
+spernerent
+<hi rend="italic">V praem</hi>
+sperne
+<hi rend="italic">canc</hi>
+</note>
+<note n="494">
+sunt
+<hi rend="italic">C om</hi>
+</note>
+<pb n="AVOThO_Volum VI-253 (Aparat Crític)"/>
+<note n="501">
+unde
+<hi rend="italic">c</hi>
+verum
+</note>
+<note n="508">
+speculatorum
+<hi rend="italic">V praem</hi>
+catholicorum
+<hi rend="italic">canc</hi>
+</note>
+<note n="510">
+premunitionem
+<hi rend="italic">c</hi>
+premonitionem
+</note>
+<note n="511">
+indifferentes
+<hi rend="italic">C</hi>
+indeferentes
+</note>
+<note n="515">
+cribro
+<hi rend="italic">C</hi>
+crebro
+</note>
+<pb n="AVOThO_Volum VI-254 (Aparat Crític)"/>
+<note n="524">
+insidiatur
+<hi rend="italic">C</hi>
+invudiatur
+</note>
+<note n="525">
+quendam
+<hi rend="italic">C seq</hi>
+vero
+</note>
+<note n="532">
+laudem
+<hi rend="italic">B seq</hi>
+propter inimicos tuos
+</note>
+<note n="535">
+sunt
+<hi rend="italic">B om</hi>
+</note>
+<note n="536">
+subiungit
+<hi rend="italic">C</hi>
+subiungat
+</note>
+<note n="537">
+sunt C
+<hi rend="italic">om</hi>
+</note>
+<note n="538">
+intellexerunt
+<hi rend="italic">V add in mg al man sine signo integrationis</hi>
+pro quibus etiam paruulis intercedens Christus aperte dicit: gratias ago tibi, Pater, quia abscondisti hec a sapientibus et prudentibus et reuelasti ea paruulis
+<hi rend="italic">c</hi>
+apte
+</note>
+<note n="541">
+munere
+<hi rend="italic">C add in mg</hi>
+| gratias
+<hi rend="italic">C add in mg</hi>
+</note>
+<pb n="AVOThO_Volum VI-255 (Aparat Crític)"/>
+<note n="545">
+vicarios
+<hi rend="italic">C om</hi>
+</note>
+<note n="553">
+verba
+<hi rend="italic">c</hi>
+verbi
+</note>
+<note n="558">
+suavitate
+<hi rend="italic">C</hi>
+suavitatem
+</note>
+<note n="565">
+munere summi Patris satagant
+<hi rend="italic">V in ras</hi>
+| summi Patris
+<hi rend="italic">CB om</hi>
+</note>
+<pb n="AVOThO_Volum VI-256 (Aparat Crític)"/>
+<note n="573">
+indifferenter
+<hi rend="italic">C</hi>
+indeferenter
+</note>
+<note n="575">
+superposita
+<hi rend="italic">C</hi>
+apposita
+</note>
+<note n="578">
+ita quod
+<hi rend="italic">C om</hi>
+</note>
+<note n="584">
+quod
+<hi rend="italic">c</hi>
+quia
+</note>
+<note n="585">
+tempus
+<hi rend="italic">C</hi>
+tempore (?)
+</note>
+<note n="585-586">
+prenoscitur
+<hi rend="italic">C</hi>
+precognoscitur
+</note>
+<pb n="AVOThO_Volum VI-257 (Aparat Crític)"/>
+<note n="597">
+ibi
+<hi rend="italic">C</hi>
+in
+</note>
+<note n="598">
+et scribarum
+<hi rend="italic">C add in mg inf</hi>
+</note>
+<note n="599">
+nouos cantus
+<hi rend="italic">C add in mg</hi>
+</note>
+<note n="605">
+prebeantur
+<hi rend="italic">B</hi>
+prebeatur
+</note>
+<pb n="AVOThO_Volum VI-258 (Aparat Crític)"/>
+<note n="626">
+et
+<hi rend="italic">C om</hi>
+,
+<hi rend="italic">add int lin</hi>
+</note>
+<note n="635-636">
+possim uobiscum
+<hi rend="italic">
+BCK
+<hi rend="sub">1</hi>
+</hi>
+uobiscum possim
+</note>
+<pb n="AVOThO_Volum VI-259 (Aparat Crític)"/>
+<note n="640">
+et
+<hi rend="italic">C</hi>
+in
+</note>
+<note n="641">
+a
+<hi rend="italic">c</hi>
+in
+</note>
+<note n="646">
+(et) in
+<hi rend="italic">
+CBK
+<hi rend="sub">1</hi>
+om
+</hi>
+</note>
+<note n="649-650">
+probatur
+<hi rend="italic">B</hi>
+probantur
+</note>
+<note n="656">
+(pulcritudo) et
+<hi rend="italic">C om</hi>
+</note>
+<note n="662">
+modicum
+<hi rend="italic">
+CBK
+<hi rend="sub">1</hi>
+seq
+</hi>
+iam
+</note>
+<note n="663">
+resonet
+<hi rend="italic">C seq</hi>
+persone
+</note>
+<note n="667">
+uite
+<hi rend="italic">C add in mg</hi>
+</note>
+<pb n="AVOThO_Volum VI-260 (Aparat Crític)"/>
+<note n="670">
+reparandum
+<hi rend="italic">c</hi>
+repugnandum
+</note>
+<note n="672">
+domus
+<hi rend="italic">B add in mg</hi>
+</note>
+<note n="678">
+in
+<hi rend="italic">C om</hi>
+</note>
+<note n="685-686">
+Sed
+<hi rend="italic">B</hi>
+set
+</note>
+<note n="689-690">
+quacumque
+<hi rend="italic">c</hi>
+quandocumque
+</note>
+<pb n="AVOThO_Volum VI-261 (Aparat Crític)"/>
+<note n="695">
+decembris
+<hi rend="italic">B seq</hi>
+Finito libro. Deo gracias. Amen
+</note>
+<note n="Inscriptio ep. XII">
+Inclito
+<hi rend="italic">V add in mg CB om</hi>
+| Aragonum
+<hi rend="italic">C corr</hi>
+Aragonensis
+<hi rend="italic">canc</hi>
+-s
+</note>
+<note n="696">
+pabula
+<hi rend="italic">C</hi>
+parabola
+</note>
+<note n="707">
+in statione
+<hi rend="italic">C</hi>
+institutione
+</note>
+<note n="709">
+ut
+<hi rend="italic">c om</hi>
+</note>
+<note n="711-712">
+Expliciunt … gracias
+<hi rend="italic">CB om</hi>
+</note>
+</div>
+</back>
+</text>
+</TEI>
