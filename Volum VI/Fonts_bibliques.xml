@@ -150,29 +150,21 @@ Cf.
 <bibl type="biblical" n="Iud 7,16">
 <title type="abbr">Iud</title>
 <biblScope unit="chapter" from="7" to="7">
-<num type="roman" value="7">VII</num>
-</biblScope>
-,
+<num type="roman" value="7">VII</num></biblScope>,
 <biblScope unit="verse" from="16" to="16">16</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="Iud 7,19">
 <biblScope unit="chapter" from="7" to="7">
-<num type="roman" value="7">VII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="19" to="19">19</biblScope>
-</bibl>
-.
+<num type="roman" value="7">VII</num></biblScope>,
+<biblScope unit="verse" from="19" to="19">19</biblScope></bibl>.
 </note>
 <note type="source" n="89">
 Cf.
 <bibl type="biblical" n="Gen 6,10">
 <title type="abbr">Gen</title>
 <biblScope unit="chapter" from="6" to="6">
-<num type="roman" value="6">VI</num>
-</biblScope>
-,
+<num type="roman" value="6">VI</num></biblScope>,
 <biblScope unit="verse" from="10" to="10">10</biblScope>
 </bibl>
 ;
@@ -181,17 +173,13 @@ Cf.
 <num type="roman" value="9">IX</num>
 </biblScope>
 ,
-<biblScope unit="verse" from="27" to="27">27</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="27" to="27">27</biblScope></bibl>.
 </note>
 <note type="source" n="92-93">
 <bibl type="biblical" n="2 Sam 1,22">
 <title type="abbr">2 Sam</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
+<num type="roman" value="1">I</num></biblScope>,
 <biblScope unit="verse" from="22" to="22">22</biblScope>
 </bibl>
 .
@@ -201,29 +189,21 @@ Cf.
 <bibl type="biblical" n="1 Reg 11,1">
 <title type="abbr">1 Reg</title>
 <biblScope unit="chapter" from="11" to="11">
-<num type="roman" value="11">XI</num>
-</biblScope>
-,
+<num type="roman" value="11">XI</num></biblScope>,
 <biblScope unit="verse" from="1" to="1">1</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="1 Reg 11,4">
 <biblScope unit="chapter" from="11" to="11">
-<num type="roman" value="11">XI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="4" to="4">4</biblScope>
-</bibl>
-.
+<num type="roman" value="11">XI</num></biblScope>,
+<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>.
 </note>
 <note type="source" n="97">
 Cf.
 <bibl type="biblical" n="Gen 32,11">
 <title type="abbr">Gen</title>
 <biblScope unit="chapter" from="32" to="32">
-<num type="roman" value="32">XXXII</num>
-</biblScope>
-,
+<num type="roman" value="32">XXXII</num></biblScope>,
 <biblScope unit="verse" from="11" to="11">11</biblScope>
 </bibl>
 .
