@@ -27,7 +27,7 @@ Joaquim Carreras i Artau,
 </listWit>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <text>
 <body>
 <pb n="AVOThO_Volum VI-235"/>
@@ -52,16 +52,14 @@ TRACTATUS EPISTOLARUM CHRISTINI
 <p>
 <lb n="1"/>
 <hi rend="line-num">[1] </hi>
-Salus et pax uobis et abundantia caritatis a Domino Iesu Chris
-<lb break="no" n="2"/>
+Salus et pax uobis et abundantia caritatis a Domino Iesu Chris-<lb break="no" n="2"/>
 <hi rend="line-num">[2] </hi>
 to.
 </p>
 <p>
 <lb n="3"/>
 <hi rend="line-num">[3] </hi>
-Innatam quasi deuotionem, qua puerilibus annis cor meum inca
-<lb break="no" n="4"/>
+Innatam quasi deuotionem, qua puerilibus annis cor meum inca-<lb break="no" n="4"/>
 <hi rend="line-num">[4] </hi>
 lescebat ac specialiter ferebatur ad obsequium ordinis et amplexum,
 <lb n="5"/>
@@ -69,8 +67,7 @@ lescebat ac specialiter ferebatur ad obsequium ordinis et amplexum,
 credo indubitanter fuisse scintillam supracelestis ignis, que quodam
 <lb n="6"/>
 <hi rend="line-num">[6] </hi>
-radio gratuiti luminis precurrebat in mente mea plenitudinem futu
-<lb break="no" n="7"/>
+radio gratuiti luminis precurrebat in mente mea plenitudinem futu-<lb break="no" n="7"/>
 <hi rend="line-num">[7] </hi>
 re noticie de ordinis ueritate, cum etas discretionis a sui primordio,
 <lb n="8"/>
@@ -81,8 +78,7 @@ postmodum continua successione iuxta mensuram augmenti eius a
 supremo Distributore concessam, ostenderit mihi quod ordo ipse,
 <lb n="10"/>
 <hi rend="line-num">[10] </hi>
-tanquam effigies a sigillo impressa ceree puritati, celestis Agni repre
-<lb break="no" n="11"/>
+tanquam effigies a sigillo impressa ceree puritati, celestis Agni repre-<lb break="no" n="11"/>
 <hi rend="line-num">[11] </hi>
 sentet ymaginem [f. 98c] et in cetu fidelium splendeat uelut Christi
 <lb n="12"/>
@@ -95,8 +91,7 @@ expressa similitudo.
 Splendoris quidem insignia gerit ymago eius, cum in sermone
 <lb n="14"/>
 <hi rend="line-num">[14] </hi>
-ueritas et in doctrina sanitas et in affectu caritas et in corde humi
-<lb break="no" n="15"/>
+ueritas et in doctrina sanitas et in affectu caritas et in corde humi-<lb break="no" n="15"/>
 <hi rend="line-num">[15] </hi>
 litas et in conuersatione sanctitas nunquam desunt, que presto suis
 <lb n="16"/>
