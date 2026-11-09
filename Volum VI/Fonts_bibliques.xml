@@ -427,32 +427,20 @@ Cf.
 <bibl type="biblical" n="2 Cor 2,15">
 <title type="abbr">2 Cor</title>
 <biblScope unit="chapter" from="2" to="2">
-<num type="roman" value="2">II</num>
-</biblScope>
-,
-<biblScope unit="verse" from="15" to="15">15</biblScope>
-</bibl>
-.
+<num type="roman" value="2">II</num></biblScope>,
+<biblScope unit="verse" from="15" to="15">15</biblScope></bibl>.
 </note>
 <note type="source" n="285">
 <bibl type="biblical" n="Iud 5,20">
 <title type="abbr">Iud</title>
 <biblScope unit="chapter" from="5" to="5">
-<num type="roman" value="5">V</num>
-</biblScope>
-,
-<biblScope unit="verse" from="20" to="20">20</biblScope>
-</bibl>
-;
+<num type="roman" value="5">V</num></biblScope>,
+<biblScope unit="verse" from="20" to="20">20</biblScope></bibl>;
 <bibl type="biblical" n="Bar 3,34">
 <title type="abbr">Bar</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
-<biblScope unit="verse" from="34" to="34">34</biblScope>
-</bibl>
-.
+<num type="roman" value="3">III</num></biblScope>,
+<biblScope unit="verse" from="34" to="34">34</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-246 (Fonts)"/>
 <note type="source" n="291-292">
@@ -460,12 +448,8 @@ Cf.
 <bibl type="biblical" n="Gen 27,36">
 <title type="abbr">Gen</title>
 <biblScope unit="chapter" from="27" to="27">
-<num type="roman" value="27">XXVII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="36" to="36">36</biblScope>
-</bibl>
-.
+<num type="roman" value="27">XXVII</num></biblScope>,
+<biblScope unit="verse" from="36" to="36">36</biblScope></bibl>.
 </note>
 <note type="source" n="292-293">
 <bibl type="biblical" n="Prov 7,10-11">
@@ -474,9 +458,7 @@ Cf.
 <num type="roman" value="7">VII</num>
 </biblScope>
 ,
-<biblScope unit="verse" from="10" to="11">10-11</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="10" to="11">10-11</biblScope></bibl>.
 </note>
 <note type="source" n="301-302">
 <bibl type="biblical" n="2 Reg 19,31">
