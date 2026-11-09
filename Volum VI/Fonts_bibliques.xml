@@ -254,44 +254,30 @@ Cf.
 <bibl type="biblical" n="Mt 16,23">
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="16" to="16">
-<num type="roman" value="16">XVI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="23" to="23">23</biblScope>
-</bibl>
-.
+<num type="roman" value="16">XVI</num></biblScope>,
+<biblScope unit="verse" from="23" to="23">23</biblScope></bibl>.
 </note>
 <note type="source" n="107-108">
 Cf.
 <bibl type="biblical" n="Act 4,1-22">
 <title type="abbr">Act</title>
 <biblScope unit="chapter" from="4" to="4">
-<num type="roman" value="4">IV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="1" to="22">1-22</biblScope>
-</bibl>
-.
+<num type="roman" value="4">IV</num></biblScope>,
+<biblScope unit="verse" from="1" to="22">1-22</biblScope></bibl>.
 </note>
 <note type="source" n="109-110">
 Cf.
 <bibl type="biblical" n="Act 8,8-24">
 <title type="abbr">Act</title>
 <biblScope unit="chapter" from="8" to="8">
-<num type="roman" value="8">VIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="8" to="24">8-24</biblScope>
-</bibl>
-;
+<num type="roman" value="8">VIII</num></biblScope>,
+<biblScope unit="verse" from="8" to="24">8-24</biblScope></bibl>;
 <bibl type="biblical" n="Act 13,8-12">
 <biblScope unit="chapter" from="13" to="13">
 <num type="roman" value="13">XIII</num>
 </biblScope>
 ,
-<biblScope unit="verse" from="8" to="12">8-12</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="8" to="12">8-12</biblScope></bibl>.
 </note>
 <note type="source" n="111">
 <cit type="biblical">
