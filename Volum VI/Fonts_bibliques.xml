@@ -281,15 +281,10 @@ Cf.
 </note>
 <note type="source" n="111">
 <cit type="biblical">
-<bibl type="biblical" n="Bar 6,16">
 <title type="abbr">Bar</title>
 <biblScope unit="chapter" from="6" to="6">
-<num type="roman" value="6">VI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="16" to="16">16</biblScope>
-</bibl>
-<pc>:</pc>
+<num type="roman" value="6">VI</num></biblScope>,
+<biblScope unit="verse" from="16" to="16">16</biblScope><pc>:</pc>
 <quote>«Constitutis illis in domo, oculi eorum pleni sunt pulvere a pedibus introëuntium»</quote>
 </cit>
 .
@@ -299,27 +294,17 @@ Cf.
 <bibl type="biblical" n="Ps 68,24">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="68" to="68">
-<num type="roman" value="68">LXVIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="24" to="24">24</biblScope>
-</bibl>
-;
+<num type="roman" value="68">LXVIII</num></biblScope>,
+<biblScope unit="verse" from="24" to="24">24</biblScope></bibl>;
 <bibl type="biblical" n="Is 6,10">
 <title type="abbr">Is</title>
 <biblScope unit="chapter" from="6" to="6">
-<num type="roman" value="6">VI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="10" to="10">10</biblScope>
-</bibl>
-;
+<num type="roman" value="6">VI</num></biblScope>,
+<biblScope unit="verse" from="10" to="10">10</biblScope></bibl>;
 <bibl type="biblical" n="Rom 11,10">
 <title type="abbr">Rom</title>
 <biblScope unit="chapter" from="11" to="11">
-<num type="roman" value="11">XI</num>
-</biblScope>
-,
+<num type="roman" value="11">XI</num></biblScope>,
 <biblScope unit="verse" from="10" to="10">10</biblScope>
 </bibl>
 . Cf.
