@@ -27,7 +27,7 @@ Joaquim Carreras i Artau,
 </listWit>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <text>
 <div type="apparatus" subtype="sources">
 <pb n="AVOThO_Volum VI-235 (Fonts)"/>
@@ -58,141 +58,15 @@ Cf.
 <pb n="AVOThO_Volum VI-236 (Fonts)"/>
 <note type="source" n="20-21">
 <cit type="biblical">
-<bibl type="biblical" n="Apoc 21,2">
-<title type="abbr">Apoc</title>
-<biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="2" to="2">2</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Ego Ioannes vidi sanctam civitatem Jerusalem novam descendentem de coelo a Deo»</quote>
-</cit>
-;
-<cit type="biblical">
-<bibl type="biblical" n="Apoc 21,10">
-<biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="10" to="10">10</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Ostendit mihi civitatem sanctam Jerusalem»</quote>
-</cit>
-. Cf.
-<bibl type="biblical" n="Ioel 3,17">
-<title type="abbr">Ioel</title>
-<biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
-<biblScope unit="verse" from="17" to="17">17</biblScope>
-</bibl>
-;
-<bibl type="biblical" n="1 Mach 15,7">
-<title type="abbr">1 Mach</title>
-<biblScope unit="chapter" from="15" to="15">
-<num type="roman" value="15">XV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
-.
-</note>
-<note type="source" n="21">
-<cit type="biblical">
-<bibl type="biblical" n="Apoc 21,9">
-<title type="abbr">Apoc</title>
-<biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="9" to="9">9</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Veni, et ostendam tibi sponsam, uxorem Agni»</quote>
-</cit>
-;
-<cit type="biblical">
-<bibl type="biblical" n="Apoc 21,11">
-<biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="11" to="11">11</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«(Ostendit civitatem) habentem claritatem Dei»</quote>
-</cit>
-;
-<cit type="biblical">
-<bibl type="biblical" n="Apoc 21,23">
-<biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="23" to="23">23</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Nam claritas Dei illuminavit eam»</quote>
-</cit>
-. Cf.
-<bibl type="biblical" n="Tob 13,20">
-<title type="abbr">Tob</title>
-<biblScope unit="chapter" from="13" to="13">
-<num type="roman" value="13">XIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="20" to="20">20</biblScope>
-</bibl>
-.
-</note>
-<note type="source" n="24">
-<bibl type="biblical" n="Apoc 1,13">
-<title type="abbr">Apoc</title>
-<biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="13" to="13">13</biblScope>
-</bibl>
-. Cf.
-<bibl type="biblical" n="Dan 7,13">
-<title type="abbr">Dan</title>
-<biblScope unit="chapter" from="7" to="7">
-<num type="roman" value="7">VII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="13" to="13">13</biblScope>
-</bibl>
-.
-</note>
-<note type="source" n="27-30">
-<cit type="biblical">
-<bibl type="biblical" n="Ier 1,10">
-<title type="abbr">Ier</title>
-<biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="10" to="10">10</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Ecce constitui te hodie super gentes et super regna, ut evellas, et destruas, et disperdas, et dissipes, et aedifices, et plantes»</quote>
-</cit>
-.
-</note>
+<bibl type="biblical" n="Apoc 21,2"/></cit></note>
 <note type="source" n="39-40">
-<bibl type="biblical" n="Ps 134,7">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="134" to="134">
 <num type="roman" value="134">CXXXIV</num>
 </biblScope>
 ,
 <biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
+
 .
 </note>
 <note type="source" n="42-43">
