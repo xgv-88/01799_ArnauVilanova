@@ -62,9 +62,7 @@ Cf.
 <note type="source" n="39-40">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="134" to="134">
-<num type="roman" value="134">CXXXIV</num>
-</biblScope>
-,
+<num type="roman" value="134">CXXXIV</num></biblScope>,
 <biblScope unit="verse" from="7" to="7">7</biblScope>
 
 .
@@ -74,9 +72,7 @@ Cf.
 <bibl type="biblical" n="Iud 16,10">
 <title type="abbr">Iud</title>
 <biblScope unit="chapter" from="16" to="16">
-<num type="roman" value="16">XVI</num>
-</biblScope>
-,
+<num type="roman" value="16">XVI</num></biblScope>,
 <biblScope unit="verse" from="10" to="10">10</biblScope>
 </bibl>
 .
