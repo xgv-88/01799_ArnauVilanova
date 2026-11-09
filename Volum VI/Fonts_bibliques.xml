@@ -133,13 +133,11 @@ Cf.
 <note type="source" n="50">
 Cf.
 <cit type="biblical">
-<bibl type="biblical" n="Eccli 27,12"><title type="abbr">Eccli</title>
+<title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="27" to="27">
-<num type="roman" value="27">XXVII</num>
-</biblScope>
-,
+<num type="roman" value="27">XXVII</num></biblScope>,
 <biblScope unit="verse" from="12" to="12">12</biblScope>
-</bibl>
+
 <pc>:</pc>
 <quote>«Homo sanctus in sapientia manet sicut sol»</quote>
 </cit>
