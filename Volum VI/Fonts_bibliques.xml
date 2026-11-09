@@ -333,24 +333,15 @@ Cf.
 <bibl type="biblical" n="Ier 8,8-9">
 <title type="abbr">Ier</title>
 <biblScope unit="chapter" from="8" to="8">
-<num type="roman" value="8">VIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="8" to="9">8-9</biblScope>
-</bibl>
-.
+<num type="roman" value="8">VIII</num></biblScope>,
+<biblScope unit="verse" from="8" to="9">8-9</biblScope></bibl>.
 </note>
 <note type="source" n="119-120">
 <cit type="biblical">
-<bibl type="biblical" n="2 Tim 3,9">
 <title type="abbr">2 Tim</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
-<biblScope unit="verse" from="9" to="9">9</biblScope>
-</bibl>
-<pc>:</pc>
+<num type="roman" value="3">III</num></biblScope>,
+<biblScope unit="verse" from="9" to="9">9</biblScope><pc>:</pc>
 <quote>«sed ultra non proficient: insipientia enim eorum manifesta erit omnibus, sicut et illorum fuit»</quote>
 </cit>
 . Arnau de Vilanova canvia l’‘omnibus’ per ‘cunctis’.
