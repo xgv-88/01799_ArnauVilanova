@@ -334,28 +334,13 @@ Cf.
 <title type="abbr">Ier</title>
 <biblScope unit="chapter" from="8" to="8">
 <num type="roman" value="8">VIII</num></biblScope>,
-<biblScope unit="verse" from="8" to="9">8-9</biblScope></bibl>.
-</note>
-<note type="source" n="119-120">
-<cit type="biblical">
-<title type="abbr">2 Tim</title>
-<biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num></biblScope>,
-<biblScope unit="verse" from="9" to="9">9</biblScope><pc>:</pc>
-<quote>«sed ultra non proficient: insipientia enim eorum manifesta erit omnibus, sicut et illorum fuit»</quote>
-</cit>
-. Arnau de Vilanova canvia l’‘omnibus’ per ‘cunctis’.
-</note>
+<biblScope unit="verse" from="8" to="9">8-9</biblScope></bibl>.</note>
 <note type="source" n="127-129">
 <bibl type="biblical" n="Ios 1,8">
 <title type="abbr">Ios</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="8" to="8">8</biblScope>
-</bibl>
-.
+<num type="roman" value="1">I</num></biblScope>,
+<biblScope unit="verse" from="8" to="8">8</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-240 (Fonts)"/>
 <note type="source" n="133">
@@ -363,12 +348,8 @@ Cf.
 <bibl type="biblical" n="Mt 14,29">
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="14" to="14">
-<num type="roman" value="14">XIV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="29" to="29">29</biblScope>
-</bibl>
-.
+<num type="roman" value="14">XIV</num></biblScope>,
+<biblScope unit="verse" from="29" to="29">29</biblScope></bibl>.
 </note>
 <note type="source" n="133-135">
 <cit type="biblical">
