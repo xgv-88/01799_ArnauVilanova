@@ -27,7 +27,7 @@ Joaquim Carreras i Artau,
 </listWit>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <text>
 <body>
 <pb n="AVOThO_Volum VI-235"/>
@@ -1078,27 +1078,24 @@ eo perpenditur quod spiritus incorruptibilis per naturam transit in
 <pb n="AVOThO_Volum VI-247"/>
 <lb n="324"/>
 <hi rend="line-num">[324] </hi>
-carnis corruptionem et rationabile in brutum proprietatibus trans
-<lb break="no" n="325"/>
+carnis corruptionem et rationabile in brutum proprietatibus trans-<lb break="no" n="325"/>
 <hi rend="line-num">[325] </hi>
 formatur.
 </p>
 <p>
 <lb n="326"/>
 <hi rend="line-num">[326] </hi>
-Que permutatio quam sit hodibilis, ultimus prophetarum, res
-<lb break="no" n="327"/>
-<hi rend="line-num">[327] </hi>
-piciens qualitates temporum ultimorum, uerbis conuenientibus
+Que permutatio quam sit hodibilis, ultimus prophetarum, respiciens <lb break="no" n="327"/>
+<hi rend="line-num">[327] </hi>qualitates temporum ultimorum, uerbis conuenientibus
 <lb n="328"/>
 <hi rend="line-num">[328] </hi>
 exprimit, ita dicens: «Abhominatio facta est in Israel, quia contami
 <lb break="no" n="329"/>
 <hi rend="line-num">[329] </hi>
-nauit Iudas sanctificationem Domini, quam dilexit, et habuit fi[f.
+nauit Iudas sanctificationem Domini, quam dilexit, et habuit fi-[f.
 <lb break="no" n="330"/>
 <hi rend="line-num">[330] </hi>
-104a]liam dei alieni». Nichil enim abhominabilius quam pro filia
+104a]-liam dei alieni». Nichil enim abhominabilius quam pro filia
 <lb n="331"/>
 <hi rend="line-num">[331] </hi>
 Dei filiam sibi dyaboli copulare. Que due filie, quantum ad inuicem
@@ -1130,25 +1127,20 @@ miserabiliter intueri!
 <p>
 <lb n="340"/>
 <hi rend="line-num">[340] </hi>
-Cum sit igitur catholice multitudinis religio christiana non tan
-<lb break="no" n="341"/>
-<hi rend="line-num">[341] </hi>
-tum forma, sed titulus capitalis, cuius ueritas ut medulla solum est,
+Cum sit igitur catholice multitudinis religio christiana non tantum  <lb break="no" n="341"/>
+<hi rend="line-num">[341] </hi>forma, sed titulus capitalis, cuius ueritas ut medulla solum est,
 <lb n="342"/>
 <hi rend="line-num">[342] </hi>
 iuxta normam Christi, terrena despicere et amare celestia, procul
 <lb n="343"/>
 <hi rend="line-num">[343] </hi>
-dubio ueritas in mendacium commutatur in illis qui celestia negli
-<lb break="no" n="344"/>
-<hi rend="line-num">[344] </hi>
-gunt et terrena conatibus totis [f. 104b] non desinunt amplexari.
+dubio ueritas in mendacium commutatur in illis qui celestia negligunt <lb break="no" n="344"/>
+<hi rend="line-num">[344] </hi>et terrena conatibus totis [f. 104b] non desinunt amplexari.
 <lb n="345"/>
 <hi rend="line-num">[345] </hi>
 Qui, etsi nomine et numero sunt christiani, non solum capitis medul
 <lb break="no" n="346"/>
-<hi rend="line-num">[346] </hi>
-la priuantur, sed cum re ipsa ueri sint antichristi, constat eos indu
+<hi rend="line-num">[346] </hi>priuantur, sed cum re ipsa ueri sint antichristi, constat eos indu
 <lb break="no" n="347"/>
 <hi rend="line-num">[347] </hi>
 bitanter esse uenenum pestiferum christiane religionis. Cuius muta
