@@ -305,43 +305,29 @@ Cf.
 <title type="abbr">Rom</title>
 <biblScope unit="chapter" from="11" to="11">
 <num type="roman" value="11">XI</num></biblScope>,
-<biblScope unit="verse" from="10" to="10">10</biblScope>
-</bibl>
-. Cf.
+<biblScope unit="verse" from="10" to="10">10</biblScope></bibl>. Cf.
 <hi rend="small-caps">Arnaldus de Villanova</hi>
 ,
-<hi rend="italic">Allocutio super significatione nominis tetragrammaton</hi>
-, ed.
-<hi rend="small-caps">Perarnau</hi>
-, AVOThO,
-<num type="roman">III</num>
-, 144, lín. 123;
+<hi rend="italic">Allocutio super significatione nominis tetragrammaton</hi>, ed.
+<hi rend="small-caps">Perarnau</hi>, AVOThO,
+<num type="roman">III</num>, 144, lín. 123;
 <hi rend="italic">Apologia de versutiis</hi>
 , ed.
-<hi rend="small-caps">Perarnau</hi>
-, 59, lín. 17-18.
+<hi rend="small-caps">Perarnau</hi>, 59, lín. 17-18.
 </note>
 <note type="source" n="113-115">
 <bibl type="biblical" n="Io 12,42">
 <title type="abbr">Io</title>
 <biblScope unit="chapter" from="12" to="12">
-<num type="roman" value="12">XII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="42" to="42">42</biblScope>
-</bibl>
-.
+<num type="roman" value="12">XII</num></biblScope>,
+<biblScope unit="verse" from="42" to="42">42</biblScope></bibl>.
 </note>
 <note type="source" n="115-116">
 <bibl type="biblical" n="Io 12,43">
 <title type="abbr">Io</title>
 <biblScope unit="chapter" from="12" to="12">
-<num type="roman" value="12">XII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="43" to="43">43</biblScope>
-</bibl>
-.
+<num type="roman" value="12">XII</num></biblScope>,
+<biblScope unit="verse" from="43" to="43">43</biblScope></bibl>.
 </note>
 <note type="source" n="117-119">
 <bibl type="biblical" n="Ier 8,8-9">
