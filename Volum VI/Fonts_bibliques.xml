@@ -349,16 +349,7 @@ Cf.
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="14" to="14">
 <num type="roman" value="14">XIV</num></biblScope>,
-<biblScope unit="verse" from="29" to="29">29</biblScope></bibl>.
-</note>
-<note type="source" n="133-135">
-<cit type="biblical">
-<title type="abbr">Ier</title>
-<biblScope unit="chapter" from="31" to="31">
-<num type="roman" value="31">XXXI</num></biblScope>,
-<biblScope unit="verse" from="4" to="5">4-5</biblScope><pc>:</pc>
-<quote>«Rursumque aedificabo te, et aedificaberis, virgo Israël: adhuc ornaberis tympanis tuis, et egredieris in choro ludentium. Adhuc plantabis vineas in montibus Samariae: plantabunt plantantes, et donec tempus veniat, non vindemiabunt»</quote></cit>. Notem el canvi d’‘egredieris’ per ‘ingredieris’.
-</note>
+<biblScope unit="verse" from="29" to="29">29</biblScope></bibl>.</note>
 <note type="source" n="136">
 <bibl type="biblical" n="Col 3,16">
 <title type="abbr">Col</title>
@@ -390,12 +381,8 @@ Cf.
 <bibl type="biblical" n="Iudith 13,10">
 <title type="abbr">Iudith</title>
 <biblScope unit="chapter" from="13" to="13">
-<num type="roman" value="13">XIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="10" to="10">10</biblScope>
-</bibl>
-.
+<num type="roman" value="13">XIII</num></biblScope>,
+<biblScope unit="verse" from="10" to="10">10</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-241 (Fonts)"/>
 <note type="source" n="168-169"/>
