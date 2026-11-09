@@ -363,46 +363,30 @@ Cf.
 <bibl type="biblical" n="Col 3,16">
 <title type="abbr">Col</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
-<biblScope unit="verse" from="16" to="16">16</biblScope>
-</bibl>
-.
+<num type="roman" value="3">III</num></biblScope>,
+<biblScope unit="verse" from="16" to="16">16</biblScope></bibl>.
 </note>
 <note type="source" n="139-141">
 <bibl type="biblical" n="1 Cor 1,27">
 <title type="abbr">1 Cor</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="27" to="27">27</biblScope>
-</bibl>
-.
+<num type="roman" value="1">I</num></biblScope>,
+<biblScope unit="verse" from="27" to="27">27</biblScope></bibl>.
 </note>
 <note type="source" n="141-142">
 <bibl type="biblical" n="Eccli 51,4">
 <title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="51" to="51">
-<num type="roman" value="51">LI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="4" to="4">4</biblScope>
-</bibl>
-.
+<num type="roman" value="51">LI</num></biblScope>,
+<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>.
 </note>
 <note type="source" n="144-145">
 Cf.
 <bibl type="biblical" n="1 Sam 17,51">
 <title type="abbr">1 Sam</title>
 <biblScope unit="chapter" from="17" to="17">
-<num type="roman" value="17">XVII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="51" to="51">51</biblScope>
-</bibl>
-;
+<num type="roman" value="17">XVII</num></biblScope>,
+<biblScope unit="verse" from="51" to="51">51</biblScope></bibl>;
 <bibl type="biblical" n="Iudith 13,10">
 <title type="abbr">Iudith</title>
 <biblScope unit="chapter" from="13" to="13">
