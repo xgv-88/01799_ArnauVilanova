@@ -502,12 +502,8 @@ Cf.
 <bibl type="biblical" n="Mal 2,11">
 <title type="abbr">Mal</title>
 <biblScope unit="chapter" from="2" to="2">
-<num type="roman" value="2">II</num>
-</biblScope>
-,
-<biblScope unit="verse" from="11" to="11">11</biblScope>
-</bibl>
-.
+<num type="roman" value="2">II</num></biblScope>,
+<biblScope unit="verse" from="11" to="11">11</biblScope></bibl>.
 </note>
 <note type="source" n="341-342">
 <hi rend="small-caps">Arnaldus de Villanova</hi>
@@ -523,9 +519,7 @@ Cf.
 <bibl type="biblical" n="Lam 4,2">
 <title type="abbr">Lam</title>
 <biblScope unit="chapter" from="4" to="4">
-<num type="roman" value="4">IV</num>
-</biblScope>
-,
+<num type="roman" value="4">IV</num></biblScope>,
 <biblScope unit="verse" from="2" to="2">2</biblScope>
 </bibl>
 .
