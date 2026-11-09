@@ -455,72 +455,47 @@ Cf.
 <bibl type="biblical" n="Prov 7,10-11">
 <title type="abbr">Prov</title>
 <biblScope unit="chapter" from="7" to="7">
-<num type="roman" value="7">VII</num>
-</biblScope>
-,
+<num type="roman" value="7">VII</num></biblScope>,
 <biblScope unit="verse" from="10" to="11">10-11</biblScope></bibl>.
 </note>
 <note type="source" n="301-302">
 <bibl type="biblical" n="2 Reg 19,31">
 <title type="abbr">2 Reg</title>
 <biblScope unit="chapter" from="19" to="19">
-<num type="roman" value="19">XIX</num>
-</biblScope>
-,
-<biblScope unit="verse" from="31" to="31">31</biblScope>
-</bibl>
-;
+<num type="roman" value="19">XIX</num></biblScope>,
+<biblScope unit="verse" from="31" to="31">31</biblScope></bibl>;
 <bibl type="biblical" n="Is 9,7">
 <title type="abbr">Is</title>
 <biblScope unit="chapter" from="9" to="9">
-<num type="roman" value="9">IX</num>
-</biblScope>
-,
+<num type="roman" value="9">IX</num></biblScope>,
 <biblScope unit="verse" from="7" to="7">7</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="Is 37,32">
 <biblScope unit="chapter" from="37" to="37">
-<num type="roman" value="37">XXXVII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="32" to="32">32</biblScope>
-</bibl>
-.
+<num type="roman" value="37">XXXVII</num></biblScope>,
+<biblScope unit="verse" from="32" to="32">32</biblScope></bibl>.
 </note>
 <note type="source" n="304-305">
 <bibl type="biblical" n="Eccli 24,23">
 <title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="24" to="24">
-<num type="roman" value="24">XXIV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="23" to="23">23</biblScope>
-</bibl>
-.
+<num type="roman" value="24">XXIV</num></biblScope>,
+<biblScope unit="verse" from="23" to="23">23</biblScope></bibl>.
 </note>
 <note type="source" n="309-310">
 Cf.
 <bibl type="biblical" n="Is 5,2.4">
 <title type="abbr">Is.</title>
 <biblScope unit="chapter" from="5" to="5">
-<num type="roman" value="5">V</num>
-</biblScope>
-,
-<biblScope unit="verse" from="2" to="2">2</biblScope>
-,
-<biblScope unit="verse" from="4" to="4">4</biblScope>
-</bibl>
-;
+<num type="roman" value="5">V</num></biblScope>,
+<biblScope unit="verse" from="2" to="2">2</biblScope>,
+<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>;
 <bibl type="biblical" n="Deut 32,32-33">
 <title type="abbr">Deut</title>
 <biblScope unit="chapter" from="32" to="32">
-<num type="roman" value="32">XXXII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="32" to="33">32-33</biblScope>
-</bibl>
-.
+<num type="roman" value="32">XXXII</num></biblScope>,
+<biblScope unit="verse" from="32" to="33">32-33</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-247 (Fonts)"/>
 <note type="source" n="328-330">
