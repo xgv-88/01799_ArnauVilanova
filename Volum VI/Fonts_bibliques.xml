@@ -83,9 +83,7 @@ Cf.
 <bibl type="biblical" n="Ier 1,1">
 <title type="abbr">Ier</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
+<num type="roman" value="1">I</num></biblScope>,
 <biblScope unit="verse" from="1" to="1">1</biblScope>
 </bibl>
 .
@@ -94,42 +92,32 @@ Cf.
 <bibl type="biblical" n="Gen 3,24">
 <title type="abbr">Gen</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
+<num type="roman" value="3">III</num></biblScope>,
 <biblScope unit="verse" from="24" to="24">24</biblScope>
 </bibl>
 . Cf.
 <bibl type="biblical" n="Prov 3,18">
 <title type="abbr">Prov</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
+<num type="roman" value="3">III</num></biblScope>,
 <biblScope unit="verse" from="18" to="18">18</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="Prov 11,30">
 <biblScope unit="chapter" from="11" to="11">
-<num type="roman" value="11">XI</num>
-</biblScope>
-,
+<num type="roman" value="11">XI</num></biblScope>,
 <biblScope unit="verse" from="30" to="30">30</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="Prov 13,12">
 <biblScope unit="chapter" from="13" to="13">
-<num type="roman" value="13">XIII</num>
-</biblScope>
-,
+<num type="roman" value="13">XIII</num></biblScope>,
 <biblScope unit="verse" from="12" to="12">12</biblScope>
 </bibl>
 ;
 <bibl type="biblical" n="Prov 15,4">
 <biblScope unit="chapter" from="15" to="15">
-<num type="roman" value="15">XV</num>
-</biblScope>
-,
+<num type="roman" value="15">XV</num></biblScope>,
 <biblScope unit="verse" from="4" to="4">4</biblScope>
 </bibl>
 .
@@ -138,17 +126,14 @@ Cf.
 <bibl type="biblical" n="Iud 5,20">
 <title type="abbr">Iud.</title>
 <biblScope unit="chapter" from="5" to="5">
-<num type="roman" value="5">V</num>
-</biblScope>
-,
+<num type="roman" value="5">V</num></biblScope>,
 <biblScope unit="verse" from="20" to="20">20</biblScope>
 </bibl>
 </note>
 <note type="source" n="50">
 Cf.
 <cit type="biblical">
-<bibl type="biblical" n="Eccli 27,12">
-<title type="abbr">Eccli</title>
+<bibl type="biblical" n="Eccli 27,12"><title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="27" to="27">
 <num type="roman" value="27">XXVII</num>
 </biblScope>
