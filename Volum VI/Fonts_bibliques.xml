@@ -704,29 +704,19 @@ Cf.
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="21" to="21">
 <num type="roman" value="21">XXI</num></biblScope>,
-<biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
-.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">Tractatus epistolarum christini</hi>
-,
-<num type="roman">VI</num>
-, lín. 379;
-<num type="roman">XI</num>
-, lín. 675-676.
+<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">Tractatus epistolarum christini</hi>,
+<num type="roman">VI</num>, lín. 379;
+<num type="roman">XI</num>, lín. 675-676.
 </note>
 <note type="source" n="530-531">
 Cf.
 <bibl type="biblical" n="1 Cor 1,27-28">
 <title type="abbr">1 Cor</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="27" to="28">27-28</biblScope>
-</bibl>
-.
+<num type="roman" value="1">I</num></biblScope>,
+<biblScope unit="verse" from="27" to="28">27-28</biblScope></bibl>.
 </note>
 <note type="source" n="531-533">
 <bibl type="biblical" n="Ps 8,3">
