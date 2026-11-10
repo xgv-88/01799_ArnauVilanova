@@ -825,20 +825,12 @@ Cf.
 <bibl type="biblical" n="Ier 8,7">
 <title type="abbr">Ier</title>
 <biblScope unit="chapter" from="8" to="8">
-<num type="roman" value="8">VIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
-.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">De tempore</hi>
-, ed.
-<hi rend="small-caps">Perarnau</hi>
-, AVOThO, V, 229, lín. 942-943: «[…] ut tempus premunitionis non minus cognoscat turtur quam miluus»;
-<hi rend="italic">De mysterio</hi>
-, lín. 981-983: «Quia si miluus cognoscit tempus sue premunitionis, multo fortius tutur Dei cognoscet illud ex ordinatione diuina».
+<num type="roman" value="8">VIII</num></biblScope>,
+<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">De tempore</hi>, ed.
+<hi rend="small-caps">Perarnau</hi>, AVOThO, V, 229, lín. 942-943: «[…] ut tempus premunitionis non minus cognoscat turtur quam miluus»;
+<hi rend="italic">De mysterio</hi>, lín. 981-983: «Quia si miluus cognoscit tempus sue premunitionis, multo fortius tutur Dei cognoscet illud ex ordinatione diuina».
 </note>
 <pb n="AVOThO_Volum VI-257 (Fonts)"/>
 <note type="source" n="589">
