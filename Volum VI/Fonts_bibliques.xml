@@ -586,35 +586,25 @@ est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non 
 <title type="abbr">1 Thess</title>
 <biblScope unit="chapter" from="5" to="5">
 <num type="roman" value="5">V</num></biblScope>,
-<biblScope unit="verse" from="20" to="20">20</biblScope>
-</bibl>
-. El text citat, efectivament, no és la lletra
-<hi rend="italic">Ad Timoteum</hi>
-, sinó l’acabada d’indicar.
+<biblScope unit="verse" from="20" to="20">20</biblScope></bibl>. El text citat, efectivament, no és la lletra
+<hi rend="italic">Ad Timoteum</hi>, sinó l’acabada d’indicar.
 </note>
 <note type="source" n="423-425">
 Cf.
 <bibl type="biblical" n="2 Ptr 1,21">
 <title type="abbr">2 Ptr</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
+<num type="roman" value="1">I</num></biblScope>,
 <biblScope unit="verse" from="21" to="21">21</biblScope>
 </bibl>
 .
 </note>
 <note type="source" n="426">
 <cit type="biblical">
-<bibl type="biblical" n="2 Par 20,20">
 <title type="abbr">2 Par</title>
 <biblScope unit="chapter" from="20" to="20">
-<num type="roman" value="20">XX</num>
-</biblScope>
-,
-<biblScope unit="verse" from="20" to="20">20</biblScope>
-</bibl>
-<pc>:</pc>
+<num type="roman" value="20">XX</num></biblScope>,
+<biblScope unit="verse" from="20" to="20">20</biblScope><pc>:</pc>
 <quote>«credite prophetis eius et cuncta evenient prospera»</quote>
 </cit>
 .
