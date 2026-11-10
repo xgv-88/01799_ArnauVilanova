@@ -745,9 +745,7 @@ Cf.
 <bibl type="biblical" n="Ps 63,9-10">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="63" to="63">
-<num type="roman" value="63">LXIII</num>
-</biblScope>
-,
+<num type="roman" value="63">LXIII</num></biblScope>,
 <biblScope unit="verse" from="9" to="10">9-10</biblScope>
 </bibl>
 .
