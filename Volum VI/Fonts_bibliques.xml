@@ -930,18 +930,11 @@ Cf.
 <bibl type="biblical" n="Num 22,28">
 <title type="abbr">Num</title>
 <biblScope unit="chapter" from="22" to="22">
-<num type="roman" value="22">XXII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="28" to="28">28</biblScope>
-</bibl>
-;
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">De tempore</hi>
-, ed.
-<hi rend="small-caps">Perarnau</hi>
-, AVOThO, V, 263, lín. 1409-1410.
+<num type="roman" value="22">XXII</num></biblScope>,
+<biblScope unit="verse" from="28" to="28">28</biblScope></bibl>;
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">De tempore</hi>, ed.
+<hi rend="small-caps">Perarnau</hi>, AVOThO, V, 263, lín. 1409-1410.
 </note>
 </div>
 </text>
