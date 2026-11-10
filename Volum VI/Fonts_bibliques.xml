@@ -837,44 +837,27 @@ Cf.
 <bibl type="biblical" n="Gen 15,16">
 <title type="abbr">Gen</title>
 <biblScope unit="chapter" from="15" to="15">
-<num type="roman" value="15">XV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="16" to="16">16</biblScope>
-</bibl>
-.
+<num type="roman" value="15">XV</num></biblScope>,
+<biblScope unit="verse" from="16" to="16">16</biblScope></bibl>.
 </note>
 <note type="source" n="598">
 Cf.
 <bibl type="biblical" n="Mt 23,26">
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="23" to="23">
-<num type="roman" value="23">XXIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="26" to="26">26</biblScope>
-</bibl>
-.
+<num type="roman" value="23">XXIII</num></biblScope>,
+<biblScope unit="verse" from="26" to="26">26</biblScope></bibl>.
 </note>
 <note type="source" n="606">
 Cf.
 <cit type="biblical">
-<bibl type="biblical" n="Ez 14,23">
 <title type="abbr">Ez</title>
 <biblScope unit="chapter" from="14" to="14">
-<num type="roman" value="14">XIV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="23" to="23">23</biblScope>
-</bibl>
-<pc>:</pc>
-<quote>«Cognoscetis quod non frustra fecerim omnia»</quote>
-</cit>
-. Cf.
-<hi rend="small-caps">Arnaldi de Villanova</hi>
-,
-<hi rend="italic">Introductio in librum De semine scripturarum</hi>
-, ed.
+<num type="roman" value="14">XIV</num></biblScope>,
+<biblScope unit="verse" from="23" to="23">23</biblScope><pc>:</pc>
+<quote>«Cognoscetis quod non frustra fecerim omnia»</quote></cit>. Cf.
+<hi rend="small-caps">Arnaldi de Villanova</hi>,
+<hi rend="italic">Introductio in librum De semine scripturarum</hi>, ed.
 <hi rend="small-caps">Perarnau</hi>
 , AVOThO,
 <num type="roman">III</num>
