@@ -722,29 +722,21 @@ Cf.
 <bibl type="biblical" n="Ps 8,3">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="8" to="8">
-<num type="roman" value="8">VIII</num>
-</biblScope>
-,
+<num type="roman" value="8">VIII</num></biblScope>,
 <biblScope unit="verse" from="3" to="3">3</biblScope>
 </bibl>
 (en la Vulgata, en comptes de ‘defensorem’, llegim ‘ultorem’). Cf.
 <bibl type="biblical" n="Mt 21,16">
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="16" to="16">16</biblScope>
-</bibl>
-.
+<num type="roman" value="21">XXI</num></biblScope>,
+<biblScope unit="verse" from="16" to="16">16</biblScope></bibl>.
 </note>
 <note type="source" n="533-536">
 <bibl type="biblical" n="Ps 63,7-9">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="63" to="63">
-<num type="roman" value="63">LXIII</num>
-</biblScope>
-,
+<num type="roman" value="63">LXIII</num></biblScope>,
 <biblScope unit="verse" from="7" to="9">7-9</biblScope>
 </bibl>
 .
