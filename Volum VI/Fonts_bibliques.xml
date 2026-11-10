@@ -27,7 +27,7 @@ Joaquim Carreras i Artau,
 </listWit>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <text>
 <div type="apparatus" subtype="sources">
 <pb n="AVOThO_Volum VI-235 (Fonts)"/>
@@ -737,18 +737,14 @@ Cf.
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="63" to="63">
 <num type="roman" value="63">LXIII</num></biblScope>,
-<biblScope unit="verse" from="7" to="9">7-9</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="7" to="9">7-9</biblScope></bibl>.
 </note>
 <note type="source" n="536-538">
 <bibl type="biblical" n="Ps 63,9-10">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="63" to="63">
 <num type="roman" value="63">LXIII</num></biblScope>,
-<biblScope unit="verse" from="9" to="10">9-10</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="9" to="10">9-10</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-255 (Fonts)"/>
 <note type="source" n="544">
@@ -756,33 +752,22 @@ Cf.
 <bibl type="biblical" n="2 Cor 12,2">
 <title type="abbr">2 Cor</title>
 <biblScope unit="chapter" from="12" to="12">
-<num type="roman" value="12">XII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="2" to="2">2</biblScope>
-</bibl>
-.
+<num type="roman" value="12">XII</num></biblScope>,
+<biblScope unit="verse" from="2" to="2">2</biblScope></bibl>.
 </note>
 <note type="source" n="552-553">
 Cf.
 <bibl type="biblical" n="2 Cor 12,2">
 <title type="abbr">2 Cor</title>
 <biblScope unit="chapter" from="12" to="12">
-<num type="roman" value="12">XII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="2" to="2">2</biblScope>
-</bibl>
-.
+<num type="roman" value="12">XII</num></biblScope>,
+<biblScope unit="verse" from="2" to="2">2</biblScope></bibl>.
 </note>
 <note type="source" n="560-561">
 Cf.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">Tractatus epistolarum christini</hi>
-,
-<num type="roman">II</num>
-, lín. 169-170.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">Tractatus epistolarum christini</hi>,
+<num type="roman">II</num>, lín. 169-170.
 </note>
 <pb n="AVOThO_Volum VI-256 (Fonts)"/>
 <note type="source" n="574-575">
@@ -790,22 +775,12 @@ Cf.
 <bibl type="biblical" n="Ex 25,31.37">
 <title type="abbr">Ex</title>
 <biblScope unit="chapter" from="25" to="25">
-<num type="roman" value="25">XXV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="31" to="31">31</biblScope>
-.
-<biblScope unit="verse" from="37" to="37">37</biblScope>
-</bibl>
-;
+<num type="roman" value="25">XXV</num></biblScope>,
+<biblScope unit="verse" from="31" to="31">31</biblScope>.<biblScope unit="verse" from="37" to="37">37</biblScope></bibl>;
 <bibl type="biblical" n="Ex 40,4">
 <biblScope unit="chapter" from="40" to="40">
-<num type="roman" value="40">XL</num>
-</biblScope>
-,
-<biblScope unit="verse" from="4" to="4">4</biblScope>
-</bibl>
-;
+<num type="roman" value="40">XL</num></biblScope>,
+<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>;
 <bibl type="biblical" n="Num 8,3-4">
 <title type="abbr">Num</title>
 <biblScope unit="chapter" from="8" to="8">
