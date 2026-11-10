@@ -661,44 +661,26 @@ Cf.
 <bibl type="biblical" n="1 Io 2,18">
 <title type="abbr">1 Io</title>
 <biblScope unit="chapter" from="2" to="2">
-<num type="roman" value="2">II</num>
-</biblScope>
-,
-<biblScope unit="verse" from="18" to="18">18</biblScope>
-</bibl>
-;
+<num type="roman" value="2">II</num></biblScope>,
+<biblScope unit="verse" from="18" to="18">18</biblScope></bibl>;
 <bibl type="biblical" n="1 Io 2,22">
 <biblScope unit="chapter" from="2" to="2">
-<num type="roman" value="2">II</num>
-</biblScope>
-,
-<biblScope unit="verse" from="22" to="22">22</biblScope>
-</bibl>
-;
+<num type="roman" value="2">II</num></biblScope>,
+<biblScope unit="verse" from="22" to="22">22</biblScope></bibl>;
 <bibl type="biblical" n="1 Io 4,3">
 <biblScope unit="chapter" from="4" to="4">
-<num type="roman" value="4">IV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="3" to="3">3</biblScope>
-</bibl>
-;
+<num type="roman" value="4">IV</num></biblScope>,
+<biblScope unit="verse" from="3" to="3">3</biblScope></bibl>;
 <bibl type="biblical" n="Apoc">
 <title type="abbr">Apoc</title>
-<hi rend="italic">passim</hi>
-</bibl>
-.
+<hi rend="italic">passim</hi></bibl>.
 </note>
 <note type="source" n="493-494">
 <bibl type="biblical" n="Ier 6,15">
 <title type="abbr">Ier</title>
 <biblScope unit="chapter" from="6" to="6">
-<num type="roman" value="6">VI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="15" to="15">15</biblScope>
-</bibl>
-.
+<num type="roman" value="6">VI</num></biblScope>,
+<biblScope unit="verse" from="15" to="15">15</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-253 (Fonts)"/>
 <note type="source" n="512-515">
