@@ -784,43 +784,25 @@ Cf.
 <bibl type="biblical" n="Num 8,3-4">
 <title type="abbr">Num</title>
 <biblScope unit="chapter" from="8" to="8">
-<num type="roman" value="8">VIII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="3" to="4">3-4</biblScope>
-</bibl>
-;
+<num type="roman" value="8">VIII</num></biblScope>,
+<biblScope unit="verse" from="3" to="4">3-4</biblScope></bibl>;
 <bibl type="biblical" n="Eccle 26,22">
 <title type="abbr">Eccle</title>
 <biblScope unit="chapter" from="26" to="26">
-<num type="roman" value="26">XXVI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="22" to="22">22</biblScope>
-</bibl>
-;
+<num type="roman" value="26">XXVI</num></biblScope>,
+<biblScope unit="verse" from="22" to="22">22</biblScope></bibl>;
 <bibl type="biblical" n="Apoc 1,12.20">
 <title type="abbr">Apoc</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="12" to="12">12</biblScope>
-.
-<biblScope unit="verse" from="20" to="20">20</biblScope>
-</bibl>
-.
+<num type="roman" value="1">I</num></biblScope>,
+<biblScope unit="verse" from="12" to="12">12</biblScope>.<biblScope unit="verse" from="20" to="20">20</biblScope></bibl>.
 </note>
 <note type="source" n="579-580">
 <bibl type="biblical" n="Lam 4,1">
 <title type="abbr">Lam</title>
 <biblScope unit="chapter" from="4" to="4">
-<num type="roman" value="4">IV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="1" to="1">1</biblScope>
-</bibl>
-.
+<num type="roman" value="4">IV</num></biblScope>,
+<biblScope unit="verse" from="1" to="1">1</biblScope></bibl>.
 </note>
 <note type="source" n="580-581">
 <bibl type="biblical" n="Lam 4,8">
