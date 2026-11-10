@@ -908,26 +908,15 @@ Cf.
 <bibl type="biblical" n="Ps 21,7">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="21" to="21">
-<num type="roman" value="21">XXI</num>
-</biblScope>
-,
-<biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
-.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">Tractatus epistolarum christini</hi>
-,
-<num type="roman">VI</num>
-, lín. 379;
-<num type="roman">VII</num>
-, lín. 525-526;
-<hi rend="italic">De mysterio</hi>
-, lín. 1037-1038;
-<hi rend="italic">Instrumentum alterum appellationis magistri Arnaldi de Villanova a processu Parisiensium ad Apostolicam Sedem</hi>
-, ed.
-<hi rend="small-caps">Perarnau</hi>
-, AVOThO, V, 345, lín. 11.
+<num type="roman" value="21">XXI</num></biblScope>,
+<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">Tractatus epistolarum christini</hi>,
+<num type="roman">VI</num>, lín. 379;
+<num type="roman">VII</num>, lín. 525-526;
+<hi rend="italic">De mysterio</hi>, lín. 1037-1038;
+<hi rend="italic">Instrumentum alterum appellationis magistri Arnaldi de Villanova a processu Parisiensium ad Apostolicam Sedem</hi>, ed.
+<hi rend="small-caps">Perarnau</hi>, AVOThO, V, 345, lín. 11.
 </note>
 <note type="source" n="678">
 Cf.
