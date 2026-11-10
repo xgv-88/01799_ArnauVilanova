@@ -612,14 +612,13 @@ Cf.
 <pb n="AVOThO_Volum VI-251 (Fonts)"/>
 <note type="source" n="431-433">
 <cit type="biblical">
-<bibl type="biblical" n="2 Tim 3,2">
 <title type="abbr">2 Tim</title>
 <biblScope unit="chapter" from="3" to="3">
 <num type="roman" value="3">III</num>
 </biblScope>
 ,
 <biblScope unit="verse" from="2" to="2">2</biblScope>
-</bibl>
+
 <pc>:</pc>
 <quote>«et erunt homines seipsos amantes, cupidi, elati, superbi, blasphemi, parentibus non obedientes, ingrati, scelesti»</quote>
 </cit>
