@@ -331,8 +331,7 @@ legat
 <note n="231">
 boni
 <hi rend="italic">
-CBK
-<hi rend="sub">1</hi>
+CBK<hi rend="sub">1</hi>
 </hi>
 doni
 </note>
@@ -355,8 +354,7 @@ boni
 <hi rend="italic">CB</hi>
 doni | precium
 <hi rend="italic">
-BK
-<hi rend="sub">1</hi>
+BK<hi rend="sub">1</hi>
 </hi>
 premium
 </note>
