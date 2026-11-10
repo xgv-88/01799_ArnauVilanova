@@ -808,27 +808,17 @@ Cf.
 <bibl type="biblical" n="Lam 4,8">
 <title type="abbr">Lam</title>
 <biblScope unit="chapter" from="4" to="4">
-<num type="roman" value="4">IV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="8" to="8">8</biblScope>
-</bibl>
-.
+<num type="roman" value="4">IV</num></biblScope>,
+<biblScope unit="verse" from="8" to="8">8</biblScope></bibl>.
 </note>
 <note type="source" n="584-585">
 <bibl type="biblical" n="Ps 57,4">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="57" to="57">
-<num type="roman" value="57">LVII</num>
-</biblScope>
-,
-<biblScope unit="verse" from="4" to="4">4</biblScope>
-</bibl>
-.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">De mysterio</hi>
-, lín. 282-283: «[…] “ipsi immiscent se infinitis questionibus”, “alienati a uulua et errantes ab utero” […]».
+<num type="roman" value="57">LVII</num></biblScope>,
+<biblScope unit="verse" from="4" to="4">4</biblScope></bibl>.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">De mysterio</hi>, lín. 282-283: «[…] “ipsi immiscent se infinitis questionibus”, “alienati a uulua et errantes ab utero” […]».
 </note>
 <note type="source" n="585-586">
 Cf.
