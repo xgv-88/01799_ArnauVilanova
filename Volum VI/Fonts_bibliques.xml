@@ -562,9 +562,7 @@ Cf.
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="16" to="16">
 <num type="roman" value="16">XVI</num></biblScope>,
-<biblScope unit="verse" from="23" to="23">23</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="23" to="23">23</biblScope></bibl>.
 <hi rend="small-caps">Arnaldus de Villanova</hi>,
 <hi rend="italic">Tractatus epistolarum christini</hi>,
 <num type="roman">I</num>, lín. 105;
