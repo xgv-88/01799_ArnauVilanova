@@ -614,14 +614,7 @@ Cf.
 <biblScope unit="chapter" from="3" to="3">
 <num type="roman" value="3">III</num></biblScope>,
 <biblScope unit="verse" from="2" to="2">2</biblScope><pc>:</pc>
-<quote>«et erunt homines seipsos amantes, cupidi, elati, superbi, blasphemi, parentibus non obedientes, ingrati, scelesti»</quote></cit>;
-<cit type="biblical">
-<bibl type="biblical" n="2 Tim 3,8">
-<num type="roman" value="3">III</num>
-
-,
-<biblScope unit="verse" from="8" to="8">8</biblScope>
-</bibl>
+<quote>«et erunt homines seipsos amantes, cupidi, elati, superbi, blasphemi, parentibus non obedientes, ingrati, scelesti»</quote></cit>; <num type="roman" value="3">III</num> ,<biblScope unit="verse" from="8" to="8">8</biblScope><cit type="biblical">
 <quote>«[…] et hii resistunt veritati, homines corrupti mente, reprobi circa fidem»</quote>
 </cit>
 .
