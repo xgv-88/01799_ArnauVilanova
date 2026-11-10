@@ -843,15 +843,13 @@ prebeatur
 <pb n="AVOThO_Volum VI-258 (Aparat Crític)"/>
 <note n="626">
 et
-<hi rend="italic">C om</hi>
-,
+<hi rend="italic">C om</hi>,
 <hi rend="italic">add int lin</hi>
 </note>
 <note n="635-636">
 possim uobiscum
 <hi rend="italic">
-BCK
-<hi rend="sub">1</hi>
+BCK<hi rend="sub">1</hi>
 </hi>
 uobiscum possim
 </note>
@@ -869,8 +867,7 @@ in
 <note n="646">
 (et) in
 <hi rend="italic">
-CBK
-<hi rend="sub">1</hi>
+CBK<hi rend="sub">1</hi>
 om
 </hi>
 </note>
