@@ -623,9 +623,7 @@ Cf.
 <bibl type="biblical" n="2 Tim 3,3-4">
 <title type="abbr">2 Tim</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
+<num type="roman" value="3">III</num></biblScope>,
 <biblScope unit="verse" from="3" to="4">3-4</biblScope>
 </bibl>
 .
@@ -634,24 +632,16 @@ Cf.
 <bibl type="biblical" n="2 Ptr 2,1-2">
 <title type="abbr">2 Ptr</title>
 <biblScope unit="chapter" from="2" to="2">
-<num type="roman" value="2">II</num>
-</biblScope>
-,
-<biblScope unit="verse" from="1" to="2">1-2</biblScope>
-</bibl>
-. Cf.
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">De mysterio</hi>
-, lín. 251-252.
+<num type="roman" value="2">II</num></biblScope>,
+<biblScope unit="verse" from="1" to="2">1-2</biblScope></bibl>. Cf.
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">De mysterio</hi>, lín. 251-252.
 </note>
 <note type="source" n="440-441">
 <bibl type="biblical" n="2 Tim 3,2">
 <title type="abbr">2 Tim</title>
 <biblScope unit="chapter" from="3" to="3">
-<num type="roman" value="3">III</num>
-</biblScope>
-,
+<num type="roman" value="3">III</num></biblScope>,
 <biblScope unit="verse" from="2" to="2">2</biblScope>
 </bibl>
 .
@@ -660,9 +650,7 @@ Cf.
 <bibl type="biblical" n="Rom 14,17">
 <title type="abbr">Rom</title>
 <biblScope unit="chapter" from="14" to="14">
-<num type="roman" value="14">XIV</num>
-</biblScope>
-,
+<num type="roman" value="14">XIV</num></biblScope>,
 <biblScope unit="verse" from="17" to="17">17</biblScope>
 </bibl>
 .
