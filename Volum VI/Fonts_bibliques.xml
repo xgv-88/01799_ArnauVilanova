@@ -892,23 +892,15 @@ Cf.
 <bibl type="biblical" n="Eccle 1,7">
 <title type="abbr">Eccle</title>
 <biblScope unit="chapter" from="1" to="1">
-<num type="roman" value="1">I</num>
-</biblScope>
-,
-<biblScope unit="verse" from="7" to="7">7</biblScope>
-</bibl>
-.
+<num type="roman" value="1">I</num></biblScope>,
+<biblScope unit="verse" from="7" to="7">7</biblScope></bibl>.
 </note>
 <note type="source" n="661-662">
 <bibl type="biblical" n="Ps 105,3">
 <title type="abbr">Ps</title>
 <biblScope unit="chapter" from="105" to="105">
-<num type="roman" value="105">CV</num>
-</biblScope>
-,
-<biblScope unit="verse" from="3" to="3">3</biblScope>
-</bibl>
-.
+<num type="roman" value="105">CV</num></biblScope>,
+<biblScope unit="verse" from="3" to="3">3</biblScope></bibl>.
 </note>
 <pb n="AVOThO_Volum VI-260 (Fonts)"/>
 <note type="source" n="675-676">
