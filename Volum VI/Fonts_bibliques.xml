@@ -561,20 +561,14 @@ Cf.
 <bibl type="biblical" n="Mt 16,23">
 <title type="abbr">Mt</title>
 <biblScope unit="chapter" from="16" to="16">
-<num type="roman" value="16">XVI</num>
-</biblScope>
-,
+<num type="roman" value="16">XVI</num></biblScope>,
 <biblScope unit="verse" from="23" to="23">23</biblScope>
 </bibl>
 .
-<hi rend="small-caps">Arnaldus de Villanova</hi>
-,
-<hi rend="italic">Tractatus epistolarum christini</hi>
-,
-<num type="roman">I</num>
-, lín. 105;
-<hi rend="italic">De mysterio</hi>
-, lín. 267-269: «constat quod scrutinium
+<hi rend="small-caps">Arnaldus de Villanova</hi>,
+<hi rend="italic">Tractatus epistolarum christini</hi>,
+<num type="roman">I</num>, lín. 105;
+<hi rend="italic">De mysterio</hi>, lín. 267-269: «constat quod scrutinium
 <hi rend="italic">Scripturarum</hi>
 est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non querant que sua sunt, sed que Christi».
 </note>
@@ -582,9 +576,7 @@ est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non 
 <bibl type="biblical" n="Eccli 39,1">
 <title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="39" to="39">
-<num type="roman" value="39">XXXIX</num>
-</biblScope>
-,
+<num type="roman" value="39">XXXIX</num></biblScope>,
 <biblScope unit="verse" from="1" to="1">1</biblScope>
 </bibl>
 .
@@ -593,9 +585,7 @@ est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non 
 <bibl type="biblical" n="1 Thess 5,20">
 <title type="abbr">1 Thess</title>
 <biblScope unit="chapter" from="5" to="5">
-<num type="roman" value="5">V</num>
-</biblScope>
-,
+<num type="roman" value="5">V</num></biblScope>,
 <biblScope unit="verse" from="20" to="20">20</biblScope>
 </bibl>
 . El text citat, efectivament, no és la lletra
