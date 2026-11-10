@@ -27,7 +27,7 @@ Joaquim Carreras i Artau,
 </listWit>
 </sourceDesc>
 </fileDesc>
-<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
+<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/><xenoData/></teiHeader>
 <text>
 <div type="apparatus" subtype="sources">
 <pb n="AVOThO_Volum VI-235 (Fonts)"/>
@@ -575,27 +575,15 @@ est eis licitum et maxime si scrutentur ex caritate, non ex curiositate, ut non 
 <title type="abbr">Eccli</title>
 <biblScope unit="chapter" from="39" to="39">
 <num type="roman" value="39">XXXIX</num></biblScope>,
-<biblScope unit="verse" from="1" to="1">1</biblScope>
-</bibl>
-.
-</note>
-<note type="source" n="422">
-<bibl type="biblical" n="1 Thess 5,20">
-<title type="abbr">1 Thess</title>
-<biblScope unit="chapter" from="5" to="5">
-<num type="roman" value="5">V</num></biblScope>,
-<biblScope unit="verse" from="20" to="20">20</biblScope></bibl>. El text citat, efectivament, no és la lletra
-<hi rend="italic">Ad Timoteum</hi>, sinó l’acabada d’indicar.
-</note>
+<biblScope unit="verse" from="1" to="1">1</biblScope></bibl>
+.</note>
 <note type="source" n="423-425">
 Cf.
 <bibl type="biblical" n="2 Ptr 1,21">
 <title type="abbr">2 Ptr</title>
 <biblScope unit="chapter" from="1" to="1">
 <num type="roman" value="1">I</num></biblScope>,
-<biblScope unit="verse" from="21" to="21">21</biblScope>
-</bibl>
-.
+<biblScope unit="verse" from="21" to="21">21</biblScope></bibl>.
 </note>
 <note type="source" n="426">
 <cit type="biblical">
