@@ -22,7 +22,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/></teiHeader>
   <text>
     <body>
 <pb n="AVOThO_Volum XII-49"/>
@@ -500,8 +500,8 @@
 <lb n="549"/><hi rend="line-num">[549] </hi><hi rend="italic">de semine</hi> [f. 246a] <hi rend="italic">scripturarum</hi>, qui etiam supra primum numerum
 <lb n="550"/><hi rend="line-num">[550] </hi><hi rend="italic">Danielis</hi> fundat totam reuelationem sibi factam, et <hi rend="small-caps">Gilbertus</hi>, <hi rend="italic">Supra</hi> <pb n="AVOThO_Volum XII-83"/>
 <lb n="551"/><hi rend="line-num">[551] </hi><hi rend="italic">expositionem Cirilli</hi>, hanc meam expositionem tetigerunt expresse,
-<lb n="552"/><hi rend="line-num">[552] </hi>nusquam improbantes. Et tamen inter sacros doctores antiquos cons<lb break="no" n="553"/><hi rend="line-num">[553] </hi>tat celebres extitisse. De modernis uero certum est quod multi excel<lb break="no" n="554"/><hi rend="line-num">[554] </hi>lentes hanc expositionem acceptant sicut catholicam, etiam precipui
-<lb n="555"/><hi rend="line-num">[555] </hi>sui status, scilicet frater Ferricus de Auria, et frater Iohannes Pari<lb break="no" n="556"/><hi rend="line-num">[556] </hi>siensis, magistri excellentes Parisius. Et nullus adhuc magistrorum in
+<lb n="552"/><hi rend="line-num">[552] </hi>nusquam improbantes. Et tamen inter sacros doctores antiquos cons-<lb break="no" n="553"/><hi rend="line-num">[553] </hi>tat celebres extitisse. De modernis uero certum est quod multi excel<lb break="no" n="554"/><hi rend="line-num">[554] </hi>lentes hanc expositionem acceptant sicut catholicam, etiam precipui
+<lb n="555"/><hi rend="line-num">[555] </hi>sui status, scilicet frater Ferricus de Auria, et frater Iohannes Parisiensis,<lb break="no" n="556"/><hi rend="line-num">[556] </hi>magistri excellentes Parisius. Et nullus adhuc magistrorum in
 <lb n="557"/><hi rend="line-num">[557] </hi>theologia scripsit quicquam alicubi contra eam. Et est certum quod
 <lb n="558"/><hi rend="line-num">[558] </hi>aliqui eorum scripserunt pro ea. Per quod etiam patet quali spiritu
 <lb n="559"/><hi rend="line-num">[559] </hi>iste scripserit, prout declaratur in prohemio <hi rend="italic">Gladii</hi>.</p>
