@@ -22,7 +22,7 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/></teiHeader>
   <text>
     <body>
 <pb n="AVOThO_Volum XII-49"/>
@@ -31,7 +31,7 @@
 <lb/>PER FRATREM MARTINUM DE ATHECA, PREDICATOREM</head>
 <div type="section">
 <p><lb n="1"/><hi rend="line-num">[1] </hi>Incipit <hi rend="italic">Antidotum contra uenenum effusum per fratrem Martinum de</hi>
-<lb n="2"/><hi rend="line-num">[2] </hi><hi rend="italic">Atheca, predicatorem, aduersus denunciationes finalium temporum, ad reue</hi><lb break="no" n="3"/><hi rend="line-num">[3] </hi><hi rend="italic">rendum patrem episcopum Maioricensem</hi>.</p>
+<lb n="2"/><hi rend="line-num">[2] </hi><hi rend="italic">Atheca, predicatorem, aduersus denunciationes finalium temporum, ad </hi><lb break="no" n="3"/><hi rend="line-num">[3] <hi rend="italic">reue</hi></hi><hi rend="italic">rendum patrem episcopum Maioricensem</hi>.</p>
 <p><lb n="4"/><hi rend="line-num">[4] </hi>Credo, karissime pater, quod a uestra memoria non efluxerit cum
 <lb n="5"/><hi rend="line-num">[5] </hi>quanta diligentia Perusii dedissetis operam quod mihi fieret copia
 <lb n="6"/><hi rend="line-num">[6] </hi>de tractatu, quem frater Martinus de Atheca contra denunciationes
